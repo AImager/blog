@@ -33,9 +33,6 @@ table {
   width: 100%;
   border: 1px dashed #e0e0e0;}
 
-#tag_cloud a {
-  color: #f9f9f9
-}
 
 
 
@@ -65,11 +62,11 @@ hr {
 .center {
   text-align: center; }
 
-/*
+
 ::selection {
   color: #fff;
-  background-color: #333; }
-*/
+  background-color: #767676; }
+
 
 a, header #header h1 a, article .title a, article .meta .tags a, article .divider a {
   text-decoration: none;
