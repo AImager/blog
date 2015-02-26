@@ -3,18 +3,20 @@
 
 @media screen and (max-width: 1023px){
   header {
-    width: 80%;}
+    width: 90%;
+    margin: auto; }
   #content {
-    width: 80%;}
+    width: 90%;}
   article .post img {
-    max-width: 80%;}
+    max-width: 90%;}
   footer {
-      width: 80%;}
+      width: 90%;}
 }
 
 @media screen and (min-width: 1024px){
   header {
-    width: 800px;}
+    width: 800px;
+    margin: 3em auto; }
   #content {
     width: 800px;}
   article .post img {
@@ -87,9 +89,7 @@ time {
   font-family: "Ubuntu", monospace; }
 
 header {
-  margin: 0 auto;
-  text-align: justify;
-  margin: 3em auto; }
+  text-align: justify;}
   header:after {
     content: '';
     width: 100%;
