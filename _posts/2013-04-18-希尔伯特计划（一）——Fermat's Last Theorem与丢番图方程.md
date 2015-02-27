@@ -1,7 +1,7 @@
 ---
 title: 希尔伯特计划（一）——Fermat's Last Theorem与丢番图方程
 layout: post
-tag: [Fermat,丢番图,希尔伯特计划,数理逻辑]
+tag: [希尔伯特计划,数理逻辑]
 ---
 
 
