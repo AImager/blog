@@ -1,15 +1,3 @@
 # Jekyll Blog
 
----
-
-Based on <https://github.com/waynezhang/blog>
-
-### 修改
-
-* 添加mathjax公式支持
-
-* 添加响应式布局
-
-* 更换cdn节点，修复小部分排版问题
-
-* 按个人喜好修改了少部分地方
+这是我的个人博客目录，对应的网址为<http://aimager.com>，请各位不要Fork，如果喜欢这种主题风格，可Fork我单独抽离的模板<https://github.com/aimager/jekyll-theme> 
