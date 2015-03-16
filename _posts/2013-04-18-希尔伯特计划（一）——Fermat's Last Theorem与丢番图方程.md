@@ -48,7 +48,7 @@ $$ X^{n}+Y^{n}=Z^{n} (n \ge 3, XYZ \neq 0) $$
 $$
 \begin{cases}
 {a_1} \times {x_1}^{k_1}+{a_2} \times {x_2}^{k_2}+…{a_n} \times {x_n}^{k_n}=c \\\
-a_i,x_i,c \in Z)
+a_i,x_i,c \in Z
 \end{cases}
 $$
 
