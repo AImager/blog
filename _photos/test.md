@@ -1,8 +1,9 @@
 ---
 layout: page
+title: test
 ---
 
-## 404
+## 505
 
 Nothing found :(   </br>
 But you still can have a [look around](/index.html)
