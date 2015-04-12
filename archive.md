@@ -1,7 +1,8 @@
 ---
-title: archive
 layout: page
 ---
+
+## archive
 
 <ul class="listing">
 {% for post in site.posts %}

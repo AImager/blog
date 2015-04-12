@@ -14,6 +14,8 @@ layout: page
 本博客基于jekyll搭建在github上   </br>
 为保证博客的风格统一并加快博客的访问速度，所以禁用了评论功能 </br>
 由于本人水平有限，文章差错在所难免，欢迎大家反馈纠错  </br>
+博客均属原创，如需转载，请标明出处，暂时禁止任何商业用途  </br>
+说说部分除个人感想外，还包括从各处摘下来的短句、观点，但作者一般很难考证，所以就不予标明，如有侵权行为，请及时通过邮件通知我，我会立即删除  </br>
 反馈或其它任何事务请直接发邮件给我 <a href=mailto:funcemail@163.com><i class="fa fa-mail-reply"></i></a> </br>
 如果觉得本博客还不错，可选择订阅 <a href="/atom.xml"><i class="fa fa-rss"></i></a>
 
@@ -26,7 +28,10 @@ StackOverflow：<http://stackoverflow.com/users/2401718/aimager>
 
 ## 项目
 
+[Python爬知乎话题树]()：</br>
+[Better_MAC]()：</br>
+
 ## 收藏
 
-电影
-音乐
+[电影]()：</br>
+[音乐]()：</br>

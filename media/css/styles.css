@@ -58,6 +58,18 @@ pre code {
   overflow: auto;
 }
 
+section pre:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+/*.post blockquote:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}*/
+
 code {
   background-color: #f8f8f8;
   padding: 2px 5px;
@@ -165,7 +177,7 @@ article .title {
   font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
-article .title a {
+article .title a{
   color: #777;
 }
 
@@ -303,13 +315,19 @@ footer a:hover {
 table {
   width: 100%;
   border: 1px dashed #e0e0e0;
+  margin-bottom: 2em;
 }
 
-.post h2 {
+.post h2,
+article .title h2 {
   margin-top: 1.3em;
   margin-bottom: 4px;
 }
 
 #tag_cloud {
   margin-bottom: 1em;
+}
+
+ul.nagging span a {
+  word-break: normal;
 }
