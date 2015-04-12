@@ -26,12 +26,7 @@ layout: page
 Github：<https://github.com/AImager> </br>
 StackOverflow：<http://stackoverflow.com/users/2401718/aimager>
 
-## 项目
-
-[Python爬知乎话题树]()：</br>
-[Better_MAC]()：</br>
-
 ## 收藏
 
-[电影]()：</br>
-[音乐]()：</br>
+电影：<http://www.douban.com/people/121407370/doulists/all?tag=%E5%BD%B1%E8%A7%86></br>
+音乐：<http://www.douban.com/people/121407370/doulists/all?tag=%E8%AF%BB%E4%B9%A6></br>
