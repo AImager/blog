@@ -7,9 +7,8 @@ author: "aimager"
 atom-baseurl: "http://aimager.com"
 disqus: "gopherwood"
 
-
 collections:
-  photos:
+  nagging:
     output: true
 
 navigations:
