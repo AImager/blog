@@ -2,7 +2,7 @@
 layout: page
 ---
 
-岁月很厉害的，有些东西不记下来，以后就忘了......
+岁月很厉害，有些东西不记下来，以后就忘了......
 
 <ul class="nagging">
 {% for item in site.nagging reversed %}
