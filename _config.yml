@@ -6,6 +6,7 @@ name: "AImager"
 author: "aimager"
 atom-baseurl: "http://aimager.com"
 disqus: "gopherwood"
+encoding: utf-8
 
 collections:
   nagging:
