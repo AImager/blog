@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<meta http-equiv=refresh content="0;url=/nagging/{{site.nagging.last.title | split:'-' | first }}.html">
+<meta http-equiv=refresh content="0;url=/nagging/{{site.nagging.last.title | split:'-' | last }}.html">
 
 <!--岁月很厉害，有些东西不记下来，以后就忘了......-->
 

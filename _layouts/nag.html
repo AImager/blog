@@ -18,9 +18,9 @@ layout: default
 
  <div class="divider">
     <span> 
-      {% assign naglast = site.nagging.last.title | split:'-' | first %}
-      {% assign nagfirst = site.nagging.first.title | split:'-' | first %}
-      {% assign nagcurrent = page.title | split:'-' | first %}
+      {% assign naglast = site.nagging.last.title | split:'-' | last %}
+      {% assign nagfirst = site.nagging.first.title | split:'-' | last %}
+      {% assign nagcurrent = page.title | split:'-' | last %}
       {% assign nagpre = nagcurrent | minus:1 %}
       {% assign nagnext = nagcurrent | plus:1 %}
       {% assign nagpreurl = '/nagging/year.html' | replace_first:'year',nagpre %}
