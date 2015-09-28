@@ -23,7 +23,6 @@ title: aboutme
 ## 社交
 
 知乎：<http://www.zhihu.com/people/AImager> </br>
-微博：<http://weibo.com/3385721714/profile> </br>
 Github：<https://github.com/AImager> </br>
 StackOverflow：<http://stackoverflow.com/users/2401718/aimager>
 
