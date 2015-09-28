@@ -65,6 +65,10 @@ pre code {
   overflow: auto;
 }
 
+blockquote>ul{
+  padding: 0.56em 0;
+}
+
 section pre:after {
   content: '';
   width: 100%;
@@ -178,6 +182,9 @@ article {
 
 article p {
   padding: .7em 0;
+  text-align:Justify;
+  word-wrap: break-word; 
+  word-break: normal; 
 }
 
 article .title {
