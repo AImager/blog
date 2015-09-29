@@ -29,7 +29,6 @@ layout: page
   </article>
   {% endfor %}
   </ul>
-  <div class="divider"></div>
   <ul class="listing main-listing">
     <li class="listing-seperator"><a href="/archive.html">Previous</a></li>
   </ul>
