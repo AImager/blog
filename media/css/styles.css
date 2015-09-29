@@ -18,10 +18,6 @@ ul {
   list-style-position: inside;
 }
 
-li {
-  padding: 0em 0;
-}
-
 li>ul>li {
   padding-left: 1em;
 }
@@ -36,11 +32,12 @@ blockquote>blockquote {
   background-color: #767676;
 }
 
-a,
-header #header h1 a,
-article .title a,
-article .meta .tags a,
-article .divider a {
+pre,
+blockquote {
+  margin: 0.6125em 0;
+}
+
+a {
   text-decoration: none;
   color: #bb2222;
 }
@@ -63,29 +60,11 @@ pre code {
   line-height: 1.6;
   display: block;
   overflow: auto;
+  font-family: "Ubuntu", monospace;
 }
 
 blockquote>ul{
-  padding: 0.56em 0;
-}
-
-section pre:after {
-  content: '';
-  width: 100%;
-  display: inline-block;
-}
-
-/*.post blockquote:after {
-  content: '';
-  width: 100%;
-  display: inline-block;
-}*/
-
-code {
-  background-color: #f8f8f8;
-  padding: 2px 5px;
-  border: 1px dashed #e0e0e0;
-  font-family: "Ubuntu", monospace;
+  padding: 0.6125em 0;
 }
 
 h1,
@@ -113,10 +92,6 @@ header #header {
   top: 1em;
 }
 
-header #header h1 {
-  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-}
-
 header #header h1 a {
   color: #a9a9a9;
   display: block;
@@ -133,7 +108,6 @@ header nav span {
 }
 
 header nav a {
-  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #ccc;
 }
 
@@ -163,14 +137,6 @@ ul.listing li.listing-item time {
   color: #999;
 }
 
-ul.listing li.listing-item:hover {
-  background-color: #f9f9f9;
-}
-
-ul.listing li.listing-seperator {
-  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-}
-
 ul.listing li.listing-seperator:before {
   content: "| ";
   color: #ccc;
@@ -182,13 +148,9 @@ article {
 
 article p {
   padding: .7em 0;
-  text-align:Justify;
+  text-align: justify;
   word-wrap: break-word; 
   word-break: normal; 
-}
-
-article .title {
-  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
 article .title a{
@@ -222,7 +184,6 @@ article .divider i {
 }
 
 article .divider a {
-  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   margin: 0 2em;
 }
 
@@ -264,10 +225,8 @@ article .divider:after {
 }
 
 footer {
-  margin: 0 auto;
   display: block;
   color: #909090;
-  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   font-size: .9em;
   text-align: center;
   margin: 1em auto;
@@ -321,27 +280,17 @@ footer a:hover {
   }
 }
 
-.title,
-.post {
-  word-break: break-all;
-}
-
 table {
   width: 100%;
   border: 1px dashed #e0e0e0;
-  margin-bottom: 2em;
+  margin: 0.6125em 0;
 }
 
-.post h2,
-article .title h2 {
-  margin-top: 1.3em;
+h2 {
+  margin-top: 1em;
   margin-bottom: 4px;
 }
 
 #tag_cloud {
   margin-bottom: 1em;
-}
-
-ul.nagging span a {
-  word-break: normal;
 }
