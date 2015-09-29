@@ -25,8 +25,3 @@ title: aboutme
 知乎：<http://www.zhihu.com/people/AImager> </br>
 Github：<https://github.com/AImager> </br>
 StackOverflow：<http://stackoverflow.com/users/2401718/aimager>
-
-## 收藏
-
-电影：<http://www.douban.com/people/121407370/doulists/all?tag=%E5%BD%B1%E8%A7%86></br>
-读书：<http://www.douban.com/people/121407370/doulists/all?tag=%E8%AF%BB%E4%B9%A6></br>
