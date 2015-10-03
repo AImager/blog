@@ -59,7 +59,7 @@
         var split_array = code[i].innerHTML.split("\n");
         code[i].innerHTML = split_array[0];
         for (var j = 0; j < split_array.length - 1; j++) {
-          replace_html = replace_html + '' + ((j > 8) ? '' : ' ') + (j + 1).toString() + '| ' + split_array[j] + ((j == split_array.length - 2) ? '' : '\n');
+          replace_html = replace_html + "'" + ((j > 8) ? '' : ' ') + (j + 1).toString() + "' " + split_array[j] + ((j == split_array.length - 2) ? '' : '\n');
         }
         code[i].innerHTML = replace_html;
       }
