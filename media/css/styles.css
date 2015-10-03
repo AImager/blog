@@ -22,6 +22,10 @@ li>ul>li {
   padding-left: 1em;
 }
 
+/*p>code {
+  border: 1px dashed #eee !important;
+}*/
+
 blockquote>blockquote {
   margin-top: 0.4em;
   margin-bottom: 0.4em;
@@ -60,6 +64,13 @@ pre code {
   line-height: 1.6;
   display: block;
   overflow: auto;
+  font-family: "Ubuntu", monospace;
+}
+
+code {
+  background-color: #ccc;
+  padding: 2px 5px;
+  border: 1px dashed #e0e0e0;
   font-family: "Ubuntu", monospace;
 }
 
