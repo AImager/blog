@@ -9,8 +9,9 @@ tag: [PHP]
 命名空间的作用实际上和文件目录差不多，都是为了保证同名内容在局部环境下的全局兼容性，只是文件目录是为了保证文件的唯一性，而命名空间则是保证类的唯一性。来看一个demo
 
 ```PHP
-// ./test/test1.php
 <?php
+  // ./test/test1.php
+  
   namespace area1;
   require('test2.php');
   test::show(); //area1
@@ -24,8 +25,9 @@ tag: [PHP]
 ?>
 
 
-// ./test/test2.php
 <?php
+  // ./test/test2.php
+  
   namespace area2;
   class test{
     static public function show(){
