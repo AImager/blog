@@ -29,7 +29,7 @@ tag: [PHP,autoload]
 ?>
 ```
 
-以上demo中，aa.php在新建$a对象时并未找到类声明，此时Zend引擎会自动调用\_\_autoload函数，在aa.php文件中由我们自己实现了一个\_\_autoload函数，其功能是根据未找到的类名参数引入文件，如这里未找到的类名为bb，则aa.php引入的就是同级目录下的bb.php文件，所以在使用\_\_autoload自动加载的时候，总是需要建立一个类名和引入文件名的映射。但假如我们在实现一个系统时需要引入各个模块，而各个模块的类文件映射规则都不一样，那此时该怎么做呢？可行的方案是将所有的规则写入\_\_autoload中，通过file_exists判断各个规则的待引入文件是否存在，存在就引入，但这样会使得\_\_autoload异常复杂，同时和软件工程的思想相悖，所以在PHP5引入了SPL标准库，为自动加载提供了更完备的解决方案，还是直接上demo
+以上demo中，aa.php在新建$a对象时并未找到类声明，此时Zend引擎会自动调用`__autoload函数`，在aa.php文件中由我们自己实现了一个`__autoload函数`，其功能是根据未找到的类名参数引入文件，如这里未找到的类名为bb，则aa.php引入的就是同级目录下的bb.php文件，所以在使用`__autoload函数`的时候，总是需要建立一个类名和引入文件名的映射。但假如我们在实现一个系统时需要引入各个模块，而各个模块的类文件映射规则都不一样，那此时该怎么做呢？可行的方案是将所有的规则写入`__autoload函数`中，通过file_exists判断各个规则的待引入文件是否存在，存在就引入，但这样会使得`__autoload函数`异常复杂，同时和软件工程的思想相悖，所以在PHP5引入了SPL标准库，为自动加载提供了更完备的解决方案，还是直接上demo
 
 ```PHP
 <?php
@@ -58,7 +58,6 @@ tag: [PHP,autoload]
   $a = new test1();
 
   spl_autoload_call("test1");
-  print_r(spl_autoload_functions());
   spl_autoload_extensions(".php,.ini,.txt");
   spl_autoload_unregister('loadPHP');
 ?>
@@ -73,5 +72,5 @@ tag: [PHP,autoload]
 ?>
 ```
 
-spl_autoload_register([ callable $autoload_function [, bool $throw = true [, bool $prepend = false ]]])算是以上demo中最重要的函数，其功能是取消\_\_autoload函数（如果仍需要使用，需显式的注册到\_\_autoload队列中去），同时将函数$autoload_function（$autoload_function为回调类型，实际测试后发现支持简单函数和静态类方法，可以以字符串形式和数组形式传入，如"function","class::function",array("class","function")，后两种均表示静态方法）加入到\_\_autoload队列中，一旦出现类引用错误就依次调用\_\_autoload队列中的函数，直到所需要的类可用为止（此时队列中剩下的函数将不再执行）。不过参数$autoload_function是可选的，那么当参数为空的时候会将\_\_autoload函数的默认实现spl_autoload(string $class_name [, string $file_extensions = spl_autoload_extensions() ])加入到\_\_autoload队列中去，spl_autoload会在当前目录下寻找并引入以$file_extensions（$file_extensions为支持的扩展名字符串集，每个支持的扩展名以","分开，而作为可选参数默认值为spl_autoload_extensions()，spl_autoload_extensions在参数为空时的默认返回值为".php,.ini"，当然也可以通过这个函数设置更改支持的后缀格式，demo中的28行就是新添了一个后缀.txt）子串作为文件扩展名、$class_name作为文件前缀名的文件，需要注意的是这个函数并不支持重写，但可以直接调用。结合demo中的具体代码分析就是，21、22行代码将loadPHP和loadINI函数注册到autoload队列中，24行新建test1类的时候并未找到，此时Zend引擎自动依次执行loadPHP和loadINI函数，引用成功后即可新建成功。顺便说下函数中剩下的两个可选参数的含义，$throw指无法注册时是否抛出异常，$prepend指是否将函数加入到队首，默认为队尾。可若我不想在类引用的时候才调入类文件，而是立即使用呢？这时就可以通过spl_autoload_call(string $class_name)调用\_\_autoload队列中的函数直接引入类文件。最后，补充两个函数，spl_autoload_functions返回\_\_autoload队列中的所有函数组成的数组，spl_autoload_unregister(mixed $autoload_function)用于注销\_\_autoload队列中的函数。
+`spl_autoload_register([ callable $autoload_function [, bool $throw = true [, bool $prepend = false ]]])`算是以上demo中最重要的函数，其功能是取消`__autoload`函数【如果仍需要使用，需显式的注册到`__autoload队列`中去】，同时将函数$autoload_function【$autoload_function为回调类型，实际测试后发现支持简单函数和静态类方法，可以以字符串形式和数组形式传入，如"function","class::function",array("class","function")，后两种均表示静态方法】加入到`__autoload队列`中，一旦出现类引用错误就依次调用`__autoload队列`中的函数，直到所需要的类可用为止【此时队列中剩下的函数将不再执行】。不过参数$autoload_function是可选的，那么当参数为空的时候会将`__autoload函数`的默认实现`spl_autoload(string $class_name [, string $file_extensions = spl_autoload_extensions() ])`加入到`__autoload队列`中去，spl_autoload会在当前目录下寻找并引入以$file_extensions【$file_extensions为支持的扩展名字符串集，每个支持的扩展名以","分开，而作为可选参数默认值为spl_autoload_extensions()，spl_autoload_extensions在参数为空时的默认返回值为".php,.ini"，当然也可以通过这个函数设置更改支持的后缀格式，demo中的27行就是新添了一个后缀.txt】子串作为文件扩展名、$class_name作为文件前缀名的文件，需要注意的是这个函数并不支持重写，但可以直接调用。结合demo中的具体代码分析就是，21、22行代码将loadPHP和loadINI函数注册到`__autoload队列`中，24行新建test1类的时候并未找到，此时Zend引擎自动依次执行loadPHP和loadINI函数，引用成功后即可新建成功。顺便说下函数中剩下的两个可选参数的含义，$throw指无法注册时是否抛出异常，$prepend指是否将函数加入到队首，默认为队尾。可若我不想在类引用的时候才调入类文件，而是立即使用呢？这时就可以通过`spl_autoload_call(string $class_name)`调用`__autoload队列`中的函数直接引入类文件。最后，补充两个函数，`spl_autoload_functions()`返回`__autoload队列`中的所有函数组成的数组，`spl_autoload_unregister(mixed $autoload_function)`用于注销`__autoload队列`中的函数。
 
