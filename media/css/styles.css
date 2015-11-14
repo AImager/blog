@@ -42,11 +42,17 @@ a {
   color: #bb2222;
 }
 
+/*
 a:hover,
 header #header h1 a:hover,
 article .title a:hover,
 article .meta .tags a:hover,
 article .divider a:hover {
+  color: #dd1144;
+}
+*/
+
+a:hover { 
   color: #dd1144;
 }
 
@@ -64,10 +70,11 @@ pre code {
 }
 
 code {
-  background-color: #ccc;
-  padding: 2px 5px;
-  border: 1px dashed #e0e0e0;
-  font-family: "Ubuntu", monospace;
+  background-color: #EEEEEE;
+  padding: 2px 1px 0px 1px;
+  border: 1px dashed #E0E0E0;
+  font-family: "Ubuntu",monospace;
+  margin: 0px 1px;
 }
 
 blockquote>ul{
