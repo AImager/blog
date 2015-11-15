@@ -15,4 +15,4 @@ $$
 <https://github.com/AImager/blog_code/blob/master/2013/>
   
   
-![](\media\img\2013\3D love.png)
+![](/media/img/2013/3D love.png)
