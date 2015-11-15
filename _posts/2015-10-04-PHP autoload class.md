@@ -73,7 +73,7 @@ tag: [PHP,autoload]
 ```
 
 ```PHP
-函数原型申明
+函数原型声明
 
 spl_autoload_register([ callable $autoload_function [, bool $throw = true [, bool $prepend = false ]]])
 spl_autoload(string $class_name [, string $file_extensions = spl_autoload_extensions() ])
