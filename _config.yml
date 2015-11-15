@@ -11,11 +11,16 @@ encoding: utf-8
 collections:
   nagging:
     output: true
+  wiki:
+    output: true
 
 navigations:
   - title: Nagging
     class: fa fa-comment-o
     href: /nagging.html
+  - title: Wiki
+    class: fa fa-wiki
+    href: /wiki.html
   - title: Archive
     class: fa fa-list-ul
     href: /archive.html

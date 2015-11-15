@@ -52,8 +52,24 @@ article .divider a:hover {
 }
 */
 
+.fa-wiki:before {
+	content:"W"
+}
+
 a:hover { 
   color: #dd1144;
+}
+
+.wiki_tags{
+  color: #ccc;
+  float: right;
+}
+
+.wiki_tags span{
+  border: 1px dashed #ccc;
+  border-radius: 3px;
+  padding: 0px 1px;
+  margin: 0px 1px;
 }
 
 blockquote,
