@@ -1,5 +1,5 @@
 ---
-title: ifconfig
+title: pmap
 layout: wiki
 category: linux
 tags: [内存,显示]
