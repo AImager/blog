@@ -72,6 +72,18 @@ a:hover {
   margin: 0px 1px;
 }
 
+/*.wiki h2+h3 {
+  margin-top: 10px;
+}*/
+
+.wiki h3+p {
+  margin-left: 20px;
+}
+
+/*.wiki h3 {
+  margin-top: 5px;
+}*/
+
 blockquote,
 pre code {
   background-color: #f8f8f8;
