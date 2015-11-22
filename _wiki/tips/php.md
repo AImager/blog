@@ -1,10 +1,9 @@
 ---
-title: PHP小Tips
-layout: post
-tag: [PHP,Tips]
----
-
-这里记录的是一些PHP的小Tips
+title: php
+layout: wiki
+category: tips
+tags: [语言,php]
+---  
 
 ## 0/false/null/array()/''
 
