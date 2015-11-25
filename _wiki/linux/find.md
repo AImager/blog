@@ -9,11 +9,11 @@ tags: [搜索]
 
 搜索
 
-## 命令模板
-
-find <pathname> [-option]
-
 ## OPTIONS
+
+```
+find <pathname> [-option]
+```
 
 ### -name <name>
 
@@ -27,6 +27,6 @@ find <pathname> [-option]
 
 按用户查找
 
-### -type <b/d/c/p/l/f>
+### -type <b/d/c/p/l/f\>
 
 文件类型块设备/目录/字符设备/管道/符号链接/普通文件

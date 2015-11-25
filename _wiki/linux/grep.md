@@ -9,11 +9,12 @@ tags: [搜索,正则]
 
 在流中搜索对应信息行
 
-## 命令模板
-
-grep <data> <stream>
 
 ## OPTIONS
+
+```
+grep <data> <stream>
+```
 
 ### -v
 

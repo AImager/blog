@@ -11,6 +11,10 @@ tags: [打包,解压]
 
 ## OPTIONS
 
+```
+tar <options <files | dirs>>
+```
+
 ### -z
 
 当文件用gzip加压的时候，加这个参数直接进行解压后再进行解包

@@ -11,6 +11,10 @@ tags: [判断,测试]
 
 ## OPTIONS
 
+```
+test <option params>
+```
+
 ### -b
 
 测试文件是否存在且是个块设备文件
