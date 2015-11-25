@@ -53,7 +53,7 @@ article .divider a:hover {
 */
 
 .fa-wiki:before {
-	content:"W"
+	content:"\f02d";
 }
 
 a:hover { 
