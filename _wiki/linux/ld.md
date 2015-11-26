@@ -2,7 +2,7 @@
 title: ld
 layout: wiki
 category: linux
-tags: [链接]
+tags: [编译链接]
 ---
 
 ## OPTIONS
