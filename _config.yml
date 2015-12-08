@@ -4,7 +4,7 @@ permalink: /:year/:month/:day/:title.html
 name: "AImager"
 
 author: "aimager"
-atom-baseurl: "http://aimager.com"
+atom-baseurl: "http://blog.aimager.com"
 disqus: "gopherwood"
 encoding: utf-8
 
