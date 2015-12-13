@@ -9,7 +9,7 @@ tags: [包管理]
 ## OPTIONS
 
 ```
-apt 
+apt nihao
 ```
 
 
