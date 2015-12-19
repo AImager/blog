@@ -1,6 +1,7 @@
 ---
 title: mkdir
 layout: wiki
+category: linux
 tag: [新建,目录]
 ---
 

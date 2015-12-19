@@ -1,6 +1,7 @@
 ---
 title: cp
 layout: wiki
+category: linux
 tag: []
 ---
 

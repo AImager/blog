@@ -1,6 +1,7 @@
 ---
 title: pwd
 layout: wiki
+category: linux
 tag: [路径]
 ---
 

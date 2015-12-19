@@ -1,6 +1,7 @@
 ---
 title: logout
 layout: wiki
+category: linux
 tag: []
 ---
 

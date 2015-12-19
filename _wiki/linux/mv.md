@@ -1,6 +1,7 @@
 ---
 title: mv
 layout: wiki
+category: linux
 tag: [重命名,移动]
 ---
 

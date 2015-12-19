@@ -1,5 +1,5 @@
 ---
-title: du
+title: tr
 layout: wiki
 category: linux
 tag: []

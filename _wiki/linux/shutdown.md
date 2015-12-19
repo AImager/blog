@@ -1,5 +1,6 @@
 ---
 title: shutdown
+category: linux
 layout: wiki
 tag: [关机,重启] 
 ---

@@ -1,6 +1,7 @@
 ---
 title: dirs
 layout: wiki
+category: linux
 tag: [内建命令,路径]
 ---
 

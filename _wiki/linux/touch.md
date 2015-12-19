@@ -1,6 +1,7 @@
 ---
 title: touch
 layout: wiki
+category: linux
 tag: [新建]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: rm
 layout: wiki
+category: linux
 tag: [删除]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: stat
 layout: wiki
+category: linux
 tag: []
 ---
 
