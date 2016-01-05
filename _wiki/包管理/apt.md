@@ -1,18 +1,13 @@
 ---
 title: apt
 layout: wiki
-category: linux
-tags: [包管理]
+category: 包管理
+tags: [ubuntu,deb,debian]
 ---  
-    
+
 
 ## OPTIONS
 
 ```
 apt nihao
 ```
-
-
-
-
-

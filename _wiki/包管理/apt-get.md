@@ -1,8 +1,8 @@
 ---
 title: apt-get
 layout: wiki
-category: linux
-tags: [包管理]
+category: 包管理
+tags: [deb,ubuntu]
 ---  
 
 
@@ -15,11 +15,11 @@ apt-get <option [params]>
 ###  remove
 
 移除程序
-            
+
 ###  purge  
 
 彻底卸载（包括数据文件）
-            
+
 ###  install
 
 安装程序
@@ -27,11 +27,11 @@ apt-get <option [params]>
 ###  reinstall
 
 重装
-            
+
 ###  -f install
 
 自动安装缺少的依赖包
-            
+
 ###  check
 
 检查是否有损坏的依赖
@@ -39,7 +39,7 @@ apt-get <option [params]>
 ###  update
 
 更新程序
-            
+
 ###  autoremove
 
 自动卸载无用的包
