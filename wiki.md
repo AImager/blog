@@ -10,7 +10,7 @@ title: wiki
 
 
 {% for category in categories %}
-  <li class="listing-seperator" id="{{ category.name }}">{{ category.name }}</li>
+  <li class="listing-seperator" id="{{ category.name }}"><h2>{{ category.name }}</h2></li>
 {% for wiki in site.wiki %}
 {% if wiki.category == category.name %}
   <li class="listing-item">
@@ -20,11 +20,11 @@ title: wiki
   <span>{{ tag }}</span>
   {% endfor %}
   </span>
-  
+
   </li>
-  
-  
-  
+
+
+
 {% endif %}
 {% endfor %}
 {% endfor %}

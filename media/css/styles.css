@@ -9,17 +9,17 @@
 
 ::selection {
   color: #fff;
-  background-color: #777; 
+  background-color: #777;
 }
 
 ::-moz-selection {
   color: #fff;
-  background-color: #777; 
+  background-color: #777;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background-color: #777; 
+  background-color: #777;
 }
 
 
@@ -58,7 +58,7 @@ a {
   color: #bb2222;
 }
 
-/*
+
 a:hover,
 header #header h1 a:hover,
 article .title a:hover,
@@ -66,13 +66,13 @@ article .meta .tags a:hover,
 article .divider a:hover {
   color: #dd1144;
 }
-*/
+
 
 .fa-wiki:before {
 	content:"\f02d";
 }
 
-a:hover { 
+a:hover {
   color: #dd1144;
 }
 
@@ -195,10 +195,10 @@ ul.listing li.listing-item time {
   color: #999;
 }
 
-ul.listing li.listing-seperator:before {
+/*ul.listing li.listing-seperator:before {
   content: "| ";
   color: #ccc;
-}
+}*/
 
 article {
   margin: 2em 0;
@@ -207,8 +207,8 @@ article {
 article p {
   padding: .7em 0;
   text-align: justify;
-  word-wrap: break-word; 
-  word-break: normal; 
+  word-wrap: break-word;
+  word-break: normal;
 }
 
 article .title a{
