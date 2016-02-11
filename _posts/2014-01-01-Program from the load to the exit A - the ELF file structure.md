@@ -21,7 +21,7 @@ ELF文件指一般在\*nix下的可执行文件格式文件，也即通俗意义
 
 ELF文件主要是由文件头（ELF Header）、段表（Section Header Table）以及一个个段（Section）组成的，至于各部分的具体内容以及这些部分是如何组织的，我们通过实验来观察。首先，用nasm编写用于分析的程序（如果还没有安装nasm，请通过命令apt-get或yum安装），代码如下，命名为test.asm，其实现的功能仅仅是做一个加法
 
-```nasm
+~~~nasm
 ; ~/test/test.asm
 
 [section .data]  ;数据段
@@ -32,16 +32,16 @@ ELF文件主要是由文件头（ELF Header）、段表（Section Header Table�
 		mov al,2
 		mov [dataAdd],al
 		jmp _start   ;循环
-```
+~~~
 
 接着分别编译和链接产生test.o重定位文件和test可执行文件
 
-```code_text
+~~~code_text
 > nasm -f elf test.asm -o test.o
 
 > ld -s test.o -o test
 
-```
+~~~
 
 至此，供本文分析的两种ELF文件已经生成。
 
@@ -51,7 +51,7 @@ ELF文件主要是由文件头（ELF Header）、段表（Section Header Table�
 
 执行查看test.o的文件头信息
 
-```code_text
+~~~code_text
 ELF Header:
   Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
   Class:                             ELF32
@@ -72,7 +72,7 @@ ELF Header:
   Size of section headers:           40 (bytes)
   Number of section headers:         7
   Section header string table index: 3
-```
+~~~
 
 Entry point address：程序文件加载近的起始地址
 Start of program headers：程序运行时相对于文件的起始位置
@@ -85,7 +85,7 @@ Number of section headers：段表的个数
 
 执行readelf命令查看ELF文件test.o具有哪些段
 
-```code_text
+~~~code_text
 > readelf -S test.o
 There are 7 section headers, starting at offset 0x40:
 
@@ -98,7 +98,7 @@ Section Headers:
   [ 4] .symtab           SYMTAB          00000000 0001c0 000060 10      5   5  4
   [ 5] .strtab           STRTAB          00000000 000220 000019 00      0   0  1
   [ 6] .rel.text         REL             00000000 000240 000008 08      4   2  4
-```
+~~~
 
 
 
@@ -108,7 +108,7 @@ Section Headers:
 
 
 
-```code_text
+~~~code_text
 ELF Header:
   Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
   Class:                             ELF32
@@ -129,10 +129,10 @@ ELF Header:
   Size of section headers:           40 (bytes)
   Number of section headers:         4
   Section header string table index: 3
-```
+~~~
 
 
-```code_text
+~~~code_text
 There are 4 section headers, starting at offset 0xa4:
 
 Section Headers:
@@ -142,12 +142,12 @@ Section Headers:
   [ 2] .data             PROGBITS        0804908c 00008c 000001 00  WA  0   0  4
   [ 3] .shstrtab         STRTAB          00000000 00008d 000017 00      0   0  1
 
-```
+~~~
 
 
 hexdump -C test
 
-```code_text
+~~~code_text
 00000000  7f 45 4c 46 01 01 01 00  00 00 00 00 00 00 00 00  |.ELF............|
 00000010  02 00 03 00 01 00 00 00  80 80 04 08 34 00 00 00  |............4...|
 00000020  a4 00 00 00 00 00 00 00  34 00 20 00 02 00 28 00  |........4. ...(.|
@@ -171,7 +171,7 @@ hexdump -C test
 00000140  00 00 00 00                                       |....|
 00000144
 
-```
+~~~
 
 
 
