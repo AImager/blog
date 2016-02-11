@@ -24,7 +24,6 @@ title: aboutme
 
 知乎：<http://www.zhihu.com/people/AImager> <br>
 Github：<https://github.com/AImager> <br>
-StackOverflow：<http://stackoverflow.com/users/2401718/aimager>
 
 ## 收藏
 
