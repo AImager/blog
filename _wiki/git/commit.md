@@ -9,7 +9,7 @@ tags: [提交]
 
 添加记录（将暂存区的信息提交到本地仓库）
 
-## OPTIONS 
+## OPTIONS
 
 ### []
 
@@ -22,3 +22,11 @@ tags: [提交]
 ### -m <msg>
 
 将本次提交的信息命名为msg
+
+### --amend
+
+合并本次commit到最近的commit
+
+### --date <date>
+
+设置提交时的日期

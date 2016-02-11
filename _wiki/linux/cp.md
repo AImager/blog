@@ -11,9 +11,9 @@ tag: []
 
 ## OPTIONS
 
-```
+~~~
 cp [-option] <source> <target>
-```
+~~~
 
 ### -a
 

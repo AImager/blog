@@ -8,9 +8,9 @@ tags: [deb,ubuntu]
 
 ## OPTIONS
 
-```
+~~~
 apt-get <option [params]>
-```
+~~~
 
 ###  remove
 

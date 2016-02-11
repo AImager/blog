@@ -11,9 +11,9 @@ tag: [重命名,移动]
 
 ## OPTIONS
 
-```
+~~~
 mv [-option] <source> <target>
-```
+~~~
 
 ### -i
 

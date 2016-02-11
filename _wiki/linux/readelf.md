@@ -7,9 +7,9 @@ tags: [ELF]
 
 ## OPTIONS
 
-```
+~~~
 readelf <option files>
-```
+~~~
 
 ### -S
 

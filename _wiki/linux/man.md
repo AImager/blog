@@ -20,9 +20,9 @@ tags: [帮助]
 
 ## OPTIONS
 
-```
+~~~
 man <command>
-```
+~~~
 
 ### -k <pattern>
 

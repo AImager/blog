@@ -11,9 +11,9 @@ tags: [显示,进程,通配符]
 
 ## OPTIONS
 
-```
+~~~
 ps <option [params]>
-```
+~~~
 
 ### -A
 

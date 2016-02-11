@@ -11,9 +11,9 @@ tags: [搜索]
 
 ## OPTIONS
 
-```
+~~~
 locate [-option] <pattern>
-```
+~~~
 
 ### -i
 

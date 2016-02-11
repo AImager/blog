@@ -7,9 +7,9 @@ tags: [十六进制,反编译,ELF]
 
 ## OPTIONS
 
-```
+~~~
 objdump
-```
+~~~
 
 ### -s
 

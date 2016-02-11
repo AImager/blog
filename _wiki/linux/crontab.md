@@ -12,9 +12,9 @@ tags: [定时]
 
 ## OPTIONS
 
-```
+~~~
 crontab
-```
+~~~
 
 ### -u <user>
 
@@ -38,7 +38,7 @@ crontab
 
 ## 实例
 
-```
+~~~
 编辑时是以文件编辑的形式，其语法规则如下
 <Minute> <Hour> <Day> <Month> <Dayofweek> <command>
   "*"：代表所有的取值范围内的数字
@@ -51,4 +51,4 @@ crontab
 */2 * * * * echo "Hello World."：每两分钟显示字符串
  
 1,2,3 * * * * echo "Hello World."：每小时的1,2,3分钟显示字符串
-```
+~~~

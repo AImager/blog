@@ -8,6 +8,6 @@ tags: [ubuntu,deb,debian]
 
 ## OPTIONS
 
-```
+~~~
 apt nihao
-```
+~~~

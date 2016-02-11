@@ -9,7 +9,7 @@ tags: [语言,php]
 
 0、false、null、array()、''之间的==和===关系
 
-```PHP
+~~~PHP
 <?php
 	$a = array('',array(),0,false,null);
 	for($i = 0;$i<=4;$i++){
@@ -31,7 +31,7 @@ tags: [语言,php]
 2 == 0  2 == 3  2 == 4  
 3 == 0  3 == 1  3 == 2  3 == 4  
 4 == 0  4 == 1  4 == 2  4 == 3  
-```
+~~~
 
 
 ## ==/===
@@ -40,24 +40,34 @@ tags: [语言,php]
 
 ## include/require
 
-include是用到的时候加载，若加载出错不会停止执行，只会反回个错误提示</br>
+include是用到的时候加载，若加载出错不会停止执行，只会反回个错误提示<br>
 require是一开始就加载，若加载出错停止执行，返回错误
 
 ## 按引用传递
 
-```PHP
+~~~PHP
 function(&$a){$a++;}
-```
+~~~
 
 ## 函数集锦
 
 一个记录PHP函数的小表格
 
-```PHP
+~~~PHP
 gettype(mixed $var)：获取变量类型
 
 date(string $format [, int $timestamp = time() ])：将时间戳格式化为支付类型
   date('Y-m-d H:i:s', time())：格式化为"年-月-日 小时-分钟-秒"
-  
+
 PATH_SEPARATOR：常量":"，用作地址的分隔符
-```
+~~~
+
+
+
+## 魔术常量
+
+## 魔术方法
+
+## 超级全局常量
+
+## 预定义常量

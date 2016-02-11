@@ -11,9 +11,9 @@ tags: [搜索]
 
 ## OPTIONS
 
-```
+~~~
 find <pathname> [-option]
-```
+~~~
 
 ### -name <name>
 

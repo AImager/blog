@@ -12,9 +12,9 @@ tags: [搜索,正则]
 
 ## OPTIONS
 
-```
+~~~
 grep <data> <stream>
-```
+~~~
 
 ### -v
 

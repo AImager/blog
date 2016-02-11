@@ -7,9 +7,9 @@ tag: [新建,目录]
 
 ## OPTIONS 
 
-```
+~~~
 mkdir [-option] <dir>
-```
+~~~
 
 ### -m <power>
 

@@ -11,9 +11,9 @@ tags: [删除,暂存区]
 
 ## OPTIONS
 
-```
+~~~
 git rm [-option] <file ...>
-```
+~~~
 
 ### --cached
 

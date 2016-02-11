@@ -7,9 +7,9 @@ tags: [deb，ubuntu]
 
 ## OPTIONS
 
-```
+~~~
 apt-cache <option [params]>
-```
+~~~
 
 ### depends
 

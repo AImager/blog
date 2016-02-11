@@ -7,9 +7,9 @@ tag: [删除]
 
 ## OPTIONS
 
-```
+~~~
 rm [-option] <dir>
-```
+~~~
 
 ### -r
 

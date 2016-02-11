@@ -7,9 +7,9 @@ tags: [链接]
 
 ## OPTIONS
 
-```
+~~~
 ln/link [-option] <file> <file>
-```
+~~~
 
 ### -s
 

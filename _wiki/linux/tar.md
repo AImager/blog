@@ -11,9 +11,9 @@ tags: [打包,解压]
 
 ## OPTIONS
 
-```
+~~~
 tar <options <files | dirs>>
-```
+~~~
 
 ### -z
 

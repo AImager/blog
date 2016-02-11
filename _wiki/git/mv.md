@@ -11,6 +11,6 @@ tags: [移动,重命名,暂存区]
 
 ## OPTIONS
 
-```
+~~~
 git mv [-option] <source> <target>
-```
+~~~

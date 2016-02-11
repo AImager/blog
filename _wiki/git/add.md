@@ -11,9 +11,9 @@ tags: [添加,暂存区]
 
 ## OPTIONS
 
-```
+~~~
 git add [-option] <file ...>
-```
+~~~
 
 ### -i
 

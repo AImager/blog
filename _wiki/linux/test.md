@@ -11,9 +11,9 @@ tags: [判断,测试]
 
 ## OPTIONS
 
-```
+~~~
 test <option params>
-```
+~~~
 
 ### -b
 
