@@ -193,12 +193,13 @@ ul.listing li.listing-item a {
 
 ul.listing li.listing-item time {
   color: #999;
+  padding: 0 0 0 1em;
 }
 
-/*ul.listing li.listing-seperator:before {
+ul.listing li.listing-prefix:before {
   content: "| ";
   color: #ccc;
-}*/
+}
 
 article {
   margin: 2em 0;
