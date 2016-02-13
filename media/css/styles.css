@@ -30,11 +30,11 @@ body {
   background-color: #f9f9f9;
 }
 
-ul {
+ul, ol {
   list-style-position: inside;
 }
 
-li>ul>li {
+li>ul>li, li>ol>li {
   padding-left: 1em;
 }
 
