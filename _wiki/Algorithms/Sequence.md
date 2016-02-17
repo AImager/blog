@@ -1,7 +1,8 @@
 ---
-title: 排序算法
-layout: post
-tag: [排序,算法]
+title: 排序
+layout: wiki
+category: Algorithms
+tags: [排序]
 ---
 
 

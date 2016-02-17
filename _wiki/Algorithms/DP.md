@@ -1,3 +1,10 @@
+---
+title: 基础DP
+layout: wiki
+category: Algorithms
+tags: [动态规划,DP]
+---
+
 DP中最重要的一步是如何定义公共子问题，但定义公共子问题需要很强的创造性和反复的实验，不过，也有一些经常出现的子问题模式
 
 ~~~Text

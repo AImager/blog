@@ -1,6 +1,7 @@
 ---
-title: Shell脚本基础参考手册
-layout: post
+title: shell script
+layout: wiki
+category: 30 minutes
 tag: [Shell,参考手册,Linux]
 ---
 

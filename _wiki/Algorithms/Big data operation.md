@@ -1,7 +1,8 @@
 ---
 title: 大数计算
-layout: post
-tag: [大数计算,算法]
+layout: wiki
+category: Algorithms
+tags: [数论,字符串]
 ---
 
 

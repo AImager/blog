@@ -1,3 +1,10 @@
+---
+title: NPC问题
+layout: wiki
+category: Algorithms
+tags: [NP,P]
+---
+
 ## 图问题（第一个不是NPC问题）
 
 * 遍历所有边不重复 = 欧拉路径/一笔画问题

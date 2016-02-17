@@ -1,7 +1,7 @@
 ---
 title: gdb
 layout: wiki
-category: 30分钟入门
+category: 30 minutes
 tags: [调试]
 ---
 

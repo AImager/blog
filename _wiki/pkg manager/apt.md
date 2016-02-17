@@ -1,7 +1,7 @@
 ---
 title: apt
 layout: wiki
-category: 包管理
+category: pkg manager
 tags: [ubuntu,deb,debian]
 ---  
 
