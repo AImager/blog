@@ -6,7 +6,7 @@ tags: [编译,链接]
 ---
 
 
-### GCC <command>：
+### GCC \<command\>：
 
 ~~~Text
 -o：自定义输出名称，缺省为a.out

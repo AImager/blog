@@ -5,7 +5,7 @@ category: 30分钟入门
 tags: [调试]
 ---
 
-### GDB <command>：
+### GDB \<command\>：
 
 ~~~Text
 print：打印变量
