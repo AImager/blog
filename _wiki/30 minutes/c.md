@@ -1,5 +1,5 @@
 ---
-title: c基础
+title: c
 layout: wiki
 category: 30 minutes
 tag: [C,参考手册]

@@ -8,7 +8,7 @@ tags: [编译,链接]
 ## OPTIONS
 
 ~~~
-GCC <command>：
+GCC <command>
 ~~~
 
 ### -o
