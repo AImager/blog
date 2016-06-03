@@ -208,8 +208,9 @@ article {
 article p {
   padding: .7em 0;
   text-align: justify;
-  word-wrap: break-word;
-  word-break: normal;
+  /*word-wrap: break-word;
+  word-break: normal;*/
+  table-layout:fixed; word-break: break-all; overflow:hidden;
 }
 
 article .title a{
