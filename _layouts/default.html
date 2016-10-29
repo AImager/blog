@@ -52,7 +52,7 @@
   </div>
 
   <script>
-    var array = new Array('code', 'code_text', 'javascript', 'php', 'c', 'c++', 'cpp', 'java', 'lisp', 'bash', 'matlab', 'mathematica', 'css', 'html', 'xml', 'c#', 'python', 'ruby', 'latex', 'nasm', 'masm');
+    var array = new Array('code', 'code_text', 'javascript', 'php', 'c', 'c++', 'cpp', 'java', 'lisp', 'bash', 'matlab', 'mathematica', 'css', 'html', 'xml', 'c#', 'python', 'ruby', 'latex', 'nasm', 'masm', 'lingo');
     var code = document.querySelectorAll("pre code");
     for (var i = 0; i < code.length; i++) {
       if (array.indexOf(code[i].className.toLocaleLowerCase().substring(9)) != -1) {
