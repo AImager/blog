@@ -9,11 +9,14 @@ tags: [远程仓库]
 
 远程仓库
 
-## OPTIONS
+## 实例
 
-### []
+~~~Bash
+~ git remote                # 列出已存在的远程分支（仅列出shortname）
 
-列出已存在的远程分支（仅列出shortname）
+
+~~~
+
 
 ### -v
 
@@ -22,7 +25,7 @@ tags: [远程仓库]
 ### add <shortname> <url>
 
 添加远程分支
-    
+
 ### show <shortname>
 
 显示分支信息
