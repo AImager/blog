@@ -2,7 +2,7 @@
 title: shell script
 layout: wiki
 category: 30 minutes
-tag: [Shell,参考手册,Linux]
+tag: [shell,快速手册]
 ---
 
 
