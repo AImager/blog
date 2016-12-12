@@ -14,11 +14,14 @@ tags: [显示,目录,文件,通配符]
 如果没有操作数，当前目录的内容被显示。非目录操作数优先，目录与非目录的操作数分别按字典顺序排序。
 
 
-## OPTIONS
+## 实例
 
+~~~Bash
+~ ls -alh           # 显示当前目录下全部文件的详细信息
+
+~ ls -lh \[^[:digit:]]?*            # 显示当前目录下名字第一个字符不是数字且至少有两位的文件
 ~~~
-ls [options] ... [files [...]]
-~~~
+
 
 ### -a, --all
 
@@ -55,20 +58,3 @@ ls [options] ... [files [...]]
 ### -F
 
 在不同类型文件后面添加标识，目录后面加/，执行文件夹*等
-
-## 实例
-
-~~~Bash
-➜ ~ ls -alh           # 显示当前目录下全部文件的详细信息
-总用量 400K
-drwxr-xr-x 26 cong cong 4.0K 11月  9 16:02 .
-drwxr-xr-x  4 root root 4.0K 10月 17 15:17 ..
-drwx------  2 cong cong 4.0K 11月  9 15:08 .aptitude
--rw-------  1 cong cong 5.2K 10月 26 16:12 .bash_history
--rw-r--r--  1 cong cong  220 10月 17 15:17 .bash_logout
--rw-r--r--  1 cong cong 3.5K 10月 17 15:17 .bashrc
-...
-
-
-➜ ~ ls [^[:digit:]]?*            # 显示当前目录下名字第一个字符不是数字且至少有两位的文件
-~~~
