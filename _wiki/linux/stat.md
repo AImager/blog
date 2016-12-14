@@ -2,7 +2,7 @@
 title: stat
 layout: wiki
 category: linux
-tag: []
+tag: [文件状态]
 ---
 
 ## 功能描述
