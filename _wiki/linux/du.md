@@ -2,5 +2,5 @@
 title: du
 layout: wiki
 category: linux
-tag: []
+tag: [磁盘信息]
 ---

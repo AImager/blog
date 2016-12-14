@@ -2,7 +2,7 @@
 title: logout
 layout: wiki
 category: linux
-tag: []
+tag: [注销,内建命令]
 ---
 
 ## 功能描述

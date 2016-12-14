@@ -2,7 +2,7 @@
 title: netstat
 layout: wiki
 category: linux
-tag: []
+tag: [端口,网络,连接]
 ---
 
 ## 功能描述
@@ -10,7 +10,7 @@ tag: []
 用于查看网络连接信息
 
 
-## OPTIONS
+## 实例
 
 ~~~
 ~~~
@@ -42,8 +42,7 @@ tag: []
 ## 实例
 
 ~~~Bash
-➜ ~ netstat -anpt		# 显示当前所有tcp连接
+~ netstat -anpt		# 显示当前所有tcp连接
 
-根据状态【State】列查看，LISTEN表示监听
-
+~ sudo netstat -apn | grep 100.99.3.96:3306 | grep server | wc -l  # 查看数据库对应服务的数据库连接数，要看非自己的进程id，需要root权限
 ~~~

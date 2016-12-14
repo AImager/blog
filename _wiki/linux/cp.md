@@ -2,14 +2,14 @@
 title: cp
 layout: wiki
 category: linux
-tag: []
+tag: [复制,文件,目录]
 ---
 
 ## 功能描述
 
 复制文件
 
-## OPTIONS
+## 实例
 
 ~~~
 cp [-option] <source> <target>
