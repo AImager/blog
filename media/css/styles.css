@@ -183,8 +183,12 @@ ul.listing {
 }
 
 ul.listing li {
-  list-style-type: none;
+  /*list-style-type: none;*/
   padding: 0;
+}
+
+.main-listing, .listing-item, .listing-seperator{
+	list-style-type: none;
 }
 
 ul.listing li.listing-item a {
