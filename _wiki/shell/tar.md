@@ -12,7 +12,9 @@ tags: [打包,解压]
 ## 实例
 
 ~~~
-tar <options <files | dirs>>
+tar -zcvf outfile needcompress //gzip压缩打包
+tar -jcvf outfile needcompress //bzip2压缩打包
+tar -zxvf outfile needcompress //gzip解压缩
 ~~~
 
 ### -z
@@ -46,8 +48,3 @@ tar <options <files | dirs>>
 ### -t
 
 显示tar文件中的文件
-
-
-##
-
-tar -zcvf gzip压缩打包
