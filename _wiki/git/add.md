@@ -9,10 +9,10 @@ tags: [添加,暂存区]
 
 从Working Directory向Staging Area添加文件
 
-## OPTIONS
+## 实例
 
 ~~~
-git add [-option] <file ...>
+git add -A			//添加所有有变化的文件，包括新建、删除、修改的文件
 ~~~
 
 ### -i

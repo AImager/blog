@@ -7,12 +7,12 @@ tags: [删除,暂存区]
 
 ## 功能描述
 
-执行rm操作，同时删除工作目录文件
+执行删除操作
 
-## OPTIONS
+## 实例
 
 ~~~
-git rm [-option] <file ...>
+git rm --cached $(git ls-files --deleted)		//删除暂存去内所有对应的工作目录已删除文件
 ~~~
 
 ### --cached
