@@ -122,11 +122,6 @@ $((expression))：计算公式
 ~~~
 
 
-
-
-
-
-
 ## 比较
 
 ~~~Text
@@ -179,7 +174,6 @@ command_1 | command_2 | command ...：从左往右执行命令，结果作为下
 例子：
 cat > catfile << "eof"  # 手动输入，直到输入eof时结束，将输入的内容写到catfile
 ~~~
-
 
 
 
