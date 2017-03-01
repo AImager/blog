@@ -76,10 +76,14 @@ object value: 目标函数结果
 
 Global optimal solution found at iteration: 迭代的次数
 
-| Variable | Variable Value |  Reduced Cost |
-| 模型中的变量 | 对应最优解 | 对应最优解的微小变化带来的目标函数的变化率 |
-| Row | Row Slack or Surplus | Dual Price |
-| 约束条件的对应编号 | 对应约束条件的剩余值 | 对应约束的微小变动带来的目标函数变化率 |
+~~~Text
+Variable：模型中的变量
+Variable Value：对应最优解
+Reduced Cost：对应最优解的微小变化带来的目标函数的变化率
+Row：约束条件的对应编号
+Row Slack or Surplus：对应约束条件的剩余值
+Dual Price：对应约束的微小变动带来的目标函数变化率
+~~~
 
 ## 灵敏度分析
 
@@ -87,11 +91,16 @@ Global optimal solution found at iteration: 迭代的次数
 
 最优基：
 
-| Variable | Current Coefficient | Allowable Increase | Allowable Decrease |
-| | 当前目标函数系数 | 系数允许增加量（保证最优解不变，但最优值改变） | 系数允许减少量 |
-| Row | Current RHS | Allowable Increase | Allowable Decrease |
-| | 当前约束条件右边常数项 | 常数项允许增加量（保证最优基不变，但最优解、最优值均改变） | 常数项允许减少量 |
-
+~~~Text
+Variable：模型中的变量
+Current Coefficient：当前目标函数系数
+Allowable Increase：系数允许增加量（保证最优解不变，但最优值改变）
+Allowable Decrease：系数允许减少量
+Row：约束条件的对应编号
+Current RHS：当前约束条件右边常数项
+Allowable Increase：常数项允许增加量（保证最优基不变，但最优解、最优值均改变）
+Allowable Decrease：常数项允许减少量
+~~~
 
 ## 运算符
 
@@ -121,13 +130,13 @@ Global optimal solution found at iteration: 迭代的次数
 
 | 符号 | 说明 |
 | :---: | :---: |
-| #not# | 否定该操作数的逻辑值，一元运算符 |
-| #eq# | 若两个运算数相等，返回true；否则返回false |
-| #ne# | 若两个运算数不相等，返回true；否则返回false |
-| #gt# | 大于返回true；否则返回false |
-| #ge# | 大于等于返回true；否则返回false |
-| #lt# | 小于返回true；否则返回false |
-| #le# | 小于等于返回true；否则返回false |
+| #not# | 否定，一元运算符 |
+| #eq# | 相等返回true |
+| #ne# | 不相等返回true |
+| #gt# | 大于返回true |
+| #ge# | 大于等于返回true |
+| #lt# | 小于返回true |
+| #le# | 小于等于返回true |
 | #and# | 与操作 |
 | #or# | 或操作 |
 
@@ -149,48 +158,62 @@ Global optimal solution found at iteration: 迭代的次数
 
 ### 辅助函数
 
-| @if(条件|约束条, 成立返回值, 不成立返回值) | 约束条件用逻辑运算符，条件用逻辑运算符 |
-| @warn('...', 条件) | 条件为真时显示warn |
+~~~Text
+@if(条件|约束条, 成立返回值, 不成立返回值)：约束条件用逻辑运算符，条件用逻辑运算符
+@warn('...', 条件)：条件为真时显示warn
+~~~
 
 ### 循环函数
 
-| @for(集名|约束条件:表达式) | 约束条件用逻辑运算符，条件用逻辑运算符 |
-| @sum(集名|约束条件:表达式) | 同上 |
-| @min(集名|约束条件:表达式) | 同上（@max） |
+~~~Text
+@for(集名|约束条件:表达式)：约束条件用逻辑运算符，条件用逻辑运算符
+@sum(集名|约束条件:表达式)：同上
+@min(集名|约束条件:表达式)：同上（@max）
+~~~
 
 ### 集操作函数
 
-| @in(集名, a, b... ) | a,b...在集中返回1，不在返回0 |
-| @size(集名) | 查看集成员的个数 |
-| @index(集名) | 返回集成员在派生集中的脚标，不能用于派生集 |
-| @wrap(a,b) | 返回a(mod)b+1 |
+~~~Text
+@in(集名, a, b... )：a,b...在集中返回1，不在返回0
+@size(集名)：查看集成员的个数
+@index(集名)：返回集成员在派生集中的脚标，不能用于派生集
+@wrap(a,b)：返回a(mod)b+1
+~~~
 
 ### 变量定界函数
 
-| @bin(x) | 限制x为0或1 |
-| @bnd(L,x,U) | 限制L<=x<=U |
-| @free(x) | 取消对变量x的默认下界为0的限制 |
-| @gin(x) | 限制x为整数 |
+~~~Text
+@bin(x)：限制x为0或1
+@bnd(L,x,U)：限制L<=x<=U
+@free(x)：取消对变量x的默认下界为0的限制
+@gin(x)：限制x为整数
+~~~
 
 ### 数学函数
 
-| @abs(x) | 返回x的绝对值 |
-| @sin(x) | 返回x的正弦值，x采用弧度制（@cos(x)、@tan(x)）|
-| @exp(x) | 返回常数e的x次方 |
-| @log(x) | 返回x的自然对数 |
-| @sign(x) | 如果x<0返回-1；否则，返回1 |
-| @floor(x) | 返回小于x的最大整数（无论正负） |
-| @smax(x1,x2,...,xn) | 返回x1,x2,...,xn中的最大值（@smin） |
+~~~Text
+@abs(x)：返回x的绝对值
+@sin(x)：返回x的正弦值，x采用弧度制（@cos(x)、@tan(x)）
+@exp(x)：返回常数e的x次方
+@log(x)：返回x的自然对数
+@sign(x)：如果x<0返回-1；否则，返回1
+@floor(x)：返回小于x的最大整数（无论正负）
+@smax(x1,x2,...,xn)：返回x1,x2,...,xn中的最大值（@smin）
+~~~
 
 ### 文件函数
 
-| @file('filename') | 导入txt文件数据 |
-| @text('filename') | 导出txt文件数据 |
+~~~Text
+@file('filename')：导入txt文件数据
+@text('filename')：导出txt文件数据
+~~~
 
 ### 概率函数
 
-| a=@qrand() | 产生随机矩阵返回给a，a必须是集，返回矩阵的元素都在0~1之间 |
-| @psn(x) | 标准正态分布在x累计函数值（@ptd(x)——t分布） |
+~~~Text
+a=@qrand()：产生随机矩阵返回给a，a必须是集，返回矩阵的元素都在0~1之间
+@psn(x)：标准正态分布在x累计函数值（@ptd(x)——t分布）
+~~~
 
 ## 总结
 
@@ -199,4 +222,4 @@ Global optimal solution found at iteration: 迭代的次数
 3. 要想以一个符号代表一个长式子，直接写等式即可，lingo默认为约束条件
 4. 为使求解速度加快，可以使用变量初始化，init: ... endinit，因为lingo是上下震荡找最优解的
 5. 数据初始化和数据输入部分不能给集中单独的元素赋值，要想赋值，其它值可以缺省，但还是需以集属性名作为输入部分
-6. 最好只用lingo解线性规划，非线性规划除非变量非常少使用，否则即使多加几万个变量也要转换为线性规划（P-中位问题）
+6. 最好只用lingo解线性规划，非线性规划除非变量非常少使用，否则即使多加几万个变量也要转换为线性规划（P-中位问题
