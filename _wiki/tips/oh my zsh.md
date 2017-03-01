@@ -1,5 +1,5 @@
 ---
-title: oh-my-zsh
+title: oh my zsh
 layout: wiki
 category: tips
 tags: [zsh]

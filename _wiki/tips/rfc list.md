@@ -1,5 +1,5 @@
 ---
-title: rfc-list
+title: rfc list
 layout: wiki
 category: tips
 tags: [rfc]

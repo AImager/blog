@@ -1,5 +1,5 @@
 ---
-title: mysql-bug-list
+title: mysql bug list
 layout: wiki
 category: tips
 tags: [mysql,bug]
