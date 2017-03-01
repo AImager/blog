@@ -12,6 +12,7 @@
   <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
   <link href="/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="/media/css/styles.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
@@ -75,6 +76,15 @@
         li_p[i].parentNode.removeChild(li_p[i]);
       }
     }
+
+	all_table = document.getElementsByTagName('table');
+	for (i=1;i<=all_table.length;i++){
+		all_table[i-1].insertAdjacentHTML('beforebegin', '<div class="table-responsive"></div>');
+		all_table[i-1].previousElementSibling.insertAdjacentHTML('afterbegin', all_table[i-1].outerHTML);
+		all_table[i].remove();
+	}
+	// console.log();
+
   </script>
 
 </body>
