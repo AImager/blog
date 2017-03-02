@@ -2,7 +2,7 @@
 title: tr
 layout: wiki
 category: shell
-tag: [行编辑]
+tag: [删除换行]
 ---
 
 ## 实例

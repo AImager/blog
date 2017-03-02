@@ -31,12 +31,18 @@ body {
 }
 
 ul, ol {
-  list-style-position: inside;
+  /*list-style-position: inside;*/
+  margin-left: 30px;
+  /*margin-top: 0.7em;*/
 }
 
-li>ul>li, li>ol>li {
+/*li>ul>li, li>ol>li {
   padding-left: 1em;
-}
+}*/
+
+/*li>ul {
+	margin-top: 0px;
+}*/
 
 blockquote>blockquote {
   margin-top: 0.4em;
@@ -185,6 +191,7 @@ header nav a {
 
 ul.listing {
   margin-top: 1em;
+  margin-left: 0px;
 }
 
 ul.listing li {
