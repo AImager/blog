@@ -22,6 +22,10 @@
   background-color: #777;
 }
 
+ul.nagging {
+	margin-left: 0;
+}
+
 
 body {
   font-size: 14px;
