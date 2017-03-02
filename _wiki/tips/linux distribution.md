@@ -15,8 +15,6 @@ tags: [centos, ubuntu]
 
 * cat /etc/centos-release：查看centos版本
 
-## 防火墙
-
 
 ## 快捷键
 
