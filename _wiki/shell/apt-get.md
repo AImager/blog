@@ -8,7 +8,8 @@ tags: [deb,ubuntu]
 ## 实例
 
 ~~~Bash
-sudo apt-get purge linux-image-xx-generic linux-headers-xx-generic	//卸载旧版本内核
+# 卸载旧版本内核
+sudo apt-get purge linux-image-xx-generic linux-headers-xx-generic
 ~~~
 
 ###  remove

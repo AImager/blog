@@ -8,9 +8,11 @@ tags: [systemd,启动,守护进程]
 ## 实例
 
 ~~~Text
-systemctl set-default multi-user.target			//centos默认启动到命令行
+# centos默认启动到命令行
+systemctl set-default multi-user.target
 
-systemctl set-default graphical.target			//centos默认启动到桌面
+# centos默认启动到桌面
+systemctl set-default graphical.target
 ~~~
 
 

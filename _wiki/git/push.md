@@ -10,9 +10,14 @@ tags: [远程,分支]
 ## 实例
 
 ~~~Bash
-git push origin [branch_local:]branch_remote		//提交本地分支到远程
-git push origin --delete master						//删除远程的master分支
-git push origin --delete tag tagname				//删除远程tag
+# 提交本地分支到远程
+git push origin [branch_local:]branch_remote
+
+# 删除远程的master分支
+git push origin --delete master
+
+# 删除远程tag
+git push origin --delete tag tagname
 ~~~
 
 ### -f

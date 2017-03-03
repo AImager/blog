@@ -8,5 +8,6 @@ tag: [删除换行]
 ## 实例
 
 ~~~Text
-cat file | tr "\n" " "		//删除所有换行
+# 删除所有换行
+cat file | tr "\n" " "
 ~~~
