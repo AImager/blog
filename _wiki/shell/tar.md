@@ -12,9 +12,14 @@ tags: [打包,解压]
 ## 实例
 
 ~~~
-tar -zcvf outfile needcompress //gzip压缩打包
-tar -jcvf outfile needcompress //bzip2压缩打包
-tar -zxvf outfile needcompress //gzip解压缩
+# gzip压缩打包
+tar -zcvf outfile needcompress
+
+# bzip2压缩打包
+tar -jcvf outfile needcompress
+
+# gzip解压缩
+tar -zxvf outfile needcompress
 ~~~
 
 ### -z
