@@ -23,3 +23,11 @@ git log master..feature
 ### --format
 
 格式化信息显示
+
+### --graph
+
+图像形式显示
+
+### --pretty=oneline
+
+选定什么格式显示，包括oneline\short\full\fuller等
