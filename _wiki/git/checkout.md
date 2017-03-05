@@ -14,7 +14,7 @@ git checkout branch
 # 从远程拉下remote_branch到本地新建的local_branch分支
 git checkout -b [local_branch] [remotename]/[remote_branch]
 
-# 新建init分支branch并切换到该分支，切换后所有工作目录的文件都为未add状态
+# 新建init分支branch并切换到该分支，切换后所有工作目录的文件都为add状态
 git checkout --orphan branch
 ~~~
 
