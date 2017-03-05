@@ -19,3 +19,7 @@ git log master..feature
 ### --stat
 
 包含文件变更记录
+
+### --format
+
+格式化信息显示
