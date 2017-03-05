@@ -2,7 +2,7 @@
 title: push
 layout: wiki
 category: git
-tags: [远程,分支]
+tags: [远程,提交]
 ---
 
 ## 功能描述
