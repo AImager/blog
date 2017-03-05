@@ -1,8 +1,8 @@
 ---
-title: checkout
+title: clone
 layout: wiki
 category: git
-tags: [切换分支]
+tags: [克隆项目]
 ---
 
 ## 实例
