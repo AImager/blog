@@ -14,6 +14,9 @@ tags: [查看记录]
 ~~~Text
 # 查看feature分支有但是master分支没有的commit信息
 git log master..feature
+
+# 查看文件的修改记录
+git log --pretty=online file
 ~~~
 
 ### --stat
