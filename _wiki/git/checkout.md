@@ -5,10 +5,14 @@ category: git
 tags: [切换分支]
 ---
 
+## 功能描述
+
+切换HEAD分支
+
 ## 实例
 
 ~~~Text
-# 默认用法，切换到branch分支
+# 默认用法，切换HEAD到branch分支
 git checkout branch
 
 # 从远程拉下remote_branch到本地新建的local_branch分支

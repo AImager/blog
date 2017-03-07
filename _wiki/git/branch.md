@@ -34,3 +34,7 @@ git branch
 ### -m
 
 修改分支名
+
+### --set-upstream-to
+
+设置本地与远程的分支绑定，可用于默认的pull
