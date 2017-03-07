@@ -7,18 +7,18 @@ tags: [切换分支]
 
 ## 功能描述
 
-切换HEAD分支
+切换分支，切换后工作区和暂存区的修改会保留
 
 ## 实例
 
 ~~~Text
-# 默认用法，切换HEAD到branch分支
+# 默认用法，切换到branch分支
 git checkout branch
 
-# 从远程拉下remote_branch到本地新建的local_branch分支
+# 新建local_branch分支，源自远程的remote_branch分支
 git checkout -b [local_branch] [remotename]/[remote_branch]
 
-# 新建init分支branch并切换到该分支，切换后所有工作目录的文件都为add状态
+# 新建无祖先分支branch并切换到该分支
 git checkout --orphan branch
 ~~~
 

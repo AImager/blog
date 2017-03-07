@@ -16,7 +16,7 @@ tags: [分支]
 git branch new_branch
 
 # 显示所有分支，HEAD分支前有*标识
-git branch
+git branch -a
 ~~~
 
 ### -d
