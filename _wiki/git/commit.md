@@ -31,6 +31,6 @@ git commit --date="2012-12-12" -o test/test -m "commit_msg"
 
 将本次提交的信息命名为msg
 
-### --date <date>
+### --date
 
 设置提交时的日期，只是author时间，不影响commit时间线
