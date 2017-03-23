@@ -15,3 +15,13 @@ tags: [mac,技巧]
 ## 软件集合
 
 * command line tool
+* homebrew
+
+
+## zshrc
+
+~~~
+alias timestamp="date +%s"
+alias rm="echo 'please use\033[31m trash-put\033[0m command'; false"
+export LC_ALL=zh_CN.UTF-8
+~~~
