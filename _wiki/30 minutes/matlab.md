@@ -34,6 +34,7 @@ rand(m,n)
 randn(m,n)
 randi([imax,imin],m,n)
 pascal(n)
+exp(1)			//返回常量e
 ~~~
 
 ## 画图函数
