@@ -20,6 +20,12 @@ git checkout -b [local_branch] [remotename]/[remote_branch]
 
 # 新建无祖先分支branch并切换到该分支
 git checkout --orphan branch
+
+# 清除未索引的文件修改
+git checkout file_name
+
+# 清除所有未索引的文件修改
+git checkout -- .
 ~~~
 
 
