@@ -25,3 +25,8 @@ alias timestamp="date +%s"
 alias rm="echo 'please use\033[31m trash-put\033[0m command'; false"
 export LC_ALL=zh_CN.UTF-8
 ~~~
+
+
+## 参考链接
+
+* [mac插件管理](http://bbs.feng.com/read-htm-tid-6891395.html)
