@@ -26,6 +26,9 @@ git checkout file_name
 
 # 清除所有未索引的文件修改
 git checkout -- .
+
+# 将sd3f6的file1和file2文件内容应用到当前分支，呈现uncommit状态
+git checkout sd3f6 -- file1 file2
 ~~~
 
 
