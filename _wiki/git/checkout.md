@@ -2,7 +2,7 @@
 title: checkout
 layout: wiki
 category: git
-tags: [切换分支]
+tags: [分支,切换,新建,合并,清除]
 ---
 
 ## 功能描述
