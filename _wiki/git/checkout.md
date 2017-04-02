@@ -15,7 +15,7 @@ tags: [切换分支]
 # 默认用法，切换到branch分支
 git checkout branch
 
-# 新建local_branch分支，源自远程的remote_branch分支
+# 基于其它分支新建local_branch分支
 git checkout -b [local_branch] [remotename]/[remote_branch]
 
 # 新建无祖先分支branch并切换到该分支
