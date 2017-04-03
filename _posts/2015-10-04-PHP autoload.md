@@ -1,5 +1,5 @@
 ---
-title: 自动加载
+title: PHP自动加载
 layout: post
 tag: [PHP]
 ---
