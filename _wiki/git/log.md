@@ -16,7 +16,7 @@ tags: [查看记录]
 git log master..feature
 
 # 查看文件的修改记录
-git log --pretty=online file
+git log --pretty=oneline file
 ~~~
 
 ### --stat
