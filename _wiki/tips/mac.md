@@ -17,6 +17,11 @@ tags: [mac,技巧]
 * command line tool
 * homebrew
 
+## brew-package
+
+* qlcolorcode
+* qlstephen
+* qlmarkdown
 
 ## zshrc
 
