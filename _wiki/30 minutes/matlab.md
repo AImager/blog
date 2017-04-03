@@ -2,7 +2,7 @@
 title: matlab
 layout: wiki
 category: 30 minutes
-tag: [matlab,快速手册]
+tag: [matlab]
 ---
 
 ## 常用全局变量
