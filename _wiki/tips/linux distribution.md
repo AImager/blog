@@ -11,11 +11,6 @@ tags: [centos, ubuntu]
 * sedsed：sed的调试工具
 
 
-## 查看版本
-
-* cat /etc/centos-release：查看centos版本
-
-
 ## 快捷键
 
 ~~~Text
