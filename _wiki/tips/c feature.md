@@ -1,5 +1,5 @@
 ---
-title: c trap
+title: c feature
 layout: wiki
 category: tips
 tags: [c,陷阱,特性]
