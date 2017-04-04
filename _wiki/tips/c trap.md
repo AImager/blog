@@ -2,7 +2,7 @@
 title: c trap
 layout: wiki
 category: tips
-tags: [c,陷阱]
+tags: [c,陷阱,特性]
 ---
 
 这篇文章会尽量列举C语言的特性和易错点，有些内容可能直接来自于其它书籍，如《C陷阱和缺陷》、《C专家编程》等。
