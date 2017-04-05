@@ -2,8 +2,13 @@
 title: systemctl
 layout: wiki
 category: shell
-tags: [systemd,启动,守护进程]
+tags: [启动,自启动,service,chkconfig]
 ---
+
+## 功能描述
+
+systemct是系统服务管理器命令，包含了service和chkconfig的功能
+
 
 ## 实例
 
@@ -15,6 +20,25 @@ systemctl set-default multi-user.target
 systemctl set-default graphical.target
 ~~~
 
+### enable
+
+设置服务自启动
+
+### disable
+
+关闭服务自启动
+
+### start
+
+启动服务
+
+### stop
+
+停止服务
+
+### restart
+
+重启服务
 
 ## 参考链接
 
