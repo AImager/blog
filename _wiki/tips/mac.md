@@ -12,16 +12,7 @@ tags: [mac,技巧]
 * sysctl -n machdep.cpu.core_count：查看CPU总数
 * sysctl -n machdep.cpu.brand_string：查看CPU型号、频率等
 
-## 软件集合
 
-* command line tool
-* homebrew
-
-## brew-package
-
-* qlcolorcode
-* qlstephen
-* qlmarkdown
 
 ## zshrc
 

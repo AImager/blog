@@ -5,11 +5,6 @@ category: tips
 tags: [centos, ubuntu]
 ---
 
-## 有趣的包
-
-* jq：shell下的json解析工具
-* sedsed：sed的调试工具
-
 
 ## 快捷键
 
