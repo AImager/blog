@@ -59,11 +59,24 @@ U：撤销对整行的操作
 #### 设置（对当前用户的~/.vimrc、全局的vimrc在Vim安装目录下）：
 
 ~~~Text
-set nu：设置显示行号
-set autoindent：设置自动缩进
-set shiftwidth=[]：设置自动缩进格数
-set tabstop=[]：定义tab格数
-set softtabstop=[]：设置实际tab格数
-syntax on：开启高亮
+# 设置显示行号
+set nu
+
+# 设置自动缩进
+set autoindent
+
+# 设置自动缩进格数
+set shiftwidth=2
+
+# 定义tab格数
+set tabstop=2
+
+# 设置实际tab格数
+set softtabstop=2
+
+# 开启高亮
+syntax on
+
+# 设置C语言缩进
 set cindent
 ~~~
