@@ -200,7 +200,6 @@ tags: [包,工具]
 * pandoc（转换格式）
 * jq（shell下的json解析工具）
 * trash-cli（一个简单的回收站）
-* tree（以目录树形式显示）
 * Valgrind（Linux内存调试）
 * Tcpdump
 * sedsed（sed调试工具）
