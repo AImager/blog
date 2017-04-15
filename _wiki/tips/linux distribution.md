@@ -40,3 +40,23 @@ CTRL+Alt+F7：切换到X Window界面
 # 设置默认启动命令行界面
 sudo systemctl set-default multi-user.target
 ~~~
+
+
+## ubuntu16.04卸载包
+
+~~~Text
+gnome-sudoku thunderbird gnome-mahjongg aisleriot webbrowser-app \
+imagemagick gnome-mines rhythmbox onboard xterm gnome-video-effects \
+ubuntu-drivers-common evolution-data-server-online-accounts totem \
+gnome-calendar account-plugin-facebook account-plugin-flickr \
+account-plugin-google libaccount-plugin-google transmission-common \
+usb-creator-common simple-scan remmina shotwell shuttle-common checkbox-gui \
+checkbox-converged gnome-user-share gnome-orca unity-scope-audacious \
+unity-scope-calculator unity-scope-chromiumbookmarks unity-scope-clementine \
+unity-scope-colourlovers unity-scope-devhelp unity-scope-firefoxbookmarks \
+unity-scope-gdrive unity-scope-gmusicbrowser unity-scope-gourmet \
+unity-scope-manpages unity-scope-musicstores unity-scope-musique \
+unity-scope-openclipart unity-scope-texdoc unity-scope-tomboy \
+unity-scope-video-remote unity-scope-virtualbox unity-scope-yelp \
+unity-scope-zotero unity-lens-music unity-lens-photos unity-lens-video
+~~~
