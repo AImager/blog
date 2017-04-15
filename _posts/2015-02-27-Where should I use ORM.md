@@ -1,10 +1,10 @@
 ---
 title: ORM或者SQL
 layout: post
-tag: []
+tag: [对象关系映射]
 ---
 
-ORM的全称为Object Relational Mapping
+ORM的全称为Object Relational Mapping，中文名为『对象关系映射』。
 
 ## ORM相对于SQL的优缺点
 
