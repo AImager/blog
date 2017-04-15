@@ -5,6 +5,27 @@ category: 30 minutes
 tags: [mysql]
 ---
 
+## 安装
+
+~~~Text
+# 源码安装
+cmake . -DCMAKE_INSTALL_PREFIX=/install_path/mysql-x.x.xx \
+-DDOWNLOAD_BOOST=1  \
+-DMYSQL_DATADIR=/data_path/mysql \
+-DMYSQL_UNIX_ADDR=/dev/shm/mysql.sock \
+-DSYSCONFDIR=/install_path/etc/mysql \
+-DWITH_MYISAM_STORAGE_ENGINE=1 \
+-DWITH_INNOBASE_STORAGE_ENGINE=1 \
+-DENABLED_LOCAL_INFILE=1 \
+-DWITH_EXTRA_CHARSETS=all \
+-DDEFAULT_CHARSET=utf8 \
+-DDEFAULT_COLLATION=utf8_general_ci \
+-DWITH_EXTRA_CHARSETS:STRING=all \
+-DMYSQL_TCP_PORT=3306 \
+-DWITH_DEBUG=0 && make -j 8 && sudo make -j 8 install
+~~~
+
+
 ## 服务启动
 
 ~~~Text
@@ -13,6 +34,24 @@ $(installLocation)/bin/mysqld
 
 # 安全模式下运行，默认运行模式
 $(installLocation)/bin/mysqld_safe
+~~~
+
+## docker-compose
+
+~~~Text
+version: '2'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    volumes:
+      - "/server/tmp_data/mysql:/var/lib/mysql"
+      - "/server/etc/mysql:/etc/mysql/conf.d"
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
 ~~~
 
 
