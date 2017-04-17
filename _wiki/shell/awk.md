@@ -19,4 +19,4 @@ awk '{a[$1]++}END{for (j in a) print j","a[j]}'
 
 ## 参考链接
 
-* <https://www.gnu.org/software/gawk/manual/gawk.html>
+* [The GNU Awk User’s Guide](https://www.gnu.org/software/gawk/manual/gawk.html)
