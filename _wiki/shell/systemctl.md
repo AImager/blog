@@ -13,10 +13,10 @@ systemct是系统服务管理器命令，包含了service和chkconfig的功能
 ## 实例
 
 ~~~Text
-# centos默认启动到命令行
+# 默认启动到命令行
 systemctl set-default multi-user.target
 
-# centos默认启动到桌面
+# 默认启动到桌面
 systemctl set-default graphical.target
 ~~~
 
