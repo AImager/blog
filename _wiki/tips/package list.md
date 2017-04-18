@@ -129,6 +129,8 @@ tags: [包,工具]
 * impala（新型SQL查询系统）
 * Spark（改进MapReduce的内存计算引擎）
 * Storm
+* Hue（交互式控制台，编写Hadoop集群作业，设置调度等）
+* Cloudera Manager（Hadoop集群组件管理平台）
 
 
 ## 数据抓取
