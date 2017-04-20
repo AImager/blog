@@ -15,7 +15,7 @@ mongodump -d db -c collection --host url:port --authenticationDatabase auth_db -
 mongorestore -d db -c collection --host url:port --authenticationDatabase auth_db -u username -p password file.json
 ~~~
 
-## 指令
+## 运维指令
 
 ~~~
 # 切换database
@@ -44,6 +44,18 @@ db.runCommand({getParameter: '*'});
 
 # 修改配置，更多配置信息需要在config-file里面修改，比如超时配置项security.ldap.timeoutMS
 db.runCommand({setParameter:});
+
+# 删
+db.collection.deleteMany()
+db.collection.deleteOne()
+~~~
+
+
+## query
+
+~~~
+# in
+{ status: { $in: [ "A", "D" ] } }
 ~~~
 
 
