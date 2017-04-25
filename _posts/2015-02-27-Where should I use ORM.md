@@ -1,5 +1,5 @@
 ---
-title: ORM或者SQL
+title: ORM或SQL
 layout: post
 tag: [对象关系映射]
 ---
