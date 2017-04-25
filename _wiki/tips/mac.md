@@ -13,7 +13,6 @@ tags: [mac,技巧]
 * sysctl -n machdep.cpu.brand_string：查看CPU型号、频率等
 
 
-
 ## zshrc
 
 ~~~
@@ -21,6 +20,25 @@ alias timestamp="date +%s"
 alias rm="echo 'please use\033[31m trash-put\033[0m command'; false"
 export LC_ALL=zh_CN.UTF-8
 ~~~
+
+
+## 关闭SIP
+
+1. 重启Mac，按住Command+R键直到Apple logo出现，进入Recovery Mode
+2. 进入Utilities > Terminal
+3. 执行csrutil disable，重启
+
+
+## 性能优化
+
+~~~Text
+# spotlight禁用
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+
+# spotlight启用
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+~~~
+
 
 ## 其它
 
