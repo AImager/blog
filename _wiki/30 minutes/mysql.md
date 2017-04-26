@@ -54,29 +54,53 @@ services:
       - MYSQL_ROOT_PASSWORD=password
 ~~~
 
-
-## 服务状态监控
+## shell命令
 
 ~~~Text
-# 查看mysql运行状态
-show status;
+# 以cli方式登录mysql
+mysql -h host -u username -p password
 
-# 查看数据库执行状态
-show processlist;
+# dump导出db1里table1和table2的数据
+mysqldump -u username -h host -p db1 table1 table2 > dump.sql
 
-# 显示配置
-show variables;
-
-# 查看所有数据大小
-select concat(round(sum(DATA_LENGTH/1024/1024), 2),'MB') as data from information_schema.TABLES;
-
-# 查看库数据大小
-select concat(round(sum(DATA_LENGTH/1024/1024), 2),'MB') as data from information_schema.TABLES where table_schema='database_name';
-
-# 查看表数据大小
-select concat(round(sum(DATA_LENGTH/1024/1024),2),'MB') as data from information_schema.TABLES where table_schema='database_name' and table_name='table_name';
+# 还原dump的数据
+source dump.sql
 ~~~
 
+## 基础操作
+
+~~~Text
+# 切换当前数据库
+use mysql_name;
+
+# 显示所有当前用户可使用的数据库
+show databases;
+
+# 显示当前数据库中的表
+show tables;
+
+# 创建数据库
+create database database_name;
+
+# 删除数据库
+drop database database_name;
+~~~
+
+## profiler分析
+
+~~~Text
+# 开启sql分析
+SET profiling = 1;
+
+# 查看profiling的设置状态
+SELECT @@profiling;
+
+# 查看所有已经分析了的query
+SHOW PROFILES;
+
+# 查看query序号为4的数据
+SHOW PROFILE ALL FOR QUERY 4;
+~~~
 
 ## 权限控制
 
@@ -100,51 +124,53 @@ GRANT ALL ON *.* TO 'username'@'%';
 FLUSH PRIVILEGES;
 ~~~
 
-## shell命令
+
+## 服务状态监控
 
 ~~~Text
-# 以cli方式登录mysql
-mysql -h host -u username -p password
+# 查看mysql运行状态
+show status;
 
-# dump导出db1里table1和table2的数据
-mysqldump -u username -h host -p db1 table1 table2 > dump.sql
+# 查看数据库执行状态
+show processlist;
 
-# 还原dump的数据
-source dump.sql
-~~~
+# 查看所有数据大小
+select concat(round(sum(DATA_LENGTH/1024/1024), 2),'MB') as data from information_schema.TABLES;
 
-## 基础DBA操作
+# 查看库数据大小
+select concat(round(sum(DATA_LENGTH/1024/1024), 2),'MB') as data from information_schema.TABLES where table_schema='database_name';
 
-~~~Text
-# 切换当前数据库
-use mysql_name;
-
-# 显示所有当前用户可使用的数据库
-show databases;
-
-# 显示当前数据库中的表
-show tables;
-
-# 创建数据库
-create database database_name;
-
-# 删除数据库
-drop database database_name;
+# 查看表数据大小
+select concat(round(sum(DATA_LENGTH/1024/1024),2),'MB') as data from information_schema.TABLES where table_schema='database_name' and table_name='table_name';
 ~~~
 
 
-## profiler分析
+## 配置
 
 ~~~Text
-# 开启sql分析
-SET profiling = 1;
+# 显示配置
+show variables;
 
-# 查看profiling的设置状态
-SELECT @@profiling;
+# 修改配置net_write_timeout
+set net_write_timeout = 600;
+~~~
 
-# 查看所有已经分析了的query
-SHOW PROFILES;
 
-# 查看query序号为4的数据
-SHOW PROFILE ALL FOR QUERY 4;
+### timeout
+
+~~~Text
+# 连接过程中握手的超时时间
+connect_timeout
+
+# 不活跃的连接超时时间——交互模式下
+interactive_timeout
+
+# 不活跃的连接超时时间——非交互模式下
+wait_timeout
+
+# 从网络读取数据的超时时间——比如导入数据
+net_read_timeout
+
+# 从网络输出数据的超时时间——比如查询
+net_write_timeout
 ~~~
