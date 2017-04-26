@@ -40,4 +40,39 @@ characterEncoding=utf-8
 useServerPrepStmts=false
 rewriteBatchedStatements=true
 useCompression=true
+
+# 设置游标流式读取数据以及每次读取的size
+useCursorFetch=true
+defaultFetchSize=1000
+~~~
+
+## 坑
+
+下面是使用kettle中可能会遇到的坑
+
+### net_write_timeout
+
+1. 把net_write_timeout设大一些，
+2. 如果第一种方法没有没有效果，则在mysql连接面板上，不选user result stream cursor选项。
+
+### JavaScript组件
+
+1. 使用isEmpty函数前要先判断!=null
+
+### timeout
+
+~~~Text
+# 连接握手失败重试次数
+maxReconnects=12
+
+# 每次连接超时时间
+initialTimeout=10
+
+# 自动重连
+autoReconnect=true
+
+
+failOverReadOnly=false
+connectTimeout=120000
+socketTimeout=120000
 ~~~
