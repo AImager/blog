@@ -148,11 +148,10 @@ tags: [包,工具]
 
 
 
-
-
 ## 存储层同步备份工具
 
 * Xtrabackup（Mysql-InnoDB的热备份工具）
+* mysqlbinlog_flashback（依赖binlog的备份工具）
 * sqoop（同步hadoop与关系型数据库间的数据）
 
 
