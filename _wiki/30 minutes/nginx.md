@@ -2,7 +2,7 @@
 title: nginx
 layout: wiki
 category: 30 minutes
-tags: [nginx]
+tags: [反向代理]
 ---
 
 ## 安装
