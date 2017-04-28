@@ -2,7 +2,7 @@
 title: mysql
 layout: wiki
 category: 30 minutes
-tags: [mysql]
+tags: [mysql,关系型数据库]
 ---
 
 ## 安装
