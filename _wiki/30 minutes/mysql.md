@@ -131,8 +131,8 @@ FLUSH PRIVILEGES;
 # 查看mysql运行状态
 show status;
 
-# 查看数据库执行状态
-show processlist;
+# 查看数据库执行状态，full用于显示完整sql信息
+show full processlist;
 
 # 查看所有数据大小
 select concat(round(sum(DATA_LENGTH/1024/1024), 2),'MB') as data from information_schema.TABLES;
