@@ -1,7 +1,7 @@
 ---
 title: redis
 layout: wiki
-category: tips
+category: 30 minutes
 tags: [缓存]
 ---
 
