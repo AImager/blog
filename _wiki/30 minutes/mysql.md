@@ -67,7 +67,7 @@ mysqldump -u username -h host -p db1 table1 table2 > dump.sql
 source dump.sql
 ~~~
 
-## 基础操作
+## no query
 
 ~~~Text
 # 切换当前数据库
@@ -84,6 +84,16 @@ create database database_name;
 
 # 删除数据库
 drop database database_name;
+~~~
+
+## query
+
+~~~Text
+# 执行SQL时不适用cache，位置在SELECT后
+SQL_NO_CACHE
+
+# 强制索引，位置在该索引所在表名后，on和where子句前
+FORCE INDEX (index_name)
 ~~~
 
 ## profiler分析
