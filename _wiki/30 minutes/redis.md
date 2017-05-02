@@ -16,12 +16,15 @@ make -j 8 && sudo make PREFIX=/server/environ/originlib/redis-3.2.3 -j 8 install
 
 ~~~Text
 # 登录到redis
-redis-cli -h localhost -p 6379 -a password
+redis-cli -h localhost -p 6379
 ~~~
 
 ## 基础命令
 
 ~~~
+# 验证帐号
+auth password
+
 # 切换数据库
 select db
 
