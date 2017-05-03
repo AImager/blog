@@ -44,7 +44,7 @@ nasm -f elf test.asm -o test.o
 ld -s test.o -o test
 
 # 64位链接
-ld -m elf_i386 -s -o hello hello.o
+ld -m elf_i386 -s -o test test.o
 ~~~
 
 至此，供本文分析的两种ELF文件已经生成。
