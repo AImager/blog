@@ -196,3 +196,9 @@ query_cache_type=off
 # 设置query cache大小为0
 query_cache_size = 0
 ~~~
+
+
+### SQL_NO_CACHE
+
+SQL_NO_CACHE的真正作用是禁止缓存查询结果，但并不意味着cache不作为结果返回给query。
+
