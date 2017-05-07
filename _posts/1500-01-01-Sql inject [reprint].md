@@ -6,4 +6,4 @@ tag: [sql注入]
 
 * 来源：知乎
 * 作者：潘良虎
-* 地址：<https://www.zhihu.com/question/22953267/answer/80141632>
+* 地址：[Web安全之SQL注入攻击技巧与防范](https://www.zhihu.com/question/22953267/answer/80141632)
