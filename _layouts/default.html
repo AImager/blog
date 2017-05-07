@@ -58,12 +58,17 @@
     for (var i = 0; i < code.length; i++) {
       if (array.indexOf(code[i].className.toLocaleLowerCase().substring(9)) != -1) {
         var replace_html = '';
+		var line_span_html = '';
         var split_array = code[i].innerHTML.split("\n");
         code[i].innerHTML = split_array[0];
         for (var j = 0; j < split_array.length - 1; j++) {
-          replace_html = replace_html + "<span class=\"hljs-number\" >" + ((j > 8) ? '' : ' ') + (j + 1).toString() + "</span>| " + split_array[j] + ((j == split_array.length - 2) ? '' : '\n');
+        //   replace_html = replace_html + "<span class=\"hljs-number\" >" + ((j > 8) ? '' : ' ') + (j + 1).toString() + "</span>| " + split_array[j] + ((j == split_array.length - 2) ? '' : '\n');
+		//   replace_html = replace_html + "<span class=\"hljs-number\" >  </span>  " + split_array[j] + ((j == split_array.length - 2) ? '' : '\n');
+		  replace_html = replace_html + "<span class=\"hljs-number\" ></span>  " + split_array[j] + ((j == split_array.length - 2) ? '' : '\n');
+		  line_span_html = line_span_html + "<span>" + ((j > 8) ? '' : ' ') + (j + 1).toString() + " </span>\n";
         }
         code[i].innerHTML = replace_html;
+		code[i].insertAdjacentHTML('beforebegin', '<code class="code_line">' + line_span_html.substring(0, line_span_html.length - 1) + '</code>');
       }
     }
 
@@ -83,6 +88,14 @@
 		all_table[i-1].previousElementSibling.insertAdjacentHTML('afterbegin', all_table[i-1].outerHTML);
 		all_table[i].remove();
 	}
+	
+	
+	// var pre_block = document.getElementsByTagName('pre');
+	// // pre_block.querySelector('code').querySelectorAll('span');
+	// for (i=1;i<=pre_block.length;i++) {
+	// 	pre_block[i-1].insertAdjacentHTML('afterbegin', '<code class="code_line"><span> 1 </span>\n<span> 2 </span>\n<span> 3 </span>\n<span> 4 </span>\n<span> 5 </span>\n<span> 6 </span>\n<span> 7 </span>\n<span> 8 </span></code>');
+	// }
+	
 	// console.log();
 
   </script>
