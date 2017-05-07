@@ -2,7 +2,7 @@
 title: netstat
 layout: wiki
 category: shell
-tag: [端口,网络,连接]
+tag: [端口,网络,socket]
 ---
 
 ## 功能描述
