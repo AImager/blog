@@ -387,13 +387,15 @@ pre {
 
 code.code_line {
     position: absolute;
+	left: 1px;
+	top: 1px;
     margin: 0px;
     padding: 0px;
     border: 0px  !important;
-    padding-top: 7.5px;
+    padding-top: 6.5px;
     background: #eee;
-    padding-left: 8.5px;
-    padding-bottom: 7.5px;
+    padding-left: 7.5px;
+    padding-bottom: 6.5px;
 
 }
 
