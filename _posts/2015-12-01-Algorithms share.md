@@ -10,4 +10,4 @@ tag: [神经网络,感知机,DP,算法理论]
 2. 常见算法，递推递归，DP，图算法
 3. 神经网络与感知机
 
-链接：<https://pan.baidu.com/s/1dE79mUX>
+链接：[share-code](https://pan.baidu.com/s/1dE79mUX)

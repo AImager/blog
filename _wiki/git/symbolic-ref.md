@@ -22,4 +22,4 @@ git symbolic-ref HEAD refs/heads/old_branch
 
 ## 参考链接
 
-* <https://git-scm.com/docs/git-symbolic-ref>
+* [git-symbolic-ref](https://git-scm.com/docs/git-symbolic-ref)

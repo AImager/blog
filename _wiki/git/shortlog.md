@@ -18,4 +18,4 @@ git shortlog --format=format:'%ci    %h    %cN    %s'
 
 ## 参考链接
 
-* <https://git-scm.com/docs/git-log>
+* [git-log](https://git-scm.com/docs/git-log)

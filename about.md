@@ -22,10 +22,10 @@ title: aboutme
 
 ## 社交
 
-知乎：<http://www.zhihu.com/people/AImager> <br>
-Github：<https://github.com/AImager> <br>
+知乎：[http://www.zhihu.com/people/AImager](http://www.zhihu.com/people/AImager) <br>
+Github：[https://github.com/AImager](https://github.com/AImager) <br>
 
 ## 收藏
 
-读书：<http://book.aimager.com> <br>
-电影：<http://film.aimager.com> <br>
+读书：[http://book.aimager.com](http://book.aimager.com) <br>
+电影：[http://film.aimager.com](http://film.aimager.com) <br>
