@@ -2,7 +2,7 @@
 title: systemctl
 layout: wiki
 category: shell
-tags: [启动,自启动,service,chkconfig]
+tags: [自启动,systemd]
 ---
 
 ## 功能描述
