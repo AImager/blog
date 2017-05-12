@@ -94,6 +94,9 @@ SQL_NO_CACHE
 
 # 强制索引，位置在该索引所在表名后，on和where子句前
 FORCE INDEX (index_name)
+
+# 日期格式化/转换为时间戳/从时间戳转换
+DATE_FORMAT(NOW(), '%Y-%m-%d'), UNIX_TIMESTAMP(NOW()), FROM_UNIXTIME(1355272360, '%Y-%m-%d')
 ~~~
 
 ## profiler分析
