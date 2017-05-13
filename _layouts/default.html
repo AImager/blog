@@ -22,6 +22,8 @@
     hljs.initHighlightingOnLoad();
   </script>
   <script src="http://cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/toc/0.3.2/toc.bower.min.js"></script>
 
 
 
@@ -108,8 +110,66 @@
 	// for (i=1;i<=pre_block.length;i++) {
 	// 	pre_block[i-1].insertAdjacentHTML('afterbegin', '<code class="code_line"><span> 1 </span>\n<span> 2 </span>\n<span> 3 </span>\n<span> 4 </span>\n<span> 5 </span>\n<span> 6 </span>\n<span> 7 </span>\n<span> 8 </span></code>');
 	// }
-	
+// 	function preventScroll(id){  
+//     var _this = document.getElementById(id);  
+//     if(navigator.userAgent.indexOf("Firefox")>0){  
+//         _this.addEventListener('DOMMouseScroll',function(e){  
+//             _this.scrollTop += e.detail > 0 ? 60 : -60;     
+//             e.preventDefault();  
+//         },false);   
+//     }else{  
+//         _this.onmousewheel = function(e){     
+//             e = e || window.event;     
+//             _this.scrollTop += e.wheelDelta > 0 ? -60 : 60;     
+//             return false;  
+//         };  
+//     }  
+//     return this;  
+// }  
 	// console.log();
+	
+	function preventDefault(e) {
+	  e = e || window.event;
+	  if (e.preventDefault)
+	    e.preventDefault();
+	  e.returnValue = false;  
+	}
+
+	
+	
+	var content_show = 0;
+	$('#content_nav').click(function() {
+		$('#toc').toc({
+			'selectors': 'h2,h3',
+			'highlightOnScroll': true,
+			// 'highlightOffset': 50,
+			'smoothScrolling': true
+		});
+		$("#toc").toggle('slow');
+		$("#toc_body").show();
+		content_show = 1;
+		
+		document.getElementById('toc').onmousewheel = function(e) { 
+		  document.getElementById('toc').scrollTop -= e. wheelDeltaY; 
+		  preventDefault(e);
+		}
+		// $("#toc").scroll(function() {
+		//   event.stopPropagation();
+		// });
+		// event.stopPropagation();
+	});
+	
+	$('#toc_body').click(function () {
+		// if(content_show == 1) {
+		$("#toc").toggle('slow');
+		$("#toc_body").hide();
+			// content_show = 0;
+		// }
+	});
+	
+	
+	
+	
 
   </script>
 
