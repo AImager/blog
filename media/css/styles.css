@@ -523,7 +523,7 @@ code.code_line {
 }
 
 a.gitment-editor-footer-tip {
-	display: none;
+	display: none !important;
 }
 
 div.gitment-container.gitment-footer-container {
