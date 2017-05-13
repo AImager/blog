@@ -550,6 +550,7 @@ div.gitment-comment-header {
 	display: -webkit-box; 
 	-webkit-box-align: center;
 	-webkit-box-pack: center;
+	z-index:1000;
 }
 
 #content_nav_t {
@@ -572,6 +573,7 @@ div.gitment-comment-header {
 	bottom: 0;	
 	overflow-y:scroll;  
 	top: 0;
+	z-index:9999;
 }
 
 /*#toc {
