@@ -511,3 +511,26 @@ code.code_line {
 		/*border-bottom: 1px dashed #e0e0e0;*/
 	}
 }
+
+
+
+
+
+/*gitment_overwrite*/
+
+.gitment-comments-empty {
+	display: none;
+}
+
+a.gitment-editor-footer-tip {
+	display: none;
+}
+
+div.gitment-container.gitment-footer-container {
+	display: none;
+}
+
+
+div.gitment-comment-header {
+	background-color: transparent;
+}
