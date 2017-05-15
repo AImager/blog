@@ -308,16 +308,4 @@ tags: [包,工具]
 * yarn（node）
 ~~~
 
-### brew-package
 
-~~~
-* qlcolorcode（quicklook）
-* qlstephen（quicklook空文本）
-* qlmarkdown（quicklook）
-~~~
-
-### mac-pkg
-
-~~~
-* command line tools
-~~~
