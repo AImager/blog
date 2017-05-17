@@ -16,7 +16,7 @@ tag: []
 * IP协议
 * ICMP协议
 
-## LNMP后台篇
+## 后台篇
 
 * Server
 	* Nginx
