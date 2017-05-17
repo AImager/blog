@@ -14,6 +14,9 @@ tags: [添加,暂存区]
 ~~~
 # 添加所有有变化的文件，包括新建、删除、修改的文件
 git add -A
+
+# 解决『cygwin下add中文名文件乱码』
+git config --global core.quotepath false
 ~~~
 
 ### -i
