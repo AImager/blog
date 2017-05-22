@@ -1,7 +1,7 @@
 ---
 title: atom
 layout: wiki
-category: 30 minutes
+category: tips
 tag: [编辑器]
 ---
 
