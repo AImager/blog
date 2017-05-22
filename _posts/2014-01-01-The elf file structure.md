@@ -120,7 +120,7 @@ Section Headers:
 
 ## 可执行文件
 
-可执行文件是在重定向文件的基础上链接后得到的，文件内部的结构差异不大，所以只列出readelf的执行结果和文件结构图
+可执行文件是在重定向文件的基础上链接后得到的，ELF Header的结构没有差异，但是相应的Type会变化，而Entry point address也因为重定向设置成了虚拟地址。
 
 ~~~Text
 ELF Header:
@@ -144,6 +144,8 @@ ELF Header:
   Number of section headers:         4
   Section header string table index: 3
 ~~~
+
+虽然我们的测试程序只有4个section，但实际上一个可执行文件通常会有非常多section，如果每个section分开载入，页空隙造成的内存浪费就很严重，所以可执行文件里会将多个访问权限相同的section再次合并成program单位（对应program header table里的描述），同一个program里的section可以载入到相同页中（为了能载入成功，链接的时候相同program的section会连续存放）。
 
 ~~~Text
 There are 4 section headers, starting at offset 0xa4:
