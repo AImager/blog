@@ -78,3 +78,9 @@ HASH就是通过一系列步骤将源数据转换成格式化后的数据，常�
 『窃听』，数据被加密了，所以即使被窃听，也没有用。
 
 当然HTTPS也不是万无一失，如果再HTTPS握手完成前就被冒充了，那实际上后面的所有过程都将完全暴露，不过这个锅也没法让HTTPS背了。
+
+## 参考链接
+
+* [RFC2818 HTTP OVER TLS](https://www.rfc-editor.org/info/rfc2818)
+* [RFC5246 TLS Protocol](https://www.rfc-editor.org/info/rfc5246)
+* [RFC5280 Certificate X.509](https://www.rfc-editor.org/info/rfc5280)
