@@ -19,4 +19,12 @@ tags: [选择器]
 
 /* title属性值里含有"name"字符串的元素 */
 [title*=name]
+
+/* target属性等于"_blank"的元素 */
+[target=_blank]
 ~~~
+
+
+## 参考链接
+
+* [CSS选择器参考手册](http://www.w3school.com.cn/cssref/css_selectors.asp)
