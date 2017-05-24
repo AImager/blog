@@ -25,6 +25,17 @@ tags: [居中]
 
 img元素相对于div元素居中。
 
+
+## table-cell + vertical-align
+
+~~~HTML
+<div style="height: 100px; display: table-cell; vertical-align: middle;">
+  居中元素
+</div>
+~~~
+
+垂直居中
+
 ## absolute + margin
 
 ~~~HTML
@@ -47,13 +58,17 @@ img元素相对于div元素居中。
 ~~~
 
 
-## box-align + box-pack
+## flexbox
 
 ~~~HTML
-<div style"display: -webkit-box; -webkit-box-align: center; -webkit-box-pack: center">
-  <div style="display: block;">
-	居中元素
-  </div>
+<!--  2009兼容写法，不同浏览器加兼容前缀  -->
+<div style="display: box; box-align: center; box-pack: center;">
+  居中元素
+</div>
+
+<!--  标准写法  -->
+<div style="display: flex; align-items: center; justify-content: center;">
+  居中元素
 </div>
 ~~~
 
