@@ -13,7 +13,10 @@ tags: [搜索,通配符,正则]
 
 ~~~Text
 # 寻找普通的c语言文件
-find /path -type f -name *.c
+find /path -type f -name '*.c'
+
+# 正则寻找文件
+find /path -regex '^[^_].*.c'
 ~~~
 
 ### -name
