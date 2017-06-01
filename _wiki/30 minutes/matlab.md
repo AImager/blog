@@ -178,6 +178,6 @@ diff
 % 将时间戳住转换为字符串时间
 datestr((timestamp-3600*24+8*3600)/86400 + 70*365+19, 'yy-mm-dd HH:MM:SS')
 
-% 将字符串转换为时间戳
-(datenum(str)-datenum('1970-01-01','yy-mm-dd'))*24*3600
+% 将字符串转换为时间戳，东8时区
+(datenum(str)-datenum('1970-01-01','yy-mm-dd'))*24*3600 - 8*3600
 ~~~
