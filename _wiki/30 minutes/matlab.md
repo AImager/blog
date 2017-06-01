@@ -28,46 +28,62 @@ NaN
 
 % 复数符号
 i
+
+
 ~~~
 
 
-## 计数方法
+## 格式转换
 
 ~~~Matlab
 % 使用常数计数法代替科学计数法
 format long g
+
+% cell数组转换为数值数组
+cell2mat
 ~~~
 
 ## 初始化函数
 
 ~~~Matlab
+% 返回步长矩阵
 initvar = i:j:k
-hilb(n)
-invhilb(n)
-linspace(a,b,n)
-logspace(a,b,n)
-magic(n)
+
+% 返回全1矩阵
 ones(m,n)
+
+% 返回全0矩阵
 zeros(m,n)
-eye(m,n)
+
+% 返回(0,1)随机数矩阵
 rand(m,n)
-randn(m,n)
-randi([imax,imin],m,n)
-pascal(n)
 
 % 返回常量e
 exp(1)
 ~~~
 
+
+## 时间函数
+
+~~~Matlab
+% 将时间戳住转换为字符串时间
+datestr((timestamp-3600*24+8*3600)/86400 + 70*365+19, 'yy-mm-dd HH:MM:SS')
+
+% 将字符串转换为时间戳，东8时区
+(datenum(str)-datenum('1970-01-01','yy-mm-dd'))*24*3600 - 8*3600
+
+% 查看星期几
+weekday('2017-06-01')
+
+% 查看第几周
+weeknum('2017-06-01')
+~~~
+
 ## 画图函数
 
 ~~~Matlab
+% 基础画图函数
 plot
-ezplot
-ezplot3
-ezsurf
-ezmesh
-ezmeshc
 
 % 调整当前图像的坐标轴的各个属性
 axis
@@ -79,6 +95,16 @@ gcf
 gca
 ~~~
 
+
+## 数据库操作
+
+~~~Matlab
+db = database('db','username','password','com.mysql.jdbc.Driver','jdbc:mysql://127.0.0.1:3306/db');
+sql = 'select 1';
+db_cur = exec(db, sql);
+db_cur_fetch = fetch(db_cur); 
+data = cell2mat(db_cur_fetch.data);
+~~~
 
 
 ## 数学函数
@@ -171,13 +197,23 @@ evalin
 diff
 ~~~
 
-
-## 时间函数
+### 集合
 
 ~~~Matlab
-% 将时间戳住转换为字符串时间
-datestr((timestamp-3600*24+8*3600)/86400 + 70*365+19, 'yy-mm-dd HH:MM:SS')
-
-% 将字符串转换为时间戳，东8时区
-(datenum(str)-datenum('1970-01-01','yy-mm-dd'))*24*3600 - 8*3600
+% 求A和B的差集A-B
+setdiff(A,B);
 ~~~
+
+
+### 统计
+
+~~~Matlab
+% 统计arr里1:7每个数的个数
+% 如果不进行返回值赋值，就是画图函数
+ans = hist([2,1,2,5,1],1:7);
+
+% 若arr全为正整数，统计[1:max(arr)]每个数的个数和占比
+% 若arr中存在非正整数，统计每个元素的个数和占比
+tabulate(arr)
+~~~
+
