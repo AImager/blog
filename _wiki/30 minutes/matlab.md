@@ -119,17 +119,14 @@ rem(A,B)
 % 取模
 mod(A,B)
 
-% 求方差
-var
+% 向上取整
+ceil(A)
+
+% 差分
+diff(A)
 
 % 方程求解
-solve
-
-% 解符号方程
-ezsolve
-
-% 解非线性方程
-fsolve
+solve(x^2 + 4*x + 1 == 0)
 ~~~
 
 ### 多项式
@@ -174,6 +171,7 @@ dsolve
 % 数值句柄积分
 quad
 
+% 非线性方程求根
 fzero
 
 % 求极限
@@ -187,14 +185,6 @@ inline(‘f(x)’,‘x’)
 
 % 数值积分
 trapz
-
-% 对指定项展开
-expand
-
-evalin
-
-% 差分
-diff
 ~~~
 
 ### 集合
