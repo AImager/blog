@@ -202,6 +202,12 @@ diff
 ~~~Matlab
 % 求A和B的差集A-B
 setdiff(A,B);
+
+% 取交集
+% res1表示交集值
+% res2表示A与B交集后在A中的位置
+% res3表示A与B交集后在B中的位置
+[res1, res2, res3] = intersect(A,B);
 ~~~
 
 
