@@ -115,6 +115,20 @@ SHOW PROFILES;
 SHOW PROFILE ALL FOR QUERY 4;
 ~~~
 
+
+## trace分析
+
+~~~
+SET OPTIMIZER_TRACE="enabled=on";
+SET END_MARKERS_IN_JSON=on;
+SET OPTIMIZER_TRACE_MAX_MEM_SIZE=1000000;
+SET optimizer_trace_limit = 1;
+
+main sql;
+
+select TRACE from information_schema.OPTIMIZER_TRACE;
+~~~
+
 ## 权限控制
 
 ~~~Text
