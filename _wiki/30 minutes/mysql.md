@@ -180,6 +180,9 @@ show variables;
 
 # 修改配置net_write_timeout
 set net_write_timeout = 600;
+
+# 查看引擎
+show engines;
 ~~~
 
 
