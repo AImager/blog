@@ -5,6 +5,10 @@ category: 30 minutes
 tags: [ETL]
 ---
 
+## 使用
+
+* 添加数据库驱动mysql-connector-java-X.X.XX-bin.jar到lib目录下
+
 
 ## kettle.properties设置
 
