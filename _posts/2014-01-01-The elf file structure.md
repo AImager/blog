@@ -147,16 +147,7 @@ ELF Header:
 
 虽然我们的测试程序只有4个section，但实际上一个可执行文件通常会有非常多section，如果每个section分开载入，页空隙造成的内存浪费就很严重，所以可执行文件里会将多个访问权限相同的section再次合并成program单位（对应program header table里的描述），同一个program里的section可以载入到相同页中（为了能载入成功，链接的时候相同program的section会连续存放）。
 
-~~~Text
-There are 4 section headers, starting at offset 0xa4:
-
-Section Headers:
-  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
-  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
-  [ 1] .text             PROGBITS        08048080 000080 000009 00  AX  0   0 16
-  [ 2] .data             PROGBITS        0804908c 00008c 000001 00  WA  0   0  4
-  [ 3] .shstrtab         STRTAB          00000000 00008d 000017 00      0   0  1
-~~~
+但即使将section合并成program还是会存在内存空隙，所以最后还是会将虚拟内存地址连续的program合并到同一页，并采用多次映射的方式解决访问的问题。
 
 ![](/media/img/2014/可执行文件结构.png)
 
