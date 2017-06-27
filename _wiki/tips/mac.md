@@ -29,6 +29,13 @@ export LC_ALL=zh_CN.UTF-8
 3. 执行csrutil disable，重启
 
 
+## 允许任意来源
+
+~~~Text
+sudo spctl --master-disable
+~~~
+
+
 ## 性能优化
 
 ~~~Text
@@ -50,7 +57,7 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plis
 ## mac-pkg
 
 ~~~
-* command line tools
+* command line tools		url: https://developer.apple.com/download/more/
 ~~~
 
 ## 其它
