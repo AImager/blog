@@ -43,3 +43,7 @@ sudo netstat -apn | grep 100.99.3.96:3306 | grep server | wc -l
 ### -u
 
 列出udp的socket
+
+### -r
+
+展示路由表
