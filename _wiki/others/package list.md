@@ -1,7 +1,7 @@
 ---
 title: package list
 layout: wiki
-category: tips
+category: others
 tags: [包,工具]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: kettle
 layout: wiki
-category: 30 minutes
+category: others
 tags: [ETL]
 ---
 

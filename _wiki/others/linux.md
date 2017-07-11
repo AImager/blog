@@ -1,7 +1,7 @@
 ---
 title: linux
 layout: wiki
-category: tips
+category: others
 tags: [配置]
 ---
 

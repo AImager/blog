@@ -1,7 +1,7 @@
 ---
 title: mac
 layout: wiki
-category: tips
+category: others
 tags: [mac,技巧]
 ---
 

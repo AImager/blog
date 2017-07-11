@@ -1,7 +1,7 @@
 ---
 title: matlab
 layout: wiki
-category: 30 minutes
+category: others
 tag: [matlab]
 ---
 

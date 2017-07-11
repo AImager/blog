@@ -1,7 +1,7 @@
 ---
 title: linux distribution
 layout: wiki
-category: tips
+category: others
 tags: [centos, ubuntu]
 ---
 

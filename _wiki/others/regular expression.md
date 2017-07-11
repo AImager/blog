@@ -1,7 +1,7 @@
 ---
 title: regular expression
 layout: wiki
-category: 30 minutes
+category: others
 tag: [正则]
 ---
 

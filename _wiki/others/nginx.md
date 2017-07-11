@@ -1,7 +1,7 @@
 ---
 title: nginx
 layout: wiki
-category: 30 minutes
+category: others
 tags: [反向代理]
 ---
 

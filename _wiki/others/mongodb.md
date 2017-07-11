@@ -1,7 +1,7 @@
 ---
 title: mongodb
 layout: wiki
-category: 30 minutes
+category: others
 tags: [mongo,nosql]
 ---
 

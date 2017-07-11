@@ -1,7 +1,7 @@
 ---
 title: lingo
 layout: wiki
-category: 30 minutes
+category: others
 tag: [规划]
 ---
 

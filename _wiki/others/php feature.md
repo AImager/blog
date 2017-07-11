@@ -1,7 +1,7 @@
 ---
 title: php feature
 layout: wiki
-category: tips
+category: others
 tags: [特性]
 ---
 

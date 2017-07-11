@@ -1,7 +1,7 @@
 ---
 title: shell script
 layout: wiki
-category: 30 minutes
+category: others
 tag: [shell]
 ---
 

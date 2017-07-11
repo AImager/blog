@@ -1,7 +1,7 @@
 ---
 title: mysql bug list
 layout: wiki
-category: tips
+category: others
 tags: [mysql,bug]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: mysql
 layout: wiki
-category: 30 minutes
+category: others
 tags: [mysql,关系型数据库]
 ---
 

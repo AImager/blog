@@ -1,7 +1,7 @@
 ---
 title: transmit
 layout: wiki
-category: tips
+category: others
 tags: [ftp,smb]
 ---
 

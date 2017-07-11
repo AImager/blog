@@ -1,7 +1,7 @@
 ---
 title: digit operation
 layout: wiki
-category: 30 minutes
+category: others
 tags: [位运算,c]
 ---
 

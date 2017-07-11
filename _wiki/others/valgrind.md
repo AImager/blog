@@ -1,7 +1,7 @@
 ---
 title: valgrind
 layout: wiki
-category: 30 minutes
+category: others
 tags: [memcheck,allgrind]
 ---
 

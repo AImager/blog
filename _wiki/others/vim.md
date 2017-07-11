@@ -1,7 +1,7 @@
 ---
 title: vim
 layout: wiki
-category: 30 minutes
+category: others
 tag: [vim]
 ---
 

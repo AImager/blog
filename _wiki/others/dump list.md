@@ -1,7 +1,7 @@
 ---
 title: dump list
 layout: wiki
-category: tips
+category: others
 tags: [dump]
 ---
 

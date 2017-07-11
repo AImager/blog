@@ -1,7 +1,7 @@
 ---
 title: atom
 layout: wiki
-category: tips
+category: others
 tag: [编辑器]
 ---
 
