@@ -1,7 +1,8 @@
 ---
-title: 数论概论
-layout: post
-tag: [数论]
+title: number theory
+layout: wiki
+category: algorithms
+tags: [数论]
 ---
 
 ## 超越数与代数数
