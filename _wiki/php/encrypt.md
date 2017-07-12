@@ -11,7 +11,7 @@ A、B之间通信，首先A、B各自生成自己的公匙、私匙，即\\( A_{
 
 A在传递信息给B前，先对信息使用\\( A_{pri} \\)签名，然后把签名和信息一起加密发给B（也可以只对信息加密，然后与签名一起发送给B，虽然签名是单向的，无法解密查看信息，但我还是建议一起加密），B收到信息解密，得到签名和信息，最后使用\\( A_{pub} \\)验证签名是否是对的。这样解决了冒充、篡改和丢失的问题。
 
-下面为完成的非对称通信流程：
+下面为完整的非对称通信流程：
 
 ~~~C
 <?php
@@ -55,7 +55,7 @@ $origin_data = json_encode([
 echo("加密前的数据：\n" . $origin_data . "\n");
 
 $need_encrypt = $origin_data;
-$encrypted_res = '';
+$encrypted_res = "";
 while($need_encrypt){
   $input= substr($need_encrypt,0,$keysize-11);
   $need_encrypt=substr($need_encrypt,$keysize-11);
@@ -68,7 +68,7 @@ while($need_encrypt){
  *  B收到报文的解密流程
  */
 $need_decrypt = $encrypted_res;
-$decrypt_res = '';
+$decrypt_res = "";
 while($need_decrypt){
   $input= substr($need_decrypt,0,$keysize);
   $need_decrypt=substr($need_decrypt,$keysize);
