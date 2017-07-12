@@ -16,6 +16,7 @@ tags: [PHP]
 	* 数组
 	* 异常
 	* 自动加载类
+	* 加密
 	* ReflectionClass: 用于分析类的类
 
 ## TODO
