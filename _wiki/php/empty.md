@@ -1,5 +1,5 @@
 ---
-title: null
+title: empty
 layout: wiki
 category: php
 tags: [空值]
