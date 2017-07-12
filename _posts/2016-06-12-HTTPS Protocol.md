@@ -29,15 +29,7 @@ $$ c^d \equiv m (mod n) $$
 
 ## 对称加密
 
-对称加密中，加密和解密的密匙是完全一样的。
-
-### AES
-
-AES是经典的对称加密算法，核心在四个步骤，但还有一些问题没有解决，先放这了。
-
-1. sbox怎么得到的？
-2. mixcolumns里的常数数组怎么得到的？
-3. key schedule里面的rcon怎么得到的？
+对称加密中，加密和解密的密匙是完全一样的。AES是目前最常用的对称加密算法。
 
 ## HASH
 
@@ -84,3 +76,4 @@ HASH就是通过一系列步骤将源数据转换成格式化后的数据，常�
 * [RFC2818 HTTP OVER TLS](https://www.rfc-editor.org/info/rfc2818)
 * [RFC5246 TLS Protocol](https://www.rfc-editor.org/info/rfc5246)
 * [RFC5280 Certificate X.509](https://www.rfc-editor.org/info/rfc5280)
+* [AES是个什么鬼?](http://davidleee.com/2016/04/26/about-aes-encryption/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
