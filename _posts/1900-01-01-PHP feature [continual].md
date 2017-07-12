@@ -12,11 +12,10 @@ tags: [PHP]
 * 语法
 	* 空值
 	* 类机制
-* 函数库
+* 函数库/类库
 	* 数组
 	* 异常
-	* autoload
-* 扩展库
+	* 自动加载类
 	* ReflectionClass: 用于分析类的类
 
 ## TODO
