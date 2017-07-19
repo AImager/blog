@@ -15,12 +15,15 @@ tag: []
 * TCP协议
 * IP协议
 * ICMP协议
+* HTTP协议
 
 ## 后台篇
 
 * Server
 	* Nginx
-* CGI
+* CGI/Servlet
+* Kafka
+* Redis
 * Mysql
 
 ## 前端篇
