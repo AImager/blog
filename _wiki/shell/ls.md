@@ -5,6 +5,10 @@ category: shell
 tags: [显示,目录,文件,通配符]
 ---
 
+## 常规实现
+
+使用读目录opendir和readdir的系统调用获取目录信息，然后使用stat系统调用获取文件信息。
+
 
 ## 实例
 
