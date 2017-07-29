@@ -26,7 +26,6 @@ Github：[https://github.com/AImager](https://github.com/AImager) <br>
 ## 收藏
 
 读书：[http://book.aimager.com](http://book.aimager.com) <br>
-电影：[http://film.aimager.com](http://film.aimager.com) <br>
 
 
 

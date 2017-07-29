@@ -53,7 +53,7 @@
 
     <footer>
       <div>
-        {% assign first_post = site.posts | last %} &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} aimager | <a href="/">blog</a> | <a href="http://book.aimager.com" title="book">book</a> | <a href="http://film.aimager.com" title="film">film</a>
+        {% assign first_post = site.posts | last %} &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} {{ site.author }} | <a href="/">home</a> {{ site.footer }}
       </div>
     </footer>
 
