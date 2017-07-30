@@ -34,10 +34,3 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
-    
-
-whitelist:
-  - jekyll-redirect-from
-  
-plugins_dir:
-  - jekyll-redirect-from
