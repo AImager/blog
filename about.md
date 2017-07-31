@@ -16,7 +16,6 @@ title: aboutme
 由于本人水平有限，文章差错在所难免，欢迎大家反馈纠错  <br>
 转载请标明出处，暂时禁止任何商业用途  <br>
 反馈或其它任何事务请直接发邮件给我 <a href="mailto:funcemail@163.com"><i class="fa fa-mail-reply"></i></a> <br>
-如果觉得本博客还不错，可选择订阅 <a href="/atom.xml"><i class="fa fa-rss"></i></a>
 
 ## 社交
 
