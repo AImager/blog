@@ -1,3 +1,4 @@
 [submodule "_theme/freshness"]
 	path = _theme/freshness
 	url = https://github.com/AImager/freshness.git
+	ignore = all
