@@ -29,3 +29,7 @@ git submodule update
 ### update
 
 更新子模块文件
+
+## 解决submodule的new commits问题
+
+在.gitmodules文件中添加`ignore = all`条目
