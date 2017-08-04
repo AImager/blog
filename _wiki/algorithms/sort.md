@@ -51,7 +51,67 @@ void Bubbling_sort(int *previousInd , int n){
 
 ## 希尔排序
 
-插入排序的改进版，通过解决数据每次只移动一位来增加效率。
+插入排序的改进版。先生成一个递增序列\\( h_1, h_2, h_3 ... h_t \\)，该序列只需要满足\\( h_1 = 1 \\)。然后反序依次进行\\( h_k \\)排序。\\( h_k \\)排序即将\\( h_{k+1} \\)排序序列作为待排序序列，然后将待排序序列分为\\( h_k \\)组，每组均是序列号按\\( h_k \\)递增的序列，接着对每组序列进行插入排序，从而得到\\( h_k \\)排序序列。
+
+以下为常用的递增序列
+
+* shell序列: 满足\\( h_1 = 1 , h_t = \left \lfloor N/2 \right \rfloor , h_k = \left \lfloor h_{k+1}/2 \right \rfloor \\)的序列，其中N为待排序序列长度。其最坏时间复杂度为\\( O(N^2) \\)
+* Hibbard序列: 满足\\( h_1 = 1 , h_k = 2^k - 1 \\)的序列。其最坏时间复杂度为\\( O(N^{3/2}) \\)
+
+~~~C
+void exchange(int* a, int* b) {
+	a[0] = a[0] ^ b[0];
+	b[0] = a[0] ^ b[0];
+	a[0] = a[0] ^ b[0];
+}
+
+void shellSort(int* arr, int arrSize, int* increment, int incrementSize) {
+    int temp, k;
+	for(int i = 0;i<incrementSize;i++) {
+		for(int j = increment[i];j<arrSize;j++) {
+            temp = arr[j];
+			for(k = j; k >= increment[i] ; k-=increment[i]) {    
+				if(temp < arr[k-increment[i]]) {
+					arr[k] = arr[k-increment[i]];
+				} else {
+                    break;
+                }
+			}
+            arr[k] = temp;
+		}
+	}
+}
+
+int createShellIncrement(int* shellIncrement, int arrSize) {
+	int i;
+	shellIncrement[0] = (arrSize&(0xFFFFFFFE)) / 2;
+	for(i = 1;;i++) {
+		shellIncrement[i] = (shellIncrement[i-1]&(0xFFFFFFFE)) / 2;
+		if(shellIncrement[i] == 1){
+			break;
+		}
+	}
+	return i+1;
+}
+
+int createHibbardIncrement(int* hibbardIncrement, int arrSize) {
+	int returnSize, i;
+	for(i = 0;; i++) {
+		hibbardIncrement[i] = 2^(i+1) - 1;
+		if(hibbardIncrement[i] < arrSize) {
+			break;
+		}
+	} 
+	returnSize = i+1;
+	for(;;i--) {
+		exchange(&hibbardIncrement[i], &hibbardIncrement[returnSize - i - 1]);
+		if(i == returnSize - i - 1 || i == returnSize - i) {
+			break;
+		}
+	}
+	return returnSize;
+}
+~~~
 
 ## 归并排序
 
