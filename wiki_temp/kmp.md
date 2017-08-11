@@ -1,5 +1,5 @@
 ---
-title: trie
+title: kmp
 layout: wiki
 category: algorithms
 tags: [字符串,匹配]
