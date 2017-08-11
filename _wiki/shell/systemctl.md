@@ -7,7 +7,7 @@ tags: [自启动,systemd]
 
 ## 功能描述
 
-systemct是系统服务管理器命令，包含了service和chkconfig的功能
+systemctl是systemd初始化系统提供的命令管理工具，包含了sysvinit时代service和chkconfig等命令的功能
 
 
 ## 实例
