@@ -20,7 +20,7 @@ liquid是jekyll支持的默认模板语言，虽然标签不少，但毕竟是�
 
 ## dns
 
-这个和模块化关系不大，但中间遇到了些问题顺带就记录在这。我的网站放在github page上，而且是多个项目，一个指向一级域名，其它指向二级域名，配置的时候在每个项目的CNAME文件下写入指向的域名，同时dns配置使用CNAME指向your-github-name.github.io即可。不过有几个问题，一是我同时用了一级和二级域名，所以没办法直接使用your-github-name.github.io/project-name的方式进入一级域名网页，二是github不支持使用多个一级域名，当然这不算什么大问题。最后，吐槽下老薛的dns配置，我开始直接用A记录指向github-IP服务器，一直试图修改CNAME不成功，后来发现是他们的bug，只能先删除A记录然后再添加对应CNAME记录。。。
+我的网站放在github page上，而且是多个项目，一个指向一级域名，其它指向二级域名，配置的时候在每个项目的CNAME文件下写入指向的域名，同时dns配置使用CNAME指向your-github-name.github.io即可。最后，吐槽下老薛的dns配置，我开始直接用A记录指向github-IP服务器，一直试图修改CNAME不成功，后来发现是他们的bug，只能先删除A记录然后再添加对应CNAME记录。。。
 
 除了blog隔离了post和theme外，我把github上展示书籍的项目也做了隔离，抽象了一个可用于展示通用品类的主题，依旧采用submodule引入，所有的展示项目都使用纯head的markdown存储，可自定义标签。而需要展示的标签项则通过_config.yml配置即可。
 
