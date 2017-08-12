@@ -17,6 +17,9 @@ git commit
 
 # 只提交test/test文件，修改日期，采用简短msg模式
 git commit --date="2012-12-12" -o test/test -m "commit_msg"
+
+# 提交一个空commit，用来rebuild submodule github page
+git commit -m 'rebuild pages' --allow-empty
 ~~~
 
 ### -a
