@@ -31,8 +31,11 @@ auth password
 # 切换数据库
 select db
 
-# 设置key缓存
+# 设置key以及其值
 set key value
+
+# 不存在才设置，不存在返回值为0
+setnx key value
 
 # 获取key值
 get key
