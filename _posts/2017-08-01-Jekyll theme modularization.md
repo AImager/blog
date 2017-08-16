@@ -8,7 +8,7 @@ tag: [jekyll,liquid,dns,github]
 
 ## submodule
 
-post和布局隔离后，整个目录只包含post文件夹、_config.yml和theme文件夹，theme文件夹下面的主题作为submodule引入，而_config.yml则负责控制主题的选择以及其它可变量的配置。
+post和布局隔离后，整个目录只包含post文件夹、_config.yml和theme文件夹，theme文件夹下面的主题作为submodule引入，而_config.yml则负责控制主题的选择以及其它可变量的配置。每次修改完theme后，需要更新父项目的theme的commit-id，即在父项目将theme进行commit，然后push到github，这样在build的时候才会拉取最新的submodule。
 
 ## jekyll
 
