@@ -8,7 +8,7 @@ tags: [编辑器]
 
 ## 调试
 
-下面是设置tasks任务，用于编译过程，我试过debug不设置tasks，直接用lanuch.json，总是立马退出。
+下面是设置tasks.json，用于编译过程，我试过debug不设置tasks，直接用lanuch.json，总是立马退出。
 
 ~~~JSON
 {
@@ -18,8 +18,8 @@ tags: [编辑器]
     "args": ["-c"],
     "tasks": [
         {
-            "taskName": "debug",
-            "args": ["gcc -g ${fileBasename} -o ${fileBasenameNoExtension}"],
+            "taskName": "cpp",
+            "args": ["g++ -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}"],
             "isBuildCommand": true,
             "suppressTaskName": true
         }
@@ -35,15 +35,15 @@ tags: [编辑器]
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug",
+            "name": "cpp",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceRoot}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
             "cwd": "${workspaceRoot}",
             "osx": {
                 "MIMode": "lldb"
             },
-            "preLaunchTask": "debug"
+            "preLaunchTask": "cpp"
         }
     ]
 }
