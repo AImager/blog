@@ -46,13 +46,6 @@ sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.pl
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 ~~~
 
-## brew-package
-
-~~~
-* qlcolorcode（quicklook）
-* qlstephen（quicklook空文本）
-* qlmarkdown（quicklook）
-~~~
 
 ## mac-pkg
 

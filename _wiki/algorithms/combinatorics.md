@@ -7,7 +7,7 @@ tags: [组合,排列,幂]
 
 ## 排列
 
-从N个元素中取M个元素做全排列，共有\\( A_{N}^{M} \\)种排列方法。
+从N个元素中取M个元素做全排列，共有\( A_{N}^{M} \)种排列方法。
 
 ~~~C
 void arrangement(int depth, int * index_arr) {
@@ -42,7 +42,7 @@ depth是深度，初始为0，index_arr为索引数组，初始为M维空数组�
 
 ## 组合
 
-从N个元素中取M个元素，共有\\( C_{N}^{M} \\)种取法，输出的时候因为不同顺序的相同元素总是算作同一组，所以一般都是按大小或者原排列顺序输出。输出下标
+从N个元素中取M个元素，共有\( C_{N}^{M} \)种取法，输出的时候因为不同顺序的相同元素总是算作同一组，所以一般都是按大小或者原排列顺序输出。输出下标
 
 ~~~C
 void combination(int depth, int * index_arr, int pre_index) {
@@ -64,7 +64,7 @@ void combination(int depth, int * index_arr, int pre_index) {
 
 ## 幂
 
-每次从N个元素中取一个元素，然后放回去，取M次，共有\\( N^M \\)种排列方法
+每次从N个元素中取一个元素，然后放回去，取M次，共有\( N^M \)种排列方法
 
 ~~~C
 void power(int depth, int * index_arr) {
