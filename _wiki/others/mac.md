@@ -53,7 +53,11 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plis
 * command line tools		url: https://developer.apple.com/download/more/
 ~~~
 
-## 其它
+## 截屏
+
+默认有两个快捷键，截全屏和选择截取，可以在键盘选项中设置。mac还可以截取某个应用窗口，方法是使用选择截取的快捷键，然后按空格鼠标编程相机图样，选择对应的窗口点击即可。
+
+## zsh
 
 * 使用zsh时，通过上下键回到某个历史命令后，操作ctrl-u清除输入，此时再按上下键，是以刚刚清除的那条历史命令作为基准点进行上下匹配的，最快修正基准点到末尾的方式是执行一个简短命令
 
