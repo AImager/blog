@@ -2,7 +2,7 @@
 title: dynamic parameter
 layout: wiki
 category: c
-tags: [动态参数]
+tags: [变长参数]
 ---
 
 
