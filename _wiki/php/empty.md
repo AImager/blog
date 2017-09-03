@@ -2,7 +2,7 @@
 title: empty
 layout: wiki
 category: php
-tags: [空值]
+tags: [空值,null]
 ---
 
 ## 0/false/null/array()/''

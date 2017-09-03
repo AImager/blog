@@ -2,7 +2,7 @@
 title: config
 layout: wiki
 category: php
-tags: [配置]
+tags: [配置,php-fpm]
 ---
 
 ## 配置
