@@ -2,7 +2,7 @@
 title: redis
 layout: wiki
 category: tool
-tags: [缓存]
+tags: [缓存,消息队列]
 ---
 
 ## 安装
@@ -148,7 +148,7 @@ pfcount key
 
 ## 备份
 
-redis提供了两种持久化选项，分别是RDB和AOF。
+redis提供了两种备份选项，分别是RDB和AOF。
 
 ### RDB
 
