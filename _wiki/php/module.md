@@ -2,7 +2,7 @@
 title: module
 layout: wiki
 category: php
-tags: [模块化,require,include,命名空间,namespace]
+tags: [require,include,namespace]
 ---
 
 
