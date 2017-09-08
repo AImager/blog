@@ -50,9 +50,9 @@ stat
 ~~~
 
 
-## 负载容灾
+## 集群
 
-* Magent: 用于memcached多节点的代理
+* Twemproxy: 用于memcached多节点的代理
 * MemcacheDB: 用于memcached持久化的数据库
 
 ## 参考链接
