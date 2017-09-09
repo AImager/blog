@@ -2,7 +2,7 @@
 title: scope
 layout: wiki
 category: php
-tags: [作用域,global,static,use,闭包]
+tags: [作用域,global,static,use]
 ---
 
 ## global
