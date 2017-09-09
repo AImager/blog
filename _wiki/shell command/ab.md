@@ -60,3 +60,8 @@ Time per request: 50.872 [ms] (mean, across all concurrent requests)
 ## 坑
 
 * url后面即使是根目录也必须有/，不能省略
+
+
+## 参考链接
+
+* [系统吞吐量（TPS）、用户并发量、性能测试概念和公式](http://www.ha97.com/5095.html)
