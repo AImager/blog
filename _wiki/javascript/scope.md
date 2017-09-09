@@ -5,6 +5,8 @@ category: javascript
 tag: [作用域,闭包,var]
 ---
 
+javascript的作用域等级为function-block level。
+
 ## var
 
 var用于声明local变量，其在全局代码下不会产生作用域影响，但是var会触发变量名提升。
@@ -43,4 +45,4 @@ console.log("fee " + fee);	// fee 1
 ## 参考链接
 
 * [闭包（计算机科学）是什么？](https://www.zhihu.com/question/24084277)
-* 
+* [作用域与闭包](http://wiki.jikexueyuan.com/project/node-lessons/scope-closure.html)
