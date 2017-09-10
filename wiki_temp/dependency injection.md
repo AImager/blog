@@ -2,9 +2,8 @@
 title: dependency injection
 layout: wiki
 category: design patterns
-tags: [依赖注入,控制反转,DI,IoC]
+tags: [依赖注入,DI,IoC]
 ---
-
 
 ## 实例
 
@@ -17,7 +16,6 @@ Inversion of Control
 ## 依赖注入
 
 Dependency Injection
-
 
 ## 参考链接
 
