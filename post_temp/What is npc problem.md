@@ -31,3 +31,8 @@ tags: [NP,P]
 * 扫雷
 * 华容道问题/(n^2-1)数码问题
 * 布尔可满足性质问题
+
+
+## 参考链接
+
+* [List of NP-complete problems](https://en.wikipedia.org/wiki/List_of_NP-complete_problems)

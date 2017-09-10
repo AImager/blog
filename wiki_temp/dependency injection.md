@@ -21,3 +21,4 @@ Dependency Injection
 
 * [依赖倒置•控制反转•依赖注入•面向接口编程](http://www.cnblogs.com/aoyeyuyan/p/5495219.html)
 * [Phalcon Framework的Mvc结构及启动流程](http://avnpc.com/pages/phalcon-mvc-process)
+* [依赖注入那些事儿](http://www.cnblogs.com/leoo2sk/archive/2009/06/17/1504693.html)
