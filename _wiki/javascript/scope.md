@@ -40,7 +40,22 @@ console.log("fee " + fee);	// fee 1
 
 观察例子，`var fee = 2;`由于变量名提升，解析为`var fee; fee = 2;`，所以此时全局作用域和test作用域各有一个fee变量。func中的foo由于没有在本作用域声明，所以会使用闭包特性，最终调用的是全局的foo变量；而func中的fee同样没有在本作用域声明，最后使用的是test作用域下的fee变量。因此`foo = 3`修改的是全局的foo，而`fee = 3`修改的是test作用域下的fee。
 
+### 坑
 
+~~~javascript
+for (var i = 0; i < 5; i++) {
+    setTimeout(function () {
+      console.log(i);
+    }, 5);
+}
+
+// 输出
+// 5
+// 5
+// 5
+// 5
+// 5
+~~~
 
 ## 参考链接
 
