@@ -25,14 +25,14 @@ tags: [mac,技巧]
 
 ## 允许任意来源
 
-~~~Text
+~~~
 sudo spctl --master-disable
 ~~~
 
 
 ## 性能优化
 
-~~~Text
+~~~
 # spotlight禁用
 sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 
@@ -43,9 +43,7 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plis
 
 ## mac-pkg
 
-~~~
-* command line tools		url: https://developer.apple.com/download/more/
-~~~
+* [command line tools](https://developer.apple.com/download/more/)
 
 ## 截屏
 

@@ -8,7 +8,7 @@ tag: [shell]
 
 ## if条件结构
 
-~~~Text
+~~~sh
 if [ condition ] ; then
   ...
 elif [ condition ] ; then
@@ -23,7 +23,7 @@ fi
 
 ## case条件结构
 
-~~~Text
+~~~sh
 case var in
   "pattern1")
     command1;;
@@ -37,7 +37,7 @@ esac
 
 ## while循环结构
 
-~~~Text
+~~~sh
 while [ condition ]
 do
   expression
@@ -47,7 +47,7 @@ done
 
 ## until循环结构
 
-~~~Text
+~~~sh
 until [condition]
 do
   expression
@@ -57,7 +57,7 @@ done
 
 ## for循环结构
 
-~~~Text
+~~~sh
 for var in con1 con2 ...
 do
   expression
@@ -67,7 +67,7 @@ done
 
 ## function结构
 
-~~~Text
+~~~sh
 function name(){
   expression
   ...
@@ -76,7 +76,7 @@ function name(){
 
 ## 其它控制结构
 
-~~~Text
+~~~
 <command_1> || <command_2>：或，command_1成功则跳过command_2，失败则执行command_2
 <command_1> && <command_2>：与，command_1成功则执行command_2，失败则跳过
 break n：跳出n层循环
@@ -87,7 +87,7 @@ continue n：继续n层循环
 
 ## 脚本中特殊变量
 
-~~~Text
+~~~
 $0：当前程序的名称，实际上是一个内部参数
 $n：传递给脚本的第n个参数，n>=1
 $#：传递给程序的总的参数数目，也就是那个传说中的数组大小
@@ -102,7 +102,7 @@ $!：上一个命令的PID
 
 ## 变量使用
 
-~~~Text
+~~~
 ""：表示不可分割的整体，处理$、`、\三种符号；对于\，其后只有在接$、`、"、\、换行符五种字符时才进行翻译
 ''：和双引号一样也是把包含的当作字符串处理，但其中的特殊字符不起作用
 ``：表示其中全当做命令处理
@@ -124,7 +124,7 @@ $((expression))：计算公式
 
 ## 比较
 
-~~~Text
+~~~
 数值比较
   -eq：相等
   -ge：大于等于
@@ -159,7 +159,7 @@ $((expression))：计算公式
 
 ## 命令、管道与I/O
 
-~~~Text
+~~~
 声明：下面在描述命令的时候，[]表示可选的参数，<>表示必须的参数
 
 command [-option] [stream]：处理命令+处理方式+处理对象，一般命令格式
@@ -179,7 +179,7 @@ cat > catfile << "eof"  # 手动输入，直到输入eof时结束，将输入的
 
 ## 通配符
 
-~~~Text
+~~~
 /：选定文件层次分隔
 ..：选定上一层目录
 .：选定当前目录
