@@ -11,7 +11,7 @@ tags: [定时任务]
 
 ## 实例
 
-~~~Text
+~~~
 # 编辑root的crontab
 crontab -u root
 ~~~

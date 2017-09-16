@@ -7,7 +7,7 @@ tags: [网络,模拟,延时,丢包]
 
 ## 实例
 
-~~~Text
+~~~
 tc qdisc add dev eth0 root netem delay 1000ms		//模拟网络延时1000ms
 
 tc qdisc del dev eth0 root netem delay 1000ms		//删除网络延时策略

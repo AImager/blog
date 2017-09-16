@@ -11,14 +11,14 @@ tags: [进程,限制]
 
 ## 实例
 
-~~~Text
+~~~
 # 显示所有限制参数及当前值
 ulimit -a
 ~~~
 
 ## 显示描述
 
-~~~Text
+~~~
 -t: cpu time (seconds)              unlimited			# 最长CPU使用时间
 -f: file size (blocks)              unlimited			# 文件大小最大值
 -d: data seg size (kbytes)          unlimited			# 数据段大小最大值

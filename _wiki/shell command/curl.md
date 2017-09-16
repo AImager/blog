@@ -7,7 +7,7 @@ tags: [网络,传输,流]
 
 ## 实例
 
-~~~Text
+~~~
 # 以get的方式获取网络流
 curl --request GET baidu.com
 

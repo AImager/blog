@@ -11,7 +11,7 @@ tags: [msl]
 
 ## 实例
 
-~~~Text
+~~~
 # 查看msl时间设置『秒』
 sysctl net.ipv4.tcp_fin_timeout
 

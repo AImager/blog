@@ -7,7 +7,7 @@ tags: [deb,ubuntu,debian,包管理]
 
 ## 实例
 
-~~~Text
+~~~
 # 备份当前系统安装的所有包的列表
 dpkg --get-selections | grep -v deinstall > ~/somefile
 

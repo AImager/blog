@@ -7,7 +7,7 @@ tags: [添加,组]
 
 ## 实例
 
-~~~Text
+~~~
 # 添加gid为1344的工作组www
 groupadd -g 1344 www
 ~~~
