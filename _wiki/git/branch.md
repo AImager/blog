@@ -11,7 +11,7 @@ tags: [分支]
 
 ## 实例
 
-~~~Text
+~~~
 # 新建new_branch，存在则报错
 git branch new_branch
 

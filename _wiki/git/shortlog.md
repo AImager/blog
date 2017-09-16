@@ -11,7 +11,7 @@ tags: [短记录]
 
 ## 实例
 
-~~~Text
+~~~
 # 查看信息，格式化成『时间 短提交hash 提交者 提交信息』显示
 git shortlog --format=format:'%ci    %h    %cN    %s'
 ~~~

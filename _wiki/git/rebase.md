@@ -12,7 +12,7 @@ merge只和合并分支的最后一次commit后的数据有关，而rebase是把
 
 ## 实例
 
-~~~Text
+~~~
 # 解决完冲突后继续rebase操作
 git rebase --continue
 

@@ -11,7 +11,7 @@ tags: [查看记录]
 
 ## 实例
 
-~~~Text
+~~~
 # 查看feature分支有但是master分支没有的commit信息
 git log master..feature
 

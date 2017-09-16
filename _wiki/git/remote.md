@@ -11,7 +11,7 @@ tags: [远程,仓库]
 
 ## 实例
 
-~~~Bash
+~~~
 # 提交分支到远程，local_branch默认为当前分支
 git push origin [local_branch:]remote_branch
 

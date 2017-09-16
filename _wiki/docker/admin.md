@@ -8,12 +8,13 @@ tag: [管理员]
 
 ## exec
 
-~~~Text
+~~~
 # 进入容器781，采取交互方式运行bash
 docker exec -it 781 /bin/bash
 ~~~
 
-* -i: 交互模式* -t: 创建tty
+* -i: 交互模式
+* -t: 创建tty
 
 
 ## images
@@ -37,7 +38,7 @@ docker ps -a
 
 ## run
 
-~~~Text
+~~~
 # 后台执行mongo镜像
 docker run -d mongo
 ~~~
@@ -60,7 +61,7 @@ docker run -d mongo
 
 ## stat
 
-~~~Text
+~~~
 # 查看容器的CPU、内存、IO状态
 docker stats 512
 ~~~

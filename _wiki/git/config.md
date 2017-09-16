@@ -11,7 +11,7 @@ tags: [配置]
 
 ## 实例
 
-~~~Text
+~~~
 # 修改用户名为AImager
 git config --local user.name AImager
 ~~~
@@ -34,7 +34,7 @@ git config --local user.name AImager
 
 ## 常用属性键
 
-~~~Text
+~~~
 user.name：用户名称
 user.email：用户邮箱
 ~~~

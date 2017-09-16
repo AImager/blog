@@ -7,7 +7,7 @@ tags: [标签]
 
 ## 实例
 
-~~~Text
+~~~
 # 添加tag
 git tag v1.5
 ~~~

@@ -9,7 +9,7 @@ tags: [远程,提交]
 
 ## 实例
 
-~~~Bash
+~~~
 # 提交本地分支到远程
 git push origin [branch_local:]branch_remote
 

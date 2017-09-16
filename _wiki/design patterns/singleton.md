@@ -11,7 +11,9 @@ tags: [单例,创建型,模式]
 
 ## php实现
 
-~~~PHP
+~~~php
+<?php
+
 class Singleton {
 	private static $_instance = null;
 	
@@ -27,4 +29,6 @@ class Singleton {
 		return self::$_instance;
 	}
 }
+
+?>
 ~~~

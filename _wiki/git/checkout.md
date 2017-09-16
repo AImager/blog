@@ -11,7 +11,7 @@ tags: [分支,切换,新建,合并,清除]
 
 ## 实例
 
-~~~Text
+~~~
 # 默认用法，切换到branch分支
 git checkout branch
 

@@ -9,7 +9,7 @@ tags: [模板方法,行为型]
 
 ## php实现
 
-~~~PHP
+~~~php
 <?php
 
 abstract class Role {
@@ -54,4 +54,6 @@ class Woman extends Role {
 
 $man = new Man;
 $man->dress();
+
+?>
 ~~~

@@ -7,7 +7,7 @@ tag: [commit,指定,合并]
 
 ## 实例
 
-~~~Text
+~~~
 # 合并34sdf的commit记录
 git cherry-pick 34sdf
 

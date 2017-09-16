@@ -9,7 +9,9 @@ tags: [工厂方法,创建型,模式]
 
 ## php实现
 
-~~~PHP
+~~~php
+<?php
+
 class A {
 	public function test() {
 		echo "I am A";
@@ -34,12 +36,14 @@ function factory($param) {
 $instance = factory('A');
 
 $instance->test();
+
+?>
 ~~~
 
 
 ## java实现
 
-~~~JAVA
+~~~java
 /* A.java */
 public interface FactoryInterface {  
     public void test();  

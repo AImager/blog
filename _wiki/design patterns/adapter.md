@@ -9,7 +9,7 @@ tags: [适配器,结构型,模式]
 
 ## java实现
 
-~~~JAVA
+~~~java
 /* Mysql.java */
 public class Mysql {
     public void connectMysql() {
