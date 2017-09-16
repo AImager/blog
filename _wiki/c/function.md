@@ -7,7 +7,7 @@ tags: [函数]
 
 ## 函数
 
-### int argc, char \*argv[]
+### `int argc, char *argv[]`
 
 用于程序开始执行时的参数传入，argc表示参数个数，argv表示字符串数组，每个字符串算一个参数，调用程序时的程序名始终作为第一个参数。
 
@@ -16,8 +16,8 @@ tags: [函数]
 
 无论是实参还是形参传递其值都是采用中间变量存储，实参没什么好证明的，直接证明形参（还是通过objdump反编译查看）。
 
-~~~C
-;代码
+~~~c
+// 代码
 #include <stdio.h>
 
 void test(int a){}
@@ -27,8 +27,9 @@ int main(){
   test(a);
   return 0;
 }
+~~~
 
-
+~~~nasm
 ;反编译代码
 080483b4 <test>:
  80483b4:	55                   	push   %ebp

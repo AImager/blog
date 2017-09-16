@@ -9,7 +9,7 @@ tags: [sizeof,strlen]
 
 sizeof不是一个函数，字节数的计算在程序编译时进行，通过下面这个例子可以证明这一点
 
-~~~
+~~~c
 // test.c
 
 #include <stdio.h>
@@ -42,7 +42,7 @@ int main(){
 * 对数组只有两种特殊操作——得到数组的大小和确定数组各位置的指针，而其它所有操作都可以转换为对应的指针操作。
 * sizeof空结构体不为0，结果为多少由编译器决定，但实际在内存中不占位置，只是为了表明这里有变量占用。
 
-~~~C
+~~~c
 struct test1_1{
 	double test1_2;
 	char test1_3;
@@ -67,7 +67,7 @@ printf("%d\n",sizeof(test1_8));
 
 ## sizeof与strlen
 
-~~~C
+~~~c
 char str[6]="12";
 printf("%d %d\n",sizeof(str),strlen(str));
 

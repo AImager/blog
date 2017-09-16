@@ -6,7 +6,7 @@ tags: [变长参数]
 ---
 
 
-~~~C
+~~~c
 #include <stdarg.h>
 
 type operName(type firstarg, ...){

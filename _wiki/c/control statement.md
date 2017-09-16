@@ -9,7 +9,7 @@ tags: [控制语句]
   
 ### if语句
 
-~~~C
+~~~c
 if (color > 2) {
     printf("red ");
 } else if (color == 2) {
@@ -27,7 +27,7 @@ if (color > 2) {
 
 ### switch语句
 
-~~~C
+~~~c
 switch (color) {
   case 1: printf("red "); break;
   case 2: printf("black ");
@@ -54,7 +54,7 @@ switch (color) {
 
 ### do-while语句
 
-~~~C
+~~~c
 int arr_len = 2, i = 0;
 do {
     printf("%d \n", i);
@@ -66,7 +66,7 @@ do {
 
 ### while语句
 
-~~~C
+~~~c
 int arr_len = 2, i = 0;
 while (i < arr_len) {
     printf("%d \n", i);
@@ -76,7 +76,7 @@ while (i < arr_len) {
 
 ### for语句
 
-~~~C
+~~~c
 int arr_len = 2;
 for (int i = 0; i < arr_len; i++) {
     printf("%d \n", i);
@@ -87,7 +87,7 @@ for (int i = 0; i < arr_len; i++) {
   
 ### return语句
 
-~~~C
+~~~c
 int main (void) {
 	return 0;
 }
@@ -95,7 +95,7 @@ int main (void) {
 
 ### goto语句
 
-~~~C
+~~~c
 int main (void) {
     int n = 0;
     printf("input a string ：\n");
@@ -110,7 +110,7 @@ loop:
 
 ### continue语句
 
-~~~C
+~~~c
 while (x < 1000) {
 	if (x&1 == 0) {
 		continue;
