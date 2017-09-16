@@ -24,3 +24,7 @@ http-proxy=http://127.0.0.1:port
 ~~~
 
 port一般是1087。可以把设置文件sync-settings里面去
+
+## atom grammar
+
+atom的grammar用的是textmate的标记方式，参考[Language Grammars](http://manual.macromates.com/en/language_grammars)。但是官方文档很少，且官方没有用于create language的模板和工具，这方面就比vscode差多了。不过也可以基于第三方写的[language-generic-config](https://atom.io/packages/language-generic-config)进行修改。当然，如果只是想该主题，最简单就是修改自己的stylesheet。
