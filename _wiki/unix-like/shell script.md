@@ -8,7 +8,7 @@ tag: [shell]
 
 ## if条件结构
 
-~~~sh
+~~~bash
 if [ condition ] ; then
   ...
 elif [ condition ] ; then
@@ -23,7 +23,7 @@ fi
 
 ## case条件结构
 
-~~~sh
+~~~bash
 case var in
   "pattern1")
     command1;;
@@ -37,7 +37,7 @@ esac
 
 ## while循环结构
 
-~~~sh
+~~~bash
 while [ condition ]
 do
   expression
@@ -47,7 +47,7 @@ done
 
 ## until循环结构
 
-~~~sh
+~~~bash
 until [condition]
 do
   expression
@@ -57,7 +57,7 @@ done
 
 ## for循环结构
 
-~~~sh
+~~~bash
 for var in con1 con2 ...
 do
   expression
@@ -67,7 +67,7 @@ done
 
 ## function结构
 
-~~~sh
+~~~bash
 function name(){
   expression
   ...
