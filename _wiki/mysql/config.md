@@ -24,7 +24,7 @@ tags: [配置]
 
 ## Timeout
 
-~~~Text
+~~~
 # 连接过程中握手的超时时间
 connect_timeout
 
@@ -45,7 +45,7 @@ net_write_timeout
 
 Query Cache建议关闭，因为QC的失效策略比较蛋疼，且只有在单一简单的业务查询下，整体性能才会有比较明显的优化。
 
-~~~Text
+~~~
 # 关闭query cache
 query_cache_type=off
 

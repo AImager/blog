@@ -31,7 +31,7 @@ tags: [安装,docker]
 
 
 
-~~~Text
+~~~
 # 源码安装，带boost版本
 cmake . -DCMAKE_INSTALL_PREFIX=/install_path/mysql-x.x.xx \
 -DWITH_BOOST=boost \
@@ -51,7 +51,7 @@ cmake . -DCMAKE_INSTALL_PREFIX=/install_path/mysql-x.x.xx \
 
 ## docker-compose
 
-~~~Text
+~~~
 version: '2'
 
 services:
