@@ -9,7 +9,9 @@ tags: [预定义变量,超定义变量,可变变量]
 
 可变变量指名称可变化的变量。
 
-~~~PHP
+~~~php
+<?php
+
 class foo {
     var $bar = 'I am bar.';
     var $arr = array('I am A.', 'I am B.', 'I am C.');
@@ -23,10 +25,14 @@ echo $foo->{$start . $end} . "\n";		// I am bar.
 $arr = 'arr';
 echo $foo->$arr[1] . "\n";			// I am r.
 echo $foo->{$arr}[1] . "\n";		// I am B.
+
+?>
 ~~~
 
 
-~~~PHP
+~~~php
+<?php
+
 $Bar = "a";
 $Foo = "Bar";
 $World = "Foo";
@@ -36,6 +42,8 @@ $a = "Hello";
 $a; //Returns Hello
 $$a; //Returns World
 $$$a; //Returns Foo
+
+?>
 ~~~
 
 从上面的例子看，某种意义上像复杂的语法糖，这里面还涉及到**优先级**，所以不太建议这样用，清晰有时候比简洁更重要。

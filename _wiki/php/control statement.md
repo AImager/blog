@@ -9,7 +9,7 @@ tags: [控制语句]
 
 语法有差异，不建议使用，即使用也用特定的模板语言，因为优化过。
 
-~~~PHP
+~~~php
 <?php if ($a == 5): ?>
 	A is equal to 5
 <?php endif; ?>
@@ -22,17 +22,23 @@ tags: [控制语句]
 * ticks=N，{}内执行N条低级OPCODE代码后，触发`register_tick_function()`注册的函数
 * encoding=''，设定{}内为指定的编码
 
-~~~PHP
+~~~php
+<?php
+
 function ticksfunc() {echo "func";}
 register_tick_function("ticksfunc");
 declare(ticks = N) {
 	for ($i = 1; $i < 10; $i++) {echo $1;}
 }
+
+?>
 ~~~
 
-~~~PHP
+~~~php
+<?php
 declare(encoding = '') {
 }
+?>
 ~~~
 
 ## goto
