@@ -8,7 +8,7 @@ tags: [居中]
 
 ## text-align
 
-~~~HTML
+~~~html
 <p style="text-align:center">text</p>
 ~~~
 
@@ -17,7 +17,7 @@ tags: [居中]
 
 ## margin
 
-~~~HTML
+~~~html
 <div class="test-div">
   <img src="user.jpg" alt="user" style="display: block; margin: 0 auto;">
 </div>
@@ -28,7 +28,7 @@ img元素相对于div元素居中。
 
 ## table-cell + vertical-align
 
-~~~HTML
+~~~html
 <div style="height: 100px; display: table-cell; vertical-align: middle;">
   居中元素
 </div>
@@ -38,7 +38,7 @@ img元素相对于div元素居中。
 
 ## absolute + margin
 
-~~~HTML
+~~~html
 <div>
   <div style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;">
 	居中元素
@@ -49,7 +49,7 @@ img元素相对于div元素居中。
 
 ## absolute + translate
 
-~~~HTML
+~~~html
 <div style="position: relative">
   <div style="position: absolute; transform: translate(-50%; -50%);">
 	居中元素
@@ -60,7 +60,7 @@ img元素相对于div元素居中。
 
 ## flexbox
 
-~~~HTML
+~~~html
 <!--  2009兼容写法，不同浏览器加兼容前缀  -->
 <div style="display: box; box-align: center; box-pack: center;">
   居中元素
