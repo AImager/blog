@@ -12,7 +12,7 @@ tags: [ETL]
 
 ## kettle.properties设置
 
-~~~Text
+~~~
 # 设置NULL和空字符串区别开
 # 解决Column 'xxxx' cannot be null
 KETTLE_EMPTY_STRING_DIFFERS_FROM_NULL=Y
@@ -21,7 +21,7 @@ KETTLE_EMPTY_STRING_DIFFERS_FROM_NULL=Y
 
 ## 数据库选项
 
-~~~Text
+~~~
 # 日期返回0001-01-01 00:00:00.0
 # 解决Value '0000-00-00' can not be represented
 zeroDateTimeBehavior=round
@@ -65,7 +65,7 @@ defaultFetchSize=1000
 
 ### timeout
 
-~~~Text
+~~~
 # 连接握手失败重试次数
 maxReconnects=12
 

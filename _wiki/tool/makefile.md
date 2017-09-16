@@ -10,7 +10,7 @@ tags: [编译]
 
 ### Makefile大体框架
 
-~~~Text
+~~~
 target:prerequisites
 command
 

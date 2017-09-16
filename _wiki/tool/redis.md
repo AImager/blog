@@ -7,7 +7,7 @@ tags: [缓存,消息队列]
 
 ## 安装
 
-~~~Text
+~~~
 # 源码安装
 make -j 8 && sudo make PREFIX=/server/environ/originlib/redis-3.2.3 -j 8 install
 ~~~
@@ -18,7 +18,7 @@ redis默认config需要下载，稳定最新版[地址](http://download.redis.io
 
 ## redis-cli
 
-~~~Text
+~~~
 # 登录到redis
 redis-cli -h localhost -p 6379
 

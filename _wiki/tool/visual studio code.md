@@ -10,7 +10,7 @@ tags: [编辑器]
 
 下面是设置tasks.json，用于编译过程，我试过debug不设置tasks，直接用lanuch.json，总是立马退出。
 
-~~~JSON
+~~~json
 {
     "version": "0.1.0",
     "command": "bash",
@@ -30,7 +30,7 @@ tags: [编辑器]
 
 设置tasks后，设置lanuch.json，用于调试单个C++文件，其中preLanuchTask就是debug前先执行的task。
 
-~~~JSON
+~~~json
 {
     "version": "0.2.0",
     "configurations": [

@@ -76,7 +76,7 @@ object value: 目标函数结果
 
 Global optimal solution found at iteration: 迭代的次数
 
-~~~Text
+~~~
 Variable：模型中的变量
 Variable Value：对应最优解
 Reduced Cost：对应最优解的微小变化带来的目标函数的变化率
@@ -91,7 +91,7 @@ Dual Price：对应约束的微小变动带来的目标函数变化率
 
 最优基：
 
-~~~Text
+~~~
 Variable：模型中的变量
 Current Coefficient：当前目标函数系数
 Allowable Increase：系数允许增加量（保证最优解不变，但最优值改变）
@@ -142,7 +142,7 @@ Allowable Decrease：常数项允许减少量
 
 ### 运算符优先级
 
-~~~text
+~~~
 高	#not#  -
 |	^
 |	* /
@@ -158,14 +158,14 @@ Allowable Decrease：常数项允许减少量
 
 ### 辅助函数
 
-~~~Text
+~~~
 @if(条件|约束条, 成立返回值, 不成立返回值)：约束条件用逻辑运算符，条件用逻辑运算符
 @warn('...', 条件)：条件为真时显示warn
 ~~~
 
 ### 循环函数
 
-~~~Text
+~~~
 @for(集名|约束条件:表达式)：约束条件用逻辑运算符，条件用逻辑运算符
 @sum(集名|约束条件:表达式)：同上
 @min(集名|约束条件:表达式)：同上（@max）
@@ -173,7 +173,7 @@ Allowable Decrease：常数项允许减少量
 
 ### 集操作函数
 
-~~~Text
+~~~
 @in(集名, a, b... )：a,b...在集中返回1，不在返回0
 @size(集名)：查看集成员的个数
 @index(集名)：返回集成员在派生集中的脚标，不能用于派生集
@@ -182,7 +182,7 @@ Allowable Decrease：常数项允许减少量
 
 ### 变量定界函数
 
-~~~Text
+~~~
 @bin(x)：限制x为0或1
 @bnd(L,x,U)：限制L<=x<=U
 @free(x)：取消对变量x的默认下界为0的限制
@@ -191,7 +191,7 @@ Allowable Decrease：常数项允许减少量
 
 ### 数学函数
 
-~~~Text
+~~~
 @abs(x)：返回x的绝对值
 @sin(x)：返回x的正弦值，x采用弧度制（@cos(x)、@tan(x)）
 @exp(x)：返回常数e的x次方
@@ -203,14 +203,14 @@ Allowable Decrease：常数项允许减少量
 
 ### 文件函数
 
-~~~Text
+~~~
 @file('filename')：导入txt文件数据
 @text('filename')：导出txt文件数据
 ~~~
 
 ### 概率函数
 
-~~~Text
+~~~
 a=@qrand()：产生随机矩阵返回给a，a必须是集，返回矩阵的元素都在0~1之间
 @psn(x)：标准正态分布在x累计函数值（@ptd(x)——t分布）
 ~~~

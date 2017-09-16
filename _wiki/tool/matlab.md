@@ -7,7 +7,7 @@ tag: [matlab]
 
 ## 常用全局变量
 
-~~~Matlab
+~~~matlab
 % 无穷小
 eps
 
@@ -28,14 +28,12 @@ NaN
 
 % 复数符号
 i
-
-
 ~~~
 
 
 ## 格式转换
 
-~~~Matlab
+~~~matlab
 % 使用常数计数法代替科学计数法
 format long g
 
@@ -45,7 +43,7 @@ cell2mat
 
 ## 初始化函数
 
-~~~Matlab
+~~~matlab
 % 返回步长矩阵
 initvar = i:j:k
 
@@ -65,7 +63,7 @@ exp(1)
 
 ## 时间函数
 
-~~~Matlab
+~~~matlab
 % 将时间戳住转换为字符串时间
 datestr((timestamp-3600*24+8*3600)/86400 + 70*365+19, 'yy-mm-dd HH:MM:SS')
 
@@ -81,7 +79,7 @@ weeknum('2017-06-01')
 
 ## 画图函数
 
-~~~Matlab
+~~~matlab
 % 基础画图函数
 plot
 
@@ -98,7 +96,7 @@ gca
 
 ## 数据库操作
 
-~~~Matlab
+~~~matlab
 db = database('db','username','password','com.mysql.jdbc.Driver','jdbc:mysql://127.0.0.1:3306/db');
 sql = 'select 1';
 db_cur = exec(db, sql);
@@ -112,7 +110,7 @@ data = cell2mat(db_cur_fetch.data);
 
 ### 初等数学
 
-~~~Matlab
+~~~matlab
 % 取余
 rem(A,B)
 
@@ -131,7 +129,7 @@ solve(x^2 + 4*x + 1 == 0)
 
 ### 多项式
 
-~~~Matlab
+~~~matlab
 % 将系数向量A代表的多项式中的x用B值代入得到函数值
 polyval(A,B)
 
@@ -147,7 +145,7 @@ collect(S)
 
 ### 矩阵行列式
 
-~~~Matlab
+~~~matlab
 % 解递推方程
 rec
 
@@ -161,7 +159,7 @@ eig
 
 ### 微积分与极限
 
-~~~Matlab
+~~~matlab
 % 积分运算
 int
 
@@ -189,7 +187,7 @@ trapz
 
 ### 集合
 
-~~~Matlab
+~~~matlab
 % 求A和B的差集A-B
 setdiff(A,B);
 
@@ -203,7 +201,7 @@ setdiff(A,B);
 
 ### 统计
 
-~~~Matlab
+~~~matlab
 % 统计arr里1:7每个数的个数
 % 如果不进行返回值赋值，就是画图函数
 ans = hist([2,1,2,5,1],1:7);

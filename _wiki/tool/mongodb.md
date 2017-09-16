@@ -7,7 +7,7 @@ tags: [mongo,nosql]
 
 ## shell命令
 
-~~~shell
+~~~
 # 导出collection数据到file.json
 mongodump -d db -c collection --host url:port --authenticationDatabase auth_db -u username -p password -o file.json
 
