@@ -22,8 +22,8 @@ The bottom line is this: when solutioning, first "think in AngularJS"; if you ca
 
 首先看中间的 $\left \lfloor \frac{y}{17} \right \rfloor 2^{-17 \left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , 17)}$ 部分（暂且命名这个部分为Section），即类似于 $m*2^{k}$ 这种形式，了解二进制的人都会意识到，当 $k$ 为正数的时候，其结果就是将 $m$ 的二进制值左移 $k$ 位，而当 $k$ 小于0的时候，则是将 $m$ 的二进制值右移 $k$ 位，同时，如果 $m$ 的值不变， $k$ 的值顺序减小，那么得到值的将会是一串顺序右移的数；接着，公式又将Section对2取模，显然结果不是0就是1，而这个值刚好就是Section结果的最后一位；Ok，到此你应该理解了，其实公式右边就是不断得到 $\left \lfloor \frac{y}{17} \right \rfloor$ 中的二进制位，而且还是顺序的，不过它和图像由什么关系呢？其实这就是 $N$ 的意义了，你会发现 $\frac{N}{17}$ 刚好为整数，而得到的这个整数刚好是图像对应二进制数表示的十进制值（图像转换的二进制值是依据从左向右、从下向上的顺序得到的），所以 $\left \lfloor \frac{y}{17} \right \rfloor$ 的一串值刚好就是图像中的对应点（1表示黑色，0表示无），从而得到的就刚好是公式本身。
 
-~~~C
-这是C代码段
+~~~c
+// 这是C代码段
 
 #include <stdio.h>
 
@@ -33,8 +33,8 @@ int main(){
 }
 ~~~
 
-~~~Python
-这是Python代码段
+~~~python
+# 这是Python代码段
 
 import time
 
@@ -52,8 +52,8 @@ def ungzip(data):
 
 
 
-~~~JavaScript
-这是个JavaScript的代码段
+~~~javascript
+// 这是个JavaScript的代码段
 
 function fbLogin() {
   chrome.storage.local.set({'value': '123'},function(){
@@ -130,8 +130,8 @@ test.addEventListener('click', fbLogin);
 | 居中 | 居左默认 |  居右 |
 | -的数量至少为3 | 没其他要求了 | 就这样 |
 
-~~~Java
-这是Java代码段
+~~~java
+// 这是Java代码段
 
 public class HelloWorld{
   public static void main(String args[]){

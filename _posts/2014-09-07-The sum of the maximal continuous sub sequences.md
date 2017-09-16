@@ -38,7 +38,9 @@ DP可以避免重复计算，但是无法避免不必要的计算，所以考虑
 
 下面给出贪心的代码，DP和枚举的就省了。
 
-~~~PHP
+~~~php
+<?php
+
 $arr = [-1,199,-4,40,-5];
 $tempSum = 0;
 $maxSum = $arr[0];
@@ -67,6 +69,8 @@ foreach($arr as $index => $val) {
 
 echo "\n maxSum : " . $maxSum;
 echo "\n maxStart ~ maxEnd : " . $maxStart . " ~ " . $maxEnd;
+
+?>
 ~~~
 
 
