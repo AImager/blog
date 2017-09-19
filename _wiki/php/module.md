@@ -68,27 +68,7 @@ $obj = new Another; 				// My\Full\Classname
 ?>
 ~~~
 
-use没法递归使用，例子如下，会出现报错
-
-~~~php
-<?php
-// file1.php
-require("file2.php");
-use three;					// WARNING: The use statement with non-compound name has no effect
-$val = new three;			// ERROR: Class not found
-
-// file2.php
-require("file3.php");
-use files\three;
-
-// file3.php
-namespace files;
-class three{}
-
-?>
-~~~
-
-use不影响动态类，即使用变量new，不会用别名。
+use不影响动态类，new的时候不会使用别名。
 
 ~~~php
 <?php
@@ -108,6 +88,65 @@ foo();      // 首先尝试A\foo()，再尝试\foo()，但只要带namespace路�
 new B();    // 类的创建如果有路径就路径中找，没有就命名空间中找，不会自动全局查找。但没找到会尝试自动加载
 ?>
 ~~~
+
+## include/require后的命名空间逻辑
+
+~~~php
+<?php
+// test1.php
+namespace A;
+class test1 {}
+
+// test2.php
+namespace B;
+require("test1.php");
+use A\test1;
+class test2 extends test1{}
+	
+// test.php
+require("test2.php");
+use A\test1;
+$c = new test1;
+?>
+~~~
+
+见如上例子，`require("test1.php");`后等价于如下内容
+
+~~~php
+<?php
+namespace A {
+	class test1 {}
+}
+
+namespace B {
+	use A\test1;
+	class test2 extends test1{}
+}
+?>
+~~~
+
+`require("test2.php");`后等价于如下内容
+
+~~~php
+<?php
+namespace A {
+	class test1 {}
+}
+
+namespace B {
+	use A\test1;
+	class test2 extends test1{}
+}
+
+namespace {
+	use A\test1;
+	$c = new test1;
+}
+?>
+~~~
+
+总结下来，即require/include进来后，引入文件的命名空间不影响被引入文件的命名空间，从而保证每个文件namespace和use的时候都是基于全局的，且是相互独立的。
+
 
 ## 查看编译的二进制模块信息
 
