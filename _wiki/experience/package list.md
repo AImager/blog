@@ -196,6 +196,8 @@ tags: [包,工具]
 * hdfs（分布式文件系统）
 * Hue（交互式控制台，编写Hadoop集群作业，设置调度等）
 * Cloudera Manager（Hadoop集群组件管理平台）
+* dapper（分布式trace系统）
+* zipkin（分布式trace系统）
 ~~~
 
 
