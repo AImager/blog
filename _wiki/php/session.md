@@ -29,3 +29,4 @@ tags: [cookie,会话]
 
 * [session](http://php.net/manual/zh/session.examples.basic.php)
 * [Output Control函数](http://php.net/manual/zh/ref.outcontrol.php)
+* [session运行时配置](http://php.net/manual/zh/session.configuration.php#ini.session.use-trans-sid)
