@@ -19,6 +19,13 @@ tags: [cookie,会话]
             * 一些参数检验和操作
         * gc和cache等收尾工作
 
+`session_id($id = null)`用于设置和读取session_id，如果是设置就必须放在`session_start()`之前才能生效。**WHY?**
+
+`$_SESSION`会在会话结束前被序列化，然后写入session存储。
+
+当session以文件存储的时候，会存在锁的问题，文件锁会从`session_start()`持续到会话结束或执行`session_​write_​close()`，因此单个页面ajax过多的时候，会容易阻塞，再加上并发的影响，很可能拖垮服务器，所以最好尽快执行`session_​write_​close()`。
+
 ## 参考链接
 
 * [session](http://php.net/manual/zh/session.examples.basic.php)
+* [Output Control函数](http://php.net/manual/zh/ref.outcontrol.php)
