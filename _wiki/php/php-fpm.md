@@ -56,3 +56,12 @@ access.log = log/$pool.access.log
 slowlog = log/$pool.log.slow
 ~~~
 
+## 重启
+
+* `kill -USR2 pid`: 重启fpm
+* `kill -USR1 pid`: 重启fpm子进程
+
+## 参考链接
+
+* [PHP-FPM信号机制](http://blog.csdn.net/mijar2016/article/details/54142546)
+
