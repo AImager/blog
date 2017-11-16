@@ -13,8 +13,8 @@ N=960939379918958884971672962127852754715004339660129306651505519271702802395266
 
 $$
 \begin{cases}
-\frac{1}{2} < \left \lfloor mod({\left \lfloor \frac{y}{17} \right \rfloor 2^{-17\left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , 17)} , 2 }) \right \rfloor \\\
-0 \leq x \leq 105   \\\
+\frac{1}{2} < \left \lfloor mod({\left \lfloor \frac{y}{17} \right \rfloor 2^{-17\left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , 17)} , 2 }) \right \rfloor \\
+0 \leq x \leq 105   \\
 N \leq y \leq N+16
 \end{cases}
 $$
@@ -31,9 +31,9 @@ $$
 
 $$
 \begin{cases}
-M < \left \lfloor mod({\left \lfloor \frac{y}{H} \right \rfloor 2^{-H\left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , H)} , 2 }) \right \rfloor   \\\
-0 \leq x \leq L  \\\
-N \leq y \leq N+H-1  \\\
+M < \left \lfloor mod({\left \lfloor \frac{y}{H} \right \rfloor 2^{-H\left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , H)} , 2 }) \right \rfloor   \\
+0 \leq x \leq L  \\
+N \leq y \leq N+H-1  \\
 0 < M < 1
 \end{cases}
 $$

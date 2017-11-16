@@ -62,9 +62,9 @@ $$
 
 $$
 \begin{cases}
-a = st	\\\
-b = (s^2-t^2)/2	\\\
-c = (s^2+t^2)/2	\\\
+a = st	\\
+b = (s^2-t^2)/2	\\
+c = (s^2+t^2)/2	\\
 s>t>=1，且s,t为任意互素的奇数
 \end{cases}
 $$
@@ -99,8 +99,8 @@ $gcd(a,n)=1$ ，则 $a^{\varphi(n)} \equiv 1 (mod n)$
 $$
 \begin{equation}
 \begin{split}
-\varphi(x) & = \varphi({p_1}^{k_1}*{p_2}^{k_2}...*{p_n}^{k_n}) \\\
-& = ({p_1}^{k_1}-{p_1}^{k_1-1})...*({p_n}^{k_n}-{p_n}^{k_n-1}) \\\
+\varphi(x) & = \varphi({p_1}^{k_1}*{p_2}^{k_2}...*{p_n}^{k_n}) \\
+& = ({p_1}^{k_1}-{p_1}^{k_1-1})...*({p_n}^{k_n}-{p_n}^{k_n-1}) \\
 & = x*(1-\frac{1}{p_1})*(1-\frac{1}{p_2})...*(1-\frac{1}{p_n})
 \end{split}
 \end{equation}
