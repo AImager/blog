@@ -5,7 +5,7 @@ category: protocol
 tags: [传输层]
 ---
 
-![](/media/img/protocol/TCP Header.jpeg)
+![](/media/img/protocol/TCP_Header.jpeg)
 
 ## TCP Header
 
@@ -34,7 +34,7 @@ tags: [传输层]
 
 ## 会话
 
-![](/media/img/protocol/TCP Transfer.jpeg)
+![](/media/img/protocol/TCP_Transfer.jpeg)
 
 一图胜千言，三次握手和四次挥手原理简单，就不赘述了
 
@@ -51,7 +51,7 @@ tags: [传输层]
 
 ## TCP状态变迁
 
-![](/media/img/protocol/TCP Status.png)
+![](/media/img/protocol/TCP_Status.png)
 
 
 ## 参考链接
