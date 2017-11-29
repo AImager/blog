@@ -7,6 +7,12 @@ tags: [回退]
 
 ## 实例
 
+~~~
+# unstaged file
+# 即将添加到暂存区的修改回退
+# 但工作目录的修改还是保留
+git reset HEAD -- file
+~~~
 
 ### --hard commit_id
 
