@@ -1,0 +1,10 @@
+---
+title: variables
+layout: wiki
+category: go
+tags: [变量]
+---
+
+## 注意
+
+* 编译器会将未使⽤用的局部变量当做错误
