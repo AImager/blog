@@ -18,7 +18,7 @@ uri表示统一资源标识符（identifier），是对资源标识方案的统�
 
 ## 请求报文格式
 
-~~~
+```
 GET /media/img/test.png HTTP/1.1
 Connection: 请求响应选项
 Date: 日期
@@ -33,11 +33,11 @@ If-Modified-Since: 如果指定日期之后资源没有被修改过，则限制�
 Authorization: 用于认证的数据
 Cookie: cookie数据
 Proxy-Connection: 用于使用代理的时候的Connection头
-~~~
+```
 
 ## 应答报文格式
 
-~~~
+```
 HTTP/1.1 200 OK
 Age: 响应持续时间
 Server: 服务器应用程序名称和版本
@@ -46,7 +46,7 @@ Set-Cookie: 设置cookie
 Content-Encoding: 内容编码
 Content-Type: 内容类型
 Expires: 绝对超时时间
-~~~
+```
 
 ## 常见状态码
 
