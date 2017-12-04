@@ -12,7 +12,7 @@ tags: [内存释放,引用计数]
 
 下面是7.1.9版本的zval定义，从结构上看，已经相当复杂了，相比于老版本的php，
 
-~~~c
+```c
 struct _zval_struct {
 	zend_value        value;			/* value */
 	union {
@@ -37,7 +37,7 @@ struct _zval_struct {
 		uint32_t     extra;                /* not further specified */
 	} u2;
 };
-~~~
+```
 
 
 ## HashTable

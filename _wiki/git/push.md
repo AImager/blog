@@ -9,7 +9,7 @@ tags: [远程,提交]
 
 ## 实例
 
-~~~
+```
 # 提交本地分支到远程
 git push origin [branch_local:]branch_remote
 
@@ -18,7 +18,7 @@ git push origin --delete master
 
 # 删除远程tag
 git push origin --delete tag tagname
-~~~
+```
 
 ### -f
 

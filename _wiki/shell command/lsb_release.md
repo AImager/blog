@@ -5,7 +5,7 @@ category: shell command
 tags: [发行版,版本号]
 ---
 
-~~~
+```
 # 查看当前发行版的名称和版本号
 lsb_release -a
-~~~
+```

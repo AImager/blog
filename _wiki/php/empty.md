@@ -9,7 +9,7 @@ tags: [空值,null]
 
 0、false、null、array()、''之间的==和===关系
 
-~~~php
+```php
 <?php
     $a = array('',array(),0,false,null);
 	$b = array("''", "array()", "0", "false", "null");
@@ -33,4 +33,4 @@ tags: [空值,null]
 // null == ''  null == array()  null == 0  null == false  
 
 ?>
-~~~
+```

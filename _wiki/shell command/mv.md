@@ -12,13 +12,13 @@ tag: [重命名,移动]
 
 ## 实例
 
-~~~
+```
 # 移动文件
 mv src/file tar/
 
 # 重命名文件
 mv file newfile
-~~~
+```
 
 ### -i
 

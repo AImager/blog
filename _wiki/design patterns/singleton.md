@@ -11,7 +11,7 @@ tags: [单例,创建型,模式]
 
 ## php实现
 
-~~~php
+```php
 <?php
 
 class Singleton {
@@ -31,4 +31,4 @@ class Singleton {
 }
 
 ?>
-~~~
+```

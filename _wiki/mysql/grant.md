@@ -7,7 +7,7 @@ tags: [权限,用户,密码]
 
 ## 权限控制
 
-~~~
+```
 # 显示当前用户对各数据库的权限
 show grants;
 
@@ -28,7 +28,7 @@ GRANT ALL ON *.* TO 'username'@'%';
 
 # 刷新权限
 FLUSH PRIVILEGES;
-~~~
+```
 
 ## 参考链接
 

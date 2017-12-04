@@ -6,7 +6,7 @@ tags: [队列,消息中间件]
 ---
 
 
-~~~
+```
 # 列出所有topic
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 
@@ -15,7 +15,7 @@ bin/kafka-topics.sh --create --zookeeper 192.168.103.104:2181 --replication-fact
 
 # 启动消费者消费
 bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic test1 --from-beginning
-~~~
+```
 
 
 ## 参考链接

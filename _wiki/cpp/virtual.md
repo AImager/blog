@@ -7,7 +7,7 @@ tags: [虚函数]
 
 虚函数，C++运行时多态实现的基础，编译时多态基于重载实现。
 
-~~~cpp
+```cpp
 #include <iostream>
 using namespace std;  
 
@@ -30,7 +30,7 @@ int main () {
     q->func(2);
     return 0;
 }
-~~~
+```
 
 
 ## 纯虚函数

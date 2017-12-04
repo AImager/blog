@@ -7,10 +7,10 @@ tags: [deb,ubuntu]
 
 ## 实例
 
-~~~
+```
 # 卸载旧版本内核
 sudo apt-get purge linux-image-xx-generic linux-headers-xx-generic
-~~~
+```
 
 ###  remove
 

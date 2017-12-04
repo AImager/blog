@@ -11,7 +11,7 @@ tags: [fastcgi]
 
 配置文件为php-fpm.conf，语法类似php.ini。还有类似env等配置没在下面列出，抽时间再看。
 
-~~~
+```
 # 加载其它conf文件
 include=etc/fpm.d/*.conf
 
@@ -54,7 +54,7 @@ access.log = log/$pool.access.log
 
 # 慢执行日志
 slowlog = log/$pool.log.slow
-~~~
+```
 
 ## 重启
 

@@ -31,7 +31,7 @@ tags: [安装,docker]
 
 
 
-~~~
+```
 # 源码安装，带boost版本
 cmake . -DCMAKE_INSTALL_PREFIX=/install_path/mysql-x.x.xx \
 -DWITH_BOOST=boost \
@@ -47,11 +47,11 @@ cmake . -DCMAKE_INSTALL_PREFIX=/install_path/mysql-x.x.xx \
 -DWITH_EXTRA_CHARSETS:STRING=all \
 -DMYSQL_TCP_PORT=3306 \
 -DWITH_DEBUG=0 && make -j 8 && sudo make -j 8 install
-~~~
+```
 
 ## docker-compose
 
-~~~
+```
 version: '2'
 
 services:
@@ -65,4 +65,4 @@ services:
       - "3306:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=password
-~~~
+```

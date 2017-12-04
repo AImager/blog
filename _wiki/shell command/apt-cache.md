@@ -7,10 +7,10 @@ tags: [deb,ubuntu,正则]
 
 ## 实例
 
-~~~
+```
 # 正则匹配搜索package，搜索范围只限名字
 sudo apt-cache search --names-only "php{2}"
-~~~
+```
 
 ### depends
 

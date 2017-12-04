@@ -9,7 +9,7 @@ tags: [策略,行为型]
 
 ## php实现
 
-~~~php
+```php
 <?php
 
 interface IStrategy {
@@ -56,4 +56,4 @@ $context = new Context(new ConcreteStrategyC());
 $context->execute();
 
 ?>
-~~~
+```

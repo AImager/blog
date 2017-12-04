@@ -9,7 +9,7 @@ tags: [模板方法,行为型]
 
 ## php实现
 
-~~~php
+```php
 <?php
 
 abstract class Role {
@@ -56,4 +56,4 @@ $man = new Man;
 $man->dress();
 
 ?>
-~~~
+```

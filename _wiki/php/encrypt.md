@@ -13,7 +13,7 @@ A在传递信息给B前，先对信息使用 $A_{pri}$ 签名，然后把签名�
 
 下面为完整的非对称通信流程：
 
-~~~php
+```php
 <?php
 $data = "这里是用于加密的数据";
 
@@ -88,4 +88,4 @@ if(openssl_verify($data_dec, $signature_dec, $pub, OPENSSL_ALGO_SHA256)) {
 }
 
 ?>
-~~~
+```

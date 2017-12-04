@@ -7,10 +7,10 @@ tags: [缓存,消息队列]
 
 ## 安装
 
-~~~
+```
 # 源码安装
 make -j 8 && sudo make PREFIX=/server/environ/originlib/redis-3.2.3 -j 8 install
-~~~
+```
 
 ## config
 
@@ -18,24 +18,24 @@ redis默认config需要下载，稳定最新版[地址](http://download.redis.io
 
 ## redis-cli
 
-~~~
+```
 # 登录到redis
 redis-cli -h localhost -p 6379
 
 # 模糊匹配删除key
 redis-cli KEYS "pattern" | xargs redis-cli DEL
-~~~
+```
 
 ## redis-server
 
-~~~
+```
 # 开启server
 ./redis-server --port 7777 --slaveof 127.0.0.1 6379
-~~~
+```
 
 ## 通用命令
 
-~~~
+```
 # 验证帐号
 auth password
 
@@ -50,11 +50,11 @@ ttl key
 
 # 对列表、集合、有序集合排序
 sort key
-~~~
+```
 
 ## 字符串
 
-~~~
+```
 # 设置key以及其值
 set key value
 
@@ -70,24 +70,24 @@ setex key seconds value
 # 将指定key增加一定数字
 # 很适合做统计
 incrby key number
-~~~
+```
 
 ## 哈希
 
 哈希更节省内存，而且其结构对单一key而言类似于关联数组，所以很适合用户信息这样的场景。
 
-~~~
+```
 # 设置key的field字段值
 hset key field value
 
 # 获取key的field字段值
 hget key field
-~~~
+```
 
 
 ## 列表
 
-~~~
+```
 # 加入列表
 lpush key value
 
@@ -96,22 +96,22 @@ lpop key
 
 # 根据索引取出数据
 lrange key start end
-~~~
+```
 
 ## 集合
 
 字符串类型的无序集合，集合成员是唯一的。
 
-~~~
+```
 # 将成员添加到集合
 sadd key member
-~~~
+```
 
 ## 有序集合
 
 字符串类型的有序集合，集合成员是唯一的。每个元素关联一个分数，通过分数排序。
 
-~~~
+```
 # 将成员和其分数添加进集合
 zadd key score member
 
@@ -128,19 +128,19 @@ zrevrange key start end [WITHSCORES]
 
 # 在现有基础上增加分数
 zincrby key increment member
-~~~
+```
 
 ## HyperLogLog
 
 用于做模糊`count(distinct)`的结构，速度快，内存占用小。
 
-~~~
+```
 # 添加元素进去
 pfadd key element
 
 # 统计数量
 pfcount key
-~~~
+```
 
 ## 发布订阅
 

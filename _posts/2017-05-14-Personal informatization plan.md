@@ -19,7 +19,9 @@ tag: [工具,生产力]
 			* ~/Library/Application Support/Code
 			* ~/.vscode
 		* xtrafinder
+		* Alfred
 		* chrome扩展配置
+		* BetterSnapTool/SwitchHosts/Android Studio/ABP/SwitchyOmega
 * 尽可能的减少存储源
 * 偶尔需要进行大数据处理
 * 随时随地访问预览数据
@@ -44,10 +46,11 @@ tag: [工具,生产力]
 * 程序错误
 	* command line tool需要重新安装
 	* wiresharks权限错误需要重装
+	* 程序崩溃、brew包损坏等错误频次变多（无法确定是否有TM导致）
 
 这些问题不算大，相比来说迁移还是节约了大量时间，所以time machine还是会持续用下去。
 
-**更新**：看来我要收回对time machine的看法，在恢复后2个月的时间，很多隐藏的问题如程序崩溃、brew包损坏都出来了，这样的体验很不好，所以不能贪心，不要想什么都备份，可以的话还是只备份重要数据，程序什么的换机直接重装吧。
+## 办公机器和个人机器数据同步的问题
 
 ## miui
 

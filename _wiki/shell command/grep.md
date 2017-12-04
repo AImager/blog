@@ -11,10 +11,10 @@ tags: [搜索,正则,通配符]
 
 ## 实例
 
-~~~
+```
 # 在当前目录下递归查找文件里的new关键字，排除后缀为md和目录含_site的文件
 grep -nr "new" ./ --exclude-dir=_site --exclude="*.md"
-~~~
+```
 
 ### -v
 

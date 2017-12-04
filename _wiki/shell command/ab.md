@@ -20,15 +20,15 @@ tags: [压测,并发,QPS]
 
 ## 实例
 
-~~~
+```
 # 开启10并发，共提交100个请求
 # 相当于平均一个连接提交10个请求
 ab -n 100 -c 10 http://aimager.com/
-~~~
+```
 
 ## 显示说明
 
-~~~
+```
 # 并发数
 Concurrency Level: 100		
 
@@ -55,7 +55,7 @@ Time per request: 5087.180 [ms] (mean)
 
 # 请求处理时间
 Time per request: 50.872 [ms] (mean, across all concurrent requests)
-~~~
+```
 
 ## 坑
 

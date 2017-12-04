@@ -15,7 +15,7 @@ traceroute主要依赖于icmp协议，通过依次发出ttl为1/2/3...的ping包
 
 ## 实例
 
-~~~
+```
 # 查看到qq.com的路由
 traceroute qq.com
-~~~
+```

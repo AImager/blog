@@ -12,10 +12,10 @@ tags: [CPU,状态信息]
 
 ## 实例
 
-~~~
+```
 # 显示所有CPU状态信息，设置internal时间为5s，抓取2次信息
 mpstat -P ALL 5 2
-~~~
+```
 
 ## /proc/stat结构
 

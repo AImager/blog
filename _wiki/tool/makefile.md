@@ -10,14 +10,14 @@ tags: [编译]
 
 ### Makefile大体框架
 
-~~~
+```
 target:prerequisites
 command
 
 target：目标文件或者标签
 prerequisites：生成目标文件的依赖文件
 command：命令，支持大部分shell命令
-~~~
+```
 
 ### Makefile工作原理
 

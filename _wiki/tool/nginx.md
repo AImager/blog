@@ -7,15 +7,15 @@ tags: [反向代理]
 
 ## 安装
 
-~~~
+```
 # 源码安装
 ./configure --prefix=/server/environ/originlib/nginx-1.10.1 --conf-path=/server/environ/originlib/nginx-1.10.1/conf/nginx.conf --error-log-path=/server/log/nginx/error.log --user=www --group=www --with-http_stub_status_module --with-http_ssl_module --with-http_flv_module --with-http_gzip_static_module --with-http_realip_module && make -j 8 && sudo make -j 8 install
-~~~
+```
 
 
 ## shell命令
 
-~~~
+```
 # 指定配置文件启动
 nginx -c file.conf
 
@@ -27,13 +27,13 @@ nginx -s reload
 
 # 测试配置是否正确
 nginx -t
-~~~
+```
 
 ## 配置
 
 下面是基本配置结构
 
-~~~
+```
 user  www www;
 worker_processes  4;
 
@@ -127,7 +127,7 @@ http {
     #
     include vhosts/*.conf;
 }
-~~~
+```
 
 
 

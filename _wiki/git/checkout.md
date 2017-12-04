@@ -11,7 +11,7 @@ tags: [分支,切换,新建,合并,清除]
 
 ## 实例
 
-~~~
+```
 # 默认用法，切换到branch分支
 git checkout branch
 
@@ -30,7 +30,7 @@ git checkout -- .
 
 # 将sd3f6的file1和file2文件内容应用到当前分支，呈现uncommit状态
 git checkout sd3f6 -- file1 file2
-~~~
+```
 
 
 ### -b

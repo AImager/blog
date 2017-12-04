@@ -11,14 +11,14 @@ tags: [切换,HEAD,bare]
 
 ## 实例
 
-~~~
+```
 # 修改.git/HEAD，但此时并不会在refs/heads中新建文件，直到有commit提交，该分支才算真正意义上的建立，且该分支无祖先
 # git checkout --orphan可达到相同功能，但是bare仓库不支持checkout命令
 git symbolic-ref HEAD refs/heads/new_branch
 
 # 切换HEAD到old_branch分支
 git symbolic-ref HEAD refs/heads/old_branch
-~~~
+```
 
 ## 参考链接
 

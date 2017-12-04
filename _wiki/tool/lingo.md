@@ -11,7 +11,7 @@ tag: [规划]
 
 直接通过例子来看lingo的写法，下面有三种常见类型
 
-~~~lingo
+```lingo
 sets:
 person/X,Y,Z/:old;
 index/x,y/:i;
@@ -21,9 +21,9 @@ i=1,3;
 old=2,3,4;
 enddata
 min=@sum(index(j):old(i));
-~~~
+```
 
-~~~lingo
+```lingo
 sets:
 yu/1..3/:y,x;
 endsets
@@ -35,9 +35,9 @@ x=1,,3;
 endinit
 min=@max(yu(i):x*y);
 @for(yu(i):@bnd(1,x,3));
-~~~
+```
 
-~~~lingo
+```lingo
 sets:
 yu/Nov2012..Jan2013/:y;
 cong/w,q/:i;
@@ -49,7 +49,7 @@ y=1,2,3;
 i=1,3;
 enddata
 min=@sum(zhu(l,j,k):y(i));
-~~~
+```
 
 对于左边这个模型，cong、zhu、zhe是person集里的成员（其实设置成员名称一般没有什么实际意义，更多是为了起标识符作用，因此，一般采用隐式成员写法），cong、zhe是集index里的成员，old是person集里每个成员的通用属性，i是index集里每个成员的通用属性，1,3则对应index集里每个成员的i属性值，2,3,4则对应person集里每个成员的old属性值。目标函数的index(j)为遍历index集（j从1取到n——index集中成员的个数，j为默认的遍历系数，默认的遍历系数一般为i,j,k,l等，因此，除非特殊情况，不要把属性名写成这些默认的遍历系数），每一次遍历，以j为每项最底层属性脚标，然后向外扩展，得到响应返回值（因此，这就是为什么可以略去脚标的原因），最后通过集函数对所有返回值进行处理（例如，最左边i为最底层属性，遍历后依次返回i(1),i(2)，然后向外层扩展，依次做old的脚标，即old(1),old(3)，最后sum函数对old(1),old(3)进行相加处理）。
 
@@ -76,14 +76,14 @@ object value: 目标函数结果
 
 Global optimal solution found at iteration: 迭代的次数
 
-~~~
+```
 Variable：模型中的变量
 Variable Value：对应最优解
 Reduced Cost：对应最优解的微小变化带来的目标函数的变化率
 Row：约束条件的对应编号
 Row Slack or Surplus：对应约束条件的剩余值
 Dual Price：对应约束的微小变动带来的目标函数变化率
-~~~
+```
 
 ## 灵敏度分析
 
@@ -91,7 +91,7 @@ Dual Price：对应约束的微小变动带来的目标函数变化率
 
 最优基：
 
-~~~
+```
 Variable：模型中的变量
 Current Coefficient：当前目标函数系数
 Allowable Increase：系数允许增加量（保证最优解不变，但最优值改变）
@@ -100,7 +100,7 @@ Row：约束条件的对应编号
 Current RHS：当前约束条件右边常数项
 Allowable Increase：常数项允许增加量（保证最优基不变，但最优解、最优值均改变）
 Allowable Decrease：常数项允许减少量
-~~~
+```
 
 ## 运算符
 
@@ -142,7 +142,7 @@ Allowable Decrease：常数项允许减少量
 
 ### 运算符优先级
 
-~~~
+```
 高	#not#  -
 |	^
 |	* /
@@ -150,7 +150,7 @@ Allowable Decrease：常数项允许减少量
 |	#eq# #ne# #gt# #ge# #lt# #le#
 |	#and# #or#
 低	<= = >=
-~~~
+```
 
 ## 函数
 
@@ -158,40 +158,40 @@ Allowable Decrease：常数项允许减少量
 
 ### 辅助函数
 
-~~~
+```
 @if(条件|约束条, 成立返回值, 不成立返回值)：约束条件用逻辑运算符，条件用逻辑运算符
 @warn('...', 条件)：条件为真时显示warn
-~~~
+```
 
 ### 循环函数
 
-~~~
+```
 @for(集名|约束条件:表达式)：约束条件用逻辑运算符，条件用逻辑运算符
 @sum(集名|约束条件:表达式)：同上
 @min(集名|约束条件:表达式)：同上（@max）
-~~~
+```
 
 ### 集操作函数
 
-~~~
+```
 @in(集名, a, b... )：a,b...在集中返回1，不在返回0
 @size(集名)：查看集成员的个数
 @index(集名)：返回集成员在派生集中的脚标，不能用于派生集
 @wrap(a,b)：返回a(mod)b+1
-~~~
+```
 
 ### 变量定界函数
 
-~~~
+```
 @bin(x)：限制x为0或1
 @bnd(L,x,U)：限制L<=x<=U
 @free(x)：取消对变量x的默认下界为0的限制
 @gin(x)：限制x为整数
-~~~
+```
 
 ### 数学函数
 
-~~~
+```
 @abs(x)：返回x的绝对值
 @sin(x)：返回x的正弦值，x采用弧度制（@cos(x)、@tan(x)）
 @exp(x)：返回常数e的x次方
@@ -199,21 +199,21 @@ Allowable Decrease：常数项允许减少量
 @sign(x)：如果x<0返回-1；否则，返回1
 @floor(x)：返回小于x的最大整数（无论正负）
 @smax(x1,x2,...,xn)：返回x1,x2,...,xn中的最大值（@smin）
-~~~
+```
 
 ### 文件函数
 
-~~~
+```
 @file('filename')：导入txt文件数据
 @text('filename')：导出txt文件数据
-~~~
+```
 
 ### 概率函数
 
-~~~
+```
 a=@qrand()：产生随机矩阵返回给a，a必须是集，返回矩阵的元素都在0~1之间
 @psn(x)：标准正态分布在x累计函数值（@ptd(x)——t分布）
-~~~
+```
 
 ## 总结
 

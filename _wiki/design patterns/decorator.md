@@ -11,7 +11,7 @@ tags: [装饰,修饰,结构型,模式]
 
 ## python实现
 
-~~~python
+```python
 def printf(func):
     def decorator():
         print "test"
@@ -23,11 +23,11 @@ def test1():
     print "\n test1 \n"
 
 test1()
-~~~
+```
 
 ## php实现
 
-~~~php
+```php
 <?php
 
 function decorator($func) {
@@ -42,6 +42,6 @@ function test1() {
 decorator(test1);
 
 ?>
-~~~
+```
 
 

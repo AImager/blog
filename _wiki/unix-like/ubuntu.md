@@ -8,15 +8,15 @@ tags: [ubuntu]
 
 ## 快捷键
 
-~~~
+```
 CTRL+Alt+F1~F6：切换到帐户为F1~F6的文本界面
 CTRL+Alt+F7：切换到X Window界面
-~~~
+```
 
 
 ## ubuntu16.04卸载包
 
-~~~
+```
 gnome-sudoku thunderbird gnome-mahjongg aisleriot webbrowser-app \
 imagemagick gnome-mines rhythmbox onboard xterm gnome-video-effects \
 ubuntu-drivers-common evolution-data-server-online-accounts totem \
@@ -31,4 +31,4 @@ unity-scope-manpages unity-scope-musicstores unity-scope-musique \
 unity-scope-openclipart unity-scope-texdoc unity-scope-tomboy \
 unity-scope-video-remote unity-scope-virtualbox unity-scope-yelp \
 unity-scope-zotero unity-lens-music unity-lens-photos unity-lens-video
-~~~
+```

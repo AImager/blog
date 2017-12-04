@@ -7,18 +7,18 @@ tags: [合并,补丁,patch]
 
 ## 功能描述
 
-merge只和合并分支的最后一次commit后的数据有关，而rebase是把commit信息先消除，然后作为补丁依次打进去。直观的表现就是rebase很有可能需要解决多次冲突。
+merge只和合并分支的最后一次commit后的数据有关，而rebase是把commit信息先消除，然后作为补丁依次打进去。
 
 
 ## 实例
 
-~~~
+```
 # 解决完冲突后继续rebase操作
 git rebase --continue
 
 # 忽略冲突
 git rebase --abort
-~~~
+```
 
 
 

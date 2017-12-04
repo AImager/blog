@@ -10,18 +10,18 @@ tags: [函数,变长参数]
 
 默认值传递
 
-~~~php
+```php
 <?php
 function(&$a){$a++;}
 ?>
-~~~
+```
 
 
 ## 变长参数
 
 在PHP5.6及以上的版本中，由语法实现；在PHP5.5及更早版本中，使用函数`func_num_args()`、`func_get_arg()`、`func_get_args()`实现。下面为5.6以上的实现方式
 
-~~~php
+```php
 <?php
 function printall(...$numbers) {
     foreach ($numbers as $n) {
@@ -32,11 +32,11 @@ function printall(...$numbers) {
 printall(1, ["s", "c"], "sfaf");
 
 ?>
-~~~
+```
 
 而对于普通的函数调用，也可使用...加数组的形式实现
 
-~~~php
+```php
 <?php 
 
 function printall($arg1, $arg2) {
@@ -52,4 +52,4 @@ $arr = [
 printall(...$arr);
 
 ?>
-~~~
+```

@@ -8,7 +8,7 @@ tag: [shell]
 
 ## if条件结构
 
-~~~bash
+```bash
 if [ condition ] ; then
   ...
 elif [ condition ] ; then
@@ -18,12 +18,12 @@ elif [ condition ] ; then
 else
   ...
 fi
-~~~
+```
 
 
 ## case条件结构
 
-~~~bash
+```bash
 case var in
   "pattern1")
     command1;;
@@ -32,62 +32,62 @@ case var in
   *)
     command3;;
 esac
-~~~
+```
 
 
 ## while循环结构
 
-~~~bash
+```bash
 while [ condition ]
 do
   expression
 done
-~~~
+```
 
 
 ## until循环结构
 
-~~~bash
+```bash
 until [condition]
 do
   expression
 done
-~~~
+```
 
 
 ## for循环结构
 
-~~~bash
+```bash
 for var in con1 con2 ...
 do
   expression
 done
-~~~
+```
 
 
 ## function结构
 
-~~~bash
+```bash
 function name(){
   expression
   ...
 }
-~~~
+```
 
 ## 其它控制结构
 
-~~~
+```
 <command_1> || <command_2>：或，command_1成功则跳过command_2，失败则执行command_2
 <command_1> && <command_2>：与，command_1成功则执行command_2，失败则跳过
 break n：跳出n层循环
 continue n：继续n层循环
-~~~
+```
 
 
 
 ## 脚本中特殊变量
 
-~~~
+```
 $0：当前程序的名称，实际上是一个内部参数
 $n：传递给脚本的第n个参数，n>=1
 $#：传递给程序的总的参数数目，也就是那个传说中的数组大小
@@ -95,14 +95,14 @@ $?：上一个代码或者shell程序在shell中退出的情况，如果正常�
 $*：传递给程序的所有参数组成的字符串。
 $$：本程序的(进程ID号)PID
 $!：上一个命令的PID
-~~~
+```
 
 
 
 
 ## 变量使用
 
-~~~
+```
 ""：表示不可分割的整体，处理$、`、\三种符号；对于\，其后只有在接$、`、"、\、换行符五种字符时才进行翻译
 ''：和双引号一样也是把包含的当作字符串处理，但其中的特殊字符不起作用
 ``：表示其中全当做命令处理
@@ -119,12 +119,12 @@ ${var:n}：替换为从var从第n个字符开始的字符串
 ${var:n:length}：返回var从第n个字符开始长度为length的字符串
 ${#var}：返回var的长度
 $((expression))：计算公式
-~~~
+```
 
 
 ## 比较
 
-~~~
+```
 数值比较
   -eq：相等
   -ge：大于等于
@@ -153,13 +153,13 @@ $((expression))：计算公式
   -G：是否存在且其所在组和当前用户相同
   -nt：检验file1是否比file2新
   -ot：检验file1是否比file2旧
-~~~
+```
 
 
 
 ## 命令、管道与I/O
 
-~~~
+```
 声明：下面在描述命令的时候，[]表示可选的参数，<>表示必须的参数
 
 command [-option] [stream]：处理命令+处理方式+处理对象，一般命令格式
@@ -173,13 +173,13 @@ command_1 | command_2 | command ...：从左往右执行命令，结果作为下
 
 例子：
 cat > catfile << "eof"  # 手动输入，直到输入eof时结束，将输入的内容写到catfile
-~~~
+```
 
 
 
 ## 通配符
 
-~~~
+```
 /：选定文件层次分隔
 ..：选定上一层目录
 .：选定当前目录
@@ -201,4 +201,4 @@ cat > catfile << "eof"  # 手动输入，直到输入eof时结束，将输入的
 [:punct:]：标点
 [:space:]：任何可产生空白的字符
 [:xdigit:]：16进制数字
-~~~
+```

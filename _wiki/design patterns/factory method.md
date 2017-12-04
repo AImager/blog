@@ -9,7 +9,7 @@ tags: [工厂方法,创建型,模式]
 
 ## php实现
 
-~~~php
+```php
 <?php
 
 class A {
@@ -38,12 +38,12 @@ $instance = factory('A');
 $instance->test();
 
 ?>
-~~~
+```
 
 
 ## java实现
 
-~~~java
+```java
 /* A.java */
 public interface FactoryInterface {  
     public void test();  
@@ -89,6 +89,6 @@ public class FactoryTest {
         instance.test();  
     }  
 }
-~~~
+```
 
 可以从PHP和JAVA实现方式的不同上看出，动态语言PHP写起来方便的多，原因是静态语言需要通过继承接口才能实现多态。

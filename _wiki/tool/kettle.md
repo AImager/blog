@@ -12,16 +12,16 @@ tags: [ETL]
 
 ## kettle.properties设置
 
-~~~
+```
 # 设置NULL和空字符串区别开
 # 解决Column 'xxxx' cannot be null
 KETTLE_EMPTY_STRING_DIFFERS_FROM_NULL=Y
-~~~
+```
 
 
 ## 数据库选项
 
-~~~
+```
 # 日期返回0001-01-01 00:00:00.0
 # 解决Value '0000-00-00' can not be represented
 zeroDateTimeBehavior=round
@@ -48,7 +48,7 @@ useCompression=true
 # 设置游标流式读取数据以及每次读取的size
 useCursorFetch=true
 defaultFetchSize=1000
-~~~
+```
 
 ## 坑
 
@@ -65,7 +65,7 @@ defaultFetchSize=1000
 
 ### timeout
 
-~~~
+```
 # 连接握手失败重试次数
 maxReconnects=12
 
@@ -79,4 +79,4 @@ autoReconnect=true
 failOverReadOnly=false
 connectTimeout=120000
 socketTimeout=120000
-~~~
+```

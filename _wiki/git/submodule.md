@@ -10,10 +10,10 @@ submodule可以独立管理代码，但新提交需通过commit注册到父项�
 
 ## 实例
 
-~~~
+```
 # 添加子模块到src/library目录
 git submodule add http://name@url.git src/library
-~~~
+```
 
 ### add
 

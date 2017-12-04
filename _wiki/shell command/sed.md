@@ -11,7 +11,7 @@ tag: [反序,替换]
 
 ## 实例
 
-~~~
+```
 # 删除空行
 sed '/^\s*$/d' text
 
@@ -21,7 +21,7 @@ sed '1!G;h;$!d' text
 
 # 取文件第2到第6行
 sed -n '2,6p' file
-~~~
+```
 
 ### -f
 
@@ -41,7 +41,7 @@ sed -n '2,6p' file
 
 ### 命令
 
-~~~
+```
 p：打印匹配行
 =：显示文件行号
 a：在定位行号后附加新文本信息
@@ -56,7 +56,7 @@ G：将hold space中的内容append到pattern space\n后
 h：将pattern space中的内容拷贝到hold space中，原来的hold space里的内容被清除
 H：将pattern space中的内容append到hold space\n后
 x：交换pattern space和hold space的内容
-~~~
+```
 
 
 ## 参考链接

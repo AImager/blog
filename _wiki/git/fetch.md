@@ -11,10 +11,10 @@ tags: [拉取,缓存]
 
 ## 实例
 
-~~~
+```
 # 拉取远端origin的branch分支数据，到本地的origin/branch分支下
 git fetch origin branch
-~~~
+```
 
 ### --all
 

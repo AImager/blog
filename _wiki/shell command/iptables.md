@@ -11,7 +11,7 @@ iptables是很多发行版的默认防火墙服务，centos7换成了firewall。
 
 ## 实例
 
-~~~
+```
 # 以数字形式显示iptables的所有规则
 iptables --list -n
 
@@ -20,4 +20,4 @@ iptables -A INPUT -d 192.168.42.153 -p tcp --dport 22 -j ACCEPT
 
 # 开放22端口的出流量
 iptables -A  OUTPUT -s  192.168.42.153  -p tcp  --sport  22 -j ACCEPT
-~~~
+```

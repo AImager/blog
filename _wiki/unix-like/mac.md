@@ -25,20 +25,25 @@ tags: [mac,技巧]
 
 ## 允许任意来源
 
-~~~
+```
 sudo spctl --master-disable
-~~~
+```
 
 
 ## 性能优化
 
-~~~
+```
 # spotlight禁用
 sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 
 # spotlight启用
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
-~~~
+```
+
+
+## homebrew
+
+homebrew不能使用root权限执行，所以有时候需要进行brew link到/usr/local下的时候会报权限错误，这时候homebrew建议的办法为`sudo chown -R $user:admin /usr/local`，其它的权限问题处理方式类似。
 
 
 ## mac-pkg

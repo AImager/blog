@@ -7,7 +7,7 @@ tags: [管理员,状态]
 
 ## 服务启动
 
-~~~
+```
 # 从5.7开始，第一次启动前需要初始化
 mysqld --initialize
 
@@ -16,28 +16,28 @@ mysqld
 
 # 安全模式下运行，默认运行模式
 mysqld_safe
-~~~
+```
 
 ## 客户端连接
 
-~~~
+```
 # 以cli方式登录mysql
 mysql -h host -u username -p password
-~~~
+```
 
 ## 查看基本信息
 
-~~~
+```
 # 查看引擎
 show engines;
 
 # 查看版本号
 select version(); 
-~~~
+```
 
 ## 查看服务状态
 
-~~~
+```
 # 查看数据库执行状态，full用于显示完整sql信息
 show full processlist;
 
@@ -49,7 +49,7 @@ select concat(round(sum(DATA_LENGTH/1024/1024), 2),'MB') as data from informatio
 
 # 查看表数据大小
 select concat(round(sum(DATA_LENGTH/1024/1024),2),'MB') as data from information_schema.TABLES where table_schema='database_name' and table_name='table_name';
-~~~
+```
 
 
 

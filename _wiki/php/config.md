@@ -9,7 +9,7 @@ tags: [配置,php.ini]
 
 ## base
 
-~~~
+```
 # 设置脚本执行的最大内存
 memory_limit = 128M
 
@@ -18,11 +18,11 @@ max_execution_time = 60
 
 # socket无数据传输超时时间
 default_socket_timeout = 60
-~~~
+```
 
 ## error
 
-~~~
+```
 # 显示错误
 display_errors = On
 
@@ -37,11 +37,11 @@ log_errors_max_len = 1024
 
 # error log位置
 error_log = /server/log/php/php_errors.log
-~~~
+```
 
 ## data handling
 
-~~~
+```
 # post最大size
 post_max_size = 8M
 
@@ -50,12 +50,12 @@ default_mimetype = "text/html"
 
 # 默认的php文件解析编码
 default_charset = "UTF-8"
-~~~
+```
 
 
 ## upload
 
-~~~
+```
 # 是否开启http文件上传
 file_uploads = On
 
@@ -64,13 +64,13 @@ upload_max_filesize = 2M
 
 # 每个请求能上传的最大文件数
 max_file_uploads = 20
-~~~
+```
 
 ## session
 
 session配置的很多，除了下面的，还有可能用到的有`gc`、`cache`等session配置，需要时可直接搜索php.ini文件
 
-~~~
+```
 # session的存储形式
 session.save_handler = files
 
@@ -91,11 +91,11 @@ session.auto_start = 0
 
 # session的生存时间，0表示直到浏览器重启
 session.cookie_lifetime = 0
-~~~
+```
 
 ## opcache
 
-~~~
+```
 # 是否开启opcache，web和cli模式分别配置
 opcache.enable=0
 opcache.enable_cli=0
@@ -108,31 +108,31 @@ opcache.revalidate_freq = 0
 
 # opcache内存占用阈值
 opcache.memory_consumption = 64
-~~~
+```
 
 
 ## extension
 
-~~~
+```
 # 加载扩展
 extension = swoole.so
 
 # 标签标识某一类设置
 [swoole]
-~~~
+```
 
 
 ## database
 
-~~~
+```
 # 连接database时候将默认开启safe_mode选项
 sql.safe_mode = Off
-~~~
+```
 
 
 ### mysql
 
-~~~
+```
 [mysql]
 
 # mysql缓存大小，mysqlnd使用时有效
@@ -145,4 +145,4 @@ mysql.connect_timeout = 60
 
 # mysql重连
 mysqli.reconnect = Off
-~~~
+```

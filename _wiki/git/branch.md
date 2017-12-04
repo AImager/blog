@@ -11,13 +11,13 @@ tags: [分支]
 
 ## 实例
 
-~~~
+```
 # 新建new_branch，存在则报错
 git branch new_branch
 
 # 显示所有分支，HEAD分支前有*标识
 git branch -a
-~~~
+```
 
 ### -d
 

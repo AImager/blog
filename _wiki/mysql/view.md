@@ -5,10 +5,10 @@ category: mysql
 tags: [视图]
 ---
 
-~~~
+```
 # 创建视图
 create view view_name (field1, field2) as SQL; 
-~~~
+```
 
 优势
 

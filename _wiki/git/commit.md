@@ -11,7 +11,7 @@ tags: [提交]
 
 ## 实例
 
-~~~
+```
 # 提交所有暂存区的文件，进入commit文件编辑模式
 git commit
 
@@ -20,7 +20,7 @@ git commit --date="2012-12-12" -o test/test -m "commit_msg"
 
 # 提交一个空commit，用来rebuild submodule github page
 git commit -m 'rebuild pages' --allow-empty
-~~~
+```
 
 ### -a
 

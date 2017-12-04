@@ -9,7 +9,7 @@ tags: [适配器,结构型,模式]
 
 ## java实现
 
-~~~java
+```java
 /* Mysql.java */
 public class Mysql {
     public void connectMysql() {
@@ -70,7 +70,7 @@ public class AdapterTest {
 		inter.connect();
     }
 }
-~~~
+```
 
 php的写法和java基本相同，所以这里就不展示了。
 

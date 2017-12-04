@@ -10,7 +10,7 @@ tags: [外观,结构型,模式]
 
 ## php实现
 
-~~~java
+```java
 /* Memory.java */
 public class Memory {
     public void run() {
@@ -62,4 +62,4 @@ public class FacadeTest {
         computer.start();
     }
 }
-~~~
+```

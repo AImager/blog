@@ -25,6 +25,13 @@ tags: [cookie,会话]
 
 当session以文件存储的时候，会存在锁的问题，文件锁会从`session_start()`持续到会话结束或执行`session_​write_​close()`，因此单个页面ajax过多的时候，会容易阻塞，再加上并发的影响，很可能拖垮服务器，所以最好尽快执行`session_​write_​close()`。
 
+
+## 配置解释
+
+**TODO**
+
+* use_trans_sid
+
 ## 参考链接
 
 * [session](http://php.net/manual/zh/session.examples.basic.php)

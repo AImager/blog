@@ -12,13 +12,13 @@ tag: [端口,网络,socket]
 
 ## 实例
 
-~~~
+```
 # 显示当前所有tcp连接
 netstat -anpt
 
 # 查看数据库对应服务的数据库连接数，要看非自己的进程id，需要root权限
 sudo netstat -apn | grep 100.99.3.96:3306 | grep server | wc -l
-~~~
+```
 
 ### -l
 

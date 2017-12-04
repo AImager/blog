@@ -9,7 +9,7 @@ tag: [变量提升]
 
 hoisting翻译为变量名提升，指的是同一作用域内，变量的声明会提升到当前作用域首部。
 
-~~~javascript
+```javascript
 function test() {
 	console.log(fee);	// undefined
 	var fee = 1;
@@ -23,7 +23,7 @@ function test() {
 	}
 }
 test();
-~~~
+```
 
 观察例子，`console.log(fee)`输出undefined而不是报错，是因为变量名提升导致`var fee`被提至开头，但声明提前而赋值并不会提前，所以不会报错也不会输出1，而是undefined。
 
