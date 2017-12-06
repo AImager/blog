@@ -5,6 +5,24 @@ category: go
 tags: [包,import]
 ---
 
-## `import _`
+![](/media/img/go/go_import.png)
 
-只执行init()函数，而不能使用包中的变量
+`import _`表示只执行`init()`函数，而不能使用包中的变量
+
+* 同一个目录下的文件package必须设置一样
+* 同意目录下的文件作用域互通，即不需要相互import即可引用各自的变量、函数等
+* `go build`必须包含所有`package main`下面的文件
+
+
+```
+|-bin
+|-src
+    |-Test
+        |-main.go
+        |-test.go
+```
+
+* `go build Test/*`得到main二进制执行文件，位于执行命令的目录下
+* `go install Test`得到Test二进制执行文件，位于bin目录下
+* 当`main.go`和`test.go`设置的`package`不是`main`的时候，执行`go install`和`go build`都不会得到结果，即执行`go build`寻找的输入文件所有`package main`的，而执行`go install`寻找的是`package`目录下所有`package main`的
+
