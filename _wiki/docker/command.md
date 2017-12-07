@@ -1,8 +1,8 @@
 ---
-title: admin
+title: command
 layout: wiki
 category: docker
-tag: [管理员]
+tag: [命令]
 ---
 
 
