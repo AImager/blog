@@ -27,3 +27,8 @@ tags: [包,import]
 * `go install Test`得到Test二进制执行文件，位于bin目录下
 * 当`main.go`和`test.go`设置的`package`不是`main`的时候，执行`go install`和`go build`都不会得到结果，即执行`go build`寻找的输入文件所有`package main`的，而执行`go install`寻找的是`package`目录下所有`package main`的
 
+
+## 参考链接
+
+* [golang之package](https://studygolang.com/articles/5831)
+
