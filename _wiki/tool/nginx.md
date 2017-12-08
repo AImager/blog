@@ -12,6 +12,10 @@ tags: [反向代理]
 ./configure --prefix=/server/environ/originlib/nginx-1.10.1 --conf-path=/server/environ/originlib/nginx-1.10.1/conf/nginx.conf --error-log-path=/server/log/nginx/error.log --user=www --group=www --with-http_stub_status_module --with-http_ssl_module --with-http_flv_module --with-http_gzip_static_module --with-http_realip_module && make -j 8 && sudo make -j 8 install
 ```
 
+## docker安装
+
+* nginx的docker启动需要使用`-g 'daemon off'`
+
 
 ## shell命令
 
@@ -138,3 +142,9 @@ http {
 ### 转发的header中自动过滤掉下划线
 
 解决办法最好就是用-代替下划线
+
+
+
+## 参考链接
+
+* [docker运行nginx为什么要使用 daemon off](https://segmentfault.com/a/1190000009583997)
