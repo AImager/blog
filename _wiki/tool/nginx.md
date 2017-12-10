@@ -148,3 +148,4 @@ http {
 ## 参考链接
 
 * [docker运行nginx为什么要使用 daemon off](https://segmentfault.com/a/1190000009583997)
+* [nginx的location配置详解](http://blog.csdn.net/tjcyjd/article/details/50897959)
