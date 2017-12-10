@@ -1,42 +1,11 @@
 ---
-title: command
+title: run
 layout: wiki
 category: docker
-tag: [命令]
+tag: [command]
 ---
 
 
-## exec
-
-```
-# 进入容器781，采取交互方式运行bash
-docker exec -it 781 /bin/bash
-```
-
-* -i: 交互模式
-* -t: 创建tty
-
-
-## images
-
-```
-# 查看所有镜像
-docker images
-```
-
-
-## ps
-
-```
-# 查看当前运行的容器
-docker ps
-
-# 查看所有容器
-docker ps -a
-```
-
-
-## run
 
 ```
 # 后台执行mongo镜像
@@ -57,32 +26,3 @@ docker run -d mongo
 * --cpuset-cpus: 设置容器绑定CPU执行
 * --cpu-period: 设置CPU重新分配给容器使用的时长
 * --cpu-quota: 在分配时长这个周期内，最多可以使用多长时间来运行容器
-
-
-## stat
-
-```
-# 查看容器的CPU、内存、IO状态
-docker stats 512
-```
-
-
-## search
-
-```
-# 查找images
-docker search images
-```
-
-## pull
-
-```
-# 拉取images
-docker pull images[:tag]
-```
-
-
-## push
-
-
-
