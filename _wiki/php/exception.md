@@ -22,3 +22,8 @@ PHP7将一部分Exception异常修改为Error异常，而这部分错误就不�
 ### fatal error
 
 如果异常没有被捕获，就会被抛出fatal error
+
+
+### set_exception_handler()
+
+设置异常处理函数，处理完立即退出
