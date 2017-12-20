@@ -62,3 +62,4 @@ x：交换pattern space和hold space的内容
 ## 参考链接
 
 * [sed, a stream editor](https://www.gnu.org/software/sed/manual/sed.html)
+* [sed命令n，N，d，D，p，P，h，H，g，G，x解析](http://blog.csdn.net/xiexingshishu/article/details/50514132)
