@@ -13,7 +13,19 @@ tags: [mac,技巧]
 * sysctl -n machdep.cpu.brand_string：查看CPU型号、频率等
 
 
+## 备份
 
+```
+# 禁止本地备份
+sudo tmutil disablelocal
+
+# 开启本地备份
+sudo tmutil enablelocal
+```
+
+## 网络
+
+网络位置，不同位置可用于定制不同网络配置（TCP/IP、DNS、代理等设置）
 
 
 ## 关闭SIP
