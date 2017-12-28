@@ -10,6 +10,8 @@ tags: [require,include,namespace]
 
 require在出错时产生E_COMPILE_ERROR级别的错误。而include只产生警告E_WARNING，脚本会继续运行。
 
+注：文件载入后，use只是简化使用的，并不是必须的。
+
 ## 单文件多namespace
 
 一个文件可以支持多个namespace，如下：
@@ -76,7 +78,6 @@ use My\Full\Classname as Another;
 
 $name = "Another";
 $val = new $name;					// Another, not My\Full\Classname
-?>
 ```
 
 引用的解析有一些规则，举例如下
