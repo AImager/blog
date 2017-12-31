@@ -12,7 +12,8 @@ tags: [网络,抓包,sudo]
 
 ```
 # 监听eth0网卡本地8097端口的活动，不截断，以ASCII形式显示
-tcpdump -i eth0 -s 0 -A host 127.0.0.1 and port 8097
+# 保存为pcap文件
+tcpdump -i eth0 -s 0 -A host 127.0.0.1 and port 8097 -w res.pcap
 ```
 
 ### -A
@@ -39,6 +40,10 @@ tcpdump -i eth0 -s 0 -A host 127.0.0.1 and port 8097
 
 设定抓取的包长度，为0时表示自动设置长度
 
+### -w
+
+保存为文件
+
 ## 显示描述
 
 ### FLAGS
@@ -51,3 +56,9 @@ tcpdump -i eth0 -s 0 -A host 127.0.0.1 and port 8097
 * U : URG - 紧急
 * E : ECE - 显式拥塞提醒回应
 * W : CWR - 拥塞窗口减少
+
+
+
+## 参考链接
+
+* [](https://mozillazg.github.io/2015/05/open-tcpdump-result-with-wireshark-gui.html)
