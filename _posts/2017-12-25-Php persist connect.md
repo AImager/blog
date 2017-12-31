@@ -53,7 +53,7 @@ redis_sock->stream = php_stream_xport_create(host, host_len,
     persistent_id, tv_ptr, NULL, NULL, &err);
 ```
 
-代码逻辑不复杂，即在通常未指定`persistent_id`的情况下，会建立以host和timeout为原子的`persistent_id`，然后通过zend提供的API函数`php_stream_xport_create`来建立连接。而`php_stream_xport_create`则通过`persistent_id`是否有值来决定是否建立长连接，并写入每个进程独立维护的`persistent_list`（参考php的`php_stream_xport_create`源码部分）。
+代码逻辑不复杂，即在通常未指定`persistent_id`的情况下，会建立以host和timeout为种子的`persistent_id`，然后通过zend提供的API函数`php_stream_xport_create`来建立连接。而`php_stream_xport_create`则通过`persistent_id`是否有值来决定是否建立长连接，并写入每个进程独立维护的`persistent_list`（参考php的`php_stream_xport_create`源码部分）。
 
 到了这里，基本上明确了，FPM并不会完全清掉数据，因为它本身也会维护一些zend底层的结构，比如这里的`persistent_list`。而请求则是以内嵌的形式运行在FPM的worker容器中（可以联想下常用的框架和DI），并不时会与worker容器有数据交互，比如写入socket描述符到`persistent_list`里面，这样下次请求再来的时候，就可以到`persistent_list`取回数据继续用，其中类似`persistent_id`的结构就是用于取回socket的标识id。
 
