@@ -23,8 +23,11 @@ tags: [反向代理]
 # 指定配置文件启动
 nginx -c file.conf
 
-# 关闭nginx
+# 立即关闭nginx
 nginx -s stop
+
+# 处理完请求后关闭nginx
+nginx -s quit
 
 # 重启nginx
 nginx -s reload
