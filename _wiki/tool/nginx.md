@@ -2,7 +2,7 @@
 title: nginx
 layout: wiki
 category: tool
-tags: [反向代理]
+tags: [反向代理,web服务器]
 ---
 
 ## 安装
