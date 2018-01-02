@@ -1,20 +1,23 @@
-#markdown: rdiscount
+name: "AImager"
+author: "aimager"
+description: "aimager's blog, php, golang, web, h5, middleware, linux"
 markdown: kramdown
-#highlighter: pygments
 highlighter: rouge
 permalink: /post/:year/:month/:day-:title.html
-
-name: "AImager"
-
-author: "aimager"
-# atom-baseurl: "http://blog.aimager.com"
-# disqus: "gopherwood"
+atom-baseurl: "http://blog.aimager.com"
 encoding: utf-8
 
+# plugin
+plugins:
+  - jekyll-seo-tag
+
+# custom
 theme_name: "freshness"
 theme_dir: "theme"
 layouts_dir: "_theme/freshness/_layouts" 
+footer: "| <a href='http://book.aimager.com' title='book'>book</a>"
 
+# array custom
 collections:
   nagging:
     output: true
@@ -22,8 +25,6 @@ collections:
     output: true
   theme:
     output: true
-    
-footer: "| <a href='http://book.aimager.com' title='book'>book</a>"
 
 navigations:
   - title: Nagging
@@ -41,3 +42,12 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
+
+social:
+  name: AImager
+  links:
+    - https://twitter.com/aimager
+    - https://www.facebook.com/AImager
+    - https://github.com/AImager
+    - https://www.zhihu.com/people/AImager/
+    - http://weibo.com/AImager
