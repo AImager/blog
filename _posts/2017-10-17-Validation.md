@@ -27,4 +27,4 @@ if (!$validator->passes()) {
 }
 ```
 
-另外有一个开源[Validation](http://respect.github.io/Validation/)，其star数量达4.3k，完全使用面向对象的方式进行validation。但我觉得它太过繁杂了，在校验这个简单逻辑下，面向对象的优势完全体现不出来，所以不建议。
+另外还有一个开源[实现](http://respect.github.io/Validation/)，其star数量达4.3k，完全使用面向对象的方式进行validation。但我觉得它太过繁杂了，在校验这个简单逻辑下，面向对象的优势完全体现不出来，所以不建议。
