@@ -1,7 +1,7 @@
 ---
 title: PHP特性【持续】
 layout: post
-tags: [PHP]
+tags: [php]
 ---
 
 * 安装
