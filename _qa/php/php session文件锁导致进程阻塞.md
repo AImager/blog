@@ -1,5 +1,5 @@
 ---
-title: php session文件锁
+title: php session文件锁导致进程阻塞
 layout: qa
 category: php
 ---

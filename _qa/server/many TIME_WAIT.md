@@ -1,10 +1,10 @@
 ---
-title: many TIME_WAIT
+title: Many TIME_WAIT
 layout: qa
 category: server
 ---
 
-## many TIME_WAIT
+## Many TIME_WAIT
 
 * 错误描述：
 * 可能原因：并发高，可能是syn攻击

@@ -11,6 +11,7 @@ encoding: utf-8
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-sitemap
   
 # custom
 theme_name: "freshness"
