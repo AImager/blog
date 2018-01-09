@@ -10,7 +10,8 @@ encoding: utf-8
 # plugin
 plugins:
   - jekyll-seo-tag
-
+  - jekyll-feed
+  
 # custom
 theme_name: "freshness"
 theme_dir: "theme"
@@ -25,6 +26,8 @@ collections:
     output: true
   wiki:
     output: true
+  qa:
+    output: true
   theme:
     output: true
 
@@ -33,11 +36,14 @@ navigations:
     class: fa fa-comment-o
     href: /nagging.html
   - title: Wiki
-    class: fa fa-wiki
+    class: fa fa-wikipedia-w
     href: /wiki.html
   - title: Archive
-    class: fa fa-list-ul
+    class: fa fa-archive
     href: /archive.html
+  - title: Q&A
+    class: fa fa-quora
+    href: /qa.html
   # - title: Tags
   #   class: fa fa-tags
   #   href: /tags.html
