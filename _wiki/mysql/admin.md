@@ -15,7 +15,8 @@ mysqld --initialize
 mysqld
 
 # 安全模式下运行，默认运行模式
-mysqld_safe
+# 跳过权限检查，直接登录
+mysqld_safe --skip-grant-tables
 ```
 
 ## 客户端连接
