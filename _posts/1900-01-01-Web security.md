@@ -1,5 +1,5 @@
 ---
-title: Web安全【持续】
+title: Web安全
 layout: post
 tag: [sql注入]
 ---

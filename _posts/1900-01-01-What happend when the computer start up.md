@@ -1,5 +1,5 @@
 ---
-title: 计算机启动过程【持续】
+title: 计算机启动过程
 layout: post
 tag: []
 ---

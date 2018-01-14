@@ -1,5 +1,5 @@
 ---
-title: PHP特性【持续】
+title: PHP特性
 layout: post
 tags: [php]
 ---
