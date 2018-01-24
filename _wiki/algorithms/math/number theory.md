@@ -1,7 +1,5 @@
 ---
-title: number theory
 layout: wiki
-category: algorithms
 tags: [数论]
 ---
 

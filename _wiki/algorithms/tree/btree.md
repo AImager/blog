@@ -1,7 +1,6 @@
 ---
 title: btree
 layout: wiki
-category: algorithms
 tags: [BTree,B+Tree]
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: sort
 layout: wiki
-category: algorithms
 tags: [排序]
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: dp
 layout: wiki
-category: algorithms
 tags: [动态规划]
 ---
 

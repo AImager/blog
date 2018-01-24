@@ -1,7 +1,6 @@
 ---
 title: tree
 layout: wiki
-category: algorithms
 tags: [树,数据结构]
 ---
 

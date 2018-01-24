@@ -1,7 +1,6 @@
 ---
 title: combinatorics
 layout: wiki
-category: algorithms
 tags: [组合,排列,幂]
 ---
 

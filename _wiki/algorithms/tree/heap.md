@@ -1,7 +1,6 @@
 ---
 title: heap
 layout: wiki
-category: algorithms
 tags: [堆,树]
 ---
 

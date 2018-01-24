@@ -1,7 +1,6 @@
 ---
 title: skiplist
 layout: wiki
-category: algorithms
 tags: [跳表]
 ---
 

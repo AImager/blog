@@ -1,7 +1,5 @@
 ---
-title: avl tree
 layout: wiki
-category: algorithms
 tags: [平衡二叉树]
 ---
 
