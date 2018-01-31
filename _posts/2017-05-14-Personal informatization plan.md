@@ -12,16 +12,6 @@ tag: [工具,生产力]
 	* 生产力目录（~/Documents）
 	* 程序
 	* 重要程序数据
-		* atom
-			* ~/.atom
-			* sync-settings
-		* vscode
-			* ~/Library/Application Support/Code
-			* ~/.vscode
-		* xtrafinder
-		* Alfred
-		* chrome扩展配置
-		* BetterSnapTool/SwitchHosts/Android Studio/ABP/SwitchyOmega
 * 尽可能的减少存储源
 * 偶尔需要进行大数据处理
 * 随时随地访问预览数据
@@ -46,11 +36,13 @@ tag: [工具,生产力]
 * 程序错误
 	* command line tool需要重新安装
 	* wiresharks权限错误需要重装
-	* 程序崩溃、brew包损坏等错误频次变多（无法确定是否有TM导致）
+	* 程序崩溃、brew包损坏等错误频次变多（无法确定是否由TM导致）
 
 这些问题不算大，相比来说迁移还是节约了大量时间，所以time machine还是会持续用下去。
 
-## 办公机器和个人机器数据同步的问题
+## mackup
+
+用来进行程序配置的同步，在mac和linux下使用体验不错，极少会出现conflict的情况，这时候删除一份即可，使用dropbox作为存储源。
 
 ## miui
 
@@ -72,9 +64,17 @@ tag: [工具,生产力]
 
 用来做不重要的大文件存放以及容灾备份，支持多种格式预览
 
+### dropbox
+
+作为程序配置、文档等重要小型数据的存储源，而且这些文件保持完全同步
+
 ## github
 
 用于开源代码的存储
+
+## bitbucket
+
+用于闭源代码的存储
 
 ## 弹性计算
 
