@@ -22,3 +22,15 @@ brew自己使用编译的方式安装，而brew cask多是安装dmg/pkg，即更
 * qlstephen: quicklook空文本
 * quicklook-json
 * qlimagesize: quicklook图片显示大小和分辨率
+
+## doctor
+
+通过`brew doctor`命令检查brew的问题，常见的问题如下
+
+### symlink, can't write
+
+brew不能用root执行后，经常会出现不能写链接的情况，这时候就进行chown更改目录拥有者
+
+### unlinked kegs in your Cellar
+
+有些软件安装了，但是还没有进行link，所以执行`brew link package-name`
