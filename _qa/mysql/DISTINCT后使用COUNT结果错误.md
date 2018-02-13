@@ -1,7 +1,6 @@
 ---
 title: DISTINCT后使用COUNT结果错误
 layout: qa
-category: mysql
 ---
 
 ## DISTINCT后使用COUNT结果错误

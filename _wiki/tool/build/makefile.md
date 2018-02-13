@@ -1,7 +1,6 @@
 ---
 title: makefile
 layout: wiki
-category: tool
 tags: [编译]
 ---
 

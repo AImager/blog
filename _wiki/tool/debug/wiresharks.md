@@ -1,7 +1,5 @@
 ---
-title: wiresharks
 layout: wiki
-category: tool
 tag: [抓包]
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Many TIME_WAIT
 layout: qa
-category: server
 ---
 
 ## Many TIME_WAIT

@@ -1,7 +1,7 @@
 ---
 title: monitor
 layout: wiki
-category: experience
+category: sre
 tags: [监控,性能]
 ---
 

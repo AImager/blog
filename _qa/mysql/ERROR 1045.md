@@ -1,7 +1,6 @@
 ---
 title: ERROR 1045
 layout: qa
-category: mysql
 ---
 
 ## ERROR 1045

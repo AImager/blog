@@ -1,7 +1,5 @@
 ---
-title: shell script
 layout: wiki
-category: unix-like
 tag: [shell]
 ---
 

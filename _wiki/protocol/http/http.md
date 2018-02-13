@@ -109,3 +109,5 @@ Accept-Language:
 * HTTP权威指南『2,3,4,5,6,7,8,11,15,16,17』
 * HTTP权威指南『9,18,20』
 * [HTTP Keep Alive and TCP keep alive](https://stackoverflow.com/questions/9334401/http-keep-alive-and-tcp-keep-alive)
+* [HTTP/2.0 简单总结](https://linjunzhu.github.io/blog/2016/03/10/http2-zongjie/)
+* [超文本传输协议版本 2](https://github.com/fex-team/http2-spec/blob/master/HTTP2%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%E7%89%88%2806-29%29.md)

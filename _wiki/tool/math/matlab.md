@@ -1,7 +1,5 @@
 ---
-title: matlab
 layout: wiki
-category: tool
 tag: [matlab]
 ---
 

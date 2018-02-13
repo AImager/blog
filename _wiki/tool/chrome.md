@@ -1,7 +1,5 @@
 ---
-title: chrome
 layout: wiki
-category: tool
 tag: [浏览器]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: lingo
 layout: wiki
-category: tool
 tag: [规划]
 ---
 

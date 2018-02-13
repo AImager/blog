@@ -1,7 +1,6 @@
 ---
 title: ERROR 1290
 layout: qa
-category: mysql
 ---
 
 ## ERROR 1290

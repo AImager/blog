@@ -1,7 +1,7 @@
 ---
 title: regular expression
 layout: wiki
-category: experience
+category: language
 tag: [正则]
 ---
 

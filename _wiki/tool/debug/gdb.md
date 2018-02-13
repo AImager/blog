@@ -1,7 +1,5 @@
 ---
-title: gdb
 layout: wiki
-category: tool
 tags: [调试]
 ---
 

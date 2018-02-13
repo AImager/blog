@@ -1,7 +1,6 @@
 ---
 title: cannot lock ref
 layout: qa
-category: git
 ---
 
 ## cannot lock ref

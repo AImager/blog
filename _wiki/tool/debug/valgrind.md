@@ -1,7 +1,5 @@
 ---
-title: valgrind
 layout: wiki
-category: tool
 tags: [memcheck,allgrind]
 ---
 

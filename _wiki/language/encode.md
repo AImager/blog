@@ -1,7 +1,7 @@
 ---
 title: encode
 layout: wiki
-category: experience
+category: language
 tags: [编码,转义符]
 ---
 
