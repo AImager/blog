@@ -36,7 +36,7 @@ redis-cli KEYS "pattern" | xargs redis-cli DEL
 
 ```
 # 开启server
-./redis-server --port 7777 --slaveof 127.0.0.1 6379
+./redis-server --port 7777 --slaveof 127.0.0.1 6379 &
 ```
 
 ## 通用命令
