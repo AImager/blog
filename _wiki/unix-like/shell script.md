@@ -200,3 +200,8 @@ cat > catfile << "eof"  # 手动输入，直到输入eof时结束，将输入的
 [:space:]：任何可产生空白的字符
 [:xdigit:]：16进制数字
 ```
+
+
+## 参考链接
+
+* [Shell脚本数组用法小结](http://www.jb51.net/article/55253.htm)
