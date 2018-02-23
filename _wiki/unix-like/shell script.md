@@ -205,3 +205,4 @@ cat > catfile << "eof"  # 手动输入，直到输入eof时结束，将输入的
 ## 参考链接
 
 * [Shell脚本数组用法小结](http://www.jb51.net/article/55253.htm)
+* [linux下的shell运算](http://blog.csdn.net/zwx19921215/article/details/21098391)
