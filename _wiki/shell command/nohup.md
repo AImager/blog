@@ -5,6 +5,10 @@ category: shell command
 tags: [守护进程]
 ---
 
+## 功能描述
+
+让命令进程忽略挂断信号；将命令进程的stdin关闭，同时将命令进程的stdout和stderr重定向到nohup.out文件。
+
 ## 实例
 
 ```
