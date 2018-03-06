@@ -58,45 +58,4 @@ U：撤销对整行的操作
 
 #### 设置（对当前用户的~/.vimrc、全局的vimrc在Vim安装目录下）：
 
-```
-" 设置显示行号                                                                                                                                                       
-set nu                                                                                                                                                               
-                                                                                                                                                                     
-" 设置自动缩进                                                                                                                                                       
-set autoindent                                                                                                                                                       
-                                                                                                                                                                     
-" 设置自动缩进格数                                                                                                                                                   
-set shiftwidth=2                                                                                                                                                     
-                                                                                                                                                                     
-" 定义tab格数                                                                                                                                                        
-set tabstop=2                                                                                                                                                        
-                                                                                                                                                                     
-" 设置实际tab格数                                                                                                                                                    
-set softtabstop=2                                                                                                                                                    
-                                                                                                                                                                     
-" 开启高亮                                                                                                                                                           
-syntax on                                                                                                                                                            
-                                                                                                                                                                     
-" 设置C语言缩进                                                                                                                                                      
-set cindent                                                                                                                                                          
-                                                                                                                                                                     
-" 设置使用|光标                                                                                                                                                      
-if exists('$TMUX')                                                                                                                                                   
-    let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"                                                                                               
-    let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"                                                                                               
-else                                                                                                                                                                 
-    let &t_SI.="\e[5 q"                                                                                                                                              
-    let &t_EI.="\e[5 q"                                                                                                                                              
-endif                                                                                                                                                                
-                                                                                                                                                                     
-                                                                                                                                                                     
-" 启用鼠标，赋值可以不选取行号                                                                                                                                       
-" 启用了没发复制粘贴了                                                                                                                                               
-" 不启用鼠标选择复制又会带上行号                                                                                                                                     
-" 所以vim对鼠标这种交互压根支持就不好                                                                                                                                
-" set mouse=v                                                                                                                                                        
-                                                                                                                                                                     
-" inoremap <C-v> <esc>:set paste<cr>mui<C-R>+<esc>mv'uV'v=:set nopaste<cr>                                                                                           
-                                                                                                                                                                     
-" vnoremap <C-c> "+y   
-```
+参考Dropbox同步的配置文件，里面有详细的注释
