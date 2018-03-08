@@ -23,7 +23,7 @@ mysqld_safe --skip-grant-tables
 
 ```
 # 以cli方式登录mysql
-mysql -h host -u username -p password
+mysql -h host -u username -p password -P port
 ```
 
 ## 查看基本信息
