@@ -103,7 +103,7 @@ Elf 文件类型为 EXEC (可执行文件)
 
 ## 参考链接
 
-* 程序员的自我修养
+* [程序员的自我修养](https://book.douban.com/subject/3652388/)
 * [理解inode](http://www.ruanyifeng.com/blog/2011/12/inode.html)
 * [linux内核学习笔记](http://www.chongchonggou.com/g_440512512.html)
 * [内存管理单元](https://zh.wikipedia.org/wiki/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E5%8D%95%E5%85%83)
