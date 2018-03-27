@@ -2,7 +2,7 @@
 title: wc
 layout: wiki
 category: shell command
-tags: [统计,行数,单词数]
+tags: [统计,行数,单词数,计数]
 ---
 
 
