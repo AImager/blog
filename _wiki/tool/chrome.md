@@ -16,4 +16,5 @@ tag: [浏览器]
 
 ## tips
 
-* 不同设备间同步的时候，不同的机器不能使用相同的代理，会出现SYNC_AUTH_ERROR。
+* 不同设备间同步的时候，不同的机器不能使用相同的代理，会出现SYNC_AUTH_ERROR
+* `Shift + fn + Delete`删除地址栏记录
