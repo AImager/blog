@@ -17,6 +17,9 @@ git branch new_branch
 
 # 显示所有分支，HEAD分支前有*标识
 git branch -a
+
+# 重命名分支
+git branch -m old_name new_name
 ```
 
 ### -d
