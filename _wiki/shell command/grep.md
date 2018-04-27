@@ -43,3 +43,15 @@ grep -nr "new" ./ --exclude-dir=_site --exclude="*.md"
 ### --include=
 
 包含匹配模式的文件，通配符匹配
+
+### -C
+
+显示上下多少行
+
+### -A
+
+显示后几行
+
+### -B
+
+显示前几行
