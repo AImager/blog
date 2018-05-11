@@ -55,3 +55,7 @@ grep -nr "new" ./ --exclude-dir=_site --exclude="*.md"
 ### -B
 
 显示前几行
+
+### -m 1
+
+只显示第1个匹配
