@@ -17,6 +17,9 @@ git log master..feature
 
 # 查看文件的修改记录
 git log --pretty=oneline file
+
+# 比较分支的commit线的不同
+git log --left-right dev...master
 ```
 
 ### --stat
@@ -34,3 +37,8 @@ git log --pretty=oneline file
 ### --pretty=oneline
 
 选定什么格式显示，包括oneline\short\full\fuller等
+
+
+## 参考链接
+
+* [git 对比两个分支差异](https://blog.csdn.net/u011240877/article/details/52586664)
