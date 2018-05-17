@@ -11,7 +11,7 @@ tag: [反序,替换]
 
 ## 实例
 
-```
+```shell
 # 删除空行
 sed '/^\s*$/d' text
 
@@ -24,6 +24,9 @@ sed -n '2,6p' file
 
 # 2~5行行首加入字符HEAD
 sed '2,5 s/^/HEAD&/g' file
+
+# 每两行做一次匹配
+sed -n 'N;/^\n```$/p' file
 ```
 
 ### -f
@@ -59,6 +62,8 @@ G：将hold space中的内容append到pattern space\n后
 h：将pattern space中的内容拷贝到hold space中，原来的hold space里的内容被清除
 H：将pattern space中的内容append到hold space\n后
 x：交换pattern space和hold space的内容
+
+N：追加一行到pattern space中
 ```
 
 
