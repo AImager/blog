@@ -11,9 +11,12 @@ tags: [搜索,正则,通配符]
 
 ## 实例
 
-```
+```shell
 # 在当前目录下递归查找文件里的new关键字，排除后缀为md和目录含_site的文件
 grep -nr "new" ./ --exclude-dir=_site --exclude="*.md"
+
+# 寻找不含有20012004、20014001且含有WARN的行
+grep -v -E "20012004|20014001" file | grep --color 'WARN'
 ```
 
 ### -v
@@ -43,6 +46,14 @@ grep -nr "new" ./ --exclude-dir=_site --exclude="*.md"
 ### --include=
 
 包含匹配模式的文件，通配符匹配
+
+### --color
+
+高亮匹配的字符
+
+### -E
+
+使用扩展正则表达式
 
 ### -C
 
