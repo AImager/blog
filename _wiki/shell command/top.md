@@ -1,7 +1,5 @@
 ---
-title: top
 layout: wiki
-category: shell command
 tags: [任务管理]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: telnet
 layout: wiki
-category: shell command
 tags: [网络,端口测试,远程登录]
 ---
 
@@ -15,7 +13,7 @@ tags: [网络,端口测试,远程登录]
 
 ## 实例
 
-```
+```shell
 # 测试100.102的8088端口是否对内网开放
 telnet 192.168.100.102 8088
 

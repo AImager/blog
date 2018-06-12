@@ -1,7 +1,5 @@
 ---
-title: touch
 layout: wiki
-category: shell command
 tag: [新建,修改时间]
 ---
 
@@ -11,7 +9,7 @@ tag: [新建,修改时间]
 
 ## 实例
 
-```
+```shell
 # 新建文件
 touch new_file
 ```
