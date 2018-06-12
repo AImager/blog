@@ -13,9 +13,12 @@ tags: [文本处理]
 
 ## 实例
 
-```
+```shell
 # 分组统计次数
 awk '{a[$1]++}END{for (j in a) print j","a[j]}'
+
+# 求和，支持小数
+awk '{sum += $1};END {print sum}' 
 ```
 
 ### -F
