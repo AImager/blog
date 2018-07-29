@@ -5,6 +5,13 @@ category: tool
 tags: [缓存,消息队列]
 ---
 
+## 实用命令集
+
+```
+# 显示100个匹配p_*的key
+SCAN 0 COUNT 100 MATCH p_*
+```
+
 ## 安装
 
 ```
