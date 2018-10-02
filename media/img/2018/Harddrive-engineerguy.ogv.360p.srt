@@ -1,0 +1,363 @@
+1
+00:00:04,000 --> 00:00:07,000
+Hard drive teardown
+
+2
+00:00:07,000 --> 00:00:10,000
+flying heads, voice coil motors, amazingly smooth surfaces & signal processing
+
+3
+00:00:10,000 --> 00:00:17,000
+series 3 engineerguy videos
+
+4
+00:00:17,000 --> 00:00:23,000
+A home computer is a powerful tool, but it must store data reliably to work well, otherwise its kind of pointless isn't it.
+
+5
+00:00:23,000 --> 00:00:25,000
+Let's look inside and see how it stores data.
+
+6
+00:00:30,000 --> 00:00:32,000
+Look at that: It's marvelous.
+
+7
+00:00:32,000 --> 00:00:35,000
+It's an ordinary hard drive, but its details, of course, are extraordinary.
+
+8
+00:00:35,000 --> 00:00:38,000
+Now, I'm sure you know the essence of a hard drive:
+
+9
+00:00:38,000 --> 00:00:41,000
+We store data on it in binary form - ones and zeros.
+
+10
+00:00:41,000 --> 00:00:43,000
+Now, this arm supports a "head"
+
+11
+00:00:43,000 --> 00:00:45,000
+which is an electro-magnet that scans over the disk
+
+12
+00:00:45,000 --> 00:00:48,000
+and either writes data by changing the magnetization of specific sections
+
+13
+00:00:48,000 --> 00:00:50,000
+on the platter or it just reads the data
+
+14
+00:00:50,000 --> 00:00:53,000
+by measuring the magnetic polarization.
+
+15
+00:00:53,000 --> 00:00:54,000
+Now, in principle, pretty simple,
+
+16
+00:00:54,000 --> 00:00:58,000
+but in practice a lot of hard core engineering.
+
+17
+00:00:58,000 --> 00:01:02,000
+The key focus lies in being sure that the head can precisely
+
+18
+00:01:02,000 --> 00:01:03,000
+error free
+
+19
+00:01:03,000 --> 00:01:05,000
+read and write to the disk.
+
+20
+00:01:05,000 --> 00:01:08,000
+The first order of business is to move it with great control.
+
+21
+00:01:08,000 --> 00:01:11,000
+To position the arm engineers use a "voice coil actuator".
+
+22
+00:01:11,000 --> 00:01:14,000
+The base of the arm sits between two powerful magnets.
+
+23
+00:01:14,000 --> 00:01:17,000
+They're so strong they're actually kind of hard to pull apart.
+
+24
+00:01:17,000 --> 00:01:18,000
+There.
+
+25
+00:01:18,000 --> 00:01:20,000
+The arm moves because of a Lorentz force.
+
+26
+00:01:20,000 --> 00:01:23,000
+Pass a current through a wire that's in a magnetic field
+
+27
+00:01:23,000 --> 00:01:25,000
+and the wire experiences a force;
+
+28
+00:01:25,000 --> 00:01:28,000
+reverse the current and the force also reverses.
+
+29
+00:01:28,000 --> 00:01:30,000
+As current flows in one direction in the coil the
+
+30
+00:01:30,000 --> 00:01:34,000
+force created by the permanent magnet makes the arm move this way,
+
+31
+00:01:34,000 --> 00:01:36,000
+reverse the current and it moves back.
+
+32
+00:01:36,000 --> 00:01:39,000
+The force on the arm is directly proportional to the current
+
+33
+00:01:39,000 --> 00:01:40,000
+through the coil which allows the
+
+34
+00:01:40,000 --> 00:01:43,000
+arm's position to be finely tuned.
+
+35
+00:01:43,000 --> 00:01:45,000
+Unlike a mechanical system of linkages there
+
+36
+00:01:45,000 --> 00:01:49,000
+is minimal wear and it isn't sensitive to temperature.
+
+37
+00:01:49,000 --> 00:01:53,000
+At the end of the arm lies the most critical component: The head.
+
+38
+00:01:53,000 --> 00:01:57,000
+At its simplest it's a piece of ferromagnetic material wrapped with wire.
+
+39
+00:01:57,000 --> 00:01:59,000
+As it passes over the magnetized sections of the platter
+
+40
+00:01:59,000 --> 00:02:02,000
+it measures changes in the direction of the magnetic poles.
+
+41
+00:02:02,000 --> 00:02:06,000
+Recall Faraday's Law: A change in magnetization
+
+42
+00:02:06,000 --> 00:02:08,000
+produces a voltage in a nearby coil.
+
+43
+00:02:08,000 --> 00:02:10,000
+So, as the head passes a section where the polarity
+
+44
+00:02:10,000 --> 00:02:14,000
+has changed it records a voltage spike.
+
+45
+00:02:14,000 --> 00:02:16,000
+The spikes - both negative and positive - represent a "one"
+
+46
+00:02:16,000 --> 00:02:19,000
+and where there is no voltage spike corresponds to a "zero.
+
+47
+00:02:19,000 --> 00:02:22,000
+The head gets astonshingly close to the disk surface
+
+48
+00:02:22,000 --> 00:02:25,000
+100 nanometers in older drives, but today under
+
+49
+00:02:25,000 --> 00:02:27,000
+ten nanometers in the newest ones.
+
+50
+00:02:27,000 --> 00:02:30,000
+As the head gets closer to the disk its magnetic field
+
+51
+00:02:30,000 --> 00:02:32,000
+covers less area allowing for more sectors
+
+52
+00:02:32,000 --> 00:02:35,000
+of information to be packed onto the disk's surface.
+
+53
+00:02:35,000 --> 00:02:38,000
+To keep that critical height engineers use an ingenious method:
+
+54
+00:02:38,000 --> 00:02:41,000
+They "float" the head over the disk.
+
+55
+00:02:41,000 --> 00:02:44,000
+You see, as the disk spins it forms a boundary layer of air that
+
+56
+00:02:44,000 --> 00:02:48,000
+gets dragged past the stationary head at 80 miles per hour at the outer edge.
+
+57
+00:02:48,000 --> 00:02:52,000
+The head rides on a "slider" aerodynamically designed to float above the platter.
+
+58
+00:02:52,000 --> 00:02:56,000
+The genius of this air-bearing technology is its self-induced adjustment:
+
+59
+00:02:56,000 --> 00:03:01,000
+If any disturbance causes the slider to rise too high it "floats" back to the where it should be.
+
+60
+00:03:01,000 --> 00:03:04,000
+Now, because the head is so close to the disk surface
+
+61
+00:03:04,000 --> 00:03:07,000
+any stray particles could damage the disk resulting in data loss.
+
+62
+00:03:07,000 --> 00:03:11,000
+So, engineers place this recirculating filter in the air flow;
+
+63
+00:03:11,000 --> 00:03:14,000
+it removes small particles scraped off the platter.
+
+64
+00:03:14,000 --> 00:03:18,000
+To keep the head flying at the right height the platter is made incredibly smooth:
+
+65
+00:03:18,000 --> 00:03:23,000
+Typically this platter is so smooth that it has a surface roughness of about one nanometer.
+
+66
+00:03:23,000 --> 00:03:26,000
+To give you and idea of how smooth that is let's imagine that this section is enlarged
+
+67
+00:03:26,000 --> 00:03:31,000
+until it's as long as a football field - American or International -
+
+68
+00:03:31,000 --> 00:03:35,000
+the average "bump" on the surface would be about three hundredths of an inch.
+
+69
+00:03:35,000 --> 00:03:38,000
+The key element of the platter is the magnetic layer,
+
+70
+00:03:38,000 --> 00:03:41,000
+which is cobalt - with perhaps platinum and nickel mixed in.
+
+71
+00:03:41,000 --> 00:03:43,000
+Now this mixture of metals has high coercivity,
+
+72
+00:03:43,000 --> 00:03:50,000
+which means that it will maintain that magnetization - and thus data - until it is exposed to another powerful magnetic field.
+
+73
+00:03:50,000 --> 00:03:52,000
+One last thing that I find enormously clever:
+
+74
+00:03:52,000 --> 00:03:57,000
+Using a bit of math to squeeze up to forty percent more information on the disk.
+
+75
+00:03:57,000 --> 00:04:04,000
+Consider this sequence of magnetic poles on the disk's surface - 0-1-0-1-1-1.
+
+76
+00:04:04,000 --> 00:04:06,000
+A scan by the head would reveal these distinct voltage spikes -
+
+77
+00:04:06,000 --> 00:04:09,000
+both positive or negative for the "ones.
+
+78
+00:04:09,000 --> 00:04:13,000
+We would be easily able to distinguish it from, say, this similar sequence.
+
+79
+00:04:13,000 --> 00:04:16,000
+If we compare them they clearly differ.
+
+80
+00:04:16,000 --> 00:04:20,000
+Engineers, though, always work to get more and more data onto a hard drive.
+
+81
+00:04:20,000 --> 00:04:22,000
+One way to do this is to shrink the magnetic domains,
+
+82
+00:04:22,000 --> 00:04:25,000
+but look what happens to the voltage spikes when we do this.
+
+83
+00:04:25,000 --> 00:04:28,000
+For each sequence the spikes of the ones now overlap and
+
+84
+00:04:28,000 --> 00:04:30,000
+superimpose giving "fuzzy" signals.
+
+85
+00:04:30,000 --> 00:04:33,000
+In fact, the two sequences now look very similar.
+
+86
+00:04:33,000 --> 00:04:37,000
+Using a technique called Partial Response Maximum Likliehood engineers have developed
+
+87
+00:04:37,000 --> 00:04:40,000
+sophisticated codes that can take a murky signal like this,
+
+88
+00:04:40,000 --> 00:04:45,000
+generate the possible sequences that could make it up and then choose the most probable.
+
+89
+00:04:45,000 --> 00:04:49,000
+As with any successful technology, these hard drives remain unnoticed in our daily lives,
+
+90
+00:04:49,000 --> 00:04:51,000
+unless something goes wrong.
+
+91
+00:04:51,000 --> 00:04:53,000
+I'm Bill Hammack, the engineer guy.
