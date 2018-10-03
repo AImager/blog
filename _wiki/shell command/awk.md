@@ -18,7 +18,10 @@ tags: [文本处理]
 awk '{a[$1]++}END{for (j in a) print j","a[j]}'
 
 # 求和，支持小数
-awk '{sum += $1};END {print sum}' 
+awk '{sum += $1};END {print sum}'
+
+# 使用shell变量
+awk '{print "'"$var"'"}'
 ```
 
 ### -F

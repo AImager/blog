@@ -6,7 +6,7 @@ tags: [数论]
 ## 超越数与代数数
 
 * 超越数：不是代数数的无理数
-* 代数数：任何整系数多项式的复根，比如 $\pi$ 和 $e$ 
+* 代数数：任何整系数多项式的复根，比如 $\pi$ 和 $e$
 
 
 ## 常见自然数
@@ -35,7 +35,7 @@ tags: [数论]
 * $\varphi$ 函数/欧拉函数：小于x且与x互质的个数
 * $e_p(a)$ ：使 $a^k \equiv 1(mod p)$ 成立的最小正整指数k，其中a与p互素
 * 原根：具有最高次数 $e_p(g)=p-1$ 的数g称为p的原根
-* 佩尔方程： $x^2-D*y^2=1$ 
+* 佩尔方程： $x^2-D*y^2=1$
 * 二次剩余(QR)：若 $a^2 \equiv b (mod p)$ ，且 $a(0<=a<p)$ ，则称b为p的二次剩余
 * 二次非剩余(NR)：若 $x^2 \equiv b(mod p)$ 在 $(0,p)$ 中无解，则称b为p的二次非剩余
 * 勒让德符号
@@ -74,7 +74,7 @@ $a^n+b^n=c^n$ ，当n大于等于3时等式不存在自然数a,b,c使等式成�
 
 ## 费马小定理
 
-p为素数，对任意正整数a，当有 $gcd(a,b)=1$ ，有 $a^{p-1} \equiv 1 (mod p)$ 
+p为素数，对任意正整数a，当有 $gcd(a,b)=1$ ，有 $a^{p-1} \equiv 1 (mod p)$
 
 
 ## 素数定理
@@ -88,7 +88,7 @@ x很大时，小于x的素数的个数近似等于 $\frac{x}{ln(x)}$ ，但并�
 
 ## 欧拉定理
 
-$gcd(a,n)=1$ ，则 $a^{\varphi(n)} \equiv 1 (mod n)$ 
+$gcd(a,n)=1$ ，则 $a^{\varphi(n)} \equiv 1 (mod n)$
 
 
 
@@ -109,14 +109,14 @@ $$
 
 ## 欧拉函数运算法则：
 
-* p为素数，$\varphi(p^k) = p^k - p^(k-1)$ 
-* 若 $gcd(m,n)=1，则\varphi(mn) = \varphi(m)\varphi(n)$ 
+* p为素数，$\varphi(p^k) = p^k - p^(k-1)$
+* 若 $gcd(m,n)=1，则\varphi(mn) = \varphi(m)\varphi(n)$
 
 
 ## 线性同余定理
 
-* $(p-1)! \equiv h(mod p)$ 
-* 若 $a \equiv h1 (mod p)，b \equiv h2 (mod p)$ ，则 $a*b \equiv (h1*h2) (mod p)$ 且 $a+b \equiv (h1+h2) (mod p)$ 
+* $(p-1)! \equiv h(mod p)$
+* 若 $a \equiv h1 (mod p)，b \equiv h2 (mod p)$ ，则 $a\*b \equiv (h1\*h2) (mod p)$ 且 $a+b \equiv (h1+h2) (mod p)$
 
 
 ## 线性方程最小正整数定理
@@ -142,36 +142,36 @@ $gcd(m,n)=1$ ，则同余式组 $x \equiv b (mod m)$ 与 $x \equiv c (mod n)$ �
 
 ## 幂和公式
 
-$1^k+2^k+...+n^k=\frac{(n+1+p)^{k+1}-p^{k+1}}{k+1}$ 
+$1^k+2^k+...+n^k=\frac{(n+1+p)^{k+1}-p^{k+1}}{k+1}$
 
 
 
 ## 佩尔方程定理
 
-方程的每一组解 $x_k,y_k)$ 都可表示为 $x_k+y_k*\sqrt(D) = (x_1+y_1*\sqrt(D))^k$ 
+方程的每一组解 $x_k,y_k$ 都可表示为 $x_k+y_k\*\sqrt D = (x_1+y_1\*\sqrt D)^k$
 
 
 
 ## 素数的两平方数和定理
 
-素数p为两平方数和的充要条件为 $p \equiv 1 (mod 4)$ 
+素数p为两平方数和的充要条件为 $p \equiv 1 (mod 4)$
 
 ## 正整数的两平方数和定理
 
-m为正整数，素数分解 $m=p_1*p_2...*p_n$ ，m可以表示成两平方数和的充要条件为 $p_i$ 为2或模4余1
+m为正整数，素数分解 $m=p_1\*p_2...\*p_n$ ，m可以表示成两平方数和的充要条件为 $p_i$ 为2或模4余1
 
 ## 欧拉准则
 
-$a^{\frac{p-1}{2}} ≡ \left ( \frac{a}{p} \right ) (mod p)$ 
+$a^{\frac{p-1}{2}} ≡ \left ( \frac{a}{p} \right ) (mod p)$
 
 
 ## 勒让德符号乘法法则
 
-$\left ( \frac{a}{p} \right )*\left ( \frac{b}{p} \right ) = \left ( \frac{ab}{p} \right )$ 
+$\left ( \frac{a}{p} \right )*\left ( \frac{b}{p} \right ) = \left ( \frac{ab}{p} \right )$
 
 ## 二次剩余乘法法则
 
-* 若 $a^2 \equiv k_1 (mod p),b^2 \equiv k_2 (mod p)$ ，则 $a^2*b^2 \equiv k_1*k_2 (mod p)$ 
+* 若 $a^2 \equiv k_1 (mod p),b^2 \equiv k_2 (mod p)$ ，则 $a^2\*b^2 \equiv k_1\*k_2 (mod p)$
 * 若 $x^2 \equiv h_1 (mod p)$ 无解， $x^2 \equiv h_2 (mod p)$ 有解，则 $x^2 \equiv h_1*h_2 (mod p)$ 无解
 * 若 $x^2 \equiv g_1 (mod p)$ 无解， $x^2 \equiv g_2 (mod p)$ 无解，则 $x^2 \equiv g_1*g_2 (mod p)$ 有解
 
@@ -181,7 +181,7 @@ $\left ( \frac{a}{p} \right )*\left ( \frac{b}{p} \right ) = \left ( \frac{ab}{p
 
 * 若 $p \equiv 1 (mod 4)$ ，-1是p的二次剩余；若 $p \equiv 3 (mod 4)$ ，-1是p的非二次剩余
 * 若 $p \equiv 1 (mod 8)$ 或 $p \equiv 7 (mod 8)$ ，2是p的二次剩余；若 $p \equiv 3 (mod 8)$ 或 $p \equiv 5 (mod 8)$ ，-1是p的非二次剩余
-* 若 $p \equiv 1 (mod 4)$ 或 $q \equiv 1 (mod 4)$ ， $\left ( \frac{q}{p} \right ) = \left ( \frac{p}{q} \right )$ ，若 $p \equiv q \equiv 3 (mod 4)$ ， $\left ( \frac{q}{p} \right ) = -\left ( \frac{p}{q} \right )$ 
+* 若 $p \equiv 1 (mod 4)$ 或 $q \equiv 1 (mod 4)$ ， $\left ( \frac{q}{p} \right ) = \left ( \frac{p}{q} \right )$ ，若 $p \equiv q \equiv 3 (mod 4)$ ， $\left ( \frac{q}{p} \right ) = -\left ( \frac{p}{q} \right )$
 
 
 
@@ -191,7 +191,7 @@ $\left ( \frac{a}{p} \right )*\left ( \frac{b}{p} \right ) = \left ( \frac{ab}{p
 * 拉托斯特尼筛法/试除法：将小于n的所有数与n进行互质检验
 * 费马素数测试【随机算法】：取 $0<=a<m$，且 $gcd(a,m)=1$ ，由逐次平方法求计算 $a^{m-1} (mod m)$ ，若不为1，则根据费马小定理确定不为素数；若为1，则不能确定m为素数还是合数
 * 通过欧几里得算法回带可求出一组 $ax+by=gcd(x,y)$ 的整数解
-* 求解方程 $x^k \equiv b (mod m)$ 
+* 求解方程 $x^k \equiv b (mod m)$
 * 求解 $\frac{a^k}{m}$ 的值，使用逐次平方法
 
 
@@ -214,7 +214,7 @@ $\left ( \frac{a}{p} \right )*\left ( \frac{b}{p} \right ) = \left ( \frac{ab}{p
 ## 一些结论
 
 * $2^n-1$ 与 $2^n+1$ 中若有一个为素数，另一个必为合数
-* $gcd(a,b)=1$ ，则 $a*x+b*y=m$ 对 $m+a+b>=a*b$ 一定存在正整数解
+* $gcd(a,b)=1$ ，则 $a\*x+b\*y=m$ 对 $m+a+b>=a*b$ 一定存在正整数解
 * 素数 $P$ 整除 $A^2-1$ ，则 $A \equiv 1(modP)$ 或 $A \equiv -1(modP)$
 * 存在任意长度的合数列
 * 存在任意长度的素数等差数列

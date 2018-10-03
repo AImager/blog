@@ -10,7 +10,7 @@ tags: [网络,抓包,sudo]
 
 ## 实例
 
-```
+```shell
 # 监听eth0网卡本地8097端口的活动，不截断，以ASCII形式显示
 # 保存为pcap文件
 tcpdump -i eth0 -s 0 -A host 127.0.0.1 and port 8097 -w res.pcap
