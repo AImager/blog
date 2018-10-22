@@ -36,7 +36,7 @@ databases 64
 redis-cli -h localhost -p 6379
 
 # 模糊匹配删除key
-redis-cli KEYS "pattern" | xargs redis-cli DEL
+redis-cli -h localhost -p 6379 KEYS "pattern" | xargs redis-cli -h localhost -p 6379 DEL
 ```
 
 ## redis-server
