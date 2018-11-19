@@ -17,7 +17,7 @@ tags: [文本处理]
 # 分组统计次数
 awk '{a[$1]++}END{for (j in a) print j","a[j]}'
 
-# 求和，支持小数
+# 相加求和，支持小数
 awk '{sum += $1};END {print sum}'
 
 # 使用shell变量

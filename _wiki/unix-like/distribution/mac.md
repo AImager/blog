@@ -77,6 +77,13 @@ sudo codesign -f -d -s - /Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\
 
 上述命令用于去除开机后alfred总是提示访问通讯录
 
+### dock
+
+```shell
+# dock只显示当前运行程序
+defaults write com.apple.dock static-only -bool TRUE; killall Dock
+```
+
 
 ### 登录项位置
 
