@@ -109,7 +109,7 @@ $$
 
 ## 欧拉函数运算法则：
 
-* p为素数，$\varphi(p^k) = p^k - p^(k-1)$
+* p为素数，$\varphi(p^k) = p^k - p^{k-1}$
 * 若 $gcd(m,n)=1，则\varphi(mn) = \varphi(m)\varphi(n)$
 
 

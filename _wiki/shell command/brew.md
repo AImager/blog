@@ -23,6 +23,10 @@ brew自己使用编译的方式安装，而brew cask多是安装dmg/pkg，即更
 * quicklook-json
 * qlimagesize: quicklook图片显示大小和分辨率
 
+## 更新
+
+* `brew upgrade ruby`: 更新某个包
+
 ## doctor
 
 通过`brew doctor`命令检查brew的问题，常见的问题如下
