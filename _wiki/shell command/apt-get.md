@@ -1,8 +1,6 @@
 ---
-title: apt-get
 layout: wiki
-category: shell command
-tags: [deb,ubuntu]
+tags: [deb,ubuntu,apt]
 ---
 
 ## 实例

@@ -1,8 +1,6 @@
 ---
-title: apt-cache
 layout: wiki
-category: shell command
-tags: [deb,ubuntu,正则]
+tags: [deb,ubuntu,正则,apt]
 ---
 
 ## 实例
