@@ -5,6 +5,8 @@ category: shell command
 tags: [十六进制,反编译,ELF]
 ---
 
+mac下对应的软件为gobjdump
+
 ## 实例
 
 ```

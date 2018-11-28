@@ -5,6 +5,8 @@ category: shell command
 tags: [ELF]
 ---
 
+mac下对应的软件为greadelf
+
 ## 实例
 
 ```
