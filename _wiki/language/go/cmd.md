@@ -1,16 +1,18 @@
 ---
-title: cmd
 layout: wiki
-category: go
 tags: [命令行工具]
 ---
 
 ## get
 
+```shell
+# 下载包到gopath-src下
+go get github.com/bitly/go-simplejson
 ```
-# 
-go get -u 
-```
+
+### -u
+
+加这个参数后，如果本地已经存在对应包，就不会进行更新
 
 
 ## 参考链接

@@ -31,4 +31,4 @@ tags: [包,import]
 ## 参考链接
 
 * [golang之package](https://studygolang.com/articles/5831)
-
+* [理解Golang包导入](https://tonybai.com/2015/03/09/understanding-import-packages/)

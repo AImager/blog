@@ -1,7 +1,5 @@
 ---
-title: array
 layout: wiki
-category: go
 tags: [数组,类型,type]
 ---
 
