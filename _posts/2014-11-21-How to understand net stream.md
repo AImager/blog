@@ -27,8 +27,8 @@ send("5678");
 
 /* server */
 while(1) {
-	res = recv();
-	printf("%s_",res);
+    res = recv();
+    printf("%s_",res);
 }
 ```
 

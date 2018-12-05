@@ -40,31 +40,31 @@ tag: [页映射,虚拟内存]
 
 ```
 struct vm_area_struct {
-	/* The first cache line has the info for VMA tree walking. */
+    /* The first cache line has the info for VMA tree walking. */
 
-	unsigned long vm_start;		/* Our start address within vm_mm. */
-	unsigned long vm_end;		/* The first byte after our end address within vm_mm. */
+    unsigned long vm_start;		/* Our start address within vm_mm. */
+    unsigned long vm_end;		/* The first byte after our end address within vm_mm. */
 
-	/* linked list of VM areas per task, sorted by address */
-	struct vm_area_struct *vm_next, *vm_prev;
+    /* linked list of VM areas per task, sorted by address */
+    struct vm_area_struct *vm_next, *vm_prev;
 
-	struct rb_node vm_rb;
+    struct rb_node vm_rb;
 
-	...
+    ...
 
-	/* Second cache line starts here. */
+    /* Second cache line starts here. */
 
-	struct mm_struct *vm_mm;	/* The address space we belong to. */
-	pgprot_t vm_page_prot;		/* Access permissions of this VMA. */
-	unsigned long vm_flags;		/* Flags, see mm.h. */
+    struct mm_struct *vm_mm;	/* The address space we belong to. */
+    pgprot_t vm_page_prot;		/* Access permissions of this VMA. */
+    unsigned long vm_flags;		/* Flags, see mm.h. */
 
-	...
+    ...
 
-	/* Information about our backing store: */
-	unsigned long vm_pgoff;		/* Offset (within vm_file) in PAGE_SIZE units */
-	struct file * vm_file;		/* File we map to (can be NULL). */
-	
-	...
+    /* Information about our backing store: */
+    unsigned long vm_pgoff;		/* Offset (within vm_file) in PAGE_SIZE units */
+    struct file * vm_file;		/* File we map to (can be NULL). */
+
+    ...
 };
 ```
 
@@ -82,8 +82,8 @@ Elf 文件类型为 EXEC (可执行文件)
 
  Section to Segment mapping:
   段节...
-   00     .text 
-   01     .data 
+   00     .text
+   01     .data
 ```
 
 建立了VMA，接下来将指令寄存器设置成入口地址0x8048080后运行。但是0x8048080所在的页是空的，所以产生页错误，然后根据VMA载入可执行文件的program里Offset为0x000000~0x00008d的数据至一个物理内存页里，同时建立物理内存页和0x8048号虚拟页的映射关系（即修改页表），然后回到主程序流程。

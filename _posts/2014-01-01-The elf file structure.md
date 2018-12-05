@@ -25,13 +25,13 @@ ELF文件主要是由文件头（ELF Header）、段表（Section Header Table�
 ; ~/test/test.asm
 
 [section .data]  ;数据段
-	dataAdd db 1
+    dataAdd db 1
 [section .text]  ;代码段
-	global _start
-	_start:
-		mov al,2
-		mov [dataAdd],al
-		jmp _start   ;循环
+    global _start
+    _start:
+        mov al,2
+        mov [dataAdd],al
+        jmp _start   ;循环
 ```
 
 接着分别编译和链接产生test.o重定位文件和test可执行文件

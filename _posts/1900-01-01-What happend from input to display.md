@@ -20,7 +20,7 @@ tag: []
 ## 后台篇
 
 * Server
-	* Nginx
+    * Nginx
 * CGI/Servlet
 * Kafka
 * Redis
