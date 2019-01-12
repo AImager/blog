@@ -20,7 +20,7 @@ tags: [压测,并发,QPS]
 
 ## 实例
 
-```
+```shell
 # 开启10并发，共提交100个请求
 # 相当于平均一个连接提交10个请求
 ab -n 100 -c 10 http://aimager.com/
@@ -28,9 +28,9 @@ ab -n 100 -c 10 http://aimager.com/
 
 ## 显示说明
 
-```
+```shell
 # 并发数
-Concurrency Level: 100		
+Concurrency Level: 100
 
 # 整个测试持续的时间
 Time taken for tests: 50.872 seconds

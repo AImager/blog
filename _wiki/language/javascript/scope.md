@@ -1,7 +1,5 @@
 ---
-title: scope
 layout: wiki
-category: javascript
 tag: [作用域,闭包,var]
 ---
 

@@ -13,7 +13,7 @@ tags: [锁]
 
 ## 引擎支持的锁
 
-* MyISAM: 表锁 
+* MyISAM: 表锁
 * MEMORY: 表锁
 * BDB: 默认页面锁，支持表锁
 * InnoDB: 默认行锁，支持表锁

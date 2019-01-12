@@ -1,7 +1,5 @@
 ---
-title: slice
 layout: wiki
-category: go
 tags: [切片,类型,type]
 ---
 

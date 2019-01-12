@@ -1,7 +1,5 @@
 ---
-title: map
 layout: wiki
-category: go
 tags: [映射,字典,type]
 ---
 
@@ -18,5 +16,10 @@ func main() {
 	a["a"] = map[string]int{"c": 1}
 	a["a"]["d"] = 2
 	fmt.Println(a)
+}
+
+
+if _, ok := map[key]; ok {
+//存在
 }
 ```

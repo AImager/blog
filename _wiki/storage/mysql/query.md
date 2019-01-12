@@ -5,7 +5,7 @@ category: mysql
 tags: [查询]
 ---
 
-```
+```shell
 # 切换当前数据库
 use mysql_name;
 
@@ -27,7 +27,7 @@ show create table table_name;
 
 ## query
 
-```
+```shell
 # 执行SQL时不使用用cache
 # 但如果结果不变则还是返回结果集cache
 select SQL_NO_CACHE * from table;
@@ -39,7 +39,7 @@ select * from table FORCE INDEX (index_name) where a = 1;
 
 ## 函数
 
-```
+```shell
 # 日期格式化/转换为时间戳/从时间戳转换
 DATE_FORMAT(NOW(), '%Y-%m-%d'), UNIX_TIMESTAMP(NOW()), FROM_UNIXTIME(1355272360, '%Y-%m-%d')
 ```

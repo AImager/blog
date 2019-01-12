@@ -22,11 +22,11 @@ tags: [主键,外键]
 * restrict: 拒绝主表相关操作
 * set null: 从表不指向主表任何记录
 
-```sql
+```shell
 # 往A表添加field字段，field是指向B表field字段的外键
 # 设置级联，当A的field某值完全删除后，B表field含有该值的行都被删除
 alter table A add foreign key (field) references B (field)
-on delete cascade; 
+on delete cascade;
 ```
 
 ## 超键/候选键

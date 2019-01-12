@@ -1,7 +1,5 @@
 ---
-title: digit operation
 layout: wiki
-category: language
 tags: [位运算]
 ---
 

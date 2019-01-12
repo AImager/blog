@@ -1,7 +1,5 @@
 ---
-title: prototype
 layout: wiki
-category: javascript
 tag: [原型链]
 ---
 

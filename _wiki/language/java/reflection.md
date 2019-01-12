@@ -1,7 +1,5 @@
 ---
-title: reflection
 layout: wiki
-category: java
 tags: [反射]
 ---
 

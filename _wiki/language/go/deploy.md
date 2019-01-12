@@ -1,7 +1,5 @@
 ---
-title: deploy
 layout: wiki
-category: go
 tag: [部署]
 ---
 

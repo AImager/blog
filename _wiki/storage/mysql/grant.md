@@ -7,7 +7,7 @@ tags: [权限,用户,密码]
 
 ## 权限控制
 
-```
+```shell
 # 显示当前用户对各数据库的权限
 show grants;
 
@@ -21,7 +21,7 @@ create user 'yucong'@'%' identified by 'password';
 UPDATE user SET password=PASSWORD('password') WHERE user='user_name';
 
 # 5.7修改用户密码
-alter user 'root'@'localhost' identified by 'root'; 
+alter user 'root'@'localhost' identified by 'root';
 
 # 授权全部权限
 GRANT ALL ON *.* TO 'username'@'%';

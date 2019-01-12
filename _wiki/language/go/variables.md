@@ -1,7 +1,5 @@
 ---
-title: variables
 layout: wiki
-category: go
 tags: [变量]
 ---
 

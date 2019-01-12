@@ -7,7 +7,7 @@ tags: [管理员,状态]
 
 ## 服务启动
 
-```
+```shell
 # 从5.7开始，第一次启动前需要初始化
 mysqld --initialize
 
@@ -28,17 +28,17 @@ mysql -h host -u username -p password -P port
 
 ## 查看基本信息
 
-```
+```shell
 # 查看引擎
 show engines;
 
 # 查看版本号
-select version(); 
+select version();
 ```
 
 ## 查看服务状态
 
-```
+```shell
 # 查看数据库执行状态，full用于显示完整sql信息
 show full processlist;
 

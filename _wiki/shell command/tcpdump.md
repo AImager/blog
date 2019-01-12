@@ -36,7 +36,7 @@ tcpdump -i eth0 -s 0 -A host 127.0.0.1 and port 8097 -w res.pcap
 
 指定监听的地址
 
-### -s 
+### -s
 
 设定抓取的包长度，为0时表示自动设置长度
 
@@ -61,4 +61,5 @@ tcpdump -i eth0 -s 0 -A host 127.0.0.1 and port 8097 -w res.pcap
 
 ## 参考链接
 
-* [](https://mozillazg.github.io/2015/05/open-tcpdump-result-with-wireshark-gui.html)
+* [使用 wireshark 查看 tcpdump 的抓包结果](https://mozillazg.github.io/2015/05/open-tcpdump-result-with-wireshark-gui.html)
+* [使用tcpdump查看HTTP请求响应](https://www.jianshu.com/p/3cca9a74927c)

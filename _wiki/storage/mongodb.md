@@ -7,7 +7,7 @@ tags: [mongo,nosql]
 
 ## shell命令
 
-```
+```shell
 # 导出collection数据到file.json
 mongodump -d db -c collection --host url:port --authenticationDatabase auth_db -u username -p password -o file.json
 
@@ -17,7 +17,7 @@ mongorestore -d db -c collection --host url:port --authenticationDatabase auth_d
 
 ## 运维指令
 
-```
+```shell
 # 切换database
 use dw;
 
@@ -53,7 +53,7 @@ db.collection.deleteOne()
 
 ## query
 
-```
+```shell
 # in
 { status: { $in: [ "A", "D" ] } }
 ```
@@ -61,7 +61,7 @@ db.collection.deleteOne()
 
 ## php_driver
 
-```
-// php设置超时毫秒数
+```shell
+# php设置超时毫秒数
 new MongoClient($uri, array("socketTimeoutMS" => "90000"))
 ```

@@ -20,7 +20,7 @@ tags: [安装,docker]
 	* DDEFAULT_CHARSET = urf8: 默认编码
 	* DDEFAULT_COLLATION = utf8_general_ci: 默认校验编码
 	* DWITH_EXTRA_CHARSETS = all: 引入哪些额外的编码
-	* DWITH_EXTRA_CHARSETS:STRING = all: 
+	* DWITH_EXTRA_CHARSETS:STRING = all:
 	* DMYSQL_TCP_PORT = 3306: 默认端口
 	* DWITH_DEBUG = boolean: 是否开启调试
 	* DENABLED_LOCAL_INFILE = boolean: 是否允许从客户端导入数据
@@ -31,7 +31,7 @@ tags: [安装,docker]
 
 
 
-```
+```shell
 # 源码安装，带boost版本
 cmake . -DCMAKE_INSTALL_PREFIX=/install_path/mysql-x.x.xx \
 -DWITH_BOOST=boost \
@@ -51,7 +51,7 @@ cmake . -DCMAKE_INSTALL_PREFIX=/install_path/mysql-x.x.xx \
 
 ## docker-compose
 
-```
+```dockerfile
 version: '2'
 
 services:

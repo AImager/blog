@@ -1,7 +1,5 @@
 ---
-title: type
 layout: wiki
-category: javascript
 tag: [类型]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: func
 layout: wiki
-category: go
 tags: [函数]
 ---
 

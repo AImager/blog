@@ -1,7 +1,5 @@
 ---
-title: hoisting
 layout: wiki
-category: javascript
 tag: [变量提升]
 ---
 

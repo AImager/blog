@@ -7,7 +7,7 @@ tags: [优化,explain,profiling,trace]
 
 ## profiler分析
 
-```
+```shell
 # 开启sql分析
 SET profiling = 1;
 
@@ -24,7 +24,7 @@ SHOW PROFILE ALL FOR QUERY 4;
 
 ## trace分析
 
-```
+```shell
 # 设置开启trace
 SET OPTIMIZER_TRACE="enabled=on";
 # 设置最大optimizer内存

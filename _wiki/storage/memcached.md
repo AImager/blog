@@ -9,13 +9,13 @@ memcached是一个高性能key-value内存型数据库，因为没有持久换�
 
 ## 应用命令
 
-```
+```shell
 # key不存在就设置，存在就更新
 # exptime表示超时秒数，0表示无限
 # bytes表示存储所用bytes数量
 # noreply表示不返回值
 # flags为4bytes的额外存储，不过还没搞清楚它干嘛用的，一般就设置为0
-set key flags exptime bytes [noreply] value 
+set key flags exptime bytes [noreply] value
 
 # key不存在就设置，存在不更新且返回NOT_STORED
 add key flags exptime bytes [noreply] value
@@ -41,7 +41,7 @@ decr key increment_value
 
 ## 运维命令
 
-```
+```shell
 # 清理所有值
 flush_all
 

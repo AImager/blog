@@ -7,14 +7,14 @@ tags: [缓存,消息队列]
 
 ## 实用命令集
 
-```
+```shell
 # 显示100个匹配p_*的key
 SCAN 0 COUNT 100 MATCH p_*
 ```
 
 ## 安装
 
-```
+```shell
 # 源码安装
 make -j 8 && sudo make PREFIX=/server/environ/originlib/redis-3.2.3 -j 8 install
 ```
@@ -23,7 +23,7 @@ make -j 8 && sudo make PREFIX=/server/environ/originlib/redis-3.2.3 -j 8 install
 
 redis默认config需要下载，稳定最新版[地址](http://download.redis.io/redis-stable/redis.conf)。config也是采用命令的形式，即加载配置实际上是执行命令。
 
-```
+```shell
 # 设置64个库
 # 库名索引为0~63
 databases 64
@@ -31,7 +31,7 @@ databases 64
 
 ## redis-cli
 
-```
+```shell
 # 登录到redis
 redis-cli -h localhost -p 6379
 
@@ -41,7 +41,7 @@ redis-cli -h localhost -p 6379 KEYS "pattern" | xargs redis-cli -h localhost -p 
 
 ## redis-server
 
-```
+```shell
 # 开启server
 # 开启时同时设置slave，也可以开启后登录server执行slaveof的命令开启
 ./redis-server ./redis.conf --port 7777 --slaveof 127.0.0.1 6379 &
@@ -49,14 +49,14 @@ redis-cli -h localhost -p 6379 KEYS "pattern" | xargs redis-cli -h localhost -p 
 
 ## 通用命令
 
-```
+```shell
 # 验证帐号
 auth password
 
 # 切换数据库
 select db
 
-# 匹配搜索后缀为_name的key
+# 匹配搜索后缀为_name的key，这个命令只支持*、？、[]三种通配符
 keys *_name
 
 # 获取key的超时时间
@@ -68,7 +68,7 @@ sort key
 
 ## 字符串
 
-```
+```shell
 # 设置key以及其值
 set key value
 
@@ -90,7 +90,7 @@ incrby key number
 
 哈希更节省内存，而且其结构对单一key而言类似于关联数组，所以很适合用户信息这样的场景。
 
-```
+```shell
 # 设置key的field字段值
 hset key field value
 
@@ -101,7 +101,7 @@ hget key field
 
 ## 列表
 
-```
+```shell
 # 加入列表
 lpush key value
 
@@ -116,7 +116,7 @@ lrange key start end
 
 字符串类型的无序集合，集合成员是唯一的。
 
-```
+```shell
 # 将成员添加到集合
 sadd key member
 ```
@@ -125,7 +125,7 @@ sadd key member
 
 字符串类型的有序集合，集合成员是唯一的。每个元素关联一个分数，通过分数排序。
 
-```
+```shell
 # 将成员和其分数添加进集合
 zadd key score member
 
@@ -148,7 +148,7 @@ zincrby key increment member
 
 用于做模糊`count(distinct)`的结构，速度快，内存占用小。
 
-```
+```shell
 # 添加元素进去
 pfadd key element
 

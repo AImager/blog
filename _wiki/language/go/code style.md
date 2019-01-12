@@ -1,7 +1,5 @@
 ---
-title: code style
 layout: wiki
-category: go
 tags: [编码风格]
 ---
 

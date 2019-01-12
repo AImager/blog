@@ -1,7 +1,5 @@
 ---
-title: goroutine
 layout: wiki
-category: go
 tags: [协程]
 ---
 

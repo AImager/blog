@@ -28,7 +28,15 @@ tags: [包,import]
 * 当`main.go`和`test.go`设置的`package`不是`main`的时候，执行`go install`和`go build`都不会得到结果，即执行`go build`寻找的输入文件所有`package main`的，而执行`go install`寻找的是`package`目录下所有`package main`的
 
 
+## get
+
+```shell
+# 下载丢失的包，但不会更新已经存在的包
+go get -u github.com/mgechev/revive
+```
+
 ## 参考链接
 
 * [golang之package](https://studygolang.com/articles/5831)
 * [理解Golang包导入](https://tonybai.com/2015/03/09/understanding-import-packages/)
+* [go get命令——一键获取代码、编译并安装](http://c.biancheng.net/view/123.html)

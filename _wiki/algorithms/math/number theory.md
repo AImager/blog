@@ -116,7 +116,7 @@ $$
 ## 线性同余定理
 
 * $(p-1)! \equiv h(mod p)$
-* 若 $a \equiv h1 (mod p)，b \equiv h2 (mod p)$ ，则 $a\*b \equiv (h1\*h2) (mod p)$ 且 $a+b \equiv (h1+h2) (mod p)$
+* 若 $a \equiv h1 (mod p)，b \equiv h2 (mod p)$ ，则 $a \times b \equiv (h1 \times h2) (mod p)$ 且 $a+b \equiv (h1+h2) (mod p)$
 
 
 ## 线性方程最小正整数定理
@@ -148,7 +148,7 @@ $1^k+2^k+...+n^k=\frac{(n+1+p)^{k+1}-p^{k+1}}{k+1}$
 
 ## 佩尔方程定理
 
-方程的每一组解 $x_k,y_k$ 都可表示为 $x_k+y_k\*\sqrt D = (x_1+y_1\*\sqrt D)^k$
+方程的每一组解 $x_k,y_k$ 都可表示为 $x_k+y_k \times \sqrt D = (x_1+y_1 \times \sqrt D)^k$
 
 
 
@@ -158,7 +158,7 @@ $1^k+2^k+...+n^k=\frac{(n+1+p)^{k+1}-p^{k+1}}{k+1}$
 
 ## 正整数的两平方数和定理
 
-m为正整数，素数分解 $m=p_1\*p_2...\*p_n$ ，m可以表示成两平方数和的充要条件为 $p_i$ 为2或模4余1
+m为正整数，素数分解 $m=p_1 \times p_2... \times p_n$ ，m可以表示成两平方数和的充要条件为 $p_i$ 为2或模4余1
 
 ## 欧拉准则
 
@@ -171,7 +171,7 @@ $\left ( \frac{a}{p} \right )*\left ( \frac{b}{p} \right ) = \left ( \frac{ab}{p
 
 ## 二次剩余乘法法则
 
-* 若 $a^2 \equiv k_1 (mod p),b^2 \equiv k_2 (mod p)$ ，则 $a^2\*b^2 \equiv k_1\*k_2 (mod p)$
+* 若 $a^2 \equiv k_1 (mod p),b^2 \equiv k_2 (mod p)$ ，则 $a^2 \times b^2 \equiv k_1 \times k_2 (mod p)$
 * 若 $x^2 \equiv h_1 (mod p)$ 无解， $x^2 \equiv h_2 (mod p)$ 有解，则 $x^2 \equiv h_1*h_2 (mod p)$ 无解
 * 若 $x^2 \equiv g_1 (mod p)$ 无解， $x^2 \equiv g_2 (mod p)$ 无解，则 $x^2 \equiv g_1*g_2 (mod p)$ 有解
 
@@ -214,7 +214,7 @@ $\left ( \frac{a}{p} \right )*\left ( \frac{b}{p} \right ) = \left ( \frac{ab}{p
 ## 一些结论
 
 * $2^n-1$ 与 $2^n+1$ 中若有一个为素数，另一个必为合数
-* $gcd(a,b)=1$ ，则 $a\*x+b\*y=m$ 对 $m+a+b>=a*b$ 一定存在正整数解
+* $gcd(a,b)=1$ ，则 $ax+by=m$ 对 $m+a+b>=a*b$ 一定存在正整数解
 * 素数 $P$ 整除 $A^2-1$ ，则 $A \equiv 1(modP)$ 或 $A \equiv -1(modP)$
 * 存在任意长度的合数列
 * 存在任意长度的素数等差数列
