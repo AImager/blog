@@ -95,13 +95,11 @@ $gcd(a,n)=1$ ，则 $a^{\varphi(n)} \equiv 1 (mod n)$
 ## 欧拉公式
 
 $$
-\begin{equation}
-\begin{split}
-\varphi(x) & = \varphi({p_1}^{k_1}*{p_2}^{k_2}...*{p_n}^{k_n}) \\
-& = ({p_1}^{k_1}-{p_1}^{k_1-1})...*({p_n}^{k_n}-{p_n}^{k_n-1}) \\
-& = x*(1-\frac{1}{p_1})*(1-\frac{1}{p_2})...*(1-\frac{1}{p_n})
-\end{split}
-\end{equation}
+\begin{aligned}
+\varphi(x) &= \varphi({p_1}^{k_1}*{p_2}^{k_2}...*{p_n}^{k_n}) \\
+&= ({p_1}^{k_1}-{p_1}^{k_1-1})...*({p_n}^{k_n}-{p_n}^{k_n-1}) \\
+&= x*(1-\frac{1}{p_1})*(1-\frac{1}{p_2})...*(1-\frac{1}{p_n}
+\end{aligned}
 $$
 
 其中 $p_1...p_n$ 为x的所有质因数，$k_1...k_n$ 分别对应各个质因数的系数
