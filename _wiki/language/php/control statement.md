@@ -11,7 +11,7 @@ tags: [控制语句]
 
 ```php
 <?php if ($a == 5): ?>
-	A is equal to 5
+    A is equal to 5
 <?php endif; ?>
 ```
 
@@ -23,22 +23,18 @@ tags: [控制语句]
 * encoding=''，设定{}内为指定的编码
 
 ```php
-<?php
 
 function ticksfunc() {echo "func";}
 register_tick_function("ticksfunc");
 declare(ticks = N) {
-	for ($i = 1; $i < 10; $i++) {echo $1;}
+    for ($i = 1; $i < 10; $i++) {echo $1;}
 }
 
-?>
 ```
 
 ```php
-<?php
 declare(encoding = '') {
 }
-?>
 ```
 
 ## goto

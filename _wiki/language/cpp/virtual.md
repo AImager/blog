@@ -9,21 +9,21 @@ tags: [虚函数]
 
 ```cpp
 #include <iostream>
-using namespace std;  
+using namespace std;
 
 class Base{
-public: 
+public:
   virtual void func(int n) {
       cout << n;
-  }; 
-}; 
- 
-class Derive_Class : public Base{ 
-public: 
+  };
+};
+
+class Derive_Class : public Base{
+public:
   virtual void func(int n) {
     cout << n+1;
   };
-}; 
+};
 
 int main () {
     Base * q = new Derive_Class;

@@ -12,10 +12,10 @@ tags: [组合,排列,幂]
 void arrangement(int depth, int * index_arr) {
     int symbol = 0;
     if(depth == M) {
-		for(int i = 0; i < M ;i++) {
-			printf("%d ",index_arr[i]);
-		}
-		printf("\n");
+        for(int i = 0; i < M ;i++) {
+            printf("%d ",index_arr[i]);
+        }
+        printf("\n");
         return;
     }
     for(int i=0;i<N;i++) {
@@ -46,10 +46,10 @@ depth是深度，初始为0，index_arr为索引数组，初始为M维空数组�
 ```c
 void combination(int depth, int * index_arr, int pre_index) {
     if(depth == M) {
-		for(int i = 0; i < M ;i++) {
-			printf("%d ",index_arr[i]);
-		}
-		printf("\n");
+        for(int i = 0; i < M ;i++) {
+            printf("%d ",index_arr[i]);
+        }
+        printf("\n");
         return;
     }
     for(int i=pre_index; i <= N-M+depth; i++) {
@@ -68,10 +68,10 @@ void combination(int depth, int * index_arr, int pre_index) {
 ```c
 void power(int depth, int * index_arr) {
     if(depth == M) {
-		for(int i = 0; i < M ;i++) {
-			printf("%d ",index_arr[i]);
-		}
-		printf("\n");
+        for(int i = 0; i < M ;i++) {
+            printf("%d ",index_arr[i]);
+        }
+        printf("\n");
         return;
     }
     for(int i=0;i<N;i++) {

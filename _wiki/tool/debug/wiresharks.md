@@ -5,9 +5,9 @@ tag: [抓包]
 
 ## filter
 
-* ip.src == 127.0.0.1	: ip的源地址
-* ip.dst == 127.0.0.1	: ip的目的地址
-* http	: 选择协议
+* ip.src == 127.0.0.1 : ip的源地址
+* ip.dst == 127.0.0.1 : ip的目的地址
+* http : 选择协议
 * tcp.port == 8888      : tcp端口
 * tcp.srcport == 80     : tcp源端口
 * eth.addr == 00:11:22:33:44:55     : 物理地址

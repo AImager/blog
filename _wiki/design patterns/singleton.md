@@ -12,23 +12,19 @@ tags: [单例,创建型,模式]
 ## php实现
 
 ```php
-<?php
-
 class Singleton {
-	private static $_instance = null;
-	
-	// defend new instance external
-	protected function __construct() {
+    private static $_instance = null;
 
-	}
-	
-	public static function getInstance () {
-		if(self::$_instance === null) {
-			self::$_instance = new self();
-		}
-		return self::$_instance;
-	}
+    // defend new instance external
+    protected function __construct() {
+
+    }
+
+    public static function getInstance () {
+        if(self::$_instance === null) {
+            self::$_instance = new self();
+        }
+        return self::$_instance;
+    }
 }
-
-?>
 ```

@@ -7,7 +7,7 @@ tags: [作用域,static,extern]
 
 C采用的是block-level scope，即block符号{}的内外作用域不一样。对比javascript，javascript采用的是function-level scope。
 
-## static 
+## static
 
 相比于直接使用全局变量，static修饰后的结果是变量被放置在全局内存区，同时全局作用范围被限制在文件内。
 

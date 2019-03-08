@@ -34,6 +34,9 @@ show engines;
 
 # 查看版本号
 select version();
+
+# 查看最大连接数量
+show variables like "max_connections";
 ```
 
 ## 查看服务状态

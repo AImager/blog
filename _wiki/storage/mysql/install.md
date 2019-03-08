@@ -1,7 +1,5 @@
 ---
-title: install
 layout: wiki
-category: mysql
 tags: [安装,docker]
 ---
 
@@ -12,22 +10,22 @@ tags: [安装,docker]
 源码安装可以在source级别进行config，config的具体配置见[MySQL Source-Configuration Options](https://dev.mysql.com/doc/refman/5.7/en/source-configuration-options.html)，以下列举较为重要的配置
 
 * base
-	* DCMAKE_INSTALL_PREFIX = path: 安装目录
-	* DMYSQL_DATADIR = path: 数据存储的目录
-	* DMYSQL_UNIX_ADDR = sock_file: 用于监听的socket文件位置
-	* DSYSCONFDIR = dir_path: 配置文件所在目录
-	* DWITH_MYISAM_STORAGE_ENGINE = boolean: 是否开启MYISAM引擎，相应可开启INNOBASE
-	* DDEFAULT_CHARSET = urf8: 默认编码
-	* DDEFAULT_COLLATION = utf8_general_ci: 默认校验编码
-	* DWITH_EXTRA_CHARSETS = all: 引入哪些额外的编码
-	* DWITH_EXTRA_CHARSETS:STRING = all:
-	* DMYSQL_TCP_PORT = 3306: 默认端口
-	* DWITH_DEBUG = boolean: 是否开启调试
-	* DENABLED_LOCAL_INFILE = boolean: 是否允许从客户端导入数据
+    * DCMAKE_INSTALL_PREFIX = path: 安装目录
+    * DMYSQL_DATADIR = path: 数据存储的目录
+    * DMYSQL_UNIX_ADDR = sock_file: 用于监听的socket文件位置
+    * DSYSCONFDIR = dir_path: 配置文件所在目录
+    * DWITH_MYISAM_STORAGE_ENGINE = boolean: 是否开启MYISAM引擎，相应可开启INNOBASE
+    * DDEFAULT_CHARSET = urf8: 默认编码
+    * DDEFAULT_COLLATION = utf8_general_ci: 默认校验编码
+    * DWITH_EXTRA_CHARSETS = all: 引入哪些额外的编码
+    * DWITH_EXTRA_CHARSETS:STRING = all:
+    * DMYSQL_TCP_PORT = 3306: 默认端口
+    * DWITH_DEBUG = boolean: 是否开启调试
+    * DENABLED_LOCAL_INFILE = boolean: 是否允许从客户端导入数据
 * boost
-	* DWITH_BOOST = path: 如果已经安装boost，可指定所在boost目录
-	* DDOWNLOAD_BOOST = boolean: 如果没有安装boost，指定后可在编译时自动下载boost
-	* DDOWNLOAD_BOOST_TIMEOUT = seconds: 下载boost时超时时间
+    * DWITH_BOOST = path: 如果已经安装boost，可指定所在boost目录
+    * DDOWNLOAD_BOOST = boolean: 如果没有安装boost，指定后可在编译时自动下载boost
+    * DDOWNLOAD_BOOST_TIMEOUT = seconds: 下载boost时超时时间
 
 
 

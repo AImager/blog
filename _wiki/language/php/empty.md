@@ -10,9 +10,8 @@ tags: [空值,null]
 0、false、null、array()、''之间的==和===关系
 
 ```php
-<?php
     $a = array('',array(),0,false,null);
-	$b = array("''", "array()", "0", "false", "null");
+    $b = array("''", "array()", "0", "false", "null");
     for($i = 0;$i<=4;$i++){
         for($j = 0;$j <=4;$j++){
             if($a[$i] == $a[$j] && $i!==$j){
@@ -32,5 +31,4 @@ tags: [空值,null]
 // false == ''  false == array()  false == 0  false == null  
 // null == ''  null == array()  null == 0  null == false  
 
-?>
 ```

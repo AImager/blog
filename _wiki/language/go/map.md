@@ -12,10 +12,10 @@ package main
 import "fmt"
 
 func main() {
-	a := make(map[string]map[string]int)
-	a["a"] = map[string]int{"c": 1}
-	a["a"]["d"] = 2
-	fmt.Println(a)
+    a := make(map[string]map[string]int)
+    a["a"] = map[string]int{"c": 1}
+    a["a"]["d"] = 2
+    fmt.Println(a)
 }
 
 

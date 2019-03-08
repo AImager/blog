@@ -6,7 +6,7 @@ tags: [控制语句]
 ---
 
 ## 条件控制
-  
+
 ### if语句
 
 ```c
@@ -21,7 +21,7 @@ if (color > 2) {
 /**
  * int color = 2;
  * output
- * blue 
+ * blue
  */
 ```
 
@@ -84,12 +84,12 @@ for (int i = 0; i < arr_len; i++) {
 ```
 
 ## 跳转语句
-  
+
 ### return语句
 
 ```c
 int main (void) {
-	return 0;
+    return 0;
 }
 ```
 
@@ -112,12 +112,12 @@ loop:
 
 ```c
 while (x < 1000) {
-	if (x&1 == 0) {
-		continue;
-	} else {
-		printf("%d ", x);
-	}
-	x++;
+    if (x&1 == 0) {
+        continue;
+    } else {
+        printf("%d ", x);
+    }
+    x++;
 }
 ```
 

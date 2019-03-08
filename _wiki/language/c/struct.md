@@ -11,9 +11,9 @@ tags: [结构体]
 
 ```c
 struct test2_1{
-	char test2_2;
-	double test2_3;
-	int test2_4[3];
+    char test2_2;
+    double test2_3;
+    int test2_4[3];
 }test2_5={'c',8.0,2,3,4};
 
 printf("%p %p %p\n ",&test2_5.test2_2,&test2_5.test2_3,test2_5.test2_4);

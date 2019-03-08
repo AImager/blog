@@ -20,9 +20,9 @@ tags: [帮助]
 
 ## 实例
 
-```
+```shell
 # 查看系统调用syscalls帮助
-man 2 syscalls		//查看系统调用
+man 2 syscalls
 ```
 
 ### -k

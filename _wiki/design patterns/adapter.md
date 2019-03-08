@@ -31,7 +31,7 @@ public class MysqlAdapter implements DBAdapter {
 
     public MysqlAdapter() {
         this.mysql = new Mysql();
-    } 
+    }
 
     public void connect() {
         this.mysql.connectMysql();
@@ -45,7 +45,7 @@ public class PostgersqlAdapter implements DBAdapter {
 
     public PostgersqlAdapter() {
         this.postgresql = new Postgresql();
-    } 
+    }
 
     public void connect() {
         this.postgresql.connect();
@@ -63,11 +63,11 @@ public class AdapterTest {
     public static void main(String[] args) {
         DBAdapter inter = new Postgresql();
         inter.connect();
-		
-		// after add adapter code
-		DBAdapter inter = new MysqlAdapter();
-		// DBAdapter inter = new PostgresqlAdapter();
-		inter.connect();
+
+        // after add adapter code
+        DBAdapter inter = new MysqlAdapter();
+        // DBAdapter inter = new PostgresqlAdapter();
+        inter.connect();
     }
 }
 ```

@@ -21,6 +21,12 @@ tags: [配置]
 * `set global variable = value;`: 设置全局变量
 * `set session variable = value;`: 设置会话变量
 
+## Connection
+
+```shell
+# 最大连接数
+max_connections
+```
 
 ## Timeout
 

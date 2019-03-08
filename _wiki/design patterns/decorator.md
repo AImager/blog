@@ -28,7 +28,6 @@ test1()
 ## php实现
 
 ```php
-<?php
 
 function decorator($func) {
     echo("test");
@@ -41,7 +40,6 @@ function test1() {
 
 decorator(test1);
 
-?>
 ```
 
 

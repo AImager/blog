@@ -9,16 +9,16 @@ hoisting翻译为变量名提升，指的是同一作用域内，变量的声明
 
 ```javascript
 function test() {
-	console.log(fee);	// undefined
-	var fee = 1;
-	foo(); // TypeError "foo is not a function"
-	bar(); // "this will run!"
-	var foo = function () { // function expression assigned to local variable 'foo'
-		console.log("this won't run!");
-	}
-	function bar() { // function declaration, given the name 'bar'
-		console.log("this will run!");
-	}
+    console.log(fee);    // undefined
+    var fee = 1;
+    foo(); // TypeError "foo is not a function"
+    bar(); // "this will run!"
+    var foo = function () { // function expression assigned to local variable 'foo'
+        console.log("this won't run!");
+    }
+    function bar() { // function declaration, given the name 'bar'
+        console.log("this will run!");
+    }
 }
 test();
 ```

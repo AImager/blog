@@ -10,34 +10,32 @@ tags: [工厂方法,创建型,模式]
 ## php实现
 
 ```php
-<?php
 
 class A {
-	public function test() {
-		echo "I am A";
-	}
+    public function test() {
+        echo "I am A";
+    }
 }
 
 class B {
-	public function test() {
-		echo "I am B";
-	}
+    public function test() {
+        echo "I am B";
+    }
 }
 
 function factory($param) {
-	switch($param) {
-		case 'A':
-			return new A();
-		case 'B':
-			return new B();
-	}
+    switch($param) {
+        case 'A':
+            return new A();
+        case 'B':
+            return new B();
+    }
 };
 
 $instance = factory('A');
 
 $instance->test();
 
-?>
 ```
 
 
@@ -45,49 +43,49 @@ $instance->test();
 
 ```java
 /* A.java */
-public interface FactoryInterface {  
-    public void test();  
+public interface FactoryInterface {
+    public void test();
 }
 
 /* B.java */
-public class B implements FactoryInterface {  
-    @Override  
-    public void test() {  
-        System.out.println("this is B!");  
-    }  
-}  
+public class B implements FactoryInterface {
+    @Override
+    public void test() {
+        System.out.println("this is B!");
+    }
+}
 
 
 /* C.java */
-public class C implements FactoryInterface {  
-    @Override  
-    public void test() {  
-        System.out.println("this is C!");  
-    }  
-}  
+public class C implements FactoryInterface {
+    @Override
+    public void test() {
+        System.out.println("this is C!");
+    }
+}
 
 
 /* Factory.java */
-public class Factory {  
-    public FactoryInterface produce(String type) {  
-        if ("B".equals(type)) {  
-            return new B();  
-        } else if ("C".equals(type)) {  
-            return new C();  
-        } else {  
-            System.out.println("please input correct type!");  
-            return null;  
-        }  
-    }  
-}  
+public class Factory {
+    public FactoryInterface produce(String type) {
+        if ("B".equals(type)) {
+            return new B();
+        } else if ("C".equals(type)) {
+            return new C();
+        } else {
+            System.out.println("please input correct type!");
+            return null;
+        }
+    }
+}
 
 /* FactoryTest.java */
-public class FactoryTest {  
-    public static void main(String[] args) {  
-        Factory factory = new Factory();  
-        FactoryInterface instance = factory.produce("B");  
-        instance.test();  
-    }  
+public class FactoryTest {
+    public static void main(String[] args) {
+        Factory factory = new Factory();
+        FactoryInterface instance = factory.produce("B");
+        instance.test();
+    }
 }
 ```
 

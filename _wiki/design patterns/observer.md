@@ -12,7 +12,6 @@ tags: [观察者,行为型]
 使用__set魔术方法是方便对所有属性的修改进行统一监听。
 
 ```php
-<?php 
 
 class BeObserved {       // 被监听的类
     private $val1;
@@ -22,7 +21,7 @@ class BeObserved {       // 被监听的类
 
     public function __set ($name, $value) {
         // 判断属性是否存在
-        // array_key_exists($name, 
+        // array_key_exists($name,
         //     get_class_vars(get_class($this))
         // )
         $this->$name = $value;
@@ -54,5 +53,4 @@ $change_cla = new BeObserved;
 $change_cla->register(new ObserverA);
 $change_cla->val1 = 1;
 
-?>
 ```

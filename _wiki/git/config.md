@@ -14,11 +14,11 @@ tags: [配置]
 ```shell
 # 配置用户
 [user]
-	name = xiaoronglv
-	email = xxxxx@gmail.com
+    name = xiaoronglv
+    email = xxxxx@gmail.com
 [core]
     # 配置全局ignore文件
-	excludesfile = ~/.git/.gitignore_global
+    excludesfile = ~/.git/.gitignore_global
 ```
 
 ## 实例

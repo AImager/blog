@@ -1,7 +1,5 @@
 ---
-title: sizeof
 layout: wiki
-category: c
 tags: [sizeof,strlen]
 ---
 
@@ -20,7 +18,7 @@ int main(){
 }
 ```
 
-```
+```shell
 ;编译但不链接test.c文件
 > gcc -c test.c -o test.o
 
@@ -28,13 +26,13 @@ int main(){
 > objdump -d test.o
 
 00000000 <main>:
-   0:	55                   	push   %ebp
-   1:	89 e5                	mov    %esp,%ebp
-   3:	83 ec 10             	sub    $0x10,%esp
-   6:	c7 45 fc 04 00 00 00 	movl   $0x4,-0x4(%ebp)
-   d:	b8 00 00 00 00       	mov    $0x0,%eax
-  12:	c9                   	leave
-  13:	c3                   	ret
+   0:    55                       push   %ebp
+   1:    89 e5                    mov    %esp,%ebp
+   3:    83 ec 10                 sub    $0x10,%esp
+   6:    c7 45 fc 04 00 00 00     movl   $0x4,-0x4(%ebp)
+   d:    b8 00 00 00 00           mov    $0x0,%eax
+  12:    c9                       leave
+  13:    c3                       ret
 ```
 
 * 为避免麻烦，使用sizeof最好加上括号。
@@ -44,9 +42,9 @@ int main(){
 
 ```c
 struct test1_1{
-	double test1_2;
-	char test1_3;
-	struct test1_1 *test1_4;
+    double test1_2;
+    char test1_3;
+    struct test1_1 *test1_4;
 }*test1_5;
 
 printf("%d\n",sizeof(test1_5));

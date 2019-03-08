@@ -54,61 +54,61 @@ void Bubbling_sort(int *previousInd , int n){
 
 以下为常用的递增序列
 
-* shell序列: 满足 $h_1 = 1 , h_t = \left \lfloor N/2 \right \rfloor , h_k = \left \lfloor h_{k+1}/2 \right \rfloor$ 的序列，其中N为待排序序列长度。其最坏时间复杂度为 $O(N^2)$ 
-* Hibbard序列: 满足 $h_1 = 1 , h_k = 2^k - 1$ 的序列。其最坏时间复杂度为 $O(N^{3/2})$ 
+* shell序列: 满足 $h_1 = 1 , h_t = \left \lfloor N/2 \right \rfloor , h_k = \left \lfloor h_{k+1}/2 \right \rfloor$ 的序列，其中N为待排序序列长度。其最坏时间复杂度为 $O(N^2)$
+* Hibbard序列: 满足 $h_1 = 1 , h_k = 2^k - 1$ 的序列。其最坏时间复杂度为 $O(N^{3/2})$
 
 ```c
 void exchange(int* a, int* b) {
-	a[0] = a[0] ^ b[0];
-	b[0] = a[0] ^ b[0];
-	a[0] = a[0] ^ b[0];
+    a[0] = a[0] ^ b[0];
+    b[0] = a[0] ^ b[0];
+    a[0] = a[0] ^ b[0];
 }
 
 void shellSort(int* arr, int arrSize, int* increment, int incrementSize) {
     int temp, k;
-	for(int i = 0;i<incrementSize;i++) {
-		for(int j = increment[i];j<arrSize;j++) {
+    for(int i = 0;i<incrementSize;i++) {
+        for(int j = increment[i];j<arrSize;j++) {
             temp = arr[j];
-			for(k = j; k >= increment[i] ; k-=increment[i]) {    
-				if(temp < arr[k-increment[i]]) {
-					arr[k] = arr[k-increment[i]];
-				} else {
+            for(k = j; k >= increment[i] ; k-=increment[i]) {
+                if(temp < arr[k-increment[i]]) {
+                    arr[k] = arr[k-increment[i]];
+                } else {
                     break;
                 }
-			}
+            }
             arr[k] = temp;
-		}
-	}
+        }
+    }
 }
 
 int createShellIncrement(int* shellIncrement, int arrSize) {
-	int i;
-	shellIncrement[0] = (arrSize&(0xFFFFFFFE)) / 2;
-	for(i = 1;;i++) {
-		shellIncrement[i] = (shellIncrement[i-1]&(0xFFFFFFFE)) / 2;
-		if(shellIncrement[i] == 1){
-			break;
-		}
-	}
-	return i+1;
+    int i;
+    shellIncrement[0] = (arrSize&(0xFFFFFFFE)) / 2;
+    for(i = 1;;i++) {
+        shellIncrement[i] = (shellIncrement[i-1]&(0xFFFFFFFE)) / 2;
+        if(shellIncrement[i] == 1){
+            break;
+        }
+    }
+    return i+1;
 }
 
 int createHibbardIncrement(int* hibbardIncrement, int arrSize) {
-	int returnSize, i;
-	for(i = 0;; i++) {
-		hibbardIncrement[i] = 2^(i+1) - 1;
-		if(hibbardIncrement[i] < arrSize) {
-			break;
-		}
-	} 
-	returnSize = i+1;
-	for(;;i--) {
-		exchange(&hibbardIncrement[i], &hibbardIncrement[returnSize - i - 1]);
-		if(i == returnSize - i - 1 || i == returnSize - i) {
-			break;
-		}
-	}
-	return returnSize;
+    int returnSize, i;
+    for(i = 0;; i++) {
+        hibbardIncrement[i] = 2^(i+1) - 1;
+        if(hibbardIncrement[i] < arrSize) {
+            break;
+        }
+    }
+    returnSize = i+1;
+    for(;;i--) {
+        exchange(&hibbardIncrement[i], &hibbardIncrement[returnSize - i - 1]);
+        if(i == returnSize - i - 1 || i == returnSize - i) {
+            break;
+        }
+    }
+    return returnSize;
 }
 ```
 
@@ -128,7 +128,7 @@ void merge_sort_recursive(int* arr, int* new_arr, int len) {
         merge_sort_recursive(&arr[left_len], &new_arr[left_len], len-left_len);
         while(1) {
             if(arr[i] > arr[j]) {
-                new_arr[index] = arr[j]; 
+                new_arr[index] = arr[j];
                 j++;
             } else {
                 new_arr[index] = arr[i];
@@ -243,7 +243,7 @@ void partition(int* arr, int len) {
 
 ## 一些理论
 
-### 稳定性	
+### 稳定性
 
 排序的稳定性指对于序列中相同的值，排序后的结果所在的位置是不是固定的，如果不固定则不稳定。
 

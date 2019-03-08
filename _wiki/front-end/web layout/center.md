@@ -41,7 +41,7 @@ img元素相对于div元素居中。
 ```html
 <div>
   <div style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;">
-	居中元素
+    居中元素
   </div>
 </div>
 ```
@@ -52,7 +52,7 @@ img元素相对于div元素居中。
 ```html
 <div style="position: relative">
   <div style="position: absolute; transform: translate(-50%; -50%);">
-	居中元素
+    居中元素
   </div>
 </div>
 ```
