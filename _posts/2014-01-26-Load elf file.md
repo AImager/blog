@@ -42,8 +42,8 @@ tag: [页映射,虚拟内存]
 struct vm_area_struct {
     /* The first cache line has the info for VMA tree walking. */
 
-    unsigned long vm_start;		/* Our start address within vm_mm. */
-    unsigned long vm_end;		/* The first byte after our end address within vm_mm. */
+    unsigned long vm_start;        /* Our start address within vm_mm. */
+    unsigned long vm_end;        /* The first byte after our end address within vm_mm. */
 
     /* linked list of VM areas per task, sorted by address */
     struct vm_area_struct *vm_next, *vm_prev;
@@ -54,15 +54,15 @@ struct vm_area_struct {
 
     /* Second cache line starts here. */
 
-    struct mm_struct *vm_mm;	/* The address space we belong to. */
-    pgprot_t vm_page_prot;		/* Access permissions of this VMA. */
-    unsigned long vm_flags;		/* Flags, see mm.h. */
+    struct mm_struct *vm_mm;    /* The address space we belong to. */
+    pgprot_t vm_page_prot;        /* Access permissions of this VMA. */
+    unsigned long vm_flags;        /* Flags, see mm.h. */
 
     ...
 
     /* Information about our backing store: */
-    unsigned long vm_pgoff;		/* Offset (within vm_file) in PAGE_SIZE units */
-    struct file * vm_file;		/* File we map to (can be NULL). */
+    unsigned long vm_pgoff;        /* Offset (within vm_file) in PAGE_SIZE units */
+    struct file * vm_file;        /* File we map to (can be NULL). */
 
     ...
 };

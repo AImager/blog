@@ -13,6 +13,6 @@ $$
 代码（测试环境为OSX10.10.3、Mathematica10）
 
 [https://github.com/AImager/share/blob/master/2013/](https://github.com/AImager/share/blob/master/2013/)
-  
-  
+
+
 ![](/media/img/2013/3D_love.png)

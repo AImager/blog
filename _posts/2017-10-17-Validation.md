@@ -23,7 +23,7 @@ $rules = [
 $validator = $factory->make($input, $rules);
 
 if (!$validator->passes()) {
-    print_r($validator->messages()->all()); 
+    print_r($validator->messages()->all());
 }
 ```
 

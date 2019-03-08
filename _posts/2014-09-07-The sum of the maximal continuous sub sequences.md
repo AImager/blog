@@ -25,7 +25,7 @@ DP可以避免重复计算，但是无法避免不必要的计算，所以考虑
 假设 $a_i,...,a_j$ 为最大子序列，显然对 $ sum(a_i,...,a_k), i<=k<=j$ ，其值总是大于0，如果小于等于0，则 $sum(a_{k+1},...,a_j)$ 显然就大于等于 $sum(a_i,...,a_j)$ ，因此可以按下面的流程来计算这个结果。
 
 1. 设置 $tempSum=0$ ， $maxSum=a_1$ ， $k=1$ 。
-2. 计算 $tempSum = tempSum + a_k$ 
+2. 计算 $tempSum = tempSum + a_k$
 3. 若 $tempSum >= maxSum$ ，设置 $tempSum = maxSum$ 。
 4. 若 $tempSum <= 0$ ，设置tempSum = 0。
 5. 设置 $k=k+1$ ，若k大于序列长度n，结束；否则执行1。
@@ -39,8 +39,6 @@ DP可以避免重复计算，但是无法避免不必要的计算，所以考虑
 下面给出贪心的代码，DP和枚举的就省了。
 
 ```php
-<?php
-
 $arr = [-1,199,-4,40,-5];
 $tempSum = 0;
 $maxSum = $arr[0];
@@ -58,8 +56,8 @@ foreach($arr as $index => $val) {
         }
         $maxEnd = $index;
         $maxSum = $tempSum;
-    } 
-    
+    }
+
     if ($tempSum <= 0) {
         $tempSum = 0;
         $tempMaxStart = $index + 1;
@@ -69,8 +67,6 @@ foreach($arr as $index => $val) {
 
 echo "\n maxSum : " . $maxSum;
 echo "\n maxStart ~ maxEnd : " . $maxStart . " ~ " . $maxEnd;
-
-?>
 ```
 
 
