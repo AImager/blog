@@ -55,6 +55,11 @@ tags: [编辑器]
 * **多行正则匹配**在单个文件里面是支持的，但在目录下面搜索，只会搜索已打开的文件。
 
 
+## 配置
+
+* [Theme Color](https://code.visualstudio.com/api/references/theme-color)
+
+
 ## MAC快捷键
 
 * ctrl -: 返回跳转前的位置
