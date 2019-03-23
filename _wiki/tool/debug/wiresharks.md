@@ -18,3 +18,4 @@ tag: [抓包]
 ## 参考链接
 
 * [wireshark使用教程及过滤语法总结](http://www.zhoulujun.cn/zhoulujun/html/theory/network/2016_1130_7908.html)
+* [mac 彻底解决 wireshark 权限不足的问题](https://awen.me/post/43366.html)
