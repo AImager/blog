@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [matlab]
+tag: [matlab,数学]
 ---
 
 ## 常用全局变量
@@ -98,7 +98,7 @@ gca
 db = database('db','username','password','com.mysql.jdbc.Driver','jdbc:mysql://127.0.0.1:3306/db');
 sql = 'select 1';
 db_cur = exec(db, sql);
-db_cur_fetch = fetch(db_cur); 
+db_cur_fetch = fetch(db_cur);
 data = cell2mat(db_cur_fetch.data);
 ```
 

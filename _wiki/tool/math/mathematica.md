@@ -1,4 +1,4 @@
 ---
 layout: wiki
-tag: [matlab]
+tag: [mathematica,数学]
 ---
