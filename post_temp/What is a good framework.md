@@ -18,6 +18,7 @@ tag: [框架]
 * API Version支持
 * 服务治理能力
 * 金丝雀&灰度发布
+* 蓝绿部署
 * AB Test
 * 并行请求
 * metadata传递

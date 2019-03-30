@@ -1,5 +1,5 @@
 ---
-title: timer
+title: Timer
 layout: post
 tag: [计时器]
 ---
