@@ -105,7 +105,7 @@ $$
 其中 $p_1...p_n$ 为x的所有质因数，$k_1...k_n$ 分别对应各个质因数的系数
 
 
-## 欧拉函数运算法则：
+## 欧拉函数运算法则
 
 * p为素数，$\varphi(p^k) = p^k - p^{k-1}$
 * 若 $gcd(m,n)=1，则\varphi(mn) = \varphi(m)\varphi(n)$
@@ -175,7 +175,7 @@ $\left ( \frac{a}{p} \right )*\left ( \frac{b}{p} \right ) = \left ( \frac{ab}{p
 
 
 
-## 二次互反律（q、p是奇素数）：
+## 二次互反律（q、p是奇素数）
 
 * 若 $p \equiv 1 (mod 4)$ ，-1是p的二次剩余；若 $p \equiv 3 (mod 4)$ ，-1是p的非二次剩余
 * 若 $p \equiv 1 (mod 8)$ 或 $p \equiv 7 (mod 8)$ ，2是p的二次剩余；若 $p \equiv 3 (mod 8)$ 或 $p \equiv 5 (mod 8)$ ，-1是p的非二次剩余
