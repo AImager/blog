@@ -21,11 +21,13 @@ title: Aboutme
 
 ## 社交
 
-知乎：[http://www.zhihu.com/people/AImager](http://www.zhihu.com/people/AImager) <br>
+
 Github：[https://github.com/AImager](https://github.com/AImager) <br>
-Weibo：[https://weibo.com/AImager](https://weibo.com/AImager) <br>
-豆瓣：[https://www.douban.com/people/121407370/](https://www.douban.com/people/121407370/) <br>
 Twitter：[https://twitter.com/AImager](https://twitter.com/AImager) <br>
+微博：[https://weibo.com/AImager](https://weibo.com/AImager) <br>
+知乎：[http://www.zhihu.com/people/AImager](http://www.zhihu.com/people/AImager) <br>
+豆瓣：[https://www.douban.com/people/121407370/](https://www.douban.com/people/121407370/) <br>
+
 
 ## 收藏
 
