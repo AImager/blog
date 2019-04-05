@@ -4,6 +4,8 @@ layout: post
 tags: [php]
 ---
 
+这篇文章会尽量列举PHP语言的特性以及易错点
+
 * 安装
 * 配置（bad）
 * 模块化

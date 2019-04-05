@@ -32,7 +32,3 @@ Twitter：[https://twitter.com/AImager](https://twitter.com/AImager) <br>
 ## 收藏
 
 读书：[http://book.aimager.com](http://book.aimager.com) <br>
-
-
-
-<!-- <div id="container_comment"></div> -->
