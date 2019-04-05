@@ -1,6 +1,7 @@
 ---
 title: 这是一篇用于测试排版的文章
 layout: post
+tags: [test,测试]
 ---
 
 Similarly, don't start with the idea that jQuery does X, Y, and Z, so I'll just add AngularJS on top of that for models and controllers. This is really tempting when you're just starting out, which is why I always recommend that new AngularJS developers don't use jQuery at all, at least until they get used to doing things the "Angular Way".
@@ -125,10 +126,10 @@ test.addEventListener('click', fbLogin);
 ![](/media/img/1000/Git_areas.png)
 
 
-| 这是表格 | 这是标题行 | 标题会加粗 |
-| :-----: | :---- | ----: |
-| 居中 | 居左默认 |  居右 |
-| -的数量至少为3 | 没其他要求了 | 就这样 |
+|    这是表格    | 这是标题行   | 标题会加粗 |
+| :------------: | :----------- | ---------: |
+|      居中      | 居左默认     |       居右 |
+| -的数量至少为3 | 没其他要求了 |     就这样 |
 
 ```java
 // 这是Java代码段
@@ -139,3 +140,16 @@ public class HelloWorld{
   }
 }
 ```
+
+## 제3장
+
+式のコア原則は理解しています、それの17の意味は何ですか？ 図をよく見ると、17は実際に制御可能な画像の幅であり、Nに対応する式はN = 17 * imageの2進表現です。 したがって、実際の状況では、画像の決定後にNの値が計算されます。 式の構成とN値の決定を理解する理論的には、画像の範囲（N値）を決定し、同時に式を決定する限り、特定の式画像の特定の位置に必要な画像を見つけることができます。 指定された式の下で欲しい画像を取得します。 最後に、画像を見つけるための一般式が与えられます（Mは小数部分を区別する識別子、L、Hは画像の長さと高さです）
+
+$$
+\begin{cases}
+M < \left \lfloor mod({\left \lfloor \frac{y}{H} \right \rfloor 2^{-H\left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , H)} , 2 }) \right \rfloor   \\
+0 \leq x \leq L  \\
+N \leq y \leq N+H-1  \\
+0 < M < 1
+\end{cases}
+$$
