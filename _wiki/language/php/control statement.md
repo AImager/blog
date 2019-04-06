@@ -23,13 +23,11 @@ tags: [控制语句]
 * encoding=''，设定{}内为指定的编码
 
 ```php
-
 function ticksfunc() {echo "func";}
 register_tick_function("ticksfunc");
 declare(ticks = N) {
     for ($i = 1; $i < 10; $i++) {echo $1;}
 }
-
 ```
 
 ```php

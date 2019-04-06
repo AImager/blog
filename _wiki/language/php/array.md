@@ -18,7 +18,6 @@ key 可以是 integer 或者 string。key 会有如下的强制转换：
 注意，如果转换后出现key重合，则后面的value会替换掉前面的value。
 
 ```php
-
 $array = array(
     -1    => "a",
     "1"  => "b",
@@ -39,14 +38,12 @@ array(3) {
   [""]=>
   string(3) "nih"
 }
-
 ```
 
 
 php不区分索引数组和关联数组，会默认加上递增key，生成的递增key基于前面最后的非负整数key。
 
 ```php
-
 $array = array(
     "a",
 -6 => "b",
@@ -69,7 +66,6 @@ array(5) {
   [2]=>
   string(1) "e"
 }
-
 ```
 
 ## function

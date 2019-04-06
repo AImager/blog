@@ -33,7 +33,6 @@ tags: [类]
 PHP5.4.0开始支持的特性，用于减少单继承的限制，增加代码复用性。注意优先级问题，当前类中的方法会覆盖 trait 方法，而 trait 方法又覆盖了基类中的方法。
 
 ```php
-
 trait HelloWorld {
     public function sayHello() {
         echo 'Hello World!';
@@ -52,15 +51,13 @@ $o->sayHello();
 
 
 // 输出
-Hello Universe!
-
+// Hello Universe!
 ```
 
 
 ## 匿名类
 
 ```php
-
 $val = new class {
     public function func() {
         echo "test";
@@ -68,7 +65,6 @@ $val = new class {
 };
 
 $val->func();
-
 ```
 
 ## 遍历对象
@@ -88,8 +84,7 @@ PHP5以上支持的关键字，如果一个类方法声明为final，那这个�
 赋值不能完全拷贝对象，类似于
 
 ```php
-<?php 
-
+<?php
 class cla {
     public $one;
     public $two;
@@ -103,7 +98,6 @@ $val1 = new cla;
 $val2 = clone $val1;
 $val2->two = 2;
 echo $val2->one;
-
 ```
 
 ## 序列化

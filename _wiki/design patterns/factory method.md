@@ -10,7 +10,6 @@ tags: [工厂方法,创建型,模式]
 ## php实现
 
 ```php
-
 class A {
     public function test() {
         echo "I am A";
@@ -35,7 +34,6 @@ function factory($param) {
 $instance = factory('A');
 
 $instance->test();
-
 ```
 
 

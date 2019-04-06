@@ -27,7 +27,6 @@ function printall(...$numbers) {
 }
 
 printall(1, ["s", "c"], "sfaf");
-
 ```
 
 而对于普通的函数调用，也可使用...加数组的形式实现
