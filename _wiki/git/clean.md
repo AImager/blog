@@ -8,7 +8,7 @@ tags: [清理,工作区]
 
 ## 实例
 
-```
+```shell
 # 清理所有非ignore文件
 git clean -f
 ```

@@ -22,7 +22,7 @@ tag: [编辑器]
 
 测试后发现只支持http/https代理，但是mac下ss只支持http代理，所以设置文件.atom/.apmrc如下
 
-```
+```shell
 strict-ssl=false
 https-proxy=http://127.0.0.1:port
 http-proxy=http://127.0.0.1:port

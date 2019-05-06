@@ -11,7 +11,7 @@ tags: [api]
 
 Pre-request是在request执行的脚本，比如下面的代码就是实时获取当前的时间戳，并设置成一个环境变量，这样在Body或者params下面就可以直接使用`{{ctimestamp}}`做参数，避免了每次都养手动输入当前时间。
 
-```js
+```javascript
 var date = new Date();
 var time = date.getTime();
 pm.environment.set("ctimestamp", time);
@@ -21,7 +21,7 @@ pm.environment.set("ctimestamp", time);
 
 Test是执行完request后进行测试的脚本，但除了测试，还可以进行一些特殊操作，比如以下代码，就是获取返回结果的`data.ssoCode`值，并将其设置为全局变量ssoCode的值。
 
-```js
+```javascript
 pm.test("response is ok", function () {
     pm.globals.set("ssoCode", pm.response.json().data.ssoCode);
 });

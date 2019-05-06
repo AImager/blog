@@ -8,7 +8,7 @@ tag: [command]
 
 ## exec
 
-```
+```shell
 # 进入容器781，采取交互方式运行bash
 docker exec -it 781 /bin/bash
 ```

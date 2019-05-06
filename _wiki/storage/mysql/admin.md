@@ -21,37 +21,37 @@ mysqld_safe --skip-grant-tables
 
 ## 客户端连接
 
-```
+```shell
 # 以cli方式登录mysql
 mysql -h host -u username -p password -P port
 ```
 
 ## 查看基本信息
 
-```shell
-# 查看引擎
+```sql
+-- 查看引擎
 show engines;
 
-# 查看版本号
+-- 查看版本号
 select version();
 
-# 查看最大连接数量
+-- 查看最大连接数量
 show variables like "max_connections";
 ```
 
 ## 查看服务状态
 
-```shell
-# 查看数据库执行状态，full用于显示完整sql信息
+```sql
+-- 查看数据库执行状态，full用于显示完整sql信息
 show full processlist;
 
-# 查看所有数据大小
+-- 查看所有数据大小
 select concat(round(sum(DATA_LENGTH/1024/1024), 2),'MB') as data from information_schema.TABLES;
 
-# 查看库数据大小
+-- 查看库数据大小
 select concat(round(sum(DATA_LENGTH/1024/1024), 2),'MB') as data from information_schema.TABLES where table_schema='database_name';
 
-# 查看表数据大小
+-- 查看表数据大小
 select concat(round(sum(DATA_LENGTH/1024/1024),2),'MB') as data from information_schema.TABLES where table_schema='database_name' and table_name='table_name';
 ```
 

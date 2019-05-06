@@ -6,7 +6,7 @@ tags: [队列,消息中间件]
 ---
 
 
-```
+```shell
 # 列出所有topic
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 

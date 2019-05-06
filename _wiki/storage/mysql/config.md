@@ -34,17 +34,32 @@ max_connections
 # 连接过程中握手的超时时间
 connect_timeout
 
-# 不活跃的连接超时时间——交互模式下
+# 不活跃的连接超时时间——交互模式下（单位：s）
 interactive_timeout
 
-# 不活跃的连接超时时间——非交互模式下
+# 不活跃的连接超时时间——非交互模式下（单位：s）
 wait_timeout
 
-# 从网络读取数据的超时时间——比如导入数据
+# 接收客户端数据的超时时间（单位：s）
 net_read_timeout
 
-# 从网络输出数据的超时时间——比如查询
+# 输出数据到客户端的超时时间（单位：s）
 net_write_timeout
+
+#
+delayed_insert_timeout
+
+#
+innodb_flush_log_at_timeout
+
+# innodb锁等待超时时间（单位：s）
+innodb_lock_wait_timeout
+
+# 锁等待时间（单位：s）
+lock_wait_timeout
+
+#
+slave_net_timeout
 ```
 
 ## Query Cache

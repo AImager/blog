@@ -5,7 +5,7 @@ category: docker
 tag: [删除,tag,image,command]
 ---
 
-```
+```shell
 # 删除镜像
 docker rmi $id
 

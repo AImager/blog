@@ -13,7 +13,7 @@ tags: [克隆项目]
 
 ## 实例
 
-```
+```shell
 # 克隆远程项目到本地，目录命名为new_name，忽略则和远程项目名相同，默认取default分支
 git clone url new_name
 

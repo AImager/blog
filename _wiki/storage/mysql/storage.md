@@ -1,7 +1,5 @@
 ---
-title: storage
 layout: wiki
-category: mysql
 tags: [存储]
 ---
 

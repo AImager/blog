@@ -10,7 +10,6 @@ tags: [模板方法,行为型]
 ## php实现
 
 ```php
-
 abstract class Role {
     abstract public function dress_tops();
     abstract public function dress_bottoms();
@@ -53,5 +52,4 @@ class Woman extends Role {
 
 $man = new Man;
 $man->dress();
-
 ```

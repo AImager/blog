@@ -7,7 +7,7 @@ tags: [选择器]
 
 ## 属性选择
 
-```
+```css
 /* title属性值里含有"name"单词的元素，单词按空格分割 */
 [title~=name]
 
@@ -20,7 +20,7 @@ tags: [选择器]
 
 ## 子元素
 
-```
+```css
 /* .menu-main后代元素里，若某li元素是其父元素的第2个子元素，则筛选出来 */
 .menu-main li:nth-child(2)
 

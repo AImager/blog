@@ -19,11 +19,11 @@ int main(){
 ```
 
 ```shell
-;编译但不链接test.c文件
-> gcc -c test.c -o test.o
+# 编译但不链接test.c文件
+gcc -c test.c -o test.o
 
-;反汇编查看test.o
-> objdump -d test.o
+# 反汇编查看test.o
+objdump -d test.o
 
 00000000 <main>:
    0:    55                       push   %ebp

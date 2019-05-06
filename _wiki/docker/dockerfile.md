@@ -14,7 +14,7 @@ tag: [镜像]
 ## 实例
 
 
-```
+```shell
 # 不使用缓存构建aimager/php-nginx:7.2.0-1.13.7
 # 使用当前目录的dockerfile文件
 docker build -t aimager/php-nginx:7.2.0-1.13.7 . --no-cache

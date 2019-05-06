@@ -4,7 +4,7 @@ layout: post
 tag: [jekyll]
 ---
 
-```yml
+```yaml
 name: "AImager"
 author: "aimager"
 description: "aimager's blog, php, golang, web, h5, middleware, linux"

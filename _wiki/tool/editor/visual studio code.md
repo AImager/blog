@@ -12,19 +12,17 @@ tags: [编辑器]
 
 ```json
 {
-    "version": "0.1.0",
-    "command": "bash",
-    "isShellCommand": true,
-    "args": ["-c"],
-    "tasks": [
-        {
-            "taskName": "cpp",
-            "args": ["g++ -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}"],
-            "isBuildCommand": true,
-            "suppressTaskName": true
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "cpp_current",
+        "args": ["-c", "g++ -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}"],
+        "group": "build",
+        "type": "shell",
+        "command": "bash",
+        "presentation": {
+            "reveal": "always"
         }
-    ],
-    "showOutput": "always"
+    }]
 }
 ```
 
@@ -33,19 +31,17 @@ tags: [编辑器]
 ```json
 {
     "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "cpp",
-            "type": "lldb",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "cwd": "${workspaceRoot}",
-            "osx": {
-                "MIMode": "lldb"
-            },
-            "preLaunchTask": "cpp"
-        }
-    ]
+    "configurations": [{
+        "name": "cpp_current",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "cwd": "${workspaceRoot}",
+        "osx": {
+            "MIMode": "lldb"
+        },
+        "preLaunchTask": "cpp_current"
+    }]
 }
 ```
 

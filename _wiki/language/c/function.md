@@ -27,8 +27,9 @@ int main(){
 }
 ```
 
-```nasm
-;反编译代码080483b4 <test>:
+```shell
+# 反编译代码
+080483b4 <test>:
  80483b4:    55                       push   %ebp
  80483b5:    89 e5                    mov    %esp,%ebp
  80483b7:    5d                       pop    %ebp

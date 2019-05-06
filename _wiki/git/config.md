@@ -23,7 +23,7 @@ tags: [配置]
 
 ## 实例
 
-```
+```shell
 # 修改用户名为AImager
 git config --local user.name AImager
 ```

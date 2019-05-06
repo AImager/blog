@@ -7,7 +7,7 @@ tag: [command]
 
 
 
-```
+```shell
 # 后台执行mongo镜像
 docker run -d mongo
 ```

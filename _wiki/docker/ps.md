@@ -5,7 +5,7 @@ category: docker
 tag: [command]
 ---
 
-```
+```shell
 # 查看当前运行的容器
 docker ps
 
