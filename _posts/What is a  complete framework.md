@@ -1,5 +1,5 @@
 ---
-title: 一个好的框架
+title: 一个功能完备的框架
 layout: post
 tag: [框架]
 ---

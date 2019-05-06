@@ -1,5 +1,5 @@
 ---
-title: 一致性
+title: 聊聊一致性
 layout: post
 tag: [CAP,BASE,ACID]
 ---
