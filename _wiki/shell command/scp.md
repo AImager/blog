@@ -1,7 +1,5 @@
 ---
-title: scp
 layout: wiki
-category: shell command
 tags: [远程拷贝]
 ---
 
