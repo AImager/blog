@@ -4,7 +4,7 @@ layout: post
 tags: [test,测试]
 ---
 
-Similarly, don't start with the idea that jQuery does X, Y, and Z, so I'll just add AngularJS on top of that for models and controllers. This is really tempting when you're just starting out, which is why I always recommend that new AngularJS [^1] developers [^2] don't use jQuery [^2] at all [^3], at least until they get used to doing things the "Angular Way".
+Similarly, don't start with the idea that jQuery does X, Y, and Z, so I'll just add AngularJS on top of that for models and controllers. This is really tempting when you're just starting out, which is why I always recommend that new AngularJS [^1] developers [^2] don't use jQuery [^3] at all [^4], at least until they get used to doing things the "Angular Way".
 
 ## Chapter1
 
@@ -21,7 +21,7 @@ The bottom line is this: when solutioning, first "think in AngularJS"; if you ca
 
 ## 章节二
 
-首先看中间的 $\left \lfloor \frac{y}{17} \right \rfloor 2^{-17 \left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , 17)}$ 部分（暂且命名这个部分为Section），即类似于 $m*2^{k}$ 这种形式，了解二进制的人都会意识到，当 $k$ 为正数的时候，其结果就是将 $m$ 的二进制值左移 $k$ 位，而当 $k$ 小于0的时候，则是将 $m$ 的二进制值右移 $k$ 位，同时，如果 $m$ 的值不变， $k$ 的值顺序减小，那么得到值的将会是一串顺序右移的数；接着，公式又将Section对2取模，显然结果不是0就是1，而这个值刚好就是Section结果的最后一位；Ok，到此你应该理解了，其实公式右边就是不断得到 $\left \lfloor \frac{y}{17} \right \rfloor$ 中的二进制位，而且还是顺序的，不过它和图像由什么关系呢？其实这就是 $N$ 的意义了，你会发现 $\frac{N}{17}$ 刚好为整数，而得到的这个整数刚好是图像对应二进制数表示的十进制值（图像转换的二进制值是依据从左向右、从下向上的顺序得到的），所以 $\left \lfloor \frac{y}{17} \right \rfloor$ 的一串值刚好就是图像中的对应点（1表示黑色，0表示无），从而得到的就刚好是公式本身。
+首先看中间的 $\left \lfloor \frac{y}{17} \right \rfloor 2^{-17 \left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , 17)}$ 部分（暂且命名这个部分为Section），即类似于 $m*2^{k}$ 这种形式，了解二进制的人都会意识到，当 $k$ 为正数的时候，其结果就是将 $m$ 的二进 [^5] 制值左移 $k$ 位，而当 $k$ 小于0的时候，则是将 $m$ 的二进制值右移 $k$ 位，同时，如果 $m$ 的值不变， $k$ 的值顺序减小，那么得到值的将会是一串顺序右移的数；接着，公式又将Section对2取模，显然结果不是0就是1，而这个值刚好就是Section结果的最后一位；Ok，到此你应该理解了，其实公式右边就是不断得到 $\left \lfloor \frac{y}{17} \right \rfloor$ 中的二进制位，而且还是顺序的，不过它和图像由什么关系呢？其实这就是 $N$ 的意义了，你会发现 $\frac{N}{17}$ 刚好为整数，而得到的这个整数刚好是图像对应二进制数表示的十进制值（图像转换的二进制值是依据从左向右、从下向上的顺序得到的），所以 $\left \lfloor \frac{y}{17} \right \rfloor$ 的一串值刚好就是图像中的对应点（1表示黑色，0表示无），从而得到的就刚好是公式本身。
 
 ```c
 // 这是C代码段
@@ -164,4 +164,6 @@ $$
 
 [^1]: [RFC3875 CGI](https://www.rfc-editor.org/info/rfc5280)
 [^2]: [FastCGI](http://www.php-internals.com/book/?p=chapt02/02-02-03-fastcgi)
-[^3]: 这是个测试
+[^3]: [没其他要求了](http://wiki.c2.com/?CgiVsServlet)
+[^4]: 这里表示的是巴拉巴拉，式のコア原則は理解しています、それの17の意味は何ですか，知道了吗
+[^5]: [式のコア原則](http://wiki.c2.com/?CgiVsServlet)
