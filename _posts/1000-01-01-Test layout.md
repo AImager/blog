@@ -4,7 +4,7 @@ layout: post
 tags: [test,测试]
 ---
 
-Similarly, don't start with the idea that jQuery does X, Y, and Z, so I'll just add AngularJS on top of that for models and controllers. This is really tempting when you're just starting out, which is why I always recommend that new AngularJS developers don't use jQuery at all, at least until they get used to doing things the "Angular Way".
+Similarly, don't start with the idea that jQuery does X, Y, and Z, so I'll just add AngularJS on top of that for models and controllers. This is really tempting when you're just starting out, which is why I always recommend that new AngularJS [^1] developers [^2] don't use jQuery [^2] at all [^3], at least until they get used to doing things the "Angular Way".
 
 ## Chapter1
 
@@ -153,3 +153,15 @@ N \leq y \leq N+H-1  \\
 0 < M < 1
 \end{cases}
 $$
+
+## 参考链接
+
+* [FastCGI Specification](https://web.archive.org/web/20160119141816/http://www.fastcgi.com/drupal/node/6?q=node%2F22#S1)
+* [式のコア原則](http://wiki.c2.com/?CgiVsServlet)
+* [没其他要求了](http://wiki.c2.com/?CgiVsServlet)
+
+## 脚注
+
+[^1]: [RFC3875 CGI](https://www.rfc-editor.org/info/rfc5280)
+[^2]: [FastCGI](http://www.php-internals.com/book/?p=chapt02/02-02-03-fastcgi)
+[^3]: 这是个测试
