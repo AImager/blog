@@ -1,7 +1,5 @@
 ---
-title: server
 layout: wiki
-category: git
 tags: [服务器]
 ---
 

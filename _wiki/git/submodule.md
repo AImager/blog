@@ -1,7 +1,5 @@
 ---
-title: submodule
 layout: wiki
-category: git
 tags: [子模块]
 ---
 
@@ -10,7 +8,7 @@ submodule可以独立管理代码，但新提交需通过commit注册到父项�
 
 ## 实例
 
-```
+```shell
 # 添加子模块到src/library目录
 git submodule add http://name@url.git src/library
 ```

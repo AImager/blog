@@ -53,3 +53,69 @@ class Woman extends Role {
 $man = new Man;
 $man->dress();
 ```
+
+下面是go语言实现（并不优雅，关于这块的讨论参考我的一篇文章）
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+type Base struct {
+	this I
+}
+
+type ChildA struct {
+	*Base
+}
+
+type ChildB struct {
+	*Base
+}
+
+type I interface {
+	Init(I)         // final
+	FinalTemplate() // final
+	test()
+}
+
+func (t *Base) Init(i I) {
+	t.this = i
+}
+
+func (t *Base) FinalTemplate() {
+	fmt.Println("Base-Before")
+	t.this.test()
+	fmt.Println("Base-After")
+}
+
+func (t *Base) test() {
+	fmt.Println("Base")
+}
+
+func (t *ChildA) test() {
+	fmt.Println("ChildA")
+}
+
+func (t *ChildB) test() {
+	fmt.Println("ChildB")
+}
+
+func FactoryChild(name string) (child I) {
+	switch name {
+	case "A":
+		child = &ChildA{&Base{}}
+	case "B":
+		child = &ChildB{&Base{}}
+	}
+	child.Init(child)
+	return
+}
+
+func main() {
+	child := FactoryChild("A")
+	child.FinalTemplate()
+}
+```

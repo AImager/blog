@@ -1,7 +1,5 @@
 ---
-title: rm
 layout: wiki
-category: git
 tags: [删除,暂存区]
 ---
 
@@ -11,7 +9,7 @@ tags: [删除,暂存区]
 
 ## 实例
 
-```
+```shell
 # 删除暂存区内所有对应的工作区已删除文件
 git rm --cached $(git ls-files --deleted)
 

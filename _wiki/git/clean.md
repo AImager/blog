@@ -1,7 +1,5 @@
 ---
-title: clean
 layout: wiki
-category: git
 tags: [清理,工作区]
 ---
 

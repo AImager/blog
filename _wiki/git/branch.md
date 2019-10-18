@@ -1,7 +1,5 @@
 ---
-title: branch
 layout: wiki
-category: git
 tags: [分支]
 ---
 

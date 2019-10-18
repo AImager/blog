@@ -1,7 +1,5 @@
 ---
-title: cherry-pick
 layout: wiki
-category: git
 tag: [commit,指定,合并]
 ---
 

@@ -1,13 +1,11 @@
 ---
-title: stash
 layout: wiki
-category: git
 tags: [备份栈]
 ---
 
 ## 实例
 
-```
+```shell
 # 将当前工作区未提交的内容添加到stash
 git stash
 ```
@@ -23,3 +21,7 @@ git stash
 ### clear
 
 清空备份栈
+
+### -k
+
+只stash未add的部分

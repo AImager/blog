@@ -1,7 +1,5 @@
 ---
-title: checkout
 layout: wiki
-category: git
 tags: [分支,切换,新建,合并,清除]
 ---
 

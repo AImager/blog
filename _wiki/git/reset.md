@@ -1,7 +1,5 @@
 ---
-title: reset
 layout: wiki
-category: git
 tags: [回退]
 ---
 

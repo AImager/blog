@@ -1,13 +1,11 @@
 ---
-title: show
 layout: wiki
-category: git
 tags: [查看修改]
 ---
 
 ## 实例
 
-```
+```shell
 # 查看某个commit的详细修改信息
 # commit_id只需要唯一匹配前缀就可以
 git show commit_id

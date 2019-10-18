@@ -1,7 +1,5 @@
 ---
-title: add
 layout: wiki
-category: git
 tags: [添加,暂存区]
 ---
 
