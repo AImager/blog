@@ -9,7 +9,7 @@ mac下对应的软件为gobjdump
 
 ## 实例
 
-```
+```shell
 # 反编译ELF文件
 objdump -d test.o
 ```

@@ -99,3 +99,4 @@ defaults write com.apple.dock static-only -bool TRUE; killall Dock
 ## 参考链接
 
 * [mac插件管理](http://bbs.feng.com/read-htm-tid-6891395.html)
+* [Item "xxx" is used by macOS and cannot be opened](https://www.logcg.com/archives/2977.html)

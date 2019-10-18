@@ -1,7 +1,5 @@
 ---
-title: yield
 layout: wiki
-category: python
 tags: [迭代器,语法糖]
 ---
 

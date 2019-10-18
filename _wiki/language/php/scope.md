@@ -57,7 +57,7 @@ test();        // 2
 test();        // 3
 ```
 
-static用于静态化属性，在上面的函数内static的例子中，$val在第一次调用test()后，会一直存在于内存中，直到程序结束。程序运行期间，$val作用于所有test函数的调用内，因此第二次调用test()，$val从2开始自增。注意，$val只会static初始化一次，因此第二次调用test进行static的时候，$val并不会被修改为1；
+static用于静态化属性，在上面的函数内static的例子中，`$val`在第一次调用test()后，会一直存在于内存中，直到程序结束。程序运行期间，`$val`作用于所有test函数的调用内，因此第二次调用test()，`$val`从2开始自增。注意，`$val`只会static初始化一次，因此第二次调用test进行static的时候，$val并不会被修改为1；
 
 ```php
 class test {

@@ -12,7 +12,7 @@ tag: [端口,网络,socket]
 
 ## 实例
 
-```
+```shell
 # 显示当前所有tcp连接
 netstat -anpt
 
@@ -30,7 +30,7 @@ sudo netstat -apn | grep 100.99.3.96:3306 | grep server | wc -l
 
 ### -p
 
-显示连接的进程名与pid
+显示连接的进程名与pid，mac不支持这个参数（需要的话用lsof）
 
 ### -a
 
