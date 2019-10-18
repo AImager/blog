@@ -1,7 +1,5 @@
 ---
-title: dpkg
 layout: wiki
-category: shell command
 tags: [deb,ubuntu,debian,包管理]
 ---
 

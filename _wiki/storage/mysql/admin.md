@@ -1,7 +1,5 @@
 ---
-title: admin
 layout: wiki
-category: mysql
 tags: [管理员,状态]
 ---
 

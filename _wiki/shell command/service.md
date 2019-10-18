@@ -1,7 +1,5 @@
 ---
-title: service
 layout: wiki
-category: shell command
 tags: [启动,关闭,服务,sysvinit]
 ---
 

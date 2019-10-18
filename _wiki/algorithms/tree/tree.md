@@ -1,5 +1,4 @@
 ---
-title: tree
 layout: wiki
 tags: [树,数据结构]
 ---

@@ -1,7 +1,5 @@
 ---
-title: fetch
 layout: wiki
-category: git
 tags: [拉取,缓存]
 ---
 

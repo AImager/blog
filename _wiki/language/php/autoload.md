@@ -1,7 +1,5 @@
 ---
-title: autoload
 layout: wiki
-category: php
 tags: [自动加载]
 ---
 

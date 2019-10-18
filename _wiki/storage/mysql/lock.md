@@ -1,7 +1,5 @@
 ---
-title: lock
 layout: wiki
-category: mysql
 tags: [锁]
 ---
 

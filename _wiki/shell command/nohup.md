@@ -1,7 +1,5 @@
 ---
-title: nohup
 layout: wiki
-category: shell command
 tags: [守护进程]
 ---
 

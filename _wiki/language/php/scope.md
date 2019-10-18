@@ -1,7 +1,5 @@
 ---
-title: scope
 layout: wiki
-category: php
 tags: [作用域,global,static,use]
 ---
 

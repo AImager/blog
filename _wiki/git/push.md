@@ -1,7 +1,5 @@
 ---
-title: push
 layout: wiki
-category: git
 tags: [远程,提交]
 ---
 

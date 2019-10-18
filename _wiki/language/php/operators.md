@@ -1,7 +1,5 @@
 ---
-title: operators
 layout: wiki
-category: php
 tags: [运算符]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: center
 layout: wiki
-category: web layout
 tags: [居中]
 ---
 

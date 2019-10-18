@@ -1,7 +1,5 @@
 ---
-title: useradd
 layout: wiki
-category: shell command
 tags: [用户,添加]
 ---
 

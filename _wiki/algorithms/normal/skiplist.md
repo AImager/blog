@@ -1,5 +1,4 @@
 ---
-title: skiplist
 layout: wiki
 tags: [跳表]
 ---

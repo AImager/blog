@@ -1,7 +1,5 @@
 ---
-title: gcc
 layout: wiki
-category: tool
 tags: [编译,链接,g++]
 ---
 

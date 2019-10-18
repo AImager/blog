@@ -1,7 +1,5 @@
 ---
-title: getopts
 layout: wiki
-category: shell command
 tags: [参数解析]
 ---
 

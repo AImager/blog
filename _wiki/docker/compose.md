@@ -1,8 +1,6 @@
 ---
-title: compose
 layout: wiki
-category: docker
-tag: [docker-compose]
+tags: [docker-compose]
 ---
 
 ## 参考链接

@@ -1,7 +1,5 @@
 ---
-title: morphology
 layout: wiki
-category: c
 tags: [词法分析]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: makefile
 layout: wiki
 tags: [编译]
 ---

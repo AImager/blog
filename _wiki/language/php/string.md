@@ -1,7 +1,5 @@
 ---
-title: string
 layout: wiki
-category: php
 tags: [字符串,heredoc,newdoc]
 ---
 

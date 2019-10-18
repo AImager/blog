@@ -1,5 +1,4 @@
 ---
-title: rbtree
 layout: wiki
 tags: [红黑树]
 ---

@@ -1,7 +1,5 @@
 ---
-title: exception
 layout: wiki
-category: php
 tags: [异常,error]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [shell,交互]
+tags: [shell,交互]
 ---
 
 ## 参考链接

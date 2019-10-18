@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [变量提升]
+tags: [变量提升]
 ---
 
 ## hoisting

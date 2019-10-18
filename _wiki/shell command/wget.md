@@ -1,7 +1,5 @@
 ---
-title: wget
 layout: wiki
-category: shell command
 tags: [网络,下载]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: sort
 layout: wiki
 tags: [排序]
 ---

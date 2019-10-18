@@ -1,7 +1,5 @@
 ---
-title: const
 layout: wiki
-category: c
 tags: [限定符,常量]
 ---
 

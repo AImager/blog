@@ -1,7 +1,5 @@
 ---
-title: iptables
 layout: wiki
-category: shell command
 tags: [防火墙]
 ---
 

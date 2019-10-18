@@ -1,7 +1,5 @@
 ---
-title: config
 layout: wiki
-category: unix-like
 tags: [配置]
 ---
 

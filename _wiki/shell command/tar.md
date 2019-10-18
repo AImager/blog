@@ -1,7 +1,5 @@
 ---
-title: tar
 layout: wiki
-category: shell command
 tags: [打包,解压]
 ---
 

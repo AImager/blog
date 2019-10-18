@@ -1,7 +1,5 @@
 ---
-title: encrypt
 layout: wiki
-category: php
 tags: [加密,rsa]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: primary key
 layout: wiki
-category: mysql
 tags: [主键,外键]
 ---
 

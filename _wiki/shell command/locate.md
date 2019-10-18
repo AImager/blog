@@ -1,7 +1,5 @@
 ---
-title: locate
 layout: wiki
-category: shell command
 tags: [搜索]
 ---
 

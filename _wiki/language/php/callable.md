@@ -1,7 +1,5 @@
 ---
-title: callable
 layout: wiki
-category: php
 tags: [回调,callback,call_user_func]
 ---
 

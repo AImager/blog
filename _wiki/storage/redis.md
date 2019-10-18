@@ -1,7 +1,5 @@
 ---
-title: redis
 layout: wiki
-category: tool
 tags: [缓存,消息队列]
 ---
 

@@ -1,8 +1,6 @@
 ---
-title: tail
 layout: wiki
-category: shell command
-tag: [文本编辑,末尾]
+tags: [文本编辑,末尾]
 ---
 
 

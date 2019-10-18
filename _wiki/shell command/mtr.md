@@ -1,7 +1,5 @@
 ---
-title: mtr
 layout: wiki
-category: shell command
 tags: [ping,traceroute,丢包率]
 ---
 

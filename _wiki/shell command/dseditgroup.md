@@ -1,7 +1,5 @@
 ---
-title: dseditgroup
 layout: wiki
-category: shell command
 tags: [mac,group,添加,修改]
 ---
 

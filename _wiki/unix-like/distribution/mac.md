@@ -1,7 +1,5 @@
 ---
-title: mac
 layout: wiki
-category: unix-like
 tags: [mac,技巧]
 ---
 

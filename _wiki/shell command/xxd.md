@@ -1,7 +1,5 @@
 ---
-title: xxd
 layout: wiki
-category: shell command
 tags: [二进制]
 ---
 

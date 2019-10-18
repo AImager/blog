@@ -1,7 +1,5 @@
 ---
-title: zip
 layout: wiki
-category: shell command
 tags: [压缩]
 ---
 

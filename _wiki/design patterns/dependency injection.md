@@ -1,7 +1,5 @@
 ---
-title: dependency injection
 layout: wiki
-category: design patterns
 tags: [依赖注入,DI,IoC]
 ---
 

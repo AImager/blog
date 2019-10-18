@@ -1,7 +1,5 @@
 ---
-title: xargs
 layout: wiki
-category: shell command
 tags: [参数分割]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [字符替换]
+tags: [字符替换]
 ---
 
 

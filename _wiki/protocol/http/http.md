@@ -1,7 +1,5 @@
 ---
-title: http
 layout: wiki
-category: http
 tags: [应用层,超文本传输]
 ---
 

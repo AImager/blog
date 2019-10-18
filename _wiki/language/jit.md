@@ -1,7 +1,5 @@
 ---
-title: jit
 layout: wiki
-category: language
 tags: [即时编译]
 ---
 

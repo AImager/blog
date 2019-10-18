@@ -1,8 +1,6 @@
 ---
-title: netstat
 layout: wiki
-category: shell command
-tag: [端口,网络,socket]
+tags: [端口,网络,socket]
 ---
 
 ## 功能描述

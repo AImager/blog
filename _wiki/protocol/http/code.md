@@ -1,7 +1,5 @@
 ---
-title: code
 layout: wiki
-category: http
 tags: [状态码]
 ---
 

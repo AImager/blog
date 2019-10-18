@@ -1,7 +1,5 @@
 ---
-title: array
 layout: wiki
-category: php
 tags: [数组,函数]
 ---
 

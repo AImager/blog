@@ -1,7 +1,5 @@
 ---
-title: nginx
 layout: wiki
-category: agent
 tags: [反向代理,web服务器]
 ---
 

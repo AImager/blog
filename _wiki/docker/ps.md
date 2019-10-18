@@ -1,8 +1,6 @@
 ---
-title: ps
 layout: wiki
-category: docker
-tag: [command]
+tags: [command]
 ---
 
 ```shell

@@ -1,7 +1,5 @@
 ---
-title: init
 layout: wiki
-category: git
 tags: [初始化]
 ---
 

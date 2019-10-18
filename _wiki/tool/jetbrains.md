@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [jetbrains,intellij,idea]
+tags: [jetbrains,intellij,idea]
 ---
 
 ## 配置

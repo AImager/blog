@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [终端,ssh]
+tags: [终端,ssh]
 ---
 
 

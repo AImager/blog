@@ -1,7 +1,5 @@
 ---
-title: lslocks
 layout: wiki
-category: shell command
 tags: [进程,文件锁]
 ---
 

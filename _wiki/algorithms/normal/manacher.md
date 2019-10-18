@@ -1,5 +1,4 @@
 ---
-title: manacher
 layout: wiki
 tags: [回文子串]
 ---

@@ -1,5 +1,4 @@
 ---
-title: btree
 layout: wiki
 tags: [BTree,B+Tree]
 ---

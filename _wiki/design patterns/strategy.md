@@ -1,7 +1,5 @@
 ---
-title: strategy
 layout: wiki
-category: design patterns
 tags: [策略,行为型]
 ---
 

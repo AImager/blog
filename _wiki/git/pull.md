@@ -1,7 +1,5 @@
 ---
-title: pull
 layout: wiki
-category: git
 tags: [拉取,合并]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: config
 layout: wiki
-category: git
 tags: [配置]
 ---
 

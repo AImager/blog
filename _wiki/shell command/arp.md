@@ -1,7 +1,5 @@
 ---
-title: arp
 layout: wiki
-category: shell command
 tags: [arp协议]
 ---
 

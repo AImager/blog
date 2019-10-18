@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [展示]
+tags: [展示]
 ---
 
 ## 参考链接

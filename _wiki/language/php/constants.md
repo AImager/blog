@@ -1,7 +1,5 @@
 ---
-title: constants
 layout: wiki
-category: php
 tags: [魔术常量,define]
 ---
 

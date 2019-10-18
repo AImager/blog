@@ -1,7 +1,5 @@
 ---
-title: sudo
 layout: wiki
-category: shell command
 tags: [root,执行]
 ---
 

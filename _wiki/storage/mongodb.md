@@ -1,7 +1,5 @@
 ---
-title: mongodb
 layout: wiki
-category: tool
 tags: [mongo,nosql]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: su
 layout: wiki
-category: shell command
 tags: [切换用户]
 ---
 

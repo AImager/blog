@@ -1,7 +1,5 @@
 ---
-title: php-fpm
 layout: wiki
-category: php
 tags: [fastcgi]
 ---
 

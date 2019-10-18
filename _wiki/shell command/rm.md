@@ -1,8 +1,6 @@
 ---
-title: rm
 layout: wiki
-category: shell command
-tag: [删除]
+tags: [删除]
 ---
 
 ## 功能描述

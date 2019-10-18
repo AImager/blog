@@ -1,7 +1,5 @@
 ---
-title: unsigned
 layout: wiki
-category: c
 tags: [无符号]
 ---
 

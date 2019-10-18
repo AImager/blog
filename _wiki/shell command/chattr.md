@@ -1,7 +1,5 @@
 ---
-title: chattr
 layout: wiki
-category: shell command
 tags: [文件锁,修改,权限]
 ---
 

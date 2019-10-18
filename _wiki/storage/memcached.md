@@ -1,7 +1,5 @@
 ---
-title: memcached
 layout: wiki
-category: tool
 tags: [缓存]
 ---
 

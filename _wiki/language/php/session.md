@@ -1,7 +1,5 @@
 ---
-title: session
 layout: wiki
-category: php
 tags: [cookie,会话]
 ---
 

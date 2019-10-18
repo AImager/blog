@@ -1,7 +1,5 @@
 ---
-title: view
 layout: wiki
-category: mysql
 tags: [视图]
 ---
 

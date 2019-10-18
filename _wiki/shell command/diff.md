@@ -1,8 +1,6 @@
 ---
-title: diff
 layout: wiki
-category: shell command
-tag: [比较]
+tags: [比较]
 ---
 
 ```

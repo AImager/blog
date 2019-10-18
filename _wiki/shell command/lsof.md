@@ -1,7 +1,5 @@
 ---
-title: lsof
 layout: wiki
-category: shell command
 tags: [文件句柄,查看]
 ---
 

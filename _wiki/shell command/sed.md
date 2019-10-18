@@ -1,8 +1,6 @@
 ---
-title: sed
 layout: wiki
-category: shell command
-tag: [反序,替换]
+tags: [反序,替换]
 ---
 
 ## 功能描述

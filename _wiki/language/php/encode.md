@@ -1,7 +1,5 @@
 ---
-title: encode
 layout: wiki
-category: php
 tags: [编码,转义符]
 ---
 

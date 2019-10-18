@@ -1,7 +1,5 @@
 ---
-title: systemctl
 layout: wiki
-category: shell command
 tags: [自启动,systemd]
 ---
 

@@ -1,8 +1,6 @@
 ---
-title: ping
 layout: wiki
-category: shell command
-tag: [icmp]
+tags: [icmp]
 ---
 
 ## 实例

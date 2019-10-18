@@ -1,7 +1,5 @@
 ---
-title: ieee754
 layout: wiki
-category: c
 tags: [IEEE754]
 ---
 

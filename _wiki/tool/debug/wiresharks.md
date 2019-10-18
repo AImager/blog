@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [抓包]
+tags: [抓包]
 ---
 
 ## filter

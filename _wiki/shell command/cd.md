@@ -1,7 +1,5 @@
 ---
-title: cd
 layout: wiki
-category: shell command
 tags: [目录,跳转,内建命令]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: diff
 layout: wiki
-category: git
 tags: [比较]
 ---
 

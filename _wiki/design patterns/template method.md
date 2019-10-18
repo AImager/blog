@@ -1,7 +1,5 @@
 ---
-title: template method
 layout: wiki
-category: design patterns
 tags: [模板方法,行为型]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: awk
 layout: wiki
-category: shell command
 tags: [文本处理]
 ---
 

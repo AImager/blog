@@ -1,7 +1,5 @@
 ---
-title: crontab
 layout: wiki
-category: shell command
 tags: [定时任务]
 ---
 

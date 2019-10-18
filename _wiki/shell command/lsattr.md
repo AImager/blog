@@ -1,7 +1,5 @@
 ---
-title: lsattr
 layout: wiki
-category: shell command
 tags: [文件锁,显示,权限]
 ---
 

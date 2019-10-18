@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [部署]
+tags: [部署]
 ---
 
 ## go build

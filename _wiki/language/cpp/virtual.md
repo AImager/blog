@@ -1,7 +1,5 @@
 ---
-title: virtual
 layout: wiki
-category: cpp
 tags: [虚函数]
 ---
 

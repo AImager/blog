@@ -1,8 +1,6 @@
 ---
-title: env
 layout: wiki
-category: shell command
-tag: [环境变量]
+tags: [环境变量]
 ---
 
 ## 功能描述

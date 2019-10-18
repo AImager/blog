@@ -1,7 +1,5 @@
 ---
-title: objdump
 layout: wiki
-category: shell command
 tags: [十六进制,反编译,ELF]
 ---
 

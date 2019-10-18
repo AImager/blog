@@ -1,7 +1,5 @@
 ---
-title: split
 layout: wiki
-category: shell command
 tags: [分割,文件]
 ---
 

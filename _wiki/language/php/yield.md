@@ -1,7 +1,5 @@
 ---
-title: yield
 layout: wiki
-category: php
 tags: [生成器,迭代器]
 ---
 

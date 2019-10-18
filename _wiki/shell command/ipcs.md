@@ -1,7 +1,5 @@
 ---
-title: ipcs
 layout: wiki
-category: shell command
 tags: [进程通信,IPC,查看]
 ---
 

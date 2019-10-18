@@ -1,7 +1,5 @@
 ---
-title: export
 layout: wiki
-category: mysql
 tags: [导入导出]
 ---
 

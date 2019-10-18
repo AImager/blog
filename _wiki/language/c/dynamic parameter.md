@@ -1,7 +1,5 @@
 ---
-title: dynamic parameter
 layout: wiki
-category: c
 tags: [变长参数]
 ---
 

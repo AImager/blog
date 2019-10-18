@@ -1,7 +1,5 @@
 ---
-title: csrf
 layout: wiki
-category: security
 tags: [跨站域请求伪造]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: combinatorics
 layout: wiki
 tags: [组合,排列,幂]
 ---

@@ -1,7 +1,5 @@
 ---
-title: gc
 layout: wiki
-category: php
 tags: [内存释放,引用计数]
 ---
 

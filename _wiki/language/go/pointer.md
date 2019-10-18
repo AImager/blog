@@ -1,7 +1,5 @@
 ---
-title: pointer
 layout: wiki
-category: go
 tags: [指针]
 ---
 

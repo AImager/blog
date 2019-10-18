@@ -1,7 +1,5 @@
 ---
-title: thread
 layout: wiki
-category: php
 tags: [线程]
 ---
 

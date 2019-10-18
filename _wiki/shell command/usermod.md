@@ -1,7 +1,5 @@
 ---
-title: usermod
 layout: wiki
-category: shell command
 tags: [用户组,修改]
 ---
 

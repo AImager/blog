@@ -1,7 +1,5 @@
 ---
-title: security
 layout: wiki
-category: php
 tags: [安全]
 ---
 

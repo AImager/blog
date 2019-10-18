@@ -1,7 +1,5 @@
 ---
-title: traceroute
 layout: wiki
-category: shell command
 tags: [网络,路由]
 ---
 

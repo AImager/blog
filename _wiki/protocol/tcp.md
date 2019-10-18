@@ -1,7 +1,5 @@
 ---
-title: tcp
 layout: wiki
-category: protocol
 tags: [传输层]
 ---
 

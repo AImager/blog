@@ -1,7 +1,5 @@
 ---
-title: df
 layout: wiki
-category: shell command
 tags: [磁盘,存储,显示,inode]
 ---
 

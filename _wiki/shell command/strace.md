@@ -1,7 +1,5 @@
 ---
-title: strace
 layout: wiki
-category: shell command
 tags: [进程,系统调用]
 ---
 

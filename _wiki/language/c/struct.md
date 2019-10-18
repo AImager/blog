@@ -1,7 +1,5 @@
 ---
-title: struct
 layout: wiki
-category: c
 tags: [结构体]
 ---
 

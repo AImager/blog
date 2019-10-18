@@ -1,7 +1,5 @@
 ---
-title: visual studio code
 layout: wiki
-category: tool
 tags: [编辑器]
 ---
 

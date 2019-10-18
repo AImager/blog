@@ -1,7 +1,5 @@
 ---
-title: module
 layout: wiki
-category: php
 tags: [require,include,namespace]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [shell]
+tags: [shell]
 ---
 
 ## 实例

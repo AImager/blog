@@ -1,7 +1,5 @@
 ---
-title: ps
 layout: wiki
-category: shell command
 tags: [显示,进程,通配符]
 ---
 

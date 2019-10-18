@@ -1,7 +1,5 @@
 ---
-title: monitor
 layout: wiki
-category: sre
 tags: [监控,性能]
 ---
 

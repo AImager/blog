@@ -1,7 +1,5 @@
 ---
-title: scope
 layout: wiki
-category: c
 tags: [作用域,static,extern]
 ---
 

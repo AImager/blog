@@ -1,7 +1,5 @@
 ---
-title: css selector
 layout: wiki
-category: web layout
 tags: [选择器]
 ---
 

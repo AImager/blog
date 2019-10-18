@@ -1,7 +1,5 @@
 ---
-title: control statement
 layout: wiki
-category: c
 tags: [控制语句]
 ---
 

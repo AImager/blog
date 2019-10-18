@@ -1,7 +1,5 @@
 ---
-title: optimize
 layout: wiki
-category: mysql
 tags: [优化,explain,profiling,trace]
 ---
 

@@ -1,8 +1,6 @@
 ---
-title: cp
 layout: wiki
-category: shell command
-tag: [复制,文件,目录]
+tags: [复制,文件,目录]
 ---
 
 ## 功能描述

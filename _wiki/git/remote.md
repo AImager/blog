@@ -1,7 +1,5 @@
 ---
-title: remote
 layout: wiki
-category: git
 tags: [远程,仓库]
 ---
 

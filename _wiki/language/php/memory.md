@@ -1,7 +1,5 @@
 ---
-title: memory
 layout: wiki
-category: php
 tags: [内存,gc]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: find
 layout: wiki
-category: shell command
 tags: [搜索,通配符,正则]
 ---
 

@@ -1,8 +1,6 @@
 ---
-title: dockerfile
 layout: wiki
-category: docker
-tag: [镜像]
+tags: [镜像]
 ---
 
 * RUN 指令不会保存上一条指令的工作路径，每条 RUN 指令都只会将工作目录指定为 / 目录

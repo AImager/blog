@@ -1,8 +1,6 @@
 ---
-title: du
 layout: wiki
-category: shell command
-tag: [磁盘信息]
+tags: [磁盘信息]
 ---
 
 

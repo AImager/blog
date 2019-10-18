@@ -1,7 +1,5 @@
 ---
-title: kettle
 layout: wiki
-category: tool
 tags: [ETL]
 ---
 

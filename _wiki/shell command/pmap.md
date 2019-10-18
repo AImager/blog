@@ -1,7 +1,5 @@
 ---
-title: pmap
 layout: wiki
-category: shell command
 tags: [内存,详情,sudo]
 ---
 

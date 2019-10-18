@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [matlab,数学]
+tags: [matlab,数学]
 ---
 
 ## 常用全局变量

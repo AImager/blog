@@ -1,7 +1,5 @@
 ---
-title: ls
 layout: wiki
-category: shell command
 tags: [显示,目录,文件,通配符]
 ---
 

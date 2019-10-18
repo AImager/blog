@@ -1,8 +1,6 @@
 ---
-title: logout
 layout: wiki
-category: shell command
-tag: [注销,内建命令]
+tags: [注销,内建命令]
 ---
 
 ## 功能描述

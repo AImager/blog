@@ -1,8 +1,6 @@
 ---
-title: mv
 layout: wiki
-category: shell command
-tag: [重命名,移动]
+tags: [重命名,移动]
 ---
 
 ## 功能描述

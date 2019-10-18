@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [原型链]
+tags: [原型链]
 ---
 
 

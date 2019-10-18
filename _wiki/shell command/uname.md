@@ -1,7 +1,5 @@
 ---
-title: uname
 layout: wiki
-category: shell command
 tags: [操作系统,名称,内核,版本]
 ---
 

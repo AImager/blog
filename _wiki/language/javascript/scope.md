@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [作用域,闭包,var]
+tags: [作用域,闭包,var]
 ---
 
 javascript的作用域等级为function-block level。

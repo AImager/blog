@@ -1,7 +1,5 @@
 ---
-title: sort
 layout: wiki
-category: shell command
 tags: [排序]
 ---
 

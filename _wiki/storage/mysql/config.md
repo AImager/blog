@@ -1,7 +1,5 @@
 ---
-title: config
 layout: wiki
-category: mysql
 tags: [配置]
 ---
 

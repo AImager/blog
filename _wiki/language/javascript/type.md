@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [类型]
+tags: [类型]
 ---
 
 * 原始类型

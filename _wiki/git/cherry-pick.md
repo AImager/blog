@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [commit,指定,合并]
+tags: [commit,指定,合并]
 ---
 
 ## 实例

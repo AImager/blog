@@ -1,7 +1,5 @@
 ---
-title: brew
 layout: wiki
-category: shell command
 tags: [mac,包管理]
 ---
 

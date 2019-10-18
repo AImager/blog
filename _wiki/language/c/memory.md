@@ -1,7 +1,5 @@
 ---
-title: memory
 layout: wiki
-category: c
 tags: [内存分配]
 ---
 

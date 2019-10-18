@@ -1,7 +1,5 @@
 ---
-title: dd
 layout: wiki
-category: shell command
 tags: [存储,拷贝,swap]
 ---
 

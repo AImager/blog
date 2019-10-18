@@ -1,7 +1,5 @@
 ---
-title: mpstat
 layout: wiki
-category: shell command
 tags: [CPU,状态信息]
 ---
 

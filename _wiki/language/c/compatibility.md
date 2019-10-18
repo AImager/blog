@@ -1,7 +1,5 @@
 ---
-title: compatibility
 layout: wiki
-category: c
 tags: [兼容性]
 ---
 

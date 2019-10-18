@@ -1,7 +1,5 @@
 ---
-title: grep
 layout: wiki
-category: shell command
 tags: [搜索,正则,通配符]
 ---
 

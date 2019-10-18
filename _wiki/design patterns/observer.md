@@ -1,7 +1,5 @@
 ---
-title: observer
 layout: wiki
-category: design patterns
 tags: [观察者,行为型]
 ---
 

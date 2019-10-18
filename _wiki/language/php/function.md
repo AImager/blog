@@ -1,7 +1,5 @@
 ---
-title: function
 layout: wiki
-category: php
 tags: [函数,变长参数]
 ---
 

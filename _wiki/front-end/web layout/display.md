@@ -1,7 +1,5 @@
 ---
-title: display
 layout: wiki
-category: web layout
 tags: [布局]
 ---
 

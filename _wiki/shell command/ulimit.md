@@ -1,7 +1,5 @@
 ---
-title: ulimit
 layout: wiki
-category: shell command
 tags: [进程,限制]
 ---
 

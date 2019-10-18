@@ -1,4 +1,4 @@
 ---
 layout: wiki
-tag: [mathematica,数学]
+tags: [mathematica,数学]
 ---

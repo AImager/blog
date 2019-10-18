@@ -1,8 +1,6 @@
 ---
-title: mount
 layout: wiki
-category: shell command
-tag: [磁盘,挂载]
+tags: [磁盘,挂载]
 ---
 
 ## 实例

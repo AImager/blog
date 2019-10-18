@@ -1,7 +1,5 @@
 ---
-title: ln
 layout: wiki
-category: shell command
 tags: [链接]
 ---
 

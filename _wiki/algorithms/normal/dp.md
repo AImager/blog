@@ -1,5 +1,4 @@
 ---
-title: dp
 layout: wiki
 tags: [动态规划]
 ---

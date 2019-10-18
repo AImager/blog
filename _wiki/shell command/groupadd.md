@@ -1,7 +1,5 @@
 ---
-title: groupadd
 layout: wiki
-category: shell command
 tags: [添加,组]
 ---
 

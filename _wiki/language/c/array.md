@@ -1,7 +1,5 @@
 ---
-title: array
 layout: wiki
-category: c
 tags: [数组]
 ---
 

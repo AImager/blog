@@ -1,7 +1,5 @@
 ---
-title: init
 layout: wiki
-category: unix-like
 tags: [启动]
 ---
 

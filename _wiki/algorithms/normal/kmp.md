@@ -1,5 +1,4 @@
 ---
-title: kmp
 layout: wiki
 tags: [字符串,匹配]
 ---

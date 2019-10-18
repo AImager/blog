@@ -1,5 +1,4 @@
 ---
-title: heap
 layout: wiki
 tags: [堆,树]
 ---

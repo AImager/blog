@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [浏览器]
+tags: [浏览器]
 ---
 
 ## Application

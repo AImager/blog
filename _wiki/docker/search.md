@@ -1,8 +1,6 @@
 ---
-title: search
 layout: wiki
-category: docker
-tag: [command]
+tags: [command]
 ---
 
 

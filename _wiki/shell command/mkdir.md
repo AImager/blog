@@ -1,8 +1,6 @@
 ---
-title: mkdir
 layout: wiki
-category: shell command
-tag: [新建,目录]
+tags: [新建,目录]
 ---
 
 ## 实例

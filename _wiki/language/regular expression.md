@@ -1,8 +1,6 @@
 ---
-title: regular expression
 layout: wiki
-category: language
-tag: [正则]
+tags: [正则]
 ---
 
 ## 匹配符

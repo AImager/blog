@@ -1,7 +1,5 @@
 ---
-title: rebase
 layout: wiki
-category: git
 tags: [合并,补丁,patch]
 ---
 

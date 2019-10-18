@@ -1,8 +1,6 @@
 ---
-title: stat
 layout: wiki
-category: shell command
-tag: [文件信息]
+tags: [文件信息]
 ---
 
 ## 功能描述

@@ -1,7 +1,5 @@
 ---
-title: varialbes
 layout: wiki
-category: php
 tags: [预定义变量,超定义变量,可变变量]
 ---
 

@@ -1,8 +1,6 @@
 ---
-title: atom
 layout: wiki
-category: tool
-tag: [编辑器]
+tags: [编辑器]
 ---
 
 ## find and replace

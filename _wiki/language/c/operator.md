@@ -1,7 +1,5 @@
 ---
-title: operator
 layout: wiki
-category: c
 tags: [运算符]
 ---
 

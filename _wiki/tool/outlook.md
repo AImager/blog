@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [邮箱]
+tags: [邮箱]
 ---
 
 # 通知规则

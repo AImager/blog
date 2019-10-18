@@ -1,8 +1,6 @@
 ---
-title: shutdown
-category: shell command
 layout: wiki
-tag: [关机,重启,sudo]
+tags: [关机,重启,sudo]
 ---
 
 ## 实例

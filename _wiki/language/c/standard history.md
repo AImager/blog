@@ -1,7 +1,5 @@
 ---
-title: standard history
 layout: wiki
-category: c
 tags: [标准史]
 ---
 

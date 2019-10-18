@@ -1,8 +1,6 @@
 ---
-title: pwd
 layout: wiki
-category: shell command
-tag: [路径]
+tags: [路径]
 ---
 
 ## 功能描述

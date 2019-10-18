@@ -1,7 +1,5 @@
 ---
-title: ubuntu
 layout: wiki
-category: unix-like
 tags: [ubuntu]
 ---
 

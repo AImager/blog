@@ -1,8 +1,6 @@
 ---
-title: vim
 layout: wiki
-category: tool
-tag: [vim]
+tags: [vim]
 ---
 
 这篇文章介绍的部分只保证在类似ssh的终端场景下能顺畅的使用vim，事实上，我用atom~

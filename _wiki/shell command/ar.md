@@ -1,7 +1,5 @@
 ---
-title: ar
 layout: wiki
-category: shell command
 tags: [静态库]
 ---
 

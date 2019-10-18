@@ -1,7 +1,5 @@
 ---
-title: float
 layout: wiki
-category: web layout
 tags: [浮动]
 ---
 

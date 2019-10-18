@@ -1,8 +1,6 @@
 ---
-title: rmi
 layout: wiki
-category: docker
-tag: [删除,tag,image,command]
+tags: [删除,tag,image,command]
 ---
 
 ```shell

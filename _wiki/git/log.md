@@ -1,7 +1,5 @@
 ---
-title: log
 layout: wiki
-category: git
 tags: [查看记录]
 ---
 

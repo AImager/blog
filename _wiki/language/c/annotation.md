@@ -1,7 +1,5 @@
 ---
-title: annotation
 layout: wiki
-category: c
 tags: [注释]
 ---
 

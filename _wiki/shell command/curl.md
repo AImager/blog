@@ -1,7 +1,5 @@
 ---
-title: curl
 layout: wiki
-category: shell command
 tags: [网络,传输,流]
 ---
 

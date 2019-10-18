@@ -1,7 +1,5 @@
 ---
-title: ifconfig
 layout: wiki
-category: shell command
 tags: [网络]
 ---
 

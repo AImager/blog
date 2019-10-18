@@ -1,7 +1,5 @@
 ---
-title: dns
 layout: wiki
-category: protocol
 tags: [应用层,域名]
 ---
 

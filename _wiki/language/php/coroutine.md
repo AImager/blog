@@ -1,7 +1,5 @@
 ---
-title: coroutine
 layout: wiki
-category: php
 tags: [协程]
 ---
 

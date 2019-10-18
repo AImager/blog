@@ -1,8 +1,6 @@
 ---
-title: stop
 layout: wiki
-category: docker
-tag: [容器,停止,command]
+tags: [容器,停止,command]
 ---
 
 

@@ -1,7 +1,5 @@
 ---
-title: commit
 layout: wiki
-category: git
 tags: [提交]
 ---
 

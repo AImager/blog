@@ -1,7 +1,5 @@
 ---
-title: unzip
 layout: wiki
-category: shell command
 tags: [zip,解压]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: tc
 layout: wiki
-category: shell command
 tags: [网络,模拟,延时,丢包]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: position
 layout: wiki
-category: web layout
 tags: [定位]
 ---
 

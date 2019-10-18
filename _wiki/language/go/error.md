@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tag: [异常,错误]
+tags: [异常,错误]
 ---
 
 ```go

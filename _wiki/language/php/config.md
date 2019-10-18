@@ -1,7 +1,5 @@
 ---
-title: config
 layout: wiki
-category: php
 tags: [配置,php.ini]
 ---
 

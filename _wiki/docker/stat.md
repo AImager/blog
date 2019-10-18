@@ -1,8 +1,6 @@
 ---
-title: stat
 layout: wiki
-category: docker
-tag: [command]
+tags: [command]
 ---
 
 

@@ -1,7 +1,5 @@
 ---
-title: pointer
 layout: wiki
-category: c
 tags: [指针]
 ---
 

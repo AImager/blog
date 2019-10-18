@@ -1,7 +1,5 @@
 ---
-title: class
 layout: wiki
-category: php
 tags: [类]
 ---
 

@@ -1,8 +1,6 @@
 ---
-title: rate limit
 layout: wiki
-category: microservices
-tag: [限流]
+tags: [限流]
 ---
 
 ## 参考链接

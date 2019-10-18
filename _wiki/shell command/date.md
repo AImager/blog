@@ -1,7 +1,5 @@
 ---
-title: date
 layout: wiki
-category: shell command
 tags: [日期,时间]
 ---
 

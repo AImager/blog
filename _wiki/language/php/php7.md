@@ -1,7 +1,5 @@
 ---
-title: php7
 layout: wiki
-category: php
 tags: [新特性]
 ---
 

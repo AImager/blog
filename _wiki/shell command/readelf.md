@@ -1,7 +1,5 @@
 ---
-title: readelf
 layout: wiki
-category: shell command
 tags: [ELF]
 ---
 

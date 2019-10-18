@@ -1,7 +1,5 @@
 ---
-title: ab
 layout: wiki
-category: shell command
 tags: [压测,并发,QPS]
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: man
 layout: wiki
-category: shell command
 tags: [帮助]
 ---
 

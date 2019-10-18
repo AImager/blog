@@ -1,7 +1,5 @@
 ---
-title: tcpdump
 layout: wiki
-category: shell command
 tags: [网络,抓包,sudo]
 ---
 

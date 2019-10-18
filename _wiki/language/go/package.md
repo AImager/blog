@@ -1,7 +1,5 @@
 ---
-title: package
 layout: wiki
-category: go
 tags: [包,import]
 ---
 

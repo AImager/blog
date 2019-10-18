@@ -1,7 +1,5 @@
 ---
-title: grant
 layout: wiki
-category: mysql
 tags: [权限,用户,密码]
 ---
 

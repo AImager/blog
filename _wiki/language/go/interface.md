@@ -1,7 +1,5 @@
 ---
-title: interface
 layout: wiki
-category: go
 tags: [接口]
 ---
 

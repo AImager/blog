@@ -1,7 +1,5 @@
 ---
-title: keyword
 layout: wiki
-category: c
 tags: [关键字]
 ---
 
