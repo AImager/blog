@@ -1,7 +1,7 @@
 ---
 title: 3D爱心方程式
 layout: post
-tag: [数学,方程式]
+tags: [数学,方程式]
 ---
 
 方程式（来源于Matrix67的[博客](http://www.matrix67.com/blog/archives/223)）

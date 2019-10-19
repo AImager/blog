@@ -1,7 +1,7 @@
 ---
 title: 中断
 layout: post
-tag: [中断,系统调用]
+tags: [中断,系统调用]
 ---
 
 

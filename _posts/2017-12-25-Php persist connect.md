@@ -1,7 +1,7 @@
 ---
 title: PHP-FPM到底支不支持长连接
 layout: post
-tag: [php,长连接]
+tags: [php,长连接]
 ---
 
 其实有这个疑问已经很久了，但之前看一些讲PHP-FPM原理的博客，几乎都会给出一个核心结论——一个request完成后，FPM的worker会释放request相关的所有内存资源。正是基于这个结论（二手资料毁人啊~），导致我很长一段时间都认为PHP-FPM不支持worker级别的长连接，只支持单个request内的连接复用。显然，这是个错误的结论，因此标题的提问答案是肯定的，至于为什么，下面详述。
@@ -60,5 +60,4 @@ redis_sock->stream = php_stream_xport_create(host, host_len,
 
 ## 参考链接
 
-* [zend_parse_parameters](http://www.voidcn.com/article/p-yskdkrbk-bhq.html)
 * [phpredis](https://github.com/phpredis/phpredis)

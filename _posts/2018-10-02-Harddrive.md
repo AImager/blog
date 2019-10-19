@@ -1,7 +1,7 @@
 ---
 title: 硬盘原理
 layout: post
-tag: [硬盘]
+tags: [硬盘]
 ---
 
 <video id="video" controls>

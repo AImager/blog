@@ -1,7 +1,7 @@
 ---
 title: ORM或SQL
 layout: post
-tag: [对象关系映射]
+tags: [对象关系映射]
 ---
 
 ORM的全称为Object Relational Mapping，中文名为『对象关系映射』。

@@ -1,7 +1,7 @@
 ---
 title: 计算机启动过程
 layout: post
-tag: [计算机原理]
+tags: [计算机原理]
 ---
 
 

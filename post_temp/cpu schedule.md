@@ -1,7 +1,7 @@
 ---
 title: cpu schedule
 layout: post
-tag: [cpu调度,时间片]
+tags: [cpu调度,时间片]
 ---
 
 * [linux内核笔记之进程调度](https://vinoit.me/2016/08/26/linux-kernel-note-process-scheduling/)

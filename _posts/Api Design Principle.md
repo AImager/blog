@@ -1,7 +1,7 @@
 ---
 title: 接口设计原则
 layout: post
-tag: []
+tags: []
 ---
 
 ### 写接口需不需要返回数据

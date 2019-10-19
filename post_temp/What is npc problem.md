@@ -1,8 +1,7 @@
 ---
 title: NPC问题
 layout: wiki
-category: algorithms
-tags: [NP,P]
+tags: [算法,NP,P]
 ---
 
 ## 图问题（第一个不是NPC问题）

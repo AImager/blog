@@ -1,7 +1,7 @@
 ---
 title: 事务
 layout: post
-tag: [事务,一致性]
+tags: [事务,一致性]
 ---
 
 

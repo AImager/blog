@@ -272,20 +272,31 @@ tags: [package]
 * pandoc（转换格式）
 * jq（shell下的json解析工具）
 * trash-cli（一个简单的回收站）
-* Valgrind（Linux内存调试）
-* Tcpdump
+* tldr（帮助文档）
+* mycli（mysql的客户端）
+* icdiff（左右diff工具）
+* pstree（树状显示进程）
+* binutils（二进制工具箱）
+* wrk（压测工具）
+* mackup（备份工具）
+* graphviz（结构图绘制工具）
+* mosh（ssh工具）
+* lrzsz（文件传输工具）
+* expect（模拟终端输入工具）
+* valgrind（Linux内存调试）
+* tcpdump（抓包工具）
 * sedsed（sed调试工具）
-* Sed
-* Awk
-* GCC
-* GDB
-* Strace
-* Clang（LLVM）
-* LLDB
-* Vim
+* sed（流处理工具）
+* awk（流处理工具）
+* gcc（GNU编译器套装）
+* gdb（GNU调试器）
+* strace（系统调用追踪器）
+* clang（llvm编译器工具集的前端）
+* llvm（Low Level Virtual Machine，编译器基础设施）
+* lldb（gdb的工具箱）
+* vim（终端编辑离不开他）
 * apidoc（注释文档化工具）
 * supervisor（进程管理）
-* ZeroNet（区块链网络）
 ```
 
 ### gui

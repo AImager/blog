@@ -1,7 +1,7 @@
 ---
 title: Freshness setup guide
 layout: post
-tag: [jekyll]
+tags: [jekyll]
 ---
 
 ```yaml

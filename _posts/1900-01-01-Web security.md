@@ -1,7 +1,7 @@
 ---
 title: Web安全
 layout: post
-tag: [sql注入]
+tags: [sql注入]
 ---
 
 ## SQL注入

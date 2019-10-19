@@ -1,7 +1,7 @@
 ---
 title: 参数校验
 layout: post
-tag: [validation,php]
+tags: [validation,php]
 ---
 
 对于PHP这种动态语言，我个人认为好的参数校验应该满足

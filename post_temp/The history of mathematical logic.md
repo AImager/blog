@@ -1,7 +1,7 @@
 ---
 title: 数理逻辑简史
 layout: post
-tag: []
+tags: []
 ---
 
 ## 一些名词条目

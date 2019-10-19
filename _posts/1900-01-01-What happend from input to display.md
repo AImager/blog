@@ -1,7 +1,7 @@
 ---
 title: 从浏览器地址栏输入到网页显示的过程
 layout: post
-tag: []
+tags: []
 ---
 
 ## 输入篇
