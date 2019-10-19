@@ -1,6 +1,7 @@
 ---
 title: pool xxx user has not been defined
 layout: qa
+tags: []
 ---
 
 * 可能原因: nginx配置出错

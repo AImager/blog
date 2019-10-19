@@ -1,6 +1,7 @@
 ---
 title: Mysql has gone away
 layout: qa
+tags: []
 ---
 
 ## Mysql has gone away
