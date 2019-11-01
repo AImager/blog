@@ -5,7 +5,7 @@ tags: [mac,group,添加,修改]
 
 ## 实例
 
-```
+```shell
 # 添加wireshark用户组
 dseditgroup -o create wireshark
 

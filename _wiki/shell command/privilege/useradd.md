@@ -9,7 +9,7 @@ tags: [用户,添加]
 
 ## 实例
 
-```
+```shell
 # 添加用户
 useradd username -g admin
 ```

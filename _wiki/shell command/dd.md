@@ -11,7 +11,7 @@ tags: [存储,拷贝,swap]
 
 添加swap虚拟分区需要以下三步
 
-```
+```shell
 # 生成100M*10的虚拟空设备文件/tmp/swap1
 dd if=/dev/zero of=/tmp/swap1 bs=100M count=10
 

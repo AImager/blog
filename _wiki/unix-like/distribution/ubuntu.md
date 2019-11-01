@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [ubuntu]
+tags: [debian,dpkg]
 ---
 
 

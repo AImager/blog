@@ -9,13 +9,13 @@ tags: [进程通信,IPC,查看]
 
 ## 实例
 
-```
+```shell
 # 查看系统使用的IPC共享内存资源
-ipcs -m 
+ipcs -m
 
 # 查看系统使用的IPC队列资源
-ipcs -q 
+ipcs -q
 
 # 查看系统使用的IPC信号量资源
-ipcs -s 
+ipcs -s
 ```

@@ -9,7 +9,7 @@ tags: [搜索]
 
 ## 实例
 
-```
+```shell
 # 搜索路径里带有mysql的文件和目录
 locate mysql
 ```

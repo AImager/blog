@@ -9,7 +9,7 @@ tags: [参数分割]
 
 ## 实例
 
-```
+```shell
 # 寻找path下文件进行删除
 find /path -type f -print0 | xargs -0 rm
 ```

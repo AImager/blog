@@ -14,7 +14,7 @@ tags: [mac,技巧]
 
 ## 备份
 
-```
+```shell
 # 禁止本地备份
 sudo tmutil disablelocal
 
@@ -36,14 +36,14 @@ sudo tmutil enablelocal
 
 ## 允许任意来源
 
-```
+```shell
 sudo spctl --master-disable
 ```
 
 
 ## 性能优化
 
-```
+```shell
 # spotlight禁用
 sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 

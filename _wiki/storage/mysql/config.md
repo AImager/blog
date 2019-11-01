@@ -44,10 +44,10 @@ net_read_timeout
 # 输出数据到客户端的超时时间（单位：s）
 net_write_timeout
 
-#
+# 插入超时时间
 delayed_insert_timeout
 
-#
+# innodb日志刷新时间
 innodb_flush_log_at_timeout
 
 # innodb锁等待超时时间（单位：s）
@@ -56,7 +56,7 @@ innodb_lock_wait_timeout
 # 锁等待时间（单位：s）
 lock_wait_timeout
 
-#
+# 从库收到主库数据超时时间
 slave_net_timeout
 ```
 

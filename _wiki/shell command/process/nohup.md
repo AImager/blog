@@ -9,7 +9,7 @@ tags: [守护进程]
 
 ## 实例
 
-```
+```shell
 # 后台执行cli.php，重定向标准输出到cli.log
 nohup php cli.php & > cli.log
 ```

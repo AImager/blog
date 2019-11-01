@@ -13,7 +13,7 @@ tags: [文件信息]
 
 ## 实例
 
-```
+```shell
 # 查看file文件信息
 stat file
 ```

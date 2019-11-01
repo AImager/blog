@@ -9,10 +9,10 @@ arp缓存管理
 
 ## 实例
 
-```
+```shell
 # 清空所有的arp缓存
 # mac不行
-arp -n | awk '/^[1-9]/{system("arp -d "$1)}'          
+arp -n | awk '/^[1-9]/{system("arp -d "$1)}'
 ```
 
 ### -a

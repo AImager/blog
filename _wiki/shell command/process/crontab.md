@@ -9,7 +9,7 @@ tags: [定时任务]
 
 ## 实例
 
-```
+```shell
 # 编辑root的crontab
 crontab -u root
 ```

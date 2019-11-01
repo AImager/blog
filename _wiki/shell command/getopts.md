@@ -6,7 +6,7 @@ tags: [参数解析]
 
 ## 实例
 
-```
+```shell
 # 循环获取参数-e,-v,-o
 while getopts :e:v:o: opt; do
     case $opt in

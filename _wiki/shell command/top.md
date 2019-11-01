@@ -10,7 +10,7 @@ tags: [任务管理]
 
 ## 显示描述
 
-```
+```shell
 top - 17:02:27 up  9:40,  1 user,  load average: 0.04, 0.08, 0.06
 Tasks: 208 total,   1 running, 207 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  4.7 us,  1.7 sy,  0.0 ni, 93.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
@@ -39,7 +39,7 @@ KiB Swap:  2702332 total,  2665364 free,    36968 used.   623096 avail Mem
 
 ## 实例
 
-```
+```shell
 # 交互实时显示资源占用情况
 top
 ```

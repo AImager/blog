@@ -9,7 +9,7 @@ iptables是很多发行版的默认防火墙服务，centos7换成了firewall。
 
 ## 实例
 
-```
+```shell
 # 以数字形式显示iptables的所有规则
 iptables --list -n
 

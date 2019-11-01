@@ -9,7 +9,7 @@ tags: [打包,解压]
 
 ## 实例
 
-```
+```shell
 # gzip压缩打包
 tar -zcvf outfile needcompress
 

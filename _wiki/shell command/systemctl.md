@@ -10,7 +10,7 @@ systemctl是systemd初始化系统提供的命令管理工具，包含了sysvini
 
 ## 实例
 
-```
+```shell
 # 默认启动到命令行
 systemctl set-default multi-user.target
 

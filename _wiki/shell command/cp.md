@@ -9,7 +9,7 @@ tags: [复制,文件,目录]
 
 ## 实例
 
-```
+```shell
 # 拷贝目录到/target下
 cp -r src /target/
 ```

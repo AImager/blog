@@ -5,7 +5,7 @@ tags: [磁盘,挂载]
 
 ## 实例
 
-```
+```shell
 # ubuntu挂载mac共享文件
 sudo mount -t cifs //192.168.1.116/FW-all-local ~/Desktop/ --verbose -o user="username",vers=3.0
 
