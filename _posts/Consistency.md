@@ -4,6 +4,7 @@ layout: post
 tags: [CAP,BASE,ACID]
 ---
 
+## 数据不一致是如何发生的
 
 ## 参考链接
 
