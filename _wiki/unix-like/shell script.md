@@ -87,6 +87,15 @@ break n：跳出n层循环
 continue n：继续n层循环
 ```
 
+## 数组
+
+```shell
+arr=(A B C D 1 2 3 4)
+for i in "${!arr[@]}";
+do
+    printf "%s\t%s\n" "$i" "${arr[$i]}"
+done
+```
 
 
 ## 脚本中特殊变量

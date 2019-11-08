@@ -45,3 +45,8 @@ sudo netstat -apn | grep 100.99.3.96:3306 | grep server | wc -l
 ### -r
 
 展示路由表
+
+
+## 参考链接
+
+* [netstat源代码调试&原理分析](https://blog.spoock.com/2019/05/26/netstat-learn/)
