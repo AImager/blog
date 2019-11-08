@@ -1,4 +1,4 @@
 ---
 layout: wiki
-tags: [scope]
+tags: [scope,作用域]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [命令行工具]
+tags: []
 ---
 
 ## get
