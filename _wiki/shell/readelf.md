@@ -7,7 +7,7 @@ mac下对应的软件为greadelf
 
 ## 实例
 
-```
+```shell
 # 查看elf文件头
 readelf -h test.o
 ```

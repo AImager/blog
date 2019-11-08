@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [容器,停止,command]
+tags: [容器,停止]
 ---
 
 

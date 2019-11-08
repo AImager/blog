@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [command]
+tags: [执行]
 ---
 
 

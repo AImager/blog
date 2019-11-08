@@ -1,4 +1,4 @@
 ---
 layout: wiki
-tags: [command]
+tags: [推送]
 ---

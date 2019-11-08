@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [command]
+tags: [进程]
 ---
 
 ```shell

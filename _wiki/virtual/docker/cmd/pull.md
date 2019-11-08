@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [command]
+tags: [拉取镜像]
 ---
 
 

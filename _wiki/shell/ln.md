@@ -5,7 +5,7 @@ tags: [链接]
 
 ## 实例
 
-```
+```shell
 # 建立链接
 ln -sf src tar
 ```

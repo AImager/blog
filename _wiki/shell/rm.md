@@ -9,7 +9,7 @@ tags: [删除]
 
 ## 实例
 
-```
+```shell
 rm [-option] <dir>
 ```
 

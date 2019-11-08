@@ -10,7 +10,7 @@ tags: [重命名,移动]
 
 ## 实例
 
-```
+```shell
 # 移动文件
 mv src/file tar/
 

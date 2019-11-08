@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [删除,tag,image,command]
+tags: [删除镜像,image]
 ---
 
 ```shell
