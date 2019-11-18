@@ -5,7 +5,7 @@ tags: [主键,外键]
 
 ## 主键
 
-主键是唯一的unique key。
+主键是unique key。
 
 ## 外键
 

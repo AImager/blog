@@ -59,18 +59,18 @@ concurrent_insert是MyISAM的一个配置参数，用于控制读写是否可并
 * 可重复读（Repeatable read）
 * 可序列化（Serializable）
 
-![](/media/img/mysql/隔离级别.png)
+![](/media/img/mysql/Isolation_levels.png)
 
 ### 实现
 
-只有通过索引条件检索数据，InnoDB才使用行级锁，否则，InnoDB将使用表锁。
+只有通过索引条件检索数据时，InnoDB才使用行级锁，否则，InnoDB将使用表锁。
 
 * X锁（排他锁）
 * IX锁（意向排他锁）
 * S锁（共享锁）
 * IS锁（意向共享锁）
 
-![](/media/img/mysql/行锁兼容表.png)
+![](/media/img/mysql/Lock_compatible.png)
 
 ### GAP锁
 

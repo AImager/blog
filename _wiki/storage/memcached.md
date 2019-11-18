@@ -56,3 +56,5 @@ stat
 ## 参考链接
 
 * [memcached_set](http://docs.libmemcached.org/memcached_set.html)
+* [memcached redis 对比分析](https://www.jianshu.com/p/e94fa7340923)
+* [Redis和Memcached的区别](https://www.biaodianfu.com/redis-vs-memcached.html)
