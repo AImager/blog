@@ -18,17 +18,10 @@ title: Aboutme
 反馈或其它任何事务请直接发邮件给我 <a href="mailto:funcemail@163.com"><i class="fa fa-mail-reply"></i></a> <br>
 如果觉得本博客还不错，可选择订阅 <a href="/feed.xml"><i class="fa fa-rss"></i></a>
 
-
 ## 社交
-
 
 Github：[https://github.com/AImager](https://github.com/AImager) <br>
 Twitter：[https://twitter.com/AImager](https://twitter.com/AImager) <br>
 微博：[https://weibo.com/AImager](https://weibo.com/AImager) <br>
 知乎：[http://www.zhihu.com/people/AImager](http://www.zhihu.com/people/AImager) <br>
 豆瓣：[https://www.douban.com/people/121407370/](https://www.douban.com/people/121407370/) <br>
-
-
-## 收藏
-
-读书：[http://book.aimager.com](http://book.aimager.com) <br>
