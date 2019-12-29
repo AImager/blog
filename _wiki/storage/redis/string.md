@@ -3,6 +3,7 @@ layout: wiki
 tags: [字符串]
 ---
 
+底层对象，`OBJ_ENCODING_RAW`、`OBJ_ENCODING_INT`、`OBJ_ENCODING_EMBSTR`
 
 ## 字符串
 

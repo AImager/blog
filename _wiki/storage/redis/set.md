@@ -3,6 +3,8 @@ layout: wiki
 tags: [集合]
 ---
 
+`OBJ_ENCODING_INTSET`、`OBJ_ENCODING_HT`
+
 集合和散列表有一定的相似性（都是通过散列表实现的？存疑），基本单元素操作时间复杂度都是O(1)。
 
 比较来看，集合没有value，多了集合相关的操作。

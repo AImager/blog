@@ -3,7 +3,7 @@ layout: wiki
 tags: [栈,列表]
 ---
 
-使用压缩列表或者链表实现。
+`OBJ_ENCODING_ZIPLIST`、`OBJ_ENCODING_LINKEDLIST`
 
 ## 列表
 

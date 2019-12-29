@@ -5,7 +5,7 @@ tags: [编码,转义符]
 
 ## ASCII（美国标准）
 
-![](/media/img/experience/ASCII_encode.png)
+![](/media/img/language/ASCII_encode.png)
 
 ## GB2312（中国标准）
 

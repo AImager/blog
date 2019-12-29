@@ -12,6 +12,7 @@ tags: [状态码]
 * 403 Forbidden：请求被拒绝
 * 404 Not Found：无法找到所请求的资源
 * 408 Request Timeout：请求超时
+* 499
 * 500 Internal Server Error：服务器错误
 * 502 Bad Gateway：后端服务出现伪响应（比如nginx连接php-fpm失败）的时候返回
 * 503 Service Unavailable：服务不可用

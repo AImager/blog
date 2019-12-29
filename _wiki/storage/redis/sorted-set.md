@@ -3,7 +3,7 @@ layout: wiki
 tags: [有序集合]
 ---
 
-有序集合通过跳表实现，以下为5.0版本的zset结构
+`OBJ_ENCODING_ZIPLIST`、`OBJ_ENCODING_SKIPLIST`，以下为5.0版本的skiplist结构
 
 ```c
 /* ZSETs use a specialized version of Skiplists */

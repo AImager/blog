@@ -12,6 +12,8 @@ tags: [进程,系统调用]
 ```shell
 # strace -p 1022
 跟踪pid为1022的系统调用
+# strace所有线程
+strace -fp `ps auxw -T | grep program_to_trace | grep -v grep | awk {print $2}`
 ```
 
 ### -p
