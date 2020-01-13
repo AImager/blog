@@ -6,7 +6,7 @@ tags: [网卡]
 
 本文主要介绍Linux下网卡收包的流程，这其中主要涉及到网卡的原理以及链路层和物理层的工作原理。整个过程的全景图如下，下面一步一步来说。
 
-![网卡收包流程](/media/img/2019/网卡收包流程.png)
+![网卡收包流程](/media/img/2019/NIC.png)
 
 ## 零. 名词解释
 
@@ -51,3 +51,5 @@ NIC
 ## 参考链接
 
 * [Linux协议栈--套接字的实现](http://cxd2014.github.io/2016/07/30/socket-implement/)
+* [Linux网络 - 数据包的接收过程](https://segmentfault.com/a/1190000008836467)
+* [Linux 系统内核空间与用户空间通信的实现与分析](https://www.ibm.com/developerworks/cn/linux/l-netlink/index.html)
