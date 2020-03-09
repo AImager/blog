@@ -31,3 +31,5 @@ UML官方是这六种关系，Dependency(依赖)，Association(关联)，Aggrega
 * [DependencyAndAssociation](https://martinfowler.com/bliki/DependencyAndAssociation.html)
 * [UML Distilled](https://book.douban.com/subject/1460848/)
 * [敏捷软件开发](https://book.douban.com/subject/1140457/)
+* [Spring DI](https://www.cnblogs.com/kuotian/p/8794245.html)
+* [使用 IoC 容器来简化业务对象的管理](https://www.infoq.cn/article/wILXgbkJ9juQoMxsa3dX)
