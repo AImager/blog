@@ -7,6 +7,8 @@ tags: [端口,网络,socket]
 
 用于查看网络连接信息
 
+mac下netstat很鸡肋，请使用lsof
+
 
 ## 实例
 
