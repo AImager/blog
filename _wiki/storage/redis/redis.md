@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [综述]
+tags: [redis,大纲]
 ---
 
 以下为5.0支持的对象类型
