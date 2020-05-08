@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [备份,分区,AOF]
+tags: [备份,分区,AOF,RDB]
 ---
 
 
