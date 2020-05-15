@@ -6,8 +6,8 @@ tags: [包管理]
 
 ## mvn常见指令
 
--D 指定参数，如 -Dmaven.test.skip=true 跳过单元测试；
--P 指定 Profile 配置，可以用于区分环境；
+-D 指定参数，如 -Dmaven.test.skip=true或者-DskipTests 跳过单元测试；
+-P 指定 Profile 配置，可以用于区分环境，本质上就是参数 spring.profiles.active；
 -e 显示maven运行出错的信息；
 -o 离线执行命令,即不去远程仓库更新包；
 -X 显示maven允许的debug信息；
@@ -27,3 +27,8 @@ mvn deploy，发布项目到远程仓库
 mvn tomcat:start，启动tomcat程序
 mvn springboot:run，启动springboot程序
 mvn source:jar，生成源码jar包
+
+## 常见参数
+
+maven.test.skip=true：跳过测试
+skipTests：跳过测试
