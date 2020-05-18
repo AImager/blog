@@ -32,3 +32,36 @@ mvn source:jar，生成源码jar包
 
 maven.test.skip=true：跳过测试
 skipTests：跳过测试
+
+
+
+## POM
+
+project: 最外层标签，标识一个项目
+modelVersion: POM版本，现在唯一支持的是4.0.0
+groupId: 包所在的组
+artifactId: 包标识
+version: 包版本
+parent: 用于继承复用的包描述
+properties: 定义变量，其它地方可引用
+build:
+plugins:
+dependency:
+
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <properties>
+    <!-- 定义 mojo 版本号 -->
+    <mojo.version>4.0.2</mojo.version>
+  </properties>
+
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>my-project</artifactId>
+  <version>${mojo.version}</version>
+</project>
+```
