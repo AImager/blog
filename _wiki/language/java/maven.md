@@ -3,6 +3,11 @@ layout: wiki
 tags: [包管理]
 ---
 
+## 生命周期
+
+Maven 的内部有三个构建生命周期，分别是 clean, default, site。其中核心流程 default 的细化生命周期如下：
+
+![](/media/img/java/maven_lifecycle.png)
 
 ## mvn常见指令
 
@@ -21,6 +26,7 @@ mvn compile，编译代码生成class文件，产出放在target目录
 mvn install，打包安装到本地仓库，包括compile和test过程
 mvn package，打包编译好的class
 mvn deploy，发布项目到远程仓库
+mvn dependency:tree，查看依赖树
 
 ## 组合命令
 
@@ -65,3 +71,7 @@ dependency:
   <version>${mojo.version}</version>
 </project>
 ```
+
+## 参考链接
+
+* [Maven 生命周期](https://www.jianshu.com/p/fd43b3d0fdb0)
