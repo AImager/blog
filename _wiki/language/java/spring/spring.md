@@ -7,10 +7,12 @@ tags: [框架]
 
 ### org.springframework.stereotype
 
-Service: 标注业务层组件
-Controller: 标注控制层组件，返回json需要ResponseBody配合
-Component: 标注泛指组件
-Repository: 标注数据访问组件
+* Component: 标注泛指组件
+* Controller: 标注控制层组件，返回json需要ResponseBody配合
+* Service: 标注业务层组件
+* Repository: 标注数据访问组件
+
+Component是基础组件，Controller、Service、Repository都包含Component的能力。
 
 
 ## 约定
