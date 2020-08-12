@@ -44,6 +44,8 @@ main模块的replace才会生效，子模块的replace不会生效，参考[issu
 
 初始化
 
+## 对>v2的版本支持
+
 ## 参考连接
 
 * [Anatomy of Modules in Go](https://medium.com/rungo/anatomy-of-modules-in-go-c8274d215c16)
