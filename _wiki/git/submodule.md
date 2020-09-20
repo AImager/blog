@@ -29,6 +29,10 @@ git submodule add http://name@url.git src/library
 
 查看子模块在父项目的注册commit-id，同时，若子模块实际commit-id更新，则显示的commit-id前会出现+，相反会出现-
 
+### status
+
+查看子模块版本等状态
+
 
 ## 参考链接
 
