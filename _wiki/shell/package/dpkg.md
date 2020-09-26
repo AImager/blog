@@ -16,7 +16,7 @@ dpkg --set-selections < ~/somefile sudo dselect
 
 ### -l
 
-查看软件包信息，缺省值为所有已安装的包信息
+查看软件包信息，缺省值为所有已安装的包信息，软件包的状态信息参考
 
 ### -S
 
@@ -33,3 +33,7 @@ dpkg --set-selections < ~/somefile sudo dselect
 ### -i
 
 安装deb包
+
+## 参考链接
+
+* [How to interpret the status of dpkg (–list)?](https://linuxprograms.wordpress.com/2010/05/11/status-dpkg-list/)
