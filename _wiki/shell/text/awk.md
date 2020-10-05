@@ -18,7 +18,7 @@ awk '{a[$1]++}END{for (j in a) print j","a[j]}'
 # 相加求和，支持小数
 awk '{sum += $1};END {print sum}'
 
-# 使用shell变量
+# 使用shell变量，使用""进行字符串拼接
 awk '{print "'"$var"'"}'
 
 # 筛选第四列，拼接成一个或查询条件，最后的一串数据是随机加上，避免多出一个|
