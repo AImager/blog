@@ -15,4 +15,7 @@ lsof -i :port
 
 # mac下查看所有监听的端口
 sudo lsof -nP -iTCP -sTCP:LISTEN
+
+# 按照进程打开的句柄数量排序
+lsof | awk '{print $2}' | sort | uniq -c | sort -nr | more
 ```

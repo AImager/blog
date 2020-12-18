@@ -21,7 +21,8 @@ tags: [压测,并发,QPS]
 ```shell
 # 开启10并发，共提交100个请求
 # 相当于平均一个连接提交10个请求
-ab -n 100 -c 10 http://aimager.com/
+# -p设置POST-data，-T设置格式，-H设置header
+ab -n 100 -c 10 -p "post.txt" -T "application/json" -H "Content-Type: application/json; Cache-Control: no-cache" http://aimager.com/
 ```
 
 ## 显示说明
