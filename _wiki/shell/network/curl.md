@@ -11,6 +11,9 @@ curl --request GET baidu.com
 
 # 以form-data的参数形式post数据获取网络流
 curl -d "uid=144421&stid=171073&oil_id=5" 10.211.55.3:8101/Recommendation/retailRecommend
+
+# 显示详细的http报文信息
+curl -kv baidu.com
 ```
 
 ## 参考链接
