@@ -40,4 +40,4 @@ $$
 
 **注：这里的公式只是为了方便图像找出的通用公式，并非找出图像的唯一公式**
 
-最后，附上自我指涉的Mathematica程序地址：[mathematica-code](https://github.com/AImager/share/blob/master/2013/)
+最后，附上自我指涉的Mathematica程序地址：[mathematica-code](https://github.com/AImager/blog/blob/master/media/share/2013/)

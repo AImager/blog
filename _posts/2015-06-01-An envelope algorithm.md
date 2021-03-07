@@ -34,4 +34,4 @@ $$ W = \frac{ \int_{a}^{b} \left | \frac{HH(x)+HE(x)}{2} - f(x) \right |}{b-a} *
 
 当然，这个标准仅作为参考，最终还是需要结合具体的需求去灵活选择包络的粒度、平滑度等参数。
 
-最后，附上迭代筛选极值画包络的Matlab程序地址：[matlab-code](https://github.com/AImager/share/blob/master/2015/)
+最后，附上迭代筛选极值画包络的Matlab程序地址：[matlab-code](https://github.com/AImager/blog/blob/master/media/share/2015/envelope/)
