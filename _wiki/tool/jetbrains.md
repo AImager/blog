@@ -23,9 +23,17 @@ tags: [jetbrains,intellij,idea]
 
 ### Keymap
 
-* Navigate: 跳转
-* Indent/Unindent: 左右缩进
-* Show Intention Actions: 显示可使用动作（用于忽略/处理异常）
+* Navigate: 跳转相关配资项目
+  * Back: 后退，ctrl-
+  * Forward: 前进，ctrl=
+* Main Menu
+  * Edit
+    * Indent Selection: 右缩进，cmd]
+    * Unindent Line or Selection: 左缩进，cmd[
+* Other
+  * Show Intention Actions: 显示可使用动作（用于忽略/处理异常）
+* Tool Windows
+  * Terminal: 开启/关闭terminal，ctrl`
 
 ## 选项栏
 
