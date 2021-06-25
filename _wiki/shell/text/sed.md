@@ -10,6 +10,9 @@ tags: [反序,替换]
 ## 实例
 
 ```shell
+# 替换所有的空格成
+cat file | sed 's/ /,/g'
+
 # 删除空行
 sed '/^\s*$/d' text
 

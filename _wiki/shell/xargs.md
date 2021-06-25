@@ -10,6 +10,16 @@ tags: [参数分割]
 ## 实例
 
 ```shell
+# 将多行文件合并成一行输出
+cat 1.txt | xargs
+
+# 每5行合并成一行
+cat 1.txt | xargs -n 5
+
 # 寻找path下文件进行删除
 find /path -type f -print0 | xargs -0 rm
 ```
+
+## 参考链接
+
+* [xargs 命令教程](http://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
