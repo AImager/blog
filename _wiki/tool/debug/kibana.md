@@ -5,7 +5,7 @@ tags: [日志]
 
 ```shell
 #
-(log:"IDsBySearchES" AND log:"1000592") OR (log:"params" AND  ts:>100)
+(log:"IDsBySearchES" AND log:"1000592") OR (log:"params" AND  ts:>100) AND (NOT log:"Duplicate")
 ```
 
 * AND: 与条件，必须大写
