@@ -13,6 +13,12 @@ do
 done
 ```
 
+### 数组长度
+
+```shell
+${#array[@]}
+```
+
 ## 参考链接
 
 * [Shell脚本数组用法小结](http://www.jb51.net/article/55253.htm)
