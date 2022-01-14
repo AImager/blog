@@ -1,4 +1,4 @@
 ---
 layout: wiki
-tags: [推送]
+tags: [继承]
 ---

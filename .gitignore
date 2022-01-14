@@ -3,3 +3,5 @@ _site
 .vscode
 .settings
 .tag*
+.jekyll-cache
+.obsidian

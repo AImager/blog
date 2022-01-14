@@ -15,7 +15,13 @@ bin/kafka-topics.sh --create --zookeeper 192.168.103.104:2181 --replication-fact
 bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic test1 --from-beginning
 ```
 
+## kafka的消费模型？
+
+## kafka的存储模型？
+
+## kafka为什么依赖zookepper
+
 
 ## 参考链接
 
-* [Kafka文件存储机制](http://tech.meituan.com/kafka-fs-design-theory.html)
+* [Kafka文件存储机制那些事](https://tech.meituan.com/2015/01/13/kafka-fs-design-theory.html)

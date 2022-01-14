@@ -8,6 +8,6 @@ docker是基于Linux的虚拟技术做的，所以mac和windows都是必须在�
 ## 参考链接
 
 * [Get started with Docker for Mac](https://docs.docker.com/docker-for-mac/)
-* [Mac部署Docker环境](http://www.jianshu.com/p/5d3f6b40b132)
+* [Mac部署Docker环境](http://www.jianshu.com/p/5d3f6b40b132)
 * [Docker for Mac vs. Docker Toolbox](https://docs.docker.com/docker-for-mac/docker-toolbox/)
 * [Get Docker CE for CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
