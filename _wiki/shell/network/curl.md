@@ -14,7 +14,20 @@ curl -d "uid=144421&stid=171073&oil_id=5" 10.211.55.3:8101/Recommendation/retail
 
 # 显示详细的http报文信息
 curl -kv baidu.com
+
+# 指定rootca.pem作为根证书，访问时校验服务端证书的合法性
+curl --cacert rootca.pem https://test/test
 ```
+
+## command
+
+### --cacert
+
+指定根证书，用于校验服务端证书的合法性
+
+### -k/--insecure
+
+不校验服务端证书的合法性
 
 ## 参考链接
 

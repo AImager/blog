@@ -67,6 +67,12 @@ tags: [package]
 ```
 
 
+## Go
+
+### 框架
+
+### Package
+
 
 ## PHP
 
@@ -95,7 +101,15 @@ tags: [package]
 * guzzle（http-post工具）
 ```
 
+## Java
 
+### 框架
+
+```
+* Quartz（调度底层框架）
+```
+
+### Package
 
 ## Python
 
@@ -157,13 +171,17 @@ tags: [package]
 
 ```
 * Sphinx（全文检索引擎）
-* Elasticsearch
 * hive（基于hadoop的SQL查询引擎）
 * hadoop-MapReduce
 * impala（新型SQL查询引擎）
 * Storm（流计算引擎）
 * Spark（改进MapReduce的内存计算引擎）
 ```
+
+
+
+## 数据库
+
 
 ### 数据库代理
 
@@ -172,23 +190,32 @@ tags: [package]
 * DRDS（阿里云收费系统）
 ```
 
-### 数据库
+### 关系型
 
 ```
 * Mysql
-* Redis（KV，常用于缓存，可用作简单队列，可持久化）
 * postgresql（学术范关系型数据库）
-* MongoDB
-* TiDB（真正的分布式关系型数据库）
-* Greenplum（企业级OLAP）
-* HBase（列分布式数据库）
 ```
 
+### NOSQL
+
+```
+* MongoDB
+* Greenplum（企业级OLAP）
+* HBase（列分布式数据库）
+* Redis（KV，常用于缓存）
+* Elasticsearch
+```
+
+### 分布式数据库
+
+```
+* TiDB（真正的分布式关系型数据库）
+```
 
 ### 分布式基础服务
 
 ```
-* Quartz（调度底层框架）
 * zookeeper（分布式任务协调服务）
 * influx（监控）
 * yarn（集群调度）
@@ -202,9 +229,26 @@ tags: [package]
 
 
 
-## 运维
+## 基建
 
-### 同步备份
+### 虚拟化
+
+```
+* Docker（应用级别虚拟化）
+* OpenStack（OS级别资源管理平台，本身不提供虚拟化）
+* KVM（OS级别虚拟化）
+* Kubernetes（容器集群管理）
+```
+
+### 应用链路
+
+```
+* GitLab
+* Jenkins（持续集成）
+* Walle（应用发布上线平台）
+```
+
+### 备份恢复
 
 ```
 * Xtrabackup（Mysql-InnoDB的热备份工具）
@@ -212,19 +256,12 @@ tags: [package]
 * sqoop（同步hadoop与关系型数据库间的数据）
 ```
 
-### devops
+### 自动化
 
 ```
-* OpenStack（云计算虚拟平台）
-* Docker
-* Docker-Compose
-* kubernetes（容器集群管理）
-* puppet（自动化运维）
-* saltstack（自动化运维）
-* ansible（自动化运维）
-* Walle（发布）
-* GitLab
-* Jenkins（持续集成）
+* puppet
+* saltstack
+* ansible
 ```
 
 ### 监控

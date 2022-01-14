@@ -14,6 +14,7 @@ tags: [jetbrains,intellij,idea]
 * 文件模板: File and Code Templates
 * 拖拽关闭: Enable Drag'n'Drop functionality in editor
 * 设置文件监控: Tools -> File Watchers (依赖File Watchers插件，比如自动gofmt)
+* 关闭Built-in Preview: [官网文档](https://intellij-support.jetbrains.com/hc/en-us/community/posts/4404608854674-Disable-built-in-preview-button)
 
 ### 主题颜色定制
 

@@ -44,3 +44,5 @@ tags: [git,工作流,github]
 * [Git在团队中的最佳实践--如何正确使用Git Flow](http://www.cnblogs.com/cnblogsfans/p/5075073.html)
 * [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 * [在阿里，我们如何管理代码分支？](https://yq.aliyun.com/articles/573549)
+* [代码分支管理指南](https://open.leancloud.cn/git-branch-guide/)
+* [Git分支管理策略](https://www.ruanyifeng.com/blog/2012/07/git.html)
