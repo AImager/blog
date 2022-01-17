@@ -20,6 +20,9 @@ cat 1.txt | xargs -n 5
 
 # 寻找path下文件进行删除
 find /path -type f -print0 | xargs -0 rm
+
+# 使用xargs完成trim的逻辑
+echo "   sdf  " | xargs
 ```
 
 ## 参考链接

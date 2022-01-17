@@ -1,6 +1,6 @@
 ---
 layout: wiki
-tags: [数组]
+tags: [数据结构,数组,map]
 ---
 
 ## 数组
