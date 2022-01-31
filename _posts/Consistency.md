@@ -6,6 +6,8 @@ tags: [CAP,BASE,ACID]
 
 ## 数据不一致是如何发生的
 
+单并发情况下，只需要提供了原子性就相当于提供了一致性？
+
 ## 参考链接
 
 * [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
