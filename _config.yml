@@ -35,18 +35,18 @@ collections:
     output: true
 
 navigations:
-  - title: Nagging
-    class: fa fa-comment-o
-    href: /nagging.html
+  # - title: Nagging
+  #   class: fa fa-comment-o
+  #   href: /nagging.html
   - title: Wiki
     class: fa fa-wikipedia-w
     href: /wiki.html
   - title: Archive
     class: fa fa-archive
     href: /archive.html
-  - title: Q&A
-    class: fa fa-quora
-    href: /qa.html
+  # - title: Q&A
+  #   class: fa fa-quora
+  #   href: /qa.html
   # - title: Tags
   #   class: fa fa-tags
   #   href: /tags.html
