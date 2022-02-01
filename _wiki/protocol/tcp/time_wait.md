@@ -1,7 +1,6 @@
 ---
-title: Many TIME_WAIT
-layout: qa
-tags: []
+layout: wiki
+tags: [状态]
 ---
 
 ## Many TIME_WAIT
