@@ -9,6 +9,13 @@ brew自己使用编译的方式安装，而brew cask多是安装dmg/pkg，即更
 
 ## 实例
 
+```shell
+# 更换版本
+brew unlink go
+brew link go@1.13
+```
+
+
 ### info
 
 查看包的信息，包名必须正确
