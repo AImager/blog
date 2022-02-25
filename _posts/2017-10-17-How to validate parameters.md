@@ -1,5 +1,5 @@
 ---
-title: 参数校验
+title: 如何进行参数校验
 layout: post
 tags: [validation,php]
 ---
