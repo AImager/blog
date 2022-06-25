@@ -2,6 +2,7 @@
 title: ELF文件结构
 layout: post
 tags: [计算机原理,nasm,编译,链接]
+typora-root-url: ../../blog
 ---
 
 在开始之前，先介绍下环境和工具，系统是基于Parallels（主系统为OS X10.10）的Ubuntu32位虚拟机，版本号12.04，但我也实验过centos，基本没有区别，而用于分析的程序由nasm汇编语言编写，之所以采用nasm编写程序，是为了简化编译链接过程，避免最后的目标文件中太多无关段影响分析，主要的分析工具为readelf（用来查看可执行文件的段信息）和objdump（主要用来查看反汇编信息）。
@@ -114,7 +115,7 @@ Section Headers:
 
 根据上面的信息，我们可以画出test.o的ELF文件图，如下
 
-![](/media/img/2014/Relocatable_file.png)
+![](/media/img/Relocatable_file.png)
 
 ## 可执行文件
 
@@ -147,7 +148,7 @@ ELF Header:
 
 但即使将section合并成program还是会存在内存空隙，所以最后还是会将虚拟内存地址连续的program合并到同一页，并采用多次映射的方式解决访问的问题。
 
-![](/media/img/2014/Executable_file.png)
+![](/media/img/Executable_file.png)
 
 ## 附录：test文件二进制结构
 

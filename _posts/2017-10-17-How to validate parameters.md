@@ -2,6 +2,7 @@
 title: 如何进行参数校验
 layout: post
 tags: [validation,php]
+typora-root-url: ../../blog
 ---
 
 对于PHP这种动态语言，我个人认为好的参数校验应该满足

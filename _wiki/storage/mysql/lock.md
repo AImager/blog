@@ -1,6 +1,7 @@
 ---
 layout: wiki
 tags: [锁]
+typora-root-url: ../../../../blog
 ---
 
 ## 锁分类
@@ -59,7 +60,7 @@ concurrent_insert是MyISAM的一个配置参数，用于控制读写是否可并
 * 可重复读（Repeatable read）
 * 可序列化（Serializable）
 
-![](/media/img/mysql/Isolation_levels.png)
+![](/media/img/Isolation_levels.png)
 
 ### 实现
 
@@ -70,7 +71,7 @@ concurrent_insert是MyISAM的一个配置参数，用于控制读写是否可并
 * S锁（共享锁）
 * IS锁（意向共享锁）
 
-![](/media/img/mysql/Lock_compatible.png)
+![](/media/img/Lock_compatible.png)
 
 ### GAP锁
 

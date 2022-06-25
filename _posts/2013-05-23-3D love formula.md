@@ -2,6 +2,7 @@
 title: 3D爱心方程式
 layout: post
 tags: [数学,方程式]
+typora-root-url: ../../blog
 ---
 
 方程式（来源于Matrix67的[博客](http://www.matrix67.com/blog/archives/223)）
@@ -15,4 +16,4 @@ $$
 [https://github.com/AImager/blog/blob/master/media/share/2013/](https://github.com/AImager/blog/blob/master/media/share/2013/)
 
 
-![](/media/img/2013/3D_love.png)
+![](/media/img/3D_love.png)

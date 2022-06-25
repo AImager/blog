@@ -2,6 +2,7 @@
 title: 希尔伯特计划（一）——Fermat's Last Theorem与丢番图方程
 layout: post
 tags: [希尔伯特计划,数理逻辑]
+typora-root-url: ../../blog
 ---
 
 给你下面这个方程，你是否可以很快的给出它的一组解呢？

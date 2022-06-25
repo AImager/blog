@@ -2,6 +2,7 @@
 title: ORM或SQL
 layout: post
 tags: [对象关系映射]
+typora-root-url: ../../blog
 ---
 
 ORM的全称为Object Relational Mapping，中文名为『对象关系映射』。
