@@ -17,6 +17,12 @@ curl -kv baidu.com
 
 # 指定rootca.pem作为根证书，访问时校验服务端证书的合法性
 curl --cacert rootca.pem https://test/test
+
+# 注意，下面两种带cookie的方式并不相同
+# --cookie : `It is supposedly the data previously received from the server in a "Set-Cookie:" line. `
+# --header
+curl --cookie
+curl --header 'Cookie: '
 ```
 
 ## command
