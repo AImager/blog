@@ -1,6 +1,7 @@
 ---
 layout: wiki
 tags: [平衡二叉树]
+typora-root-url: ../../../../blog
 ---
 
 avl树是一棵二叉树，其任意节点满足：左右子树的高度相差不大于1。对于搜索等非修改操作，其代码和二叉树一样，而对于插入和删除等修改操作，为了保证『左右子树的高度相差不大于1』这个性质，导致其代码远复杂于普通二叉树。
@@ -13,25 +14,25 @@ avl树是一棵二叉树，其任意节点满足：左右子树的高度相差�
 
 即插入位置为左儿子的左子树，进行LL/LeftLeft旋转，《数据结构与算法分析》把LL与RR统称为singleRotation，特别的LL命名为LeftSingleRotation。
 
-![](/media/img/algorithms/LL.png)
+![](/media/img/LL.png)
 
 ### RR
 
 即插入位置为右儿子的右子树，进行RR/RightRight旋转，相应的的RR被命名为RightSingleRotation。
 
-![](/media/img/algorithms/RR.png)
+![](/media/img/RR.png)
 
 ### LR
 
 即插入位置为左儿子的右子树，进行LR/LeftRight旋转，《数据结构与算法分析》把LR与RL统称为doubleRotation，特别的LR命名为LeftDoubleRotation。
 
-![](/media/img/algorithms/LR.png)
+![](/media/img/LR.png)
 
 ### RL
 
 即插入位置为右儿子的左子树，进行RL/RightLeft旋转，相应的的RL被命名为RightDoubleRotation。
 
-![](/media/img/algorithms/RL.png)
+![](/media/img/RL.png)
 
 ## 删除
 

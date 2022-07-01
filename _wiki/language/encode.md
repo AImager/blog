@@ -1,11 +1,12 @@
 ---
 layout: wiki
 tags: [编码,转义符]
+typora-root-url: ../../../blog
 ---
 
 ## ASCII（美国标准）
 
-![](/media/img/language/ASCII_encode.png)
+![](/media/img/ASCII_encode.png)
 
 ## GB2312（中国标准）
 

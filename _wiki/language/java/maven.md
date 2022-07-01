@@ -1,13 +1,14 @@
 ---
 layout: wiki
 tags: [包管理]
+typora-root-url: ../../../../blog
 ---
 
 ## 生命周期
 
 Maven 的内部有三个构建生命周期，分别是 clean, default, site。其中核心流程 default 的细化生命周期如下：
 
-![](/media/img/java/maven_lifecycle.png)
+![](/media/img/maven_lifecycle.png)
 
 ## mvn常见指令
 

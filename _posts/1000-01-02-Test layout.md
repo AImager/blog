@@ -2,6 +2,7 @@
 title: 排版测试二
 layout: post
 tags: [test,测试]
+typora-root-url: ../../blog
 ---
 
 Similarly, don't start with the idea that jQuery does X, Y, and Z, so I'll just add AngularJS on top of that for models and controllers. This is really tempting when you're just starting out, which is why I always recommend that new AngularJS [^1] developers [^2] don't use jQuery [^3] at all [^4], at least until they get used to doing things the "Angular Way".
@@ -17,7 +18,7 @@ I've seen many developers here and on the mailing list create these elaborate so
 The bottom line is this: when solutioning, first "think in AngularJS"; if you can't think of a solution, ask the community; if after all of that there is no easy solution, then feel free to reach for the jQuery. But don't let jQuery become a crutch or you'll never master AngularJS.
 
 
-![](/media/img/1000/Git_areas.png)
+![](/media/img/Git_areas.png)
 
 ## 章节二
 
@@ -123,7 +124,7 @@ test.addEventListener('click', fbLogin);
     1. 分析
     2. 几何
 
-![](/media/img/1000/Git_areas.png)
+![](/media/img/Git_areas.png)
 
 
 |    这是表格    | 这是标题行   | 标题会加粗 |

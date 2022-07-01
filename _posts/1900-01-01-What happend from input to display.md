@@ -2,6 +2,7 @@
 title: 从浏览器地址栏输入到网页显示的过程
 layout: post
 tags: []
+typora-root-url: ../../blog
 ---
 
 ## 输入篇

@@ -2,6 +2,7 @@
 title: 当我散步时我在谈些什么——2017的心态
 layout: post
 tags: [心态]
+typora-root-url: ../../blog
 ---
 
 一

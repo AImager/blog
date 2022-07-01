@@ -2,6 +2,7 @@
 title: Web安全
 layout: post
 tags: [sql注入]
+typora-root-url: ../../blog
 ---
 
 ## SQL注入

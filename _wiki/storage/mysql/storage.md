@@ -1,6 +1,7 @@
 ---
 layout: wiki
 tags: [存储]
+typora-root-url: ../../../../blog
 ---
 
-![](/media/img/mysql/Logic_storage.png)
+![](/media/img/Logic_storage.png)

@@ -2,6 +2,7 @@
 title: PHP特性
 layout: post
 tags: [php]
+typora-root-url: ../../blog
 ---
 
 这篇文章会尽量列举PHP语言的特性以及易错点

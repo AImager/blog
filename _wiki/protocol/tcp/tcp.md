@@ -1,9 +1,10 @@
 ---
 layout: wiki
 tags: [传输层]
+typora-root-url: ../../../../blog
 ---
 
-![](/media/img/protocol/TCP_Header.jpeg)
+![](/media/img/TCP_Header.jpeg)
 
 ## TCP Header
 
@@ -32,7 +33,7 @@ tags: [传输层]
 
 ## 会话
 
-![](/media/img/protocol/TCP_Transfer.jpeg)
+![](/media/img/TCP_Transfer.jpeg)
 
 一图胜千言，三次握手和四次挥手原理简单，就不赘述了
 
@@ -49,7 +50,7 @@ tags: [传输层]
 
 ## TCP状态变迁
 
-![](/media/img/protocol/TCP_Status.png)
+![](/media/img/TCP_Status.png)
 
 
 ## 参考链接

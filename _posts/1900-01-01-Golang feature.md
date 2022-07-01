@@ -2,6 +2,7 @@
 title: Golang特性
 layout: post
 tags: [go]
+typora-root-url: ../../blog
 ---
 
 这篇文章会尽量列举Golang语言的特性以及易错点

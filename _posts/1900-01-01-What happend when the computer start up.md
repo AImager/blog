@@ -2,6 +2,7 @@
 title: 计算机启动过程
 layout: post
 tags: []
+typora-root-url: ../../blog
 ---
 
 这篇文章会尽量列举计算机启动过程中发生的事件

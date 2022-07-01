@@ -2,12 +2,15 @@
 title: 排版测试一
 layout: post
 tags: [test,测试]
+typora-root-url: ../../blog
 ---
 
-首先**看**中间的 $\left \lfloor \frac{y}{17} \right \rfloor 2^{-17 \left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , 17)}$ 部分 [^1] （暂且命名这个部分为Section），`即`类似于 $m*2^{k}$ 这种形式。
+首先看中间的 $\left \lfloor \frac{y}{17} \right \rfloor 2^{-17 \left \lfloor x \right \rfloor - mod(\left \lfloor y \right \rfloor , 17)}$ 部分 [^1] （暂且命名这个部分为Section），`即`类似于 $m*2^{k}$ 这种形式。
 
 
-![](/media/img/1000/3D_love.png)
+
+
+![](/media/img/3D_love.png)
 
 ```c
 int main(){

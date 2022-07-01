@@ -1,9 +1,10 @@
 ---
 layout: wiki
 tags: [包,import]
+typora-root-url: ../../../../blog
 ---
 
-![](/media/img/go/go_import.png)
+![](/media/img/go_import.png)
 
 `import _`表示只执行`init()`函数，而不能使用包中的变量
 
