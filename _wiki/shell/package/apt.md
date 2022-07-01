@@ -11,10 +11,9 @@ apt-cache和apt-get是历史的命令，后面统一到apt命令下
 # 正则匹配搜索package，搜索范围只限名字
 sudo apt search --names-only "php{2}"
 
-# 卸载旧版本内核
 # uname -r 可以查看当前使用的内核
-# dpkg --get-selections|grep -E "^linux-(image|modules)" 可以查看当前有多少内核文件
-sudo apt purge linux-image-xx-generic linux-headers-xx-generic
+# 筛选需要卸载的内核
+dpkg --get-selections|grep -E "^linux-(image|modules)" | grep -E "81|94" | awk '{print $1}' | xargs
 ```
 
 ## apt-cache支持的命令
