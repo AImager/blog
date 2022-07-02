@@ -9,7 +9,7 @@ typora-root-url: ../../blog
 
 直接上键盘的原理图（这幅图假设的是8*8的键盘按键，并只给出了键盘必须的部件，目的就是为了降低理解的难度）
 
-![](/media/img/keyword_principle.png)
+![](/media/.img/keyword_principle.png)
 
 ## 未按下键盘时的状态
 

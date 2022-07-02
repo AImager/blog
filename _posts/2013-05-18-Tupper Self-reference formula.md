@@ -22,7 +22,7 @@ $$
 
 我最后用Mathematica实现的图形效果如下（由于我对Mathematica的数值精度问题不是很了解，超大数时总是报错，所以改用矩阵形式实现）：
 
-![](/media/img/self_reference_formula.png)
+![](/media/.img/self_reference_formula.png)
 
 仔细看这个图，你发现了什么？是的，它和其对应的公式完全一样，这是多么神奇的事——一个公式的图像中居然含有其公式本身！！！那么这究竟是什么原因呢？下面就让我们仔细分析下：
 

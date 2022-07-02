@@ -16,4 +16,4 @@ $$
 [https://github.com/AImager/blog/blob/master/media/share/2013/](https://github.com/AImager/blog/blob/master/media/share/2013/)
 
 
-![](/media/img/3D_love.png)
+![](/media/.img/3D_love.png)
