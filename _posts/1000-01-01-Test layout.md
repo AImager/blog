@@ -10,7 +10,7 @@ typora-root-url: ../../blog
 
 
 
-![](/media/img/3D_love.png)
+![](/media/.img/3D_love.png)
 
 ```c
 int main(){

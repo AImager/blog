@@ -18,7 +18,7 @@ I've seen many developers here and on the mailing list create these elaborate so
 The bottom line is this: when solutioning, first "think in AngularJS"; if you can't think of a solution, ask the community; if after all of that there is no easy solution, then feel free to reach for the jQuery. But don't let jQuery become a crutch or you'll never master AngularJS.
 
 
-![](/media/img/Git_areas.png)
+![](/media/.img/Git_areas.png)
 
 ## 章节二
 
@@ -124,7 +124,7 @@ test.addEventListener('click', fbLogin);
     1. 分析
     2. 几何
 
-![](/media/img/Git_areas.png)
+![](/media/.img/Git_areas.png)
 
 
 |    这是表格    | 这是标题行   | 标题会加粗 |

@@ -6,7 +6,7 @@ typora-root-url: ../../../../blog
 
 
 
-![](/media/img/javascript_object_layout.jpg)
+![](/media/.img/javascript_object_layout.jpg)
 
 
 ## 参考链接
