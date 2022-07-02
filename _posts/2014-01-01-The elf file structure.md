@@ -115,7 +115,7 @@ Section Headers:
 
 根据上面的信息，我们可以画出test.o的ELF文件图，如下
 
-![](/media/.img/Relocatable_file.png)
+![](/media/img/Relocatable_file.png)
 
 ## 可执行文件
 
@@ -148,7 +148,7 @@ ELF Header:
 
 但即使将section合并成program还是会存在内存空隙，所以最后还是会将虚拟内存地址连续的program合并到同一页，并采用多次映射的方式解决访问的问题。
 
-![](/media/.img/Executable_file.png)
+![](/media/img/Executable_file.png)
 
 ## 附录：test文件二进制结构
 

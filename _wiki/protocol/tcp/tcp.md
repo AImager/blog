@@ -4,7 +4,7 @@ tags: [传输层]
 typora-root-url: ../../../../blog
 ---
 
-![](/media/.img/TCP_Header.jpeg)
+![](/media/img/TCP_Header.jpeg)
 
 ## TCP Header
 
@@ -33,7 +33,7 @@ typora-root-url: ../../../../blog
 
 ## 会话
 
-![](/media/.img/TCP_Transfer.jpeg)
+![](/media/img/TCP_Transfer.jpeg)
 
 一图胜千言，三次握手和四次挥手原理简单，就不赘述了
 
@@ -50,7 +50,7 @@ typora-root-url: ../../../../blog
 
 ## TCP状态变迁
 
-![](/media/.img/TCP_Status.png)
+![](/media/img/TCP_Status.png)
 
 
 ## 参考链接

@@ -38,7 +38,7 @@ HASH就是通过一系列步骤将源数据转换成格式化后的数据，常�
 
 ## HTTPS协议流程
 
-![](/media/.img/https_pkg.png)
+![](/media/img/https_pkg.png)
 
 1. 『包5348-5390』，TCP三次握手『后面应答ack和请求seq的相关内容就不赘述了』
 
@@ -59,7 +59,7 @@ HASH就是通过一系列步骤将源数据转换成格式化后的数据，常�
 
 8. 『包5510-5557』，对称加密通信
 
-![](/media/.img/certificate.png)
+![](/media/img/certificate.png)
 
 
 ## HTTPS解决了什么问题

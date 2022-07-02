@@ -18,7 +18,6 @@ theme_name: "freshness"
 theme_dir: "theme"
 layouts_dir: "_theme/freshness/templates"
 includes_dir: "_theme/freshness/includes"
-include: ["media/.img/"]
 # footer: "<a href='http://book.aimager.com' title='book'>book</a>"
 google-site-verfication: O_S8PGg7ST_LpvcgqqxqNVi-YhttDZ8gNoM1__BMQnE
 baidu-site-verfication: lvkqTBHPbh
