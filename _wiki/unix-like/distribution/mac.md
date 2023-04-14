@@ -41,7 +41,7 @@ sudo spctl --master-disable
 ```
 
 
-## 性能优化
+## spotlight
 
 ```shell
 # spotlight禁用
@@ -51,6 +51,7 @@ sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.pl
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 ```
 
+重建Spotlight index索引：https://support.apple.com/en-us/HT201716
 
 ## homebrew
 
